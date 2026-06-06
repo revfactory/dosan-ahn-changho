@@ -118,7 +118,10 @@ function setupStickyHeader() {
   if (!header) return;
   let ticking = false;
   const update = () => {
-    header.classList.toggle('is-scrolled', window.scrollY > 8);
+    // v2.6: 히스테리시스 — 임계 부근 토글 떨림 방지(깜빡임 피드백)
+    const sc = header.classList.contains('is-scrolled');
+    if (!sc && window.scrollY > 24) header.classList.add('is-scrolled');
+    else if (sc && window.scrollY < 4) header.classList.remove('is-scrolled');
     ticking = false;
   };
   update(); // 새로고침 시 스크롤 위치 복원 대응

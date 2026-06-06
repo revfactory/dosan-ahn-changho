@@ -23,3 +23,4 @@
 | 2026-06-07 | 소설 하네스 신설 — 에이전트 5(novel-director·voice-keeper·scene-writer·fiction-fact-keeper·literary-editor), 스킬 3(dosan-novel-style·fact-fiction-ledger·dosan-novel-orchestrator). 장편 20~24장·전 생애·대사 중심, 검증 DB 사실 원천 + 유추 대장 | agents 5종·skills 3종 | 사용자 요청: 대사 중심 소설, 검증 사실 기반 + 유추 허용 |
 | 2026-06-07 | 디자인 v2.4 — 스크롤 방해 수정: 헤더 레이아웃 전이 금지·리빌 선발동(≥30%)·모션 절제(320ms/10px/40ms) | skills/dosan-design-system, site | 사용자 피드백: 스크롤을 방해하는 애니메이션 |
 | 2026-06-07 | 디자인 v2.5 — 스크롤 리빌 전면 폐기·smooth scroll 제거(reveal.js 삭제). 콘텐츠 즉시 표시 원칙 명문화 | skills/dosan-design-system, site | 동일 피드백 2회 — 절제 조정 불충분, 진화 트리거 발동 |
+| 2026-06-07 | 디자인 v2.6 — 헤더 깜빡임 수정: backdrop-filter 제거(움직이는 배경 위 블러 금지 규칙화)·토글 히스테리시스 | skills/dosan-design-system, site | 사용자 피드백: 스크롤 후 헤더 내비 깜빡임 |

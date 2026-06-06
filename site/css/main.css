@@ -664,10 +664,10 @@ code, pre { font-family: var(--font-mono); }
               box-shadow var(--dur-enter) var(--ease-out),
               border-color var(--dur-enter) var(--ease-out);
 }
+/* v2.6: backdrop-filter 제거 — 애니메이션 배경 위 블러 재계산이 내비 깜빡임 유발(사용자 피드백).
+   불투명 표면으로 교체: 대비는 --ink/--paper-bright 16.6:1(AAA)로 §2.6 가정 불요. */
 .site-header.is-scrolled {
-  background: var(--glass);
-  -webkit-backdrop-filter: var(--glass-blur);
-  backdrop-filter: var(--glass-blur);          /* §2.6-나 대비 가정의 전제 — 필수 */
+  background: var(--paper-bright);
   border-bottom-color: var(--glass-border);
   box-shadow: var(--shadow-glass);
 }
