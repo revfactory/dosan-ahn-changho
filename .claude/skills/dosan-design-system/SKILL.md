@@ -90,13 +90,14 @@ v1 대비표(ink/paper 16.0, dancheong/paper 5.4 등)는 값 불변이므로 그
 - **사진:** grayscale 통일 톤 유지하되, hover 시 `--dur-enter`로 grayscale(1)→grayscale(0.65) 부드러운 원톤 일부 복원 허용(원본 비변형·CSS만).
 
 ### 4-2. 스크롤 리빌 (`--dur-reveal`, `--ease-out`)
-- IntersectionObserver로 섹션·카드에 `is-revealed` 클래스 토글 — fade + `translateY(16px)` 등장, 카드 그룹은 60~90ms 스태거.
+- IntersectionObserver로 섹션·카드에 `is-revealed` 클래스 토글 — fade + `translateY(10px)` 등장, 카드 그룹은 ≤40ms 스태거.
+- **선발동 의무(v2.4, 스크롤 방해 피드백 2026-06-07):** rootMargin 하단 ≥30%로 뷰포트 진입 전에 발동 — 사용자가 미리빌(투명) 상태를 보는 순간 리빌은 장식이 아니라 방해다. duration ≤350ms.
 - **1회만**: 재스크롤 시 재생 금지(독서 방해). observer는 once 처리.
 - **JS 실패 폴백:** 리빌 대상은 기본 상태가 "보임"이어야 한다 — JS가 `is-pre-reveal`을 부여한 뒤 관찰하는 구조(no-JS에서 콘텐츠가 숨겨지면 안 된다).
 - 홈 통계 숫자는 카운트업(0→값, 800ms) 허용 — `prefers-reduced-motion`에서는 즉시 최종값.
 
 ### 4-3. 내비게이션·구조
-- 헤더: 스크롤 시 `--glass` + blur로 전환되는 스티키 헤더(높이 축소 전이 `--dur-enter`).
+- 헤더: 스크롤 시 `--glass` + blur로 전환되는 스티키 헤더. **높이·패딩 등 레이아웃 속성의 스크롤 전이 금지(v2.4)** — 스티키 헤더의 높이 변화는 본문 점프를 만든다. 표면(배경·그림자·보더)만 전환.
 - 생애(life) 페이지: 상단 얇은 **읽기 진행 바**(`--grad-accent`, 3px) 허용 — 장문 독서 보조라는 의미가 있다.
 - 페이지 내 앵커 이동은 `scroll-behavior: smooth`(reduced-motion 시 auto).
 

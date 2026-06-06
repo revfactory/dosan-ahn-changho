@@ -203,13 +203,13 @@
   /*    skill §2가 제안한 180/280/600ms·신규 ease를 v1 충돌 없이 신규 이름으로 채택 */
   --dur-micro:       180ms;   /* 마이크로 인터랙션(hover/focus) */
   --dur-enter:       280ms;   /* 표면 전이·헤더 축소·사진 톤 복원 */
-  --dur-reveal:      600ms;   /* 스크롤 리빌·장면 전환 */
+  --dur-reveal:      320ms;   /* 스크롤 리빌 — v2.4: 600→320ms(스크롤 방해 피드백) */
   --dur-count:       800ms;   /* 통계 카운트업 */
   --dur-ambient:     110s;    /* 배경 블롭 표류 1주기(80~140s 범위 중앙값) */
   --ease-out:        cubic-bezier(0.22, 1, 0.36, 1);    /* 리빌·등장(감속) */
   --ease-soft:       cubic-bezier(0.45, 0.05, 0.55, 0.95); /* 배경·루프(부드러운 인아웃) */
-  --reveal-shift:    16px;    /* 리빌 시 translateY 시작 오프셋 */
-  --reveal-stagger:  75ms;    /* 카드 그룹 리빌 스태거(60~90ms 중앙값) */
+  --reveal-shift:    10px;    /* 리빌 오프셋 — v2.4: 16→10px */
+  --reveal-stagger:  40ms;    /* 리빌 스태거 — v2.4: 75→40ms */
   --lift-y:          -3px;    /* 카드 hover 리프트 거리 */
 
   /* -- 14. 타이포 v2 (기존 fs 스케일·measure 불변 → 추가만) -------- */

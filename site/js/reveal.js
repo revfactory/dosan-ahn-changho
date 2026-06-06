@@ -21,7 +21,7 @@ function ensureObserver() {
       reveal(entry.target);
       obs.unobserve(entry.target);
     });
-  }, { rootMargin: '0px 0px 64px 0px', threshold: 0 }); // 진입 직전 선반응(리플로우 레이스 완화)
+  }, { rootMargin: '0px 0px 50% 0px', threshold: 0 }); // v2.4: 뷰포트 하단 35% 선발동 — 사용자가 도달하기 전에 리빌 완료(스크롤 방해 피드백)
   return io;
 }
 
@@ -30,7 +30,7 @@ function staggerDelay(el) {
   const parent = el.parentElement;
   if (!parent || !parent.matches('.card-grid, .gallery-grid')) return;
   const idx = Array.prototype.indexOf.call(parent.children, el);
-  if (idx > 0) el.style.transitionDelay = `calc(var(--reveal-stagger) * ${Math.min(idx, 6)})`;
+  if (idx > 0) el.style.transitionDelay = `calc(var(--reveal-stagger) * ${Math.min(idx, 3)})`;
 }
 
 function arm(el) {

@@ -671,12 +671,10 @@ code, pre { font-family: var(--font-mono); }
   border-bottom-color: var(--glass-border);
   box-shadow: var(--shadow-glass);
 }
+/* v2.4 스크롤 방해 수정(사용자 피드백 2026-06-07): 헤더 높이는 스크롤 중 불변 —
+   패딩 전이가 본문 레이아웃 점프를 유발했음. 유리/그림자 표면 전환만 유지. */
 .site-header-inner {
-  transition: padding-block var(--dur-enter) var(--ease-out);
-}
-.site-header.is-scrolled .site-header-inner {
-  padding-top: var(--sp-2);
-  padding-bottom: var(--sp-2);
+  /* 높이 고정 — 레이아웃 전이 금지 */
 }
 
 /* v2.3 스크롤 리빌(§10.2) — 기본 "보임". JS만 .is-pre-reveal(★기본 숨김은 여기에만). reduce=토큰 0. */
