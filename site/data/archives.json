@@ -717,7 +717,7 @@
       "related_event_ids": [
         "evt-shin-007"
       ],
-      "notes": "Round 2 등재 — philosophy(08) 발굴 요청 2번. 자구 확정(evt-phil-003)은 ma_003에서 1907년 6~8월 발행분 열람으로 수행 가능 — 보완 과제로 특정 호 미상 상태임을 명시."
+      "notes": "Round 2 등재 — philosophy(08) 발굴 요청 2번. 자구 확정은 ma_003에서 1907년 6~8월 발행분 열람으로 수행 가능 — 보완 과제로 특정 호 미상 상태임을 명시."
     },
     {
       "id": "src-pri-033",
@@ -759,7 +759,7 @@
       "related_event_ids": [
         "evt-hsd-015"
       ],
-      "notes": "Round 2 탐색: 한글 검색(대전형무소·이혜련·옥중 서신) 미발견. 보완 경로: USC KADA 서한군의 1933년분 메타데이터 검색(USC 접근 복구 시), 『도산안창호전집』 제3권 서한 연대순 목록 대조. heungsadan(07) 회신: 미발견 — evt-hsd-015 일자는 현 등급 유지 권고."
+      "notes": "Round 2 탐색: 한글 검색(대전형무소·이혜련·옥중 서신) 미발견. 보완 경로: USC KADA 서한군의 1933년분 메타데이터 검색(USC 접근 복구 시), 『도산안창호전집』 제3권 서한 연대순 목록 대조. heungsadan(07) 회신: 미발견 — 일자는 현 등급 유지 권고."
     },
     {
       "id": "src-pri-035",
@@ -915,7 +915,7 @@
         "evt-shin-028",
         "evt-amer-016"
       ],
-      "notes": "Round 2 등재 — shinminhoe(05) 발굴 요청(NARA 입국기록). 검색 플랫폼까지 확인, 개별 레코드 특정은 표기 변형 전수 검색이 필요한 보완 과제. 특정 성공 시 도착일 상충(evt-shin-028 9/2 vs evt-chrono-040 9/3) 해소 전거."
+      "notes": "Round 2 등재 — shinminhoe(05) 발굴 요청(NARA 입국기록). 검색 플랫폼까지 확인, 개별 레코드 특정은 표기 변형 전수 검색이 필요한 보완 과제. 특정 성공 시 도착일 상충(9/2 vs 9/3) 해소 전거."
     },
     {
       "id": "src-pri-042",
@@ -1059,7 +1059,7 @@
       "location_status": "confirmed",
       "transcription": null,
       "modern_translation": null,
-      "criticism": "동시대 신문 보도 — 안창호의 필리핀 이주(이상촌) 구상 국면의 1차 보도 사료. 보도 시점·지면 확정(한국사DB 수록). 단독 의존 시 보도 관행상 과장 가능성 유의(외적 비판: 발행 주체 중외일보, 1930). clm-0177의 근거 사료.",
+      "criticism": "동시대 신문 보도 — 안창호의 필리핀 이주(이상촌) 구상 국면의 1차 보도 사료. 보도 시점·지면 확정(한국사DB 수록). 단독 의존 시 보도 관행상 과장 가능성 유의(외적 비판: 발행 주체 중외일보, 1930). 필리핀 이주 계획 서술의 근거 사료.",
       "related_event_ids": [],
       "notes": "Phase 3 citation-manager가 인용 체계(src-pri-048, ref-093)에 선등재 — 카탈로그 증분 등재는 CQA-002 정정(team-lead 2026-06-06, _citation_work/catalog_pending_updates.md 이행). 차기 발급은 049부터."
     }

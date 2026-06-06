@@ -78,6 +78,41 @@ IN_CATALOG = os.path.join(REPO_ROOT, "_workspace", "01_research",
                           "primary-source_catalog.json")  # §3.5b archives 원천
 
 # 계약상 차단 대상 D등급 사건 7건 (page_specs/03_timeline.md 명시) — 검증용 기대값
+import re as _re_san
+
+# ── D-26: 표시 텍스트 정화 — 내부 검증 id(cfl·clm·evt 산문 참조)를 렌더 평면에서 제거 ──
+# 검증 DB(02_verified)는 감사 추적용으로 id를 보존하고, 사이트 표시 텍스트에서만 걷어낸다.
+# 사용자 보고(2026-06-06): "판정 cfl-037 이런 표시는 없애야 합니다".
+_SAN_ID = r'(?:cfl-\d{1,4}|clm-\d{1,5}|evt-[a-z][a-z-]*?-\d{1,4})'
+_SAN_SEQ = _SAN_ID + r'(?:\s*[·,/]\s*' + _SAN_ID + r')*'
+
+def sanitize_display(text):
+    """표시 산문에서 내부 id 토큰 제거 + 구두점 잔해 정리. 의미 텍스트는 보존."""
+    if not isinstance(text, str) or not _re_san.search(_SAN_ID, text):
+        return text
+    t = text
+    t = _re_san.sub(r'〔판정\s+' + _SAN_SEQ + r'〕\s*', '〔기록 상충〕 ', t)
+    t = _re_san.sub(r'(?:판정|지시)\s+(' + _SAN_SEQ + r')', lambda m: '판정' if '판정' in m.group(0) else '지시', t)
+    t = _re_san.sub(_SAN_SEQ, '', t)
+    # 구두점 잔해 정리
+    for _ in range(2):
+        t = _re_san.sub(r'\(\s*[·,;:—\-]?\s*\)', '', t)      # 빈 괄호
+        t = _re_san.sub(r'\(\s*[·,;:]\s*', '(', t)            # "(, " → "("
+        t = _re_san.sub(r'\s*[·,;:]\s*\)', ')', t)            # " ,)" → ")"
+        t = _re_san.sub(r'\(\s+', '(', t)
+        t = _re_san.sub(r'\s+\)', ')', t)
+    t = _re_san.sub(r'\s{2,}', ' ', t)
+    t = _re_san.sub(r'\s+([,.;)〕」』])', r'\1', t)
+    t = _re_san.sub(r'([(〔「『])\s+', r'\1', t)
+    return t.strip()
+
+def sanitize_fields(obj, fields):
+    """dict의 지정 필드(점 표기 1단계)만 정화 — 기계 참조 필드는 건드리지 않는다."""
+    for f in fields:
+        if f in obj and isinstance(obj[f], str):
+            obj[f] = sanitize_display(obj[f])
+    return obj
+
 EXPECTED_D_IDS = {
     "evt-early-002", "evt-amer-009", "evt-amer-034", "evt-provgov-001",
     "evt-chrono-110", "evt-provgov-028", "evt-hsd-024",
@@ -261,6 +296,18 @@ def build_timeline(raw, resolver=None, ambiguous=None):
         rec["period"] = period_of(e["date"])
         # 지도 표시 가능 여부 (파생) — 소비자 편의
         rec["has_geo"] = place.get("lat") is not None and place.get("lng") is not None
+        # D-26: 표시 산문 정화 — 내부 검증 id 제거 (기계 필드 불변)
+        sanitize_fields(rec, ("title", "summary", "detail", "dispute_note"))
+        if isinstance(rec.get("place"), dict):
+            sanitize_fields(rec["place"], ("name", "modern_name", "place_note"))
+        dp = rec.get("dispute")
+        if isinstance(dp, dict):
+            sanitize_fields(dp, ("status", "note"))
+            if isinstance(dp.get("adopted"), dict):
+                sanitize_fields(dp["adopted"], ("basis", "note", "value_note"))
+            for v in dp.get("variants") or []:
+                if isinstance(v, dict):
+                    sanitize_fields(v, ("assessment", "basis", "note"))
         out.append(rec)
 
     # 산출 무결성 assert
@@ -369,6 +416,7 @@ def build_network(raw, render_event_ids):
         rec["death"] = n.get("death")
         rec["role"] = n.get("role")
         rec["summary"] = n.get("summary")
+        sanitize_fields(rec, ("role", "summary"))  # D-26
         out_nodes.append(rec)
     assert all(r["kind"] in ("person", "org") for r in out_nodes), \
         "per-/org- 외 노드 id 접두사 발견"
@@ -386,6 +434,7 @@ def build_network(raw, render_event_ids):
             rec["period_note"] = e["period_note"]
         if e.get("org_relation") is not None:
             rec["org_relation"] = e["org_relation"]
+        sanitize_fields(rec, ("description", "period_note"))  # D-26
         out_edges.append(rec)
 
     # edge type 6분류 준수
@@ -413,12 +462,20 @@ def build_network(raw, render_event_ids):
     doc["nodes"] = out_nodes
     doc["edges"] = out_edges
     # D등급 미확정 엣지는 분리 보관 (삭제 금지 — network-mapping §5). 사이트 본체 미노출.
+    # D-26: 미노출이지만 people.html §6 보류 표기가 unconfirmed_reason을 소비할 수 있어 정화.
+    for u in unconfirmed:
+        if isinstance(u, dict):
+            sanitize_fields(u, ("unconfirmed_reason", "description", "period_note"))
     doc["edges_unconfirmed"] = unconfirmed
     # 정규화 사전 보존 — 교차링크 인명/지명 매칭의 단일 진실 공급원
     doc["name_normalization"] = raw.get("name_normalization", {})
     doc["ambiguous_aliases"] = raw.get("ambiguous_aliases", {})
     if raw["meta"].get("place_normalization"):
-        doc["place_normalization"] = raw["meta"]["place_normalization"]
+        pn = raw["meta"]["place_normalization"]
+        for entry in (pn if isinstance(pn, list) else pn.values()):
+            if isinstance(entry, dict):
+                sanitize_fields(entry, ("status", "note", "reason"))  # D-26
+        doc["place_normalization"] = pn
     return doc, out_nodes, out_edges
 
 
@@ -591,6 +648,7 @@ def build_archives(raw_catalog, render_event_ids, merged_from_map, d_ids):
         rec["related_event_ids"] = [
             x for x in resolved if not (x in seen or seen.add(x))]
         rec["notes"] = c.get("notes")
+        sanitize_fields(rec, ("title", "criticism", "notes", "holder"))  # D-26
         out.append(rec)
 
     # 진짜로 못 찾는 참조는 결함 — 중단 (별칭에도 현존에도 없음)
