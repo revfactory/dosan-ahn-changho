@@ -1,0 +1,368 @@
+/* ==========================================================================
+   novel.css — 소설 리더 페이지 전용 스타일 (nv- 접두, D-25 모듈 CSS 패턴)
+   --------------------------------------------------------------------------
+   계약: architecture.md §4 규칙8·D-25 — 모듈 전용 클래스는 nv- 접두,
+         tokens.css 변수 참조 의무(하드코딩 hex/px 금지), 링크 순서 tokens→main→novel.
+   소유: frontend-developer. 장문 독서 타이포(세리프·--measure·--lh-body) 적용.
+   ========================================================================== */
+
+/* 리더 본문 폭 — 페이지 셸은 main.css .page-main이 잡고, 본문 컬럼은 --measure로 좁힌다. */
+.nv-main { padding-bottom: var(--sp-9); }
+
+/* ---------------------------------------------------------------- 표지 */
+.nv-cover {
+  max-width: var(--measure);
+  margin: var(--sp-8) auto var(--sp-7);
+  padding: 0 var(--sp-4);
+  text-align: center;
+}
+.nv-cover-kicker {
+  font-family: var(--font-sans);
+  font-size: var(--fs-sm);
+  letter-spacing: 0.2em;
+  color: var(--text-muted);
+  margin: 0 0 var(--sp-3);
+}
+.nv-cover-title {
+  font-family: var(--font-serif);
+  font-size: var(--fs-2xl);
+  line-height: var(--lh-tight);
+  letter-spacing: var(--ls-hero);
+  color: var(--text);
+  margin: 0 0 var(--sp-2);
+}
+.nv-cover-subtitle {
+  font-family: var(--font-serif);
+  font-size: var(--fs-lg);
+  color: var(--text-muted);
+  margin: 0 0 var(--sp-5);
+}
+.nv-cover-tagline {
+  font-family: var(--font-serif);
+  font-size: var(--fs-md);
+  line-height: var(--lh-snug);
+  color: var(--text);
+  max-width: 32rem;
+  margin: 0 auto var(--sp-5);
+}
+.nv-cover-meta {
+  font-family: var(--font-sans);
+  font-size: var(--fs-sm);
+  color: var(--text-muted);
+  margin: 0 0 var(--sp-4);
+}
+.nv-cover-note {
+  font-family: var(--font-sans);
+  font-size: var(--fs-sm);
+  line-height: var(--lh-snug);
+  color: var(--text-muted);
+  max-width: 34rem;
+  margin: 0 auto;
+}
+.nv-cover-note a { color: var(--accent); }
+.nv-cover-note a:hover { color: var(--accent-hover); }
+
+/* 표지 아래 단청 가는 획(장식 — 강조 1색 원칙 내 1곳) */
+.nv-cover::after {
+  content: "";
+  display: block;
+  width: 4rem;
+  height: var(--bw-accent);
+  background: var(--grad-accent);
+  border-radius: var(--radius-pill);
+  margin: var(--sp-6) auto 0;
+}
+
+/* ---------------------------------------------------------------- 목차 */
+.nv-toc {
+  max-width: var(--measure-wide);
+  margin: 0 auto;
+  padding: 0 var(--sp-4);
+}
+.nv-toc-heading {
+  font-family: var(--font-serif);
+  font-size: var(--fs-xl);
+  line-height: var(--lh-tight);
+  color: var(--text);
+  margin: 0 0 var(--sp-5);
+  text-align: center;
+}
+.nv-toc-group { margin: 0 0 var(--sp-6); }
+.nv-toc-part {
+  font-family: var(--font-sans);
+  font-size: var(--fs-sm);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--rule-text);
+  margin: 0 0 var(--sp-3);
+  padding-bottom: var(--sp-2);
+  border-bottom: var(--bw-hair) solid var(--rule);
+}
+.nv-toc-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.nv-toc-item { margin: 0; }
+.nv-toc-link {
+  display: block;
+  padding: var(--sp-3) var(--sp-4);
+  font-family: var(--font-serif);
+  font-size: var(--fs-md);
+  color: var(--text);
+  text-decoration: none;
+  border-radius: var(--radius-soft);
+  transition: background-color var(--dur-micro) var(--ease-out),
+              color var(--dur-micro) var(--ease-out);
+}
+.nv-toc-link:hover {
+  background: var(--bg-bright);
+  color: var(--accent);
+}
+.nv-toc-link.is-current {
+  color: var(--accent);
+  background: var(--paper-dim);
+}
+.nv-toc-title { display: inline-block; }
+
+/* 데스크톱: 목차 부 그룹 2열 */
+@media (min-width: 768px) {
+  .nv-toc-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 var(--sp-6);
+    align-items: start;
+  }
+  .nv-toc-part { grid-column: 1 / -1; }
+}
+
+/* 이어 읽기 배너 */
+.nv-resume {
+  max-width: var(--measure);
+  margin: 0 auto var(--sp-6);
+  padding: var(--sp-4) var(--sp-5);
+  background: var(--paper-dim);
+  border: var(--bw-hair) solid var(--paper-edge);
+  border-radius: var(--radius-card);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: var(--sp-2) var(--sp-4);
+  box-shadow: var(--shadow-soft);
+}
+.nv-resume-label {
+  font-family: var(--font-sans);
+  font-size: var(--fs-sm);
+  color: var(--text-muted);
+}
+.nv-resume-link {
+  font-family: var(--font-serif);
+  font-size: var(--fs-md);
+  color: var(--accent);
+  font-weight: 700;
+}
+.nv-resume-link:hover { color: var(--accent-hover); }
+
+/* ------------------------------------------------------------ 장 본문 */
+.nv-reader { width: 100%; }
+
+.nv-chapter {
+  max-width: var(--measure);
+  margin: 0 auto;
+  padding: 0 var(--sp-4);
+}
+.nv-chapter-head {
+  text-align: center;
+  margin: var(--sp-7) 0 var(--sp-7);
+}
+.nv-chapter-part {
+  font-family: var(--font-sans);
+  font-size: var(--fs-sm);
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  margin: 0 0 var(--sp-3);
+}
+.nv-chapter-title {
+  font-family: var(--font-serif);
+  font-size: var(--fs-xl);
+  line-height: var(--lh-tight);
+  letter-spacing: var(--ls-hero);
+  color: var(--text);
+  margin: 0;
+  outline: none;          /* 포커스 이동 시 윤곽선 — :focus-visible로만 표시 */
+}
+.nv-chapter-title:focus-visible {
+  outline: var(--bw-accent) solid var(--accent);
+  outline-offset: var(--sp-2);
+  border-radius: var(--radius-soft);
+}
+
+/* 본문 — 세리프 장문 독서 타이포(§3) */
+.nv-body {
+  font-family: var(--font-serif);
+  font-size: var(--fs-base);
+  line-height: var(--lh-body);
+  color: var(--text);
+}
+.nv-body p {
+  margin: 0 0 var(--sp-5);
+  /* 대사 가독: 들여쓰기 없이 문단 간격으로 호흡(따옴표 행은 과한 보정 없이) */
+  text-wrap: pretty;
+}
+.nv-body p:last-child { margin-bottom: 0; }
+
+/* 기울임 문단(편지·내면 — *...* 원문) */
+.nv-body .nv-emph {
+  font-style: italic;
+  color: var(--text-muted);
+  padding-left: var(--sp-4);
+  border-left: var(--bw-hair) solid var(--rule);
+}
+
+/* 장면 전환 구분(단독 * — nv-scene). 가운데 점 세 개 느낌의 절제된 구분. */
+.nv-body .nv-scene {
+  border: 0;
+  height: auto;
+  margin: var(--sp-6) auto;
+  text-align: center;
+  width: 100%;
+}
+.nv-body .nv-scene::before {
+  content: "\00B7 \00B7 \00B7";   /* · · · */
+  letter-spacing: 0.6em;
+  color: var(--text-faint);
+  font-size: var(--fs-md);
+}
+
+/* 작가의 말 — 소제목·인용·목록·수평선 */
+.nv-body .nv-subhead {
+  font-family: var(--font-serif);
+  font-size: var(--fs-lg);
+  line-height: var(--lh-tight);
+  color: var(--text);
+  margin: var(--sp-7) 0 var(--sp-4);
+}
+.nv-body .nv-subhead-sm {
+  font-family: var(--font-serif);
+  font-size: var(--fs-md);
+  color: var(--text);
+  margin: var(--sp-6) 0 var(--sp-3);
+}
+.nv-body .nv-rule {
+  border: 0;
+  border-top: var(--bw-hair) solid var(--paper-edge);
+  margin: var(--sp-6) 0;
+}
+.nv-body .nv-aside {
+  margin: 0 0 var(--sp-5);
+  padding: var(--sp-4) var(--sp-5);
+  background: var(--paper-dim);
+  border-left: var(--bw-accent) solid var(--rule);
+  border-radius: 0 var(--radius-soft) var(--radius-soft) 0;
+}
+.nv-body .nv-aside p { margin: 0; font-size: var(--fs-sm); color: var(--text-muted); }
+.nv-body .nv-list {
+  margin: 0 0 var(--sp-5);
+  padding-left: var(--sp-6);
+}
+.nv-body .nv-list li { margin: 0 0 var(--sp-3); }
+.nv-body strong { font-weight: 700; color: var(--text); }
+.nv-body em { font-style: italic; }
+
+/* ------------------------------------------------------- 장 이동 내비 */
+.nv-chapter-nav {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: var(--sp-3) var(--sp-4);
+  align-items: stretch;
+  margin: var(--sp-8) 0 var(--sp-6);
+  padding-top: var(--sp-6);
+  border-top: var(--bw-hair) solid var(--paper-edge);
+}
+.nv-nav-slot { display: flex; }
+.nv-nav-prev { justify-content: flex-start; }
+.nv-nav-toc { justify-content: center; align-items: center; }
+.nv-nav-next { justify-content: flex-end; text-align: right; }
+
+.nv-nav-link {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-1);
+  padding: var(--sp-3) var(--sp-4);
+  text-decoration: none;
+  border: var(--bw-hair) solid var(--paper-edge);
+  border-radius: var(--radius-soft);
+  background: var(--bg-raised);
+  color: var(--text);
+  transition: transform var(--dur-micro) var(--ease-out),
+              box-shadow var(--dur-micro) var(--ease-out),
+              border-color var(--dur-micro) var(--ease-out);
+  max-width: 16rem;
+}
+.nv-nav-next .nv-nav-link { align-items: flex-end; }
+.nv-nav-link:hover {
+  transform: translateY(var(--lift-y));
+  box-shadow: var(--shadow-lift);
+  border-color: var(--rule);
+}
+.nv-nav-dir {
+  font-family: var(--font-sans);
+  font-size: var(--fs-xs);
+  letter-spacing: 0.06em;
+  color: var(--accent);
+}
+.nv-nav-title {
+  font-family: var(--font-serif);
+  font-size: var(--fs-sm);
+  line-height: var(--lh-snug);
+  color: var(--text);
+}
+.nv-nav-totoc {
+  flex-direction: row;
+  align-items: center;
+  font-family: var(--font-sans);
+  font-size: var(--fs-sm);
+  color: var(--text-muted);
+  background: transparent;
+  border-color: transparent;
+}
+.nv-nav-totoc:hover {
+  color: var(--accent);
+  background: var(--bg-raised);
+  transform: none;
+  box-shadow: none;
+}
+
+/* ------------------------------------------------------- noscript 폴백 */
+.nv-noscript {
+  max-width: var(--measure);
+  margin: var(--sp-8) auto;
+  padding: 0 var(--sp-4);
+  font-family: var(--font-serif);
+  line-height: var(--lh-body);
+  color: var(--text);
+}
+.nv-noscript h1 {
+  font-size: var(--fs-xl);
+  line-height: var(--lh-tight);
+  margin: 0 0 var(--sp-5);
+}
+.nv-noscript p { margin: 0 0 var(--sp-4); }
+.nv-noscript code {
+  font-family: var(--font-mono);
+  font-size: var(--fs-sm);
+  background: var(--paper-dim);
+  padding: 0 var(--sp-1);
+  border-radius: var(--radius-sm);
+}
+
+/* ---------------------------------------------------- 모바일(390px) 보정 */
+@media (max-width: 480px) {
+  .nv-chapter-nav {
+    grid-template-columns: 1fr;
+  }
+  .nv-nav-prev, .nv-nav-next { justify-content: stretch; text-align: left; }
+  .nv-nav-next .nv-nav-link { align-items: flex-start; }
+  .nv-nav-link { max-width: none; width: 100%; }
+  .nv-nav-toc { order: 3; }
+}

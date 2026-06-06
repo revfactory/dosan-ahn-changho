@@ -2,7 +2,7 @@
    home.json 본문(도입 서사·방식)을 렌더하고, 탐색 카드·시기 카드·검증 통계 박스를
    home.json 데이터 + meta.json 수치로 구성한다. 수치 하드코딩·재집계 금지(01_home·D-21).
    탐색/시기 카드는 home.json의 list 항목(마크다운 링크)에서 파싱 — HTML에 텍스트 박지 않음. */
-import { loadAll } from './loader.js';
+import { loadAll, loadData } from './loader.js';
 import { mountLayout } from './layout.js';
 import { renderBlocks, makeSlotResolver, buildFigure, renderInline } from './page-render.js';
 import { renderFootnotes } from './footnotes.js';
@@ -71,6 +71,37 @@ function firstList(section) {
   if (!section) return [];
   const b = (section.blocks || []).find((x) => x.type === 'list');
   return b ? b.items : [];
+}
+
+// 소설 진입 카드 — novel/index.json(작품 메타)에서 제목·부제·한 줄 소개를 가져와 1개 카드 구성.
+// 소설은 검증 평면 밖이므로 텍스트를 하드코딩하지 않고 index.json 산출치를 쓴다.
+// 소설 미빌드 시 홈을 망가뜨리지 않도록 실패는 조용히 무시(에러 UI 미표시).
+async function renderNovelEntry(main) {
+  let index;
+  try {
+    index = await loadData('data/novel/index.json');
+  } catch (err) {
+    return; // 소설 데이터 부재 — 보조 섹션이므로 생략(홈 본체 무영향)
+  }
+  const work = (index && index.work) || {};
+  if (!work.title) return;
+
+  const s = el('section', 'page-section');
+  s.id = 'novel';
+  s.appendChild(el('h2', 'section-heading', '소설로 읽기'));
+
+  const card = el('a', 'nav-card home-novel-card');
+  card.href = 'novel.html';
+  card.appendChild(el('span', 'home-novel-kicker', '장편소설'));
+  const title = el('h3', 'nav-card-title');
+  title.textContent = `『${work.title}』` + (work.subtitle ? ` — ${work.subtitle}` : '');
+  card.appendChild(title);
+  if (work.tagline) card.appendChild(el('p', 'nav-card-desc', renderInline(work.tagline)));
+  const scaleBits = [];
+  if (work.unit_count) scaleBits.push(`전 ${work.unit_count}장 + 작가의 말`);
+  if (scaleBits.length) card.appendChild(el('span', 'home-novel-scale', scaleBits.join(' · ')));
+  s.appendChild(card);
+  main.appendChild(s);
 }
 
 (async () => {
@@ -205,6 +236,9 @@ function firstList(section) {
       }
       main.appendChild(s);
     }
+
+    /* ---- 6) 소설 진입 카드 (novel/index.json — 보조 섹션, 실패 시 생략) ---- */
+    await renderNovelEntry(main);
 
     renderFootnotes(main, citations);
   } catch (err) { /* renderLoadError가 이미 렌더 */ }

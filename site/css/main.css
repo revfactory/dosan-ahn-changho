@@ -298,6 +298,29 @@ code, pre { font-family: var(--font-mono); }
 .nav-card-title { font-size: var(--fs-md); margin-bottom: var(--sp-2); color: var(--text); }
 .nav-card-desc { font-family: var(--font-sans); font-size: var(--fs-sm); color: var(--text-muted); margin: 0; }
 
+/* 소설 진입 카드(홈 #novel) — 단일 피처 카드. 좌측 단청 획으로 다른 탐색 카드와 구분. */
+.home-novel-card {
+  max-width: var(--measure-wide);
+  border-left: var(--bw-accent) solid var(--accent);
+  background: var(--bg-raised);
+}
+.home-novel-card .nav-card-title { font-family: var(--font-serif); }
+.home-novel-kicker {
+  display: block;
+  font-family: var(--font-sans);
+  font-size: var(--fs-sm);
+  letter-spacing: 0.16em;
+  color: var(--accent);
+  margin-bottom: var(--sp-2);
+}
+.home-novel-scale {
+  display: block;
+  font-family: var(--font-sans);
+  font-size: var(--fs-sm);
+  color: var(--text-faint);
+  margin-top: var(--sp-3);
+}
+
 /* 시기 카드(홈) */
 .period-card {
   display: block;

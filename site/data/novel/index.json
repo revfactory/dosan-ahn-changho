@@ -1,0 +1,262 @@
+{
+  "work": {
+    "title": "사람을 모으는 사람",
+    "subtitle": "도산 안창호",
+    "tagline": "이 소설은 도산 안창호의 생애(1878–1938)를 대사 중심으로 그렸다.",
+    "unit_count": 24,
+    "total_chars": 101892
+  },
+  "parts": [
+    {
+      "part": "prologue",
+      "name": "서장",
+      "chapters": [
+        "ch00"
+      ]
+    },
+    {
+      "part": "p1",
+      "name": "1부 — 빈 들에 우물을 파다",
+      "chapters": [
+        "ch01",
+        "ch02",
+        "ch03",
+        "ch04"
+      ]
+    },
+    {
+      "part": "p2",
+      "name": "2부 — 아메리카, 그리고 비밀결사",
+      "chapters": [
+        "ch05",
+        "ch06",
+        "ch07",
+        "ch08",
+        "ch09"
+      ]
+    },
+    {
+      "part": "p3",
+      "name": "3부 — 임시정부의 봄과 결렬",
+      "chapters": [
+        "ch10",
+        "ch11",
+        "ch12",
+        "ch13",
+        "ch14",
+        "ch15"
+      ]
+    },
+    {
+      "part": "p4",
+      "name": "4부 — 다시 모으려는 손",
+      "chapters": [
+        "ch16",
+        "ch17",
+        "ch18",
+        "ch19"
+      ]
+    },
+    {
+      "part": "p5",
+      "name": "5부 — 모은 것이 흩어질 때",
+      "chapters": [
+        "ch20",
+        "ch21",
+        "ch22"
+      ]
+    },
+    {
+      "part": "epilogue",
+      "name": "종장",
+      "chapters": [
+        "ch99"
+      ]
+    },
+    {
+      "part": "afterword",
+      "name": "작가의 말",
+      "chapters": [
+        "afterword"
+      ]
+    }
+  ],
+  "toc": [
+    {
+      "id": "ch00",
+      "title": "서장 — 송태산장의 셈",
+      "part": "prologue",
+      "order": 0,
+      "chars": 3197
+    },
+    {
+      "id": "ch01",
+      "title": "1장 — 섬과 평양",
+      "part": "p1",
+      "order": 1,
+      "chars": 3852
+    },
+    {
+      "id": "ch02",
+      "title": "2장 — 정동 길의 선교사",
+      "part": "p1",
+      "order": 2,
+      "chars": 3884
+    },
+    {
+      "id": "ch03",
+      "title": "3장 — 쾌재정",
+      "part": "p1",
+      "order": 3,
+      "chars": 4475
+    },
+    {
+      "id": "ch04",
+      "title": "4장 — 점진, 그리고 바다",
+      "part": "p1",
+      "order": 4,
+      "chars": 4293
+    },
+    {
+      "id": "ch05",
+      "title": "5장 — 상투를 풀게 하다",
+      "part": "p2",
+      "order": 5,
+      "chars": 4210
+    },
+    {
+      "id": "ch06",
+      "title": "6장 — 도산 공화국",
+      "part": "p2",
+      "order": 6,
+      "chars": 4430
+    },
+    {
+      "id": "ch07",
+      "title": "7장 — 돌아가는 배",
+      "part": "p2",
+      "order": 7,
+      "chars": 4084
+    },
+    {
+      "id": "ch08",
+      "title": "8장 — 일곱 사람의 밀실",
+      "part": "p2",
+      "order": 8,
+      "chars": 4768
+    },
+    {
+      "id": "ch09",
+      "title": "9장 — 의심받는 자",
+      "part": "p2",
+      "order": 9,
+      "chars": 4847
+    },
+    {
+      "id": "ch10",
+      "title": "10장 — 표류",
+      "part": "p3",
+      "order": 10,
+      "chars": 5099
+    },
+    {
+      "id": "ch11",
+      "title": "11장 — 남겨진 집",
+      "part": "p3",
+      "order": 11,
+      "chars": 4313
+    },
+    {
+      "id": "ch12",
+      "title": "12장 — 상하이의 봄",
+      "part": "p3",
+      "order": 12,
+      "chars": 4219
+    },
+    {
+      "id": "ch13",
+      "title": "13장 — 대통령이라는 말",
+      "part": "p3",
+      "order": 13,
+      "chars": 4047
+    },
+    {
+      "id": "ch14",
+      "title": "14장 — 모이지 못하는 회의",
+      "part": "p3",
+      "order": 14,
+      "chars": 4538
+    },
+    {
+      "id": "ch15",
+      "title": "15장 — 빈 들의 꿈",
+      "part": "p3",
+      "order": 15,
+      "chars": 4050
+    },
+    {
+      "id": "ch16",
+      "title": "16장 — 마지막 아메리카",
+      "part": "p4",
+      "order": 16,
+      "chars": 3993
+    },
+    {
+      "id": "ch17",
+      "title": "17장 — 삼일당의 외침",
+      "part": "p4",
+      "order": 17,
+      "chars": 4027
+    },
+    {
+      "id": "ch18",
+      "title": "18장 — 길림의 포위, 흩어지는 땅",
+      "part": "p4",
+      "order": 18,
+      "chars": 4104
+    },
+    {
+      "id": "ch19",
+      "title": "19장 — 4월 29일",
+      "part": "p4",
+      "order": 19,
+      "chars": 3688
+    },
+    {
+      "id": "ch20",
+      "title": "20장 — 신문(訊問)",
+      "part": "p5",
+      "order": 20,
+      "chars": 4433
+    },
+    {
+      "id": "ch21",
+      "title": "21장 — 대전의 사 년, 송태산장의 돌",
+      "part": "p5",
+      "order": 21,
+      "chars": 4022
+    },
+    {
+      "id": "ch22",
+      "title": "22장 — 모은 것이 흩어질 때",
+      "part": "p5",
+      "order": 22,
+      "chars": 4082
+    },
+    {
+      "id": "ch99",
+      "title": "종장 — 남은 것",
+      "part": "epilogue",
+      "order": 23,
+      "chars": 3270
+    },
+    {
+      "id": "afterword",
+      "title": "작가의 말 — 무엇이 기록이고 무엇이 지어낸 것인가",
+      "part": "afterword",
+      "order": 24,
+      "chars": 1967
+    }
+  ],
+  "generated": "2026-06-06T20:26:50Z"
+}
