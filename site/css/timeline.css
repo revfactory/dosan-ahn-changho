@@ -1,0 +1,491 @@
+/* ==========================================================================
+   timeline.css — 연표 페이지 전용 스타일 (timeline-developer 소유)
+   --------------------------------------------------------------------------
+   소유 규약: tl- 접두 모듈 클래스만 정의(architecture §4 규칙8·D-15).
+   공통 컴포넌트(.grade-badge·.is-disputed·.disputed-flag·.dispute-note·
+   .empty-state·.ref-link 등)는 main.css(frontend-developer 소유)가 정의하며
+   여기서 중복 정의하지 않는다 — 공유 모듈 재사용(Policy 5).
+   색·크기·간격은 전부 tokens.css var() 참조. 하드코딩 hex/px 금지.
+   ========================================================================== */
+
+/* 페이지 셸 */
+.tl-main {
+  max-width: var(--measure-full);
+  margin: 0 auto;
+  padding: var(--sp-7) var(--sp-4) var(--sp-8);
+}
+
+/* --------------------------------------------------------------------------
+   도입문 영역 (pages/timeline.json blocks)
+   -------------------------------------------------------------------------- */
+.tl-page-head {
+  margin-bottom: var(--sp-7);
+}
+.tl-page-title {
+  font-family: var(--font-serif);
+  font-size: var(--fs-2xl);
+  line-height: var(--lh-tight);
+  letter-spacing: var(--ls-tight);
+  color: var(--text);
+  margin: 0 0 var(--sp-5);
+}
+.tl-lead {
+  max-width: var(--measure);
+}
+.tl-lead p {
+  font-family: var(--font-serif);
+  font-size: var(--fs-base);
+  line-height: var(--lh-body);
+  color: var(--text);
+  margin: 0 0 var(--sp-4);
+}
+.tl-lead a {
+  color: var(--accent);
+}
+.tl-lead a:hover { color: var(--accent-hover); }
+
+/* --------------------------------------------------------------------------
+   필터 컨트롤 — 칩 버튼·토글. 단청 절제(design-system §2-4): 활성 칩은
+   청자 계열 테두리·배경, 단청은 쓰지 않는다.
+   -------------------------------------------------------------------------- */
+.tl-controls {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-4);
+  padding: var(--sp-5) 0;
+  border-top: var(--bw-hair) solid var(--border);
+  border-bottom: var(--bw-hair) solid var(--border);
+  margin-bottom: var(--sp-6);
+  position: sticky;
+  top: 0;
+  background: var(--bg);
+  z-index: var(--z-sticky);
+}
+.tl-filter-group {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: var(--sp-2) var(--sp-3);
+}
+.tl-filter-label {
+  font-family: var(--font-sans);
+  font-size: var(--fs-sm);
+  color: var(--text-muted);
+  flex: 0 0 auto;
+  min-width: 3em;
+}
+.tl-chip-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-2);
+}
+
+/* 칩 버튼 — 키보드 작동을 위해 진짜 <button>. 활성=청자 테두리+가라앉은 배경 */
+.tl-chip {
+  font-family: var(--font-sans);
+  font-size: var(--fs-sm);
+  color: var(--text-muted);
+  background: var(--bg);
+  border: var(--bw-hair) solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: var(--sp-1) var(--sp-3);
+  cursor: pointer;
+  line-height: var(--lh-snug);
+  transition: background var(--dur-fast) var(--ease),
+              border-color var(--dur-fast) var(--ease),
+              color var(--dur-fast) var(--ease);
+}
+.tl-chip:hover {
+  border-color: var(--rule);
+  color: var(--text);
+}
+.tl-chip.is-active {
+  background: var(--bg-raised);
+  border-color: var(--rule);
+  color: var(--text);
+  font-weight: 700;
+}
+.tl-chip .tl-chip-count {
+  font-size: var(--fs-xs);
+  color: var(--text-faint);
+  margin-inline-start: var(--sp-1);
+}
+.tl-chip.is-active .tl-chip-count { color: var(--text-muted); }
+
+/* disputed 전용 토글 — 라벨+체크박스(키보드 기본 동작) */
+.tl-filter-toggle {
+  justify-content: space-between;
+}
+.tl-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--sp-2);
+  font-family: var(--font-sans);
+  font-size: var(--fs-sm);
+  color: var(--text-muted);
+  cursor: pointer;
+  /* 터치 타깃 ≥44px(WCAG 2.5.5 AAA) — 라벨이 체크박스+텍스트를 감싸므로
+     세로 패딩으로 라벨 전체 클릭영역을 키운다(a11y 권고 반영). */
+  min-height: 2.75rem;
+  padding-block: var(--sp-2);
+}
+.tl-toggle input { width: 1rem; height: 1rem; accent-color: var(--accent); }
+.tl-reset {
+  font-family: var(--font-sans);
+  font-size: var(--fs-sm);
+  color: var(--accent);
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: var(--sp-1) var(--sp-2);
+}
+.tl-reset:hover { color: var(--accent-hover); text-decoration: underline; }
+
+/* --------------------------------------------------------------------------
+   시기 점프 내비
+   -------------------------------------------------------------------------- */
+.tl-jump {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-2);
+  margin-bottom: var(--sp-6);
+}
+.tl-jump-link {
+  font-family: var(--font-sans);
+  font-size: var(--fs-sm);
+  color: var(--accent);
+  text-decoration: none;
+  padding: var(--sp-1) var(--sp-2);
+  border-bottom: var(--bw-hair) solid transparent;
+}
+.tl-jump-link:hover { border-bottom-color: var(--rule); }
+
+/* 라이브 상태 — 화면에도 작게 노출(시각 사용자에게도 결과 수 안내) */
+.tl-status {
+  font-family: var(--font-sans);
+  font-size: var(--fs-sm);
+  color: var(--text-muted);
+  margin: 0 0 var(--sp-4);
+  min-height: 1.5em;
+}
+
+/* --------------------------------------------------------------------------
+   사건 목록 + 시기 그룹 헤더
+   -------------------------------------------------------------------------- */
+.tl-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-6);
+}
+.tl-period-group { scroll-margin-top: var(--sp-9); }
+.tl-period-heading {
+  font-family: var(--font-serif);
+  font-size: var(--fs-lg);
+  line-height: var(--lh-tight);
+  color: var(--text);
+  margin: 0 0 var(--sp-4);
+  padding-bottom: var(--sp-2);
+  border-bottom: var(--bw-accent) solid var(--rule);
+}
+.tl-period-heading .tl-period-range {
+  font-family: var(--font-sans);
+  font-size: var(--fs-sm);
+  color: var(--text-muted);
+  font-weight: 400;
+  margin-inline-start: var(--sp-3);
+}
+.tl-group-cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--sp-4);
+  align-items: start; /* 카드별 가변 높이 허용(design-system §7 제목 2줄+) */
+}
+
+/* --------------------------------------------------------------------------
+   사건 카드 (tl-event-card — design-system §6.3)
+   카드 전체가 클릭/Enter 대상이지만 키보드 접근을 위해 제목을 <button>로.
+   카드 컨테이너에는 단청 면적 금지(§2-4).
+   -------------------------------------------------------------------------- */
+.tl-event-card {
+  background: var(--bg-raised);
+  border: var(--bw-hair) solid transparent;
+  border-radius: var(--radius-md);
+  padding: var(--sp-5);
+  scroll-margin-top: var(--sp-9); /* #evt-id 딥링크 스크롤 시 sticky 헤더 가림 방지 */
+}
+/* 딥링크 하이라이트(#evt-id 진입) */
+.tl-event-card.is-target {
+  border-color: var(--rule);
+  box-shadow: var(--shadow-sm);
+}
+
+.tl-card-date {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: var(--fs-sm);
+  color: var(--text-muted);
+}
+.tl-card-cal {
+  font-family: var(--font-sans);
+  font-size: var(--fs-xs);
+  color: var(--text-faint);
+  margin-inline-start: var(--sp-2);
+}
+
+/* 제목은 카드를 여는 버튼(이벤트 위임으로 처리하지만 기본 포커스 가능 요소) */
+.tl-card-titlebtn {
+  display: block;
+  width: 100%;
+  text-align: start;
+  background: none;
+  border: none;
+  padding: 0;
+  margin: var(--sp-2) 0 var(--sp-3);
+  cursor: pointer;
+  font-family: var(--font-serif);
+  font-size: var(--fs-md);
+  line-height: var(--lh-snug);
+  color: var(--text);
+}
+.tl-card-titlebtn:hover { color: var(--accent); }
+
+.tl-card-summary {
+  font-family: var(--font-serif);
+  font-size: var(--fs-base);
+  line-height: var(--lh-snug);
+  color: var(--text);
+  margin: 0 0 var(--sp-4);
+}
+
+.tl-card-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-2) var(--sp-4);
+  margin: 0 0 var(--sp-3);
+  font-family: var(--font-sans);
+  font-size: var(--fs-sm);
+  color: var(--text-muted);
+}
+.tl-card-meta dt { font-weight: 700; display: inline; margin-inline-end: var(--sp-1); }
+.tl-card-meta dd { display: inline; margin: 0; }
+.tl-card-meta > div { display: flex; gap: var(--sp-1); align-items: baseline; }
+.tl-place-modern { color: var(--text-faint); }
+
+/* 카드 하단 배지·교차링크 행 */
+.tl-card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-2);
+  align-items: center;
+}
+.tl-tag-chip {
+  font-family: var(--font-sans);
+  font-size: var(--fs-xs);
+  color: var(--text-muted);
+  background: var(--bg);
+  border: var(--bw-hair) solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: var(--sp-1) var(--sp-2);
+}
+.tl-card-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-3);
+  margin-top: var(--sp-3);
+  font-family: var(--font-sans);
+  font-size: var(--fs-sm);
+}
+.tl-card-links a { color: var(--accent); }
+.tl-card-links a:hover { color: var(--accent-hover); }
+
+/* --------------------------------------------------------------------------
+   disputed 상태 — 점선 테두리·.disputed-flag·.dispute-note의 시각 정의는
+   전부 main.css(frontend 소유, design-system §6.2)가 담당한다. 여기서는
+   연표 카드 안에서의 배치(플래그를 카드 맨 위 한 줄로)만 보정한다 —
+   공유 컴포넌트를 재정의하지 않는다(Policy 5 중복 구현 금지).
+   -------------------------------------------------------------------------- */
+.tl-event-card > .disputed-flag {
+  margin-bottom: var(--sp-2);
+}
+
+/* --------------------------------------------------------------------------
+   상세 패널 (<dialog>)
+   -------------------------------------------------------------------------- */
+.tl-detail {
+  width: min(42rem, calc(100vw - 2 * var(--sp-4)));
+  max-height: calc(100vh - 2 * var(--sp-6));
+  padding: 0;
+  border: var(--bw-hair) solid var(--border);
+  border-radius: var(--radius-lg);
+  background: var(--bg);
+  color: var(--text);
+  box-shadow: var(--shadow-pop);
+}
+.tl-detail::backdrop {
+  /* 토큰 파생: --ink(#1A1815) 45% — 하드코딩 hex 회피(design-system §8) */
+  background: color-mix(in srgb, var(--ink) 45%, transparent);
+}
+.tl-detail-closebar {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: flex-end;
+  padding: var(--sp-3) var(--sp-3) 0;
+  background: var(--bg);
+}
+.tl-detail-close {
+  font-family: var(--font-sans);
+  font-size: var(--fs-md);
+  line-height: 1;
+  width: 2rem;
+  height: 2rem;
+  border: var(--bw-hair) solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--bg);
+  color: var(--text-muted);
+  cursor: pointer;
+}
+.tl-detail-close:hover { color: var(--text); border-color: var(--rule); }
+.tl-detail-body { padding: var(--sp-2) var(--sp-6) var(--sp-6); }
+
+.tl-detail-date {
+  font-family: var(--font-mono);
+  font-size: var(--fs-sm);
+  color: var(--text-muted);
+}
+.tl-detail-title {
+  font-family: var(--font-serif);
+  font-size: var(--fs-xl);
+  line-height: var(--lh-tight);
+  color: var(--text);
+  margin: var(--sp-2) 0 var(--sp-4);
+}
+.tl-detail-body h3 {
+  font-family: var(--font-sans);
+  font-size: var(--fs-sm);
+  color: var(--text-muted);
+  text-transform: none;
+  margin: var(--sp-5) 0 var(--sp-2);
+  padding-top: var(--sp-3);
+  border-top: var(--bw-hair) solid var(--border);
+}
+.tl-detail-body p { line-height: var(--lh-body); margin: 0 0 var(--sp-3); }
+.tl-detail-body .tl-detail-text { white-space: pre-line; } /* detail의 \n 보존 */
+
+/* 상세 내 dispute 양론 병기 — adopted 우선, variants는 <details>로 접기 */
+.tl-dispute-box {
+  background: var(--bg-raised);
+  border-inline-start: var(--bw-accent) solid var(--disputed);
+  border-radius: var(--radius-sm);
+  padding: var(--sp-4);
+  margin: var(--sp-3) 0;
+}
+.tl-dispute-status {
+  font-family: var(--font-sans);
+  font-size: var(--fs-sm);
+  color: var(--text-muted);
+  margin: 0 0 var(--sp-2);
+}
+.tl-dispute-adopted { margin: 0 0 var(--sp-2); }
+.tl-dispute-adopted .tl-adopted-label {
+  font-weight: 700;
+  color: var(--text);
+}
+.tl-dispute-variants {
+  margin-top: var(--sp-2);
+}
+.tl-dispute-variants > summary {
+  font-family: var(--font-sans);
+  font-size: var(--fs-sm);
+  color: var(--accent);
+  cursor: pointer;
+}
+.tl-dispute-variants ul { margin: var(--sp-2) 0 0; padding-inline-start: var(--sp-5); }
+.tl-dispute-variants li {
+  font-size: var(--fs-sm);
+  line-height: var(--lh-snug);
+  margin-bottom: var(--sp-2);
+}
+.tl-variant-assess { color: var(--text-faint); font-size: var(--fs-xs); }
+
+/* 상세 내 출처 목록 */
+.tl-source-list { list-style: none; margin: 0; padding: 0; }
+.tl-source-list li {
+  font-family: var(--font-sans);
+  font-size: var(--fs-sm);
+  line-height: var(--lh-snug);
+  margin-bottom: var(--sp-3);
+  padding-inline-start: var(--sp-4);
+  position: relative;
+}
+.tl-source-list li::before {
+  content: counter(list-item) ".";
+  position: absolute;
+  inset-inline-start: 0;
+  color: var(--text-faint);
+}
+.tl-source-type {
+  display: inline-block;
+  font-size: var(--fs-xs);
+  color: var(--text-faint);
+  margin-inline-start: var(--sp-1);
+}
+.tl-source-list a { color: var(--accent); overflow-wrap: anywhere; }
+
+/* 상세 내 인물·조직 교차링크 */
+.tl-detail-refs { display: flex; flex-wrap: wrap; gap: var(--sp-2); }
+.tl-detail-refs a { color: var(--accent); }
+.tl-detail-refs .tl-ref-plain { color: var(--text-muted); } /* node_id null = 평문 */
+
+.tl-detail-crosslinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-4);
+  margin-top: var(--sp-4);
+  font-family: var(--font-sans);
+  font-size: var(--fs-sm);
+}
+.tl-detail-crosslinks a { color: var(--accent); }
+
+/* id raw 표기(긴 id 넘침 방지, design-system §7) */
+.tl-id-raw {
+  font-family: var(--font-mono);
+  font-size: var(--fs-xs);
+  color: var(--text-faint);
+  overflow-wrap: anywhere;
+}
+
+/* --------------------------------------------------------------------------
+   비-JS 폴백 노출(noscript 내부는 기본 노출). JS 로드 후엔 main만 보이므로
+   별도 처리 불요. noscript 안의 스타일만 최소 정돈.
+   -------------------------------------------------------------------------- */
+.tl-noscript {
+  max-width: var(--measure);
+  margin: var(--sp-7) auto;
+  padding: 0 var(--sp-4);
+  font-family: var(--font-serif);
+  line-height: var(--lh-body);
+  color: var(--text);
+}
+.tl-noscript h1 { font-size: var(--fs-2xl); }
+.tl-noscript a { color: var(--accent); }
+
+/* --------------------------------------------------------------------------
+   반응형 — 모바일 우선(design-system §4). 640px+ 2열, 1024px+ 2~3열.
+   -------------------------------------------------------------------------- */
+@media (min-width: 640px) {
+  .tl-group-cards {
+    grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+  }
+}
+@media (min-width: 1024px) {
+  .tl-main { padding-inline: var(--sp-6); }
+}
+
+/* --------------------------------------------------------------------------
+   모션 감소 — 전역 안전망은 tokens.css가 dur를 0으로 만들지만, transition을
+   명시 사용하는 곳도 즉시 점프하도록 보강(interactive-viz §4).
+   -------------------------------------------------------------------------- */
+@media (prefers-reduced-motion: reduce) {
+  .tl-chip { transition: none; }
+}

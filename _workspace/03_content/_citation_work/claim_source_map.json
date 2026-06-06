@@ -1,0 +1,4788 @@
+{
+  "clm-0001": [
+    {
+      "source_id": "src-ins-001",
+      "locator": null
+    },
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-ins-003",
+      "locator": null
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "levelId kc_n402200"
+    },
+    {
+      "source_id": "src-enc-001",
+      "locator": "E0035050"
+    }
+  ],
+  "clm-0002": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "사전 id 696"
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "levelId kc_n402200"
+    },
+    {
+      "source_id": "src-enc-001",
+      "locator": "E0035050"
+    }
+  ],
+  "clm-0003": [
+    {
+      "source_id": "src-ins-001",
+      "locator": null
+    },
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-ins-003",
+      "locator": null
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "levelId kc_n402200"
+    },
+    {
+      "source_id": "src-enc-001",
+      "locator": "E0035050"
+    }
+  ],
+  "clm-0004": [
+    {
+      "source_id": "src-enc-002",
+      "locator": "가계 절"
+    },
+    {
+      "source_id": "src-web-001",
+      "locator": null
+    }
+  ],
+  "clm-0005": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "사전 id 696"
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "levelId kc_n402200"
+    }
+  ],
+  "clm-0006": [
+    {
+      "source_id": "src-ins-001",
+      "locator": null
+    },
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-enc-002",
+      "locator": "생애 초기 절"
+    }
+  ],
+  "clm-0007": [
+    {
+      "source_id": "src-ins-001",
+      "locator": null
+    },
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-enc-002",
+      "locator": "생애 초기 절"
+    }
+  ],
+  "clm-0008": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "사전 id 696"
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "levelId kc_n402200"
+    },
+    {
+      "source_id": "src-enc-002",
+      "locator": "생애 초기 절"
+    }
+  ],
+  "clm-0009": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "사전 id 696"
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "levelId kc_n402200"
+    },
+    {
+      "source_id": "src-enc-002",
+      "locator": "생애 초기 절"
+    }
+  ],
+  "clm-0010": [
+    {
+      "source_id": "src-ins-001",
+      "locator": null
+    },
+    {
+      "source_id": "src-ins-002",
+      "locator": "사전 id 696"
+    },
+    {
+      "source_id": "src-enc-001",
+      "locator": "E0035050"
+    }
+  ],
+  "clm-0011": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "사전 id 696"
+    },
+    {
+      "source_id": "src-enc-001",
+      "locator": "E0035050"
+    }
+  ],
+  "clm-0012": [
+    {
+      "source_id": "src-ins-001",
+      "locator": null
+    },
+    {
+      "source_id": "src-ins-002",
+      "locator": "사전 id 696"
+    },
+    {
+      "source_id": "src-enc-001",
+      "locator": "E0035050"
+    },
+    {
+      "source_id": "src-aca-001",
+      "locator": "第一章 少年時代"
+    }
+  ],
+  "clm-0013": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "kc_n402200"
+    },
+    {
+      "source_id": "src-aca-001",
+      "locator": "第一章 少年時代"
+    }
+  ],
+  "clm-0014": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "사전 id 696"
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "kc_n402200"
+    },
+    {
+      "source_id": "src-enc-001",
+      "locator": "E0035050"
+    }
+  ],
+  "clm-0015": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "사전 id 696"
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "kc_n402200"
+    },
+    {
+      "source_id": "src-enc-001",
+      "locator": "E0035050"
+    }
+  ],
+  "clm-0016": [
+    {
+      "source_id": "src-ins-001",
+      "locator": null
+    },
+    {
+      "source_id": "src-ins-002",
+      "locator": "사전 id 696"
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "kc_n402200"
+    },
+    {
+      "source_id": "src-enc-001",
+      "locator": "E0035050"
+    }
+  ],
+  "clm-0017": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "사전 id 696"
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "levelId kc_n402200"
+    },
+    {
+      "source_id": "src-enc-001",
+      "locator": "E0035050"
+    }
+  ],
+  "clm-0018": [
+    {
+      "source_id": "src-ins-001",
+      "locator": null
+    },
+    {
+      "source_id": "src-ins-002",
+      "locator": "사전 id 696"
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "kc_n402200"
+    },
+    {
+      "source_id": "src-enc-002",
+      "locator": "구세학당 수학 절"
+    },
+    {
+      "source_id": "src-enc-003",
+      "locator": "Early life 절"
+    }
+  ],
+  "clm-0019": [
+    {
+      "source_id": "src-ins-001",
+      "locator": null
+    },
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-enc-002",
+      "locator": "구세학당 수학 절"
+    }
+  ],
+  "clm-0020": [
+    {
+      "source_id": "src-ins-001",
+      "locator": null
+    },
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-enc-002",
+      "locator": "구세학당 수학 절"
+    }
+  ],
+  "clm-0021": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "사전 id 696"
+    },
+    {
+      "source_id": "src-enc-002",
+      "locator": "약혼 관련 절"
+    },
+    {
+      "source_id": "src-enc-004",
+      "locator": "E0079746"
+    }
+  ],
+  "clm-0022": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "사전 id 696"
+    },
+    {
+      "source_id": "src-enc-002",
+      "locator": "약혼 관련 절"
+    },
+    {
+      "source_id": "src-enc-004",
+      "locator": "E0079746"
+    }
+  ],
+  "clm-0023": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "kc_n402200"
+    },
+    {
+      "source_id": "src-enc-001",
+      "locator": "E0035050"
+    },
+    {
+      "source_id": "src-web-002",
+      "locator": null
+    }
+  ],
+  "clm-0024": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "kc_n402200"
+    },
+    {
+      "source_id": "src-enc-001",
+      "locator": "E0035050"
+    },
+    {
+      "source_id": "src-web-002",
+      "locator": null
+    }
+  ],
+  "clm-0025": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "kc_n402200"
+    },
+    {
+      "source_id": "src-enc-001",
+      "locator": "E0035050"
+    },
+    {
+      "source_id": "src-aca-001",
+      "locator": "第一章 少年時代"
+    }
+  ],
+  "clm-0026": [
+    {
+      "source_id": "src-ins-001",
+      "locator": null
+    },
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "levelId kc_n402200"
+    },
+    {
+      "source_id": "src-enc-001",
+      "locator": "표제어 E0035050"
+    },
+    {
+      "source_id": "src-aca-001",
+      "locator": "第一章 少年時代"
+    },
+    {
+      "source_id": "src-web-003",
+      "locator": "no.14314"
+    },
+    {
+      "source_id": "src-pri-005",
+      "locator": "사료 카탈로그 참조(grade_reason)"
+    }
+  ],
+  "clm-0027": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "사전 id 696"
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "levelId kc_n402200"
+    },
+    {
+      "source_id": "src-enc-001",
+      "locator": "표제어 E0035050"
+    },
+    {
+      "source_id": "src-aca-001",
+      "locator": "第一章 少年時代"
+    },
+    {
+      "source_id": "src-web-003",
+      "locator": "no.14314"
+    }
+  ],
+  "clm-0028": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "사전 id 696"
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "levelId=kc_n402200"
+    },
+    {
+      "source_id": "src-enc-001",
+      "locator": "표제어 E0035050"
+    },
+    {
+      "source_id": "src-aca-001",
+      "locator": "第一章 少年時代"
+    },
+    {
+      "source_id": "src-web-003",
+      "locator": "no=14314"
+    }
+  ],
+  "clm-0029": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "사전 id 696"
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "levelId kc_n402200"
+    },
+    {
+      "source_id": "src-aca-001",
+      "locator": "第一章 少年時代"
+    },
+    {
+      "source_id": "src-web-003",
+      "locator": "no.14314"
+    }
+  ],
+  "clm-0030": [
+    {
+      "source_id": "src-ins-004",
+      "locator": "kc_n402200"
+    },
+    {
+      "source_id": "src-enc-001",
+      "locator": "E0035050"
+    }
+  ],
+  "clm-0031": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    }
+  ],
+  "clm-0032": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "levelId kc_n402200"
+    },
+    {
+      "source_id": "src-enc-001",
+      "locator": "E0035050"
+    },
+    {
+      "source_id": "src-enc-005",
+      "locator": "E0049857"
+    },
+    {
+      "source_id": "src-ins-005",
+      "locator": "levelId=eh_n0760_0010"
+    }
+  ],
+  "clm-0033": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "levelId kc_n402200"
+    },
+    {
+      "source_id": "src-enc-001",
+      "locator": "E0035050"
+    },
+    {
+      "source_id": "src-enc-005",
+      "locator": "E0049857"
+    }
+  ],
+  "clm-0034": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "사전 id 696"
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "levelId kc_n402200"
+    },
+    {
+      "source_id": "src-enc-005",
+      "locator": "E0049857"
+    }
+  ],
+  "clm-0035": [
+    {
+      "source_id": "src-enc-005",
+      "locator": "표제어 E0049857"
+    },
+    {
+      "source_id": "src-ins-005",
+      "locator": "levelId=eh_n0760_0010"
+    }
+  ],
+  "clm-0036": [
+    {
+      "source_id": "src-ins-001",
+      "locator": null
+    },
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "levelId kc_n402200"
+    }
+  ],
+  "clm-0037": [
+    {
+      "source_id": "src-ins-001",
+      "locator": null
+    },
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "levelId kc_n402200"
+    },
+    {
+      "source_id": "src-web-002",
+      "locator": null
+    }
+  ],
+  "clm-0038": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-enc-004",
+      "locator": "E0079746"
+    }
+  ],
+  "clm-0039": [
+    {
+      "source_id": "src-pri-024",
+      "locator": "src-pri-024"
+    },
+    {
+      "source_id": "src-ins-002",
+      "locator": "사전 id 696"
+    },
+    {
+      "source_id": "src-enc-003",
+      "locator": "Early life 절"
+    },
+    {
+      "source_id": "src-web-002",
+      "locator": "여권번호 52호 사진 캡션"
+    }
+  ],
+  "clm-0040": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "사전 id 696"
+    },
+    {
+      "source_id": "src-enc-003",
+      "locator": "Early life 절"
+    },
+    {
+      "source_id": "src-web-002",
+      "locator": "여권번호 52호 사진 캡션"
+    }
+  ],
+  "clm-0041": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "사전 id 696"
+    },
+    {
+      "source_id": "src-enc-003",
+      "locator": "Early life 절"
+    },
+    {
+      "source_id": "src-web-002",
+      "locator": "여권번호 52호 사진 캡션"
+    }
+  ],
+  "clm-0042": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "사전 id 696"
+    },
+    {
+      "source_id": "src-enc-003",
+      "locator": "Early life 절"
+    },
+    {
+      "source_id": "src-web-002",
+      "locator": "여권번호 52호 사진 캡션"
+    }
+  ],
+  "clm-0043": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-ins-005",
+      "locator": "levelId=eh_n0760_0010"
+    },
+    {
+      "source_id": "src-web-004",
+      "locator": "2021-12-16"
+    },
+    {
+      "source_id": "src-web-005",
+      "locator": null
+    }
+  ],
+  "clm-0044": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-enc-004",
+      "locator": "E0079746"
+    },
+    {
+      "source_id": "src-ins-005",
+      "locator": "levelId=eh_n0760_0010"
+    },
+    {
+      "source_id": "src-web-004",
+      "locator": "2021-12-16"
+    },
+    {
+      "source_id": "src-web-005",
+      "locator": null
+    }
+  ],
+  "clm-0045": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id=696"
+    },
+    {
+      "source_id": "src-ins-005",
+      "locator": "levelId=eh_n0760_0010"
+    },
+    {
+      "source_id": "src-web-004",
+      "locator": "2021-12-16"
+    },
+    {
+      "source_id": "src-web-005",
+      "locator": null
+    }
+  ],
+  "clm-0046": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id=696"
+    },
+    {
+      "source_id": "src-ins-005",
+      "locator": "levelId=eh_n0760_0010"
+    },
+    {
+      "source_id": "src-web-004",
+      "locator": "2021-12-16"
+    },
+    {
+      "source_id": "src-web-005",
+      "locator": null
+    }
+  ],
+  "clm-0047": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-enc-004",
+      "locator": "E0079746"
+    },
+    {
+      "source_id": "src-web-004",
+      "locator": "2021-12-16"
+    },
+    {
+      "source_id": "src-ins-006",
+      "locator": null
+    }
+  ],
+  "clm-0048": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id=696"
+    },
+    {
+      "source_id": "src-web-004",
+      "locator": "2021-12-16"
+    },
+    {
+      "source_id": "src-ins-006",
+      "locator": null
+    }
+  ],
+  "clm-0049": [
+    {
+      "source_id": "src-ins-004",
+      "locator": "kc_n402200"
+    },
+    {
+      "source_id": "src-aca-001",
+      "locator": "제2장"
+    }
+  ],
+  "clm-0050": [
+    {
+      "source_id": "src-aca-001",
+      "locator": "제2장"
+    }
+  ],
+  "clm-0051": [
+    {
+      "source_id": "src-ins-001",
+      "locator": null
+    },
+    {
+      "source_id": "src-ins-002",
+      "locator": "id=696"
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "kc_n402200"
+    },
+    {
+      "source_id": "src-web-005",
+      "locator": null
+    },
+    {
+      "source_id": "src-enc-006",
+      "locator": "E0004272"
+    }
+  ],
+  "clm-0052": [
+    {
+      "source_id": "src-ins-001",
+      "locator": null
+    },
+    {
+      "source_id": "src-ins-002",
+      "locator": "id=696"
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "kc_n402200"
+    },
+    {
+      "source_id": "src-web-005",
+      "locator": null
+    },
+    {
+      "source_id": "src-enc-006",
+      "locator": "E0004272"
+    }
+  ],
+  "clm-0053": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "levelId=kc_n402200"
+    },
+    {
+      "source_id": "src-aca-002",
+      "locator": null
+    }
+  ],
+  "clm-0054": [
+    {
+      "source_id": "src-aca-002",
+      "locator": null
+    },
+    {
+      "source_id": "src-aca-003",
+      "locator": null
+    },
+    {
+      "source_id": "src-enc-007",
+      "locator": null
+    },
+    {
+      "source_id": "src-web-006",
+      "locator": null
+    }
+  ],
+  "clm-0055": [
+    {
+      "source_id": "src-aca-002",
+      "locator": null
+    },
+    {
+      "source_id": "src-aca-003",
+      "locator": null
+    },
+    {
+      "source_id": "src-enc-007",
+      "locator": null
+    },
+    {
+      "source_id": "src-web-006",
+      "locator": null
+    }
+  ],
+  "clm-0056": [
+    {
+      "source_id": "src-aca-002",
+      "locator": null
+    },
+    {
+      "source_id": "src-enc-007",
+      "locator": null
+    }
+  ],
+  "clm-0057": [
+    {
+      "source_id": "src-aca-001",
+      "locator": "전문 검색 결과 부재"
+    },
+    {
+      "source_id": "src-ins-007",
+      "locator": "post-289"
+    }
+  ],
+  "clm-0058": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "levelId=kc_n402200"
+    },
+    {
+      "source_id": "src-enc-006",
+      "locator": "E0004272"
+    },
+    {
+      "source_id": "src-aca-002",
+      "locator": null
+    }
+  ],
+  "clm-0059": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "levelId=kc_n402200"
+    },
+    {
+      "source_id": "src-enc-006",
+      "locator": "E0004272"
+    },
+    {
+      "source_id": "src-aca-002",
+      "locator": null
+    }
+  ],
+  "clm-0060": [
+    {
+      "source_id": "src-pri-011",
+      "locator": "제1호(1905.11.22), 독립기념관·국사편찬위원회 소장"
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "levelId=kc_n402200"
+    },
+    {
+      "source_id": "src-enc-006",
+      "locator": "E0004272"
+    },
+    {
+      "source_id": "src-enc-008",
+      "locator": "E0004270"
+    }
+  ],
+  "clm-0061": [
+    {
+      "source_id": "src-pri-011",
+      "locator": "제1호(1905.11.22), 독립기념관·국사편찬위원회 소장"
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "levelId=kc_n402200"
+    },
+    {
+      "source_id": "src-enc-006",
+      "locator": "E0004272"
+    },
+    {
+      "source_id": "src-enc-008",
+      "locator": "E0004270"
+    }
+  ],
+  "clm-0062": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id=696"
+    }
+  ],
+  "clm-0063": [
+    {
+      "source_id": "src-enc-006",
+      "locator": "E0004272"
+    },
+    {
+      "source_id": "src-ins-008",
+      "locator": null
+    },
+    {
+      "source_id": "src-ins-009",
+      "locator": "levelId=kc_o400900"
+    }
+  ],
+  "clm-0064": [
+    {
+      "source_id": "src-pri-012",
+      "locator": "src-pri-012"
+    },
+    {
+      "source_id": "src-enc-008",
+      "locator": "E0004270"
+    },
+    {
+      "source_id": "src-ins-010",
+      "locator": "npsh"
+    }
+  ],
+  "clm-0065": [
+    {
+      "source_id": "src-ins-004",
+      "locator": "levelId=kc_n402200"
+    },
+    {
+      "source_id": "src-ins-008",
+      "locator": null
+    },
+    {
+      "source_id": "src-ins-011",
+      "locator": "제5호"
+    }
+  ],
+  "clm-0066": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "levelId=kc_n402200"
+    },
+    {
+      "source_id": "src-aca-002",
+      "locator": null
+    }
+  ],
+  "clm-0067": [
+    {
+      "source_id": "src-ins-004",
+      "locator": "levelId=kc_n402200"
+    },
+    {
+      "source_id": "src-enc-009",
+      "locator": "E0073696"
+    }
+  ],
+  "clm-0068": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id=696"
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "kc_n402200"
+    },
+    {
+      "source_id": "src-ins-008",
+      "locator": null
+    },
+    {
+      "source_id": "src-ins-012",
+      "locator": "nh_047_0030_0020_0040_0040"
+    }
+  ],
+  "clm-0069": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "kc_n402200"
+    }
+  ],
+  "clm-0070": [
+    {
+      "source_id": "src-ins-004",
+      "locator": "levelId=kc_n402200"
+    },
+    {
+      "source_id": "src-enc-001",
+      "locator": "E0035050"
+    },
+    {
+      "source_id": "src-aca-004",
+      "locator": "춘원연구학보 7, 2014"
+    }
+  ],
+  "clm-0071": [
+    {
+      "source_id": "src-aca-003",
+      "locator": null
+    },
+    {
+      "source_id": "src-enc-007",
+      "locator": null
+    }
+  ],
+  "clm-0072": [
+    {
+      "source_id": "src-ins-001",
+      "locator": null
+    },
+    {
+      "source_id": "src-ins-002",
+      "locator": "id=696"
+    },
+    {
+      "source_id": "src-aca-005",
+      "locator": "koreascholar Article 328875"
+    },
+    {
+      "source_id": "src-web-007",
+      "locator": "2016-03-01"
+    }
+  ],
+  "clm-0073": [
+    {
+      "source_id": "src-ins-004",
+      "locator": "levelId=kc_n402200"
+    },
+    {
+      "source_id": "src-ins-008",
+      "locator": null
+    }
+  ],
+  "clm-0074": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    }
+  ],
+  "clm-0075": [
+    {
+      "source_id": "src-ins-001",
+      "locator": null
+    },
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-ins-008",
+      "locator": null
+    },
+    {
+      "source_id": "src-ins-011",
+      "locator": "제5호"
+    }
+  ],
+  "clm-0076": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    }
+  ],
+  "clm-0077": [
+    {
+      "source_id": "src-ins-001",
+      "locator": null
+    },
+    {
+      "source_id": "src-ins-002",
+      "locator": "id=696"
+    },
+    {
+      "source_id": "src-enc-010",
+      "locator": null
+    }
+  ],
+  "clm-0078": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-enc-002",
+      "locator": null
+    }
+  ],
+  "clm-0079": [
+    {
+      "source_id": "src-enc-004",
+      "locator": "E0079746"
+    },
+    {
+      "source_id": "src-ins-006",
+      "locator": null
+    },
+    {
+      "source_id": "src-ins-013",
+      "locator": null
+    }
+  ],
+  "clm-0080": [
+    {
+      "source_id": "src-enc-004",
+      "locator": "E0079746"
+    },
+    {
+      "source_id": "src-ins-006",
+      "locator": null
+    },
+    {
+      "source_id": "src-ins-013",
+      "locator": null
+    }
+  ],
+  "clm-0081": [
+    {
+      "source_id": "src-enc-004",
+      "locator": "E0079746"
+    },
+    {
+      "source_id": "src-enc-011",
+      "locator": "E0015135"
+    }
+  ],
+  "clm-0082": [
+    {
+      "source_id": "src-ins-006",
+      "locator": null
+    },
+    {
+      "source_id": "src-ins-014",
+      "locator": "Collection 3007"
+    },
+    {
+      "source_id": "src-enc-012",
+      "locator": null
+    }
+  ],
+  "clm-0083": [
+    {
+      "source_id": "src-enc-012",
+      "locator": null
+    },
+    {
+      "source_id": "src-web-008",
+      "locator": null
+    },
+    {
+      "source_id": "src-web-009",
+      "locator": "2023-05-25"
+    }
+  ],
+  "clm-0084": [
+    {
+      "source_id": "src-ins-006",
+      "locator": null
+    },
+    {
+      "source_id": "src-ins-014",
+      "locator": "Collection 3007"
+    },
+    {
+      "source_id": "src-web-010",
+      "locator": "nm0014218"
+    },
+    {
+      "source_id": "src-web-011",
+      "locator": "m=229279"
+    }
+  ],
+  "clm-0085": [
+    {
+      "source_id": "src-ins-014",
+      "locator": "Collection 3007"
+    },
+    {
+      "source_id": "src-ins-015",
+      "locator": null
+    },
+    {
+      "source_id": "src-enc-013",
+      "locator": null
+    },
+    {
+      "source_id": "src-enc-014",
+      "locator": null
+    }
+  ],
+  "clm-0086": [
+    {
+      "source_id": "src-ins-014",
+      "locator": "Collection 3007"
+    },
+    {
+      "source_id": "src-ins-015",
+      "locator": null
+    },
+    {
+      "source_id": "src-enc-013",
+      "locator": null
+    },
+    {
+      "source_id": "src-enc-014",
+      "locator": null
+    }
+  ],
+  "clm-0087": [
+    {
+      "source_id": "src-ins-006",
+      "locator": null
+    },
+    {
+      "source_id": "src-ins-014",
+      "locator": "Collection 3007"
+    },
+    {
+      "source_id": "src-web-011",
+      "locator": "m=229279"
+    },
+    {
+      "source_id": "src-web-012",
+      "locator": "Ahn-324"
+    }
+  ],
+  "clm-0088": [
+    {
+      "source_id": "src-ins-006",
+      "locator": null
+    },
+    {
+      "source_id": "src-web-011",
+      "locator": "m=229279"
+    },
+    {
+      "source_id": "src-web-012",
+      "locator": "Ahn-324"
+    }
+  ],
+  "clm-0089": [
+    {
+      "source_id": "src-ins-006",
+      "locator": null
+    },
+    {
+      "source_id": "src-web-011",
+      "locator": "m=229279"
+    },
+    {
+      "source_id": "src-web-012",
+      "locator": "Ahn-324"
+    }
+  ],
+  "clm-0090": [
+    {
+      "source_id": "src-enc-010",
+      "locator": null
+    },
+    {
+      "source_id": "src-ins-014",
+      "locator": "Collection 3007"
+    },
+    {
+      "source_id": "src-web-011",
+      "locator": "m=229279"
+    },
+    {
+      "source_id": "src-ins-016",
+      "locator": null
+    }
+  ],
+  "clm-0091": [
+    {
+      "source_id": "src-ins-006",
+      "locator": null
+    },
+    {
+      "source_id": "src-web-011",
+      "locator": "m=229279"
+    },
+    {
+      "source_id": "src-enc-015",
+      "locator": "E0074094"
+    }
+  ],
+  "clm-0092": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-enc-016",
+      "locator": "E0032974"
+    },
+    {
+      "source_id": "src-ins-017",
+      "locator": "nh_043_0040_0010_0030"
+    }
+  ],
+  "clm-0093": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-enc-016",
+      "locator": "E0032974"
+    },
+    {
+      "source_id": "src-ins-017",
+      "locator": "nh_043_0040_0010_0030"
+    },
+    {
+      "source_id": "src-pri-037",
+      "locator": "사료 카탈로그 참조(grade_reason)"
+    }
+  ],
+  "clm-0094": [
+    {
+      "source_id": "src-enc-016",
+      "locator": "E0032974"
+    }
+  ],
+  "clm-0095": [
+    {
+      "source_id": "src-ins-004",
+      "locator": "kc_n402200"
+    },
+    {
+      "source_id": "src-enc-001",
+      "locator": "E0035050"
+    },
+    {
+      "source_id": "src-enc-017",
+      "locator": null
+    },
+    {
+      "source_id": "src-enc-018",
+      "locator": "GC06142033"
+    }
+  ],
+  "clm-0096": [
+    {
+      "source_id": "src-enc-001",
+      "locator": "E0035050"
+    },
+    {
+      "source_id": "src-enc-017",
+      "locator": null
+    },
+    {
+      "source_id": "src-enc-018",
+      "locator": "GC06142033"
+    }
+  ],
+  "clm-0097": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "kc_n402200"
+    },
+    {
+      "source_id": "src-enc-001",
+      "locator": "E0035050"
+    },
+    {
+      "source_id": "src-ins-017",
+      "locator": "nh_043_0040_0010_0030"
+    },
+    {
+      "source_id": "src-ins-018",
+      "locator": "mngNo 3154"
+    }
+  ],
+  "clm-0098": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "kc_n402200"
+    },
+    {
+      "source_id": "src-enc-001",
+      "locator": "E0035050"
+    },
+    {
+      "source_id": "src-ins-017",
+      "locator": "nh_043_0040_0010_0030"
+    },
+    {
+      "source_id": "src-ins-018",
+      "locator": "mngNo 3154"
+    }
+  ],
+  "clm-0099": [
+    {
+      "source_id": "src-enc-016",
+      "locator": "E0032974"
+    },
+    {
+      "source_id": "src-ins-017",
+      "locator": "nh_043_0040_0010_0030"
+    },
+    {
+      "source_id": "src-ins-019",
+      "locator": "kc_o402010"
+    },
+    {
+      "source_id": "src-aca-006",
+      "locator": "DBpia NODE11582497"
+    }
+  ],
+  "clm-0100": [
+    {
+      "source_id": "src-enc-016",
+      "locator": "E0032974"
+    },
+    {
+      "source_id": "src-ins-017",
+      "locator": "nh_043_0040_0010_0030"
+    },
+    {
+      "source_id": "src-ins-019",
+      "locator": "kc_o402010"
+    },
+    {
+      "source_id": "src-aca-006",
+      "locator": "DBpia NODE11582497"
+    }
+  ],
+  "clm-0101": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-ins-018",
+      "locator": "mngNo 3154"
+    }
+  ],
+  "clm-0102": [
+    {
+      "source_id": "src-pri-032",
+      "locator": "소장처: 국립중앙도서관·한국사데이터베이스 근현대잡지자료 추정"
+    },
+    {
+      "source_id": "src-ins-020",
+      "locator": null
+    },
+    {
+      "source_id": "src-web-013",
+      "locator": null
+    },
+    {
+      "source_id": "src-web-014",
+      "locator": "Freeboard wr_id=149"
+    }
+  ],
+  "clm-0103": [
+    {
+      "source_id": "src-enc-002",
+      "locator": null
+    },
+    {
+      "source_id": "src-web-015",
+      "locator": null
+    }
+  ],
+  "clm-0104": [
+    {
+      "source_id": "src-ins-021",
+      "locator": "kc_o401800"
+    },
+    {
+      "source_id": "src-enc-019",
+      "locator": "E0027787"
+    }
+  ],
+  "clm-0105": [
+    {
+      "source_id": "src-ins-001",
+      "locator": null
+    },
+    {
+      "source_id": "src-ins-019",
+      "locator": "kc_o402010"
+    },
+    {
+      "source_id": "src-enc-020",
+      "locator": "E0058896"
+    },
+    {
+      "source_id": "src-ins-022",
+      "locator": "id 9018"
+    },
+    {
+      "source_id": "src-web-016",
+      "locator": null
+    }
+  ],
+  "clm-0106": [
+    {
+      "source_id": "src-enc-020",
+      "locator": "E0058896"
+    },
+    {
+      "source_id": "src-ins-022",
+      "locator": "id 9018"
+    },
+    {
+      "source_id": "src-web-016",
+      "locator": null
+    }
+  ],
+  "clm-0107": [
+    {
+      "source_id": "src-ins-001",
+      "locator": null
+    },
+    {
+      "source_id": "src-enc-016",
+      "locator": "E0032974"
+    },
+    {
+      "source_id": "src-ins-019",
+      "locator": "kc_o402010"
+    },
+    {
+      "source_id": "src-ins-022",
+      "locator": "id 9018"
+    }
+  ],
+  "clm-0108": [
+    {
+      "source_id": "src-ins-001",
+      "locator": null
+    },
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "levelId=kc_n402200"
+    },
+    {
+      "source_id": "src-enc-016",
+      "locator": "E0032974"
+    },
+    {
+      "source_id": "src-enc-021",
+      "locator": "E0014519"
+    }
+  ],
+  "clm-0109": [
+    {
+      "source_id": "src-ins-004",
+      "locator": "levelId=kc_n402200"
+    },
+    {
+      "source_id": "src-enc-021",
+      "locator": "표제어 E0014519"
+    }
+  ],
+  "clm-0110": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "kc_n402200"
+    },
+    {
+      "source_id": "src-ins-018",
+      "locator": "mngNo 3154"
+    },
+    {
+      "source_id": "src-enc-022",
+      "locator": "E0056315"
+    },
+    {
+      "source_id": "src-enc-023",
+      "locator": null
+    },
+    {
+      "source_id": "src-enc-024",
+      "locator": "표제어 E0019119"
+    }
+  ],
+  "clm-0111": [
+    {
+      "source_id": "src-ins-018",
+      "locator": "mngNo 3154"
+    },
+    {
+      "source_id": "src-enc-022",
+      "locator": "E0056315"
+    },
+    {
+      "source_id": "src-enc-023",
+      "locator": null
+    },
+    {
+      "source_id": "src-pri-031",
+      "locator": "사료 카탈로그 참조(grade_reason)"
+    }
+  ],
+  "clm-0112": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "kc_n402200"
+    },
+    {
+      "source_id": "src-enc-001",
+      "locator": "E0035050"
+    },
+    {
+      "source_id": "src-web-017",
+      "locator": "no 11225"
+    }
+  ],
+  "clm-0113": [
+    {
+      "source_id": "src-ins-004",
+      "locator": "kc_n402200"
+    },
+    {
+      "source_id": "src-enc-001",
+      "locator": "E0035050"
+    },
+    {
+      "source_id": "src-enc-002",
+      "locator": null
+    },
+    {
+      "source_id": "src-ins-018",
+      "locator": "mngNo 3154"
+    }
+  ],
+  "clm-0114": [
+    {
+      "source_id": "src-ins-004",
+      "locator": "kc_n402200"
+    },
+    {
+      "source_id": "src-enc-001",
+      "locator": "E0035050"
+    },
+    {
+      "source_id": "src-enc-002",
+      "locator": null
+    },
+    {
+      "source_id": "src-ins-018",
+      "locator": "mngNo 3154"
+    },
+    {
+      "source_id": "src-pri-038",
+      "locator": "사료 카탈로그 참조(grade_reason)"
+    }
+  ],
+  "clm-0115": [
+    {
+      "source_id": "src-enc-002",
+      "locator": null
+    },
+    {
+      "source_id": "src-web-018",
+      "locator": "bbIdx 8573"
+    }
+  ],
+  "clm-0116": [
+    {
+      "source_id": "src-enc-016",
+      "locator": "E0032974"
+    },
+    {
+      "source_id": "src-ins-018",
+      "locator": "mngNo 3154"
+    },
+    {
+      "source_id": "src-ins-019",
+      "locator": "kc_o402010"
+    }
+  ],
+  "clm-0117": [
+    {
+      "source_id": "src-pri-010",
+      "locator": "위키문헌 전재본"
+    },
+    {
+      "source_id": "src-ins-001",
+      "locator": null
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "kc_n402200"
+    },
+    {
+      "source_id": "src-enc-025",
+      "locator": "E0043482"
+    },
+    {
+      "source_id": "src-enc-026",
+      "locator": "E0001791"
+    },
+    {
+      "source_id": "src-web-019",
+      "locator": null
+    }
+  ],
+  "clm-0118": [
+    {
+      "source_id": "src-pri-010",
+      "locator": "위키문헌 전재본"
+    },
+    {
+      "source_id": "src-enc-026",
+      "locator": "E0001791"
+    },
+    {
+      "source_id": "src-web-019",
+      "locator": null
+    },
+    {
+      "source_id": "src-pri-046",
+      "locator": "사료 카탈로그 참조(grade_reason)"
+    }
+  ],
+  "clm-0119": [
+    {
+      "source_id": "src-ins-001",
+      "locator": null
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "kc_n402200"
+    },
+    {
+      "source_id": "src-enc-002",
+      "locator": null
+    },
+    {
+      "source_id": "src-ins-018",
+      "locator": "mngNo 3154"
+    },
+    {
+      "source_id": "src-enc-025",
+      "locator": "E0043482"
+    }
+  ],
+  "clm-0120": [
+    {
+      "source_id": "src-enc-002",
+      "locator": null
+    },
+    {
+      "source_id": "src-ins-018",
+      "locator": "mngNo 3154"
+    }
+  ],
+  "clm-0121": [
+    {
+      "source_id": "src-enc-002",
+      "locator": null
+    },
+    {
+      "source_id": "src-ins-018",
+      "locator": "mngNo 3154"
+    }
+  ],
+  "clm-0122": [
+    {
+      "source_id": "src-ins-018",
+      "locator": "mngNo 3154"
+    }
+  ],
+  "clm-0123": [
+    {
+      "source_id": "src-ins-001",
+      "locator": null
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "kc_n402200"
+    },
+    {
+      "source_id": "src-enc-001",
+      "locator": "E0035050"
+    },
+    {
+      "source_id": "src-ins-019",
+      "locator": "kc_o402010"
+    },
+    {
+      "source_id": "src-enc-027",
+      "locator": null
+    },
+    {
+      "source_id": "src-ins-023",
+      "locator": "id 11304"
+    }
+  ],
+  "clm-0124": [
+    {
+      "source_id": "src-ins-001",
+      "locator": null
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "kc_n402200"
+    },
+    {
+      "source_id": "src-enc-001",
+      "locator": "E0035050"
+    },
+    {
+      "source_id": "src-ins-019",
+      "locator": "kc_o402010"
+    },
+    {
+      "source_id": "src-enc-027",
+      "locator": null
+    },
+    {
+      "source_id": "src-ins-023",
+      "locator": "id 11304"
+    }
+  ],
+  "clm-0125": [
+    {
+      "source_id": "src-enc-001",
+      "locator": "E0035050"
+    },
+    {
+      "source_id": "src-ins-019",
+      "locator": "kc_o402010"
+    },
+    {
+      "source_id": "src-enc-027",
+      "locator": null
+    },
+    {
+      "source_id": "src-ins-023",
+      "locator": "id 11304"
+    }
+  ],
+  "clm-0126": [
+    {
+      "source_id": "src-ins-001",
+      "locator": null
+    },
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "kc_n402200"
+    },
+    {
+      "source_id": "src-enc-027",
+      "locator": null
+    },
+    {
+      "source_id": "src-web-020",
+      "locator": null
+    },
+    {
+      "source_id": "src-ins-024",
+      "locator": "nh_047_0030_0020_0020_0010_0030"
+    }
+  ],
+  "clm-0127": [
+    {
+      "source_id": "src-ins-001",
+      "locator": null
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "kc_n402200"
+    },
+    {
+      "source_id": "src-ins-018",
+      "locator": "mngNo 3154"
+    },
+    {
+      "source_id": "src-ins-019",
+      "locator": "kc_o402010"
+    }
+  ],
+  "clm-0128": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "kc_n402200"
+    },
+    {
+      "source_id": "src-aca-007",
+      "locator": "DOI 10.15799/kimos.2015..52.002"
+    }
+  ],
+  "clm-0129": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "kc_n402200"
+    },
+    {
+      "source_id": "src-enc-002",
+      "locator": null
+    }
+  ],
+  "clm-0130": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-enc-002",
+      "locator": null
+    },
+    {
+      "source_id": "src-ins-018",
+      "locator": "mngNo 3154"
+    }
+  ],
+  "clm-0131": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-enc-002",
+      "locator": null
+    },
+    {
+      "source_id": "src-ins-018",
+      "locator": "mngNo 3154"
+    },
+    {
+      "source_id": "src-pri-041",
+      "locator": "사료 카탈로그 참조(grade_reason)"
+    }
+  ],
+  "clm-0132": [
+    {
+      "source_id": "src-enc-016",
+      "locator": "E0032974"
+    },
+    {
+      "source_id": "src-ins-025",
+      "locator": "kc_i400100"
+    },
+    {
+      "source_id": "src-enc-028",
+      "locator": "E0022233"
+    }
+  ],
+  "clm-0133": [
+    {
+      "source_id": "src-enc-016",
+      "locator": "E0032974"
+    },
+    {
+      "source_id": "src-ins-025",
+      "locator": "kc_i400100"
+    },
+    {
+      "source_id": "src-enc-028",
+      "locator": "E0022233"
+    }
+  ],
+  "clm-0134": [
+    {
+      "source_id": "src-enc-016",
+      "locator": "E0032974"
+    },
+    {
+      "source_id": "src-ins-025",
+      "locator": "kc_i400100"
+    },
+    {
+      "source_id": "src-enc-028",
+      "locator": "E0022233"
+    }
+  ],
+  "clm-0135": [
+    {
+      "source_id": "src-enc-016",
+      "locator": "E0032974"
+    },
+    {
+      "source_id": "src-ins-025",
+      "locator": "kc_i400100"
+    },
+    {
+      "source_id": "src-enc-028",
+      "locator": "E0022233"
+    }
+  ],
+  "clm-0136": [
+    {
+      "source_id": "src-ins-025",
+      "locator": "kc_i400100"
+    },
+    {
+      "source_id": "src-enc-028",
+      "locator": "E0022233"
+    },
+    {
+      "source_id": "src-ins-026",
+      "locator": "hd_002 계열"
+    },
+    {
+      "source_id": "src-pri-016",
+      "locator": "사료 카탈로그 참조(grade_reason)"
+    }
+  ],
+  "clm-0137": [
+    {
+      "source_id": "src-ins-025",
+      "locator": "kc_i400100"
+    },
+    {
+      "source_id": "src-enc-028",
+      "locator": "E0022233"
+    },
+    {
+      "source_id": "src-ins-026",
+      "locator": "hd_002 계열"
+    }
+  ],
+  "clm-0138": [
+    {
+      "source_id": "src-ins-025",
+      "locator": "kc_i400100"
+    },
+    {
+      "source_id": "src-enc-028",
+      "locator": "E0022233"
+    },
+    {
+      "source_id": "src-ins-026",
+      "locator": "hd_002 계열"
+    },
+    {
+      "source_id": "src-pri-029",
+      "locator": "사료 카탈로그 참조(grade_reason)"
+    }
+  ],
+  "clm-0139": [
+    {
+      "source_id": "src-enc-016",
+      "locator": "E0032974"
+    },
+    {
+      "source_id": "src-ins-025",
+      "locator": "kc_i400100"
+    }
+  ],
+  "clm-0140": [
+    {
+      "source_id": "src-enc-016",
+      "locator": "E0032974"
+    },
+    {
+      "source_id": "src-ins-025",
+      "locator": "kc_i400100"
+    },
+    {
+      "source_id": "src-enc-028",
+      "locator": "E0022233"
+    },
+    {
+      "source_id": "src-ins-026",
+      "locator": "hd_002 계열"
+    }
+  ],
+  "clm-0141": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-enc-002",
+      "locator": null
+    }
+  ],
+  "clm-0142": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "kc_n402200"
+    }
+  ],
+  "clm-0143": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-ins-027",
+      "locator": "kc_o400800"
+    },
+    {
+      "source_id": "src-enc-029",
+      "locator": "E0015017"
+    }
+  ],
+  "clm-0144": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "kc_n402200"
+    }
+  ],
+  "clm-0145": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-ins-028",
+      "locator": "ij_008"
+    }
+  ],
+  "clm-0146": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "kc_n402200"
+    },
+    {
+      "source_id": "src-ins-029",
+      "locator": "nh_048_0030_0010_0030_0020"
+    },
+    {
+      "source_id": "src-enc-030",
+      "locator": "E0036949"
+    }
+  ],
+  "clm-0147": [
+    {
+      "source_id": "src-ins-029",
+      "locator": "nh_048_0030_0010_0030_0020"
+    },
+    {
+      "source_id": "src-enc-030",
+      "locator": "E0036949"
+    },
+    {
+      "source_id": "src-pri-030",
+      "locator": "사료 카탈로그 참조(grade_reason)"
+    }
+  ],
+  "clm-0148": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id=696"
+    },
+    {
+      "source_id": "src-ins-029",
+      "locator": "nh_048_0030_0010_0030_0020"
+    }
+  ],
+  "clm-0149": [
+    {
+      "source_id": "src-pri-013",
+      "locator": "제1호(1919.8.21), 국사편찬위원회 한국사데이터베이스 소장"
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "kc_n402200"
+    },
+    {
+      "source_id": "src-enc-031",
+      "locator": "E0015986"
+    },
+    {
+      "source_id": "src-ins-030",
+      "locator": "kc_o401610"
+    }
+  ],
+  "clm-0150": [
+    {
+      "source_id": "src-pri-013",
+      "locator": "제1호(1919.8.21), 국사편찬위원회 한국사데이터베이스 소장"
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "kc_n402200"
+    },
+    {
+      "source_id": "src-enc-031",
+      "locator": "E0015986"
+    },
+    {
+      "source_id": "src-ins-030",
+      "locator": "kc_o401610"
+    }
+  ],
+  "clm-0151": [
+    {
+      "source_id": "src-enc-032",
+      "locator": null
+    },
+    {
+      "source_id": "src-enc-033",
+      "locator": "E0044938"
+    }
+  ],
+  "clm-0152": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-ins-027",
+      "locator": "kc_o400800"
+    },
+    {
+      "source_id": "src-enc-029",
+      "locator": "E0015017"
+    },
+    {
+      "source_id": "src-ins-031",
+      "locator": "rid=245"
+    }
+  ],
+  "clm-0153": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "kc_n402200"
+    },
+    {
+      "source_id": "src-ins-027",
+      "locator": "kc_o400800"
+    }
+  ],
+  "clm-0154": [
+    {
+      "source_id": "src-pri-007",
+      "locator": "1920년 1월 게재분"
+    },
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-ins-032",
+      "locator": "nh_048_0030_0010_0030_0030"
+    },
+    {
+      "source_id": "src-web-021",
+      "locator": "2025-12-08"
+    },
+    {
+      "source_id": "src-aca-008",
+      "locator": "KCI artiId=ART001459580"
+    }
+  ],
+  "clm-0155": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    }
+  ],
+  "clm-0156": [
+    {
+      "source_id": "src-pri-007",
+      "locator": "소장처: 국사편찬위원회 한국사데이터베이스·대한민국역사박물관 아카이브"
+    },
+    {
+      "source_id": "src-ins-002",
+      "locator": "dictionary id=696"
+    },
+    {
+      "source_id": "src-ins-032",
+      "locator": "nh_048_0030_0010_0030_0030"
+    },
+    {
+      "source_id": "src-web-021",
+      "locator": "2025-12-08"
+    },
+    {
+      "source_id": "src-aca-008",
+      "locator": "KCI artiId=ART001459580"
+    }
+  ],
+  "clm-0157": [
+    {
+      "source_id": "src-pri-001",
+      "locator": "src-pri-001"
+    },
+    {
+      "source_id": "src-ins-033",
+      "locator": "국가유산포털"
+    }
+  ],
+  "clm-0158": [
+    {
+      "source_id": "src-ins-033",
+      "locator": "국가유산포털"
+    },
+    {
+      "source_id": "src-pri-001",
+      "locator": "사료 카탈로그 참조(grade_reason)"
+    }
+  ],
+  "clm-0159": [
+    {
+      "source_id": "src-ins-001",
+      "locator": null
+    },
+    {
+      "source_id": "src-ins-034",
+      "locator": "kc_o404400"
+    },
+    {
+      "source_id": "src-web-022",
+      "locator": null
+    },
+    {
+      "source_id": "src-enc-034",
+      "locator": "GC95100282"
+    }
+  ],
+  "clm-0160": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "kc_n402200"
+    },
+    {
+      "source_id": "src-enc-001",
+      "locator": "E0035050"
+    },
+    {
+      "source_id": "src-enc-002",
+      "locator": null
+    },
+    {
+      "source_id": "src-ins-035",
+      "locator": "rid=222"
+    }
+  ],
+  "clm-0161": [
+    {
+      "source_id": "src-ins-004",
+      "locator": "kc_n402200"
+    },
+    {
+      "source_id": "src-enc-002",
+      "locator": null
+    },
+    {
+      "source_id": "src-ins-035",
+      "locator": "rid=222"
+    }
+  ],
+  "clm-0162": [
+    {
+      "source_id": "src-pri-013",
+      "locator": "1921-05-21, 1921-05-31"
+    },
+    {
+      "source_id": "src-enc-001",
+      "locator": "E0035050"
+    },
+    {
+      "source_id": "src-ins-035",
+      "locator": "rid=222"
+    }
+  ],
+  "clm-0163": [
+    {
+      "source_id": "src-enc-002",
+      "locator": null
+    },
+    {
+      "source_id": "src-enc-035",
+      "locator": null
+    },
+    {
+      "source_id": "src-ins-036",
+      "locator": "mngNo=7338"
+    }
+  ],
+  "clm-0164": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-enc-036",
+      "locator": "E0006294"
+    },
+    {
+      "source_id": "src-ins-037",
+      "locator": "nh_048_0030_0020"
+    }
+  ],
+  "clm-0165": [
+    {
+      "source_id": "src-enc-036",
+      "locator": "E0006294"
+    },
+    {
+      "source_id": "src-ins-038",
+      "locator": "nh_048_0030_0020_0020_0020"
+    }
+  ],
+  "clm-0166": [
+    {
+      "source_id": "src-ins-001",
+      "locator": null
+    },
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-enc-001",
+      "locator": "E0035050"
+    },
+    {
+      "source_id": "src-ins-039",
+      "locator": "no=1018"
+    }
+  ],
+  "clm-0167": [
+    {
+      "source_id": "src-ins-001",
+      "locator": null
+    },
+    {
+      "source_id": "src-ins-002",
+      "locator": "id=696"
+    },
+    {
+      "source_id": "src-enc-001",
+      "locator": "E0035050"
+    },
+    {
+      "source_id": "src-enc-037",
+      "locator": "E0016444"
+    }
+  ],
+  "clm-0168": [
+    {
+      "source_id": "src-pri-009",
+      "locator": "소장처: 흥사단 / 도산안창호선생기념사업회"
+    },
+    {
+      "source_id": "src-enc-002",
+      "locator": "ko.wikipedia.org"
+    },
+    {
+      "source_id": "src-enc-034",
+      "locator": "GC95100282"
+    }
+  ],
+  "clm-0169": [
+    {
+      "source_id": "src-pri-009",
+      "locator": "소장처: 흥사단 / 도산안창호선생기념사업회"
+    },
+    {
+      "source_id": "src-enc-002",
+      "locator": "ko.wikipedia.org"
+    },
+    {
+      "source_id": "src-enc-034",
+      "locator": "GC95100282"
+    }
+  ],
+  "clm-0170": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-aca-009",
+      "locator": "vol.23 no.1"
+    },
+    {
+      "source_id": "src-web-023",
+      "locator": null
+    }
+  ],
+  "clm-0171": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "levelId=kc_n402200"
+    },
+    {
+      "source_id": "src-web-023",
+      "locator": null
+    },
+    {
+      "source_id": "src-enc-038",
+      "locator": "E0061141"
+    },
+    {
+      "source_id": "src-pri-008",
+      "locator": "사료 카탈로그 참조(grade_reason)"
+    }
+  ],
+  "clm-0172": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "dictionary id=696"
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "levelId=kc_n402200"
+    },
+    {
+      "source_id": "src-web-023",
+      "locator": null
+    },
+    {
+      "source_id": "src-enc-038",
+      "locator": "E0061141"
+    }
+  ],
+  "clm-0173": [
+    {
+      "source_id": "src-enc-038",
+      "locator": "E0061141"
+    },
+    {
+      "source_id": "src-ins-040",
+      "locator": "tg_004_2230"
+    }
+  ],
+  "clm-0174": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-enc-001",
+      "locator": "E0035050"
+    },
+    {
+      "source_id": "src-enc-039",
+      "locator": "E0008526"
+    }
+  ],
+  "clm-0175": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-enc-001",
+      "locator": "E0035050"
+    },
+    {
+      "source_id": "src-enc-039",
+      "locator": "E0008526"
+    },
+    {
+      "source_id": "src-pri-014",
+      "locator": "사료 카탈로그 참조(grade_reason)"
+    }
+  ],
+  "clm-0176": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-enc-001",
+      "locator": "E0035050"
+    }
+  ],
+  "clm-0177": [
+    {
+      "source_id": "src-pri-048",
+      "locator": "한국사데이터베이스 npjo_1930_01_11"
+    },
+    {
+      "source_id": "src-ins-039",
+      "locator": null
+    }
+  ],
+  "clm-0178": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "kc_n402200"
+    },
+    {
+      "source_id": "src-ins-041",
+      "locator": "kc_o403900"
+    },
+    {
+      "source_id": "src-enc-040",
+      "locator": "E0061133"
+    },
+    {
+      "source_id": "src-ins-042",
+      "locator": "id=2281"
+    },
+    {
+      "source_id": "src-aca-010",
+      "locator": "DIKO0015504019"
+    },
+    {
+      "source_id": "src-aca-011",
+      "locator": "KCI artiId=ART001936844"
+    },
+    {
+      "source_id": "src-aca-012",
+      "locator": "DBpia NODE07369851"
+    },
+    {
+      "source_id": "src-enc-041",
+      "locator": "표제어 E0052303"
+    }
+  ],
+  "clm-0179": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "kc_n402200"
+    },
+    {
+      "source_id": "src-ins-041",
+      "locator": "kc_o403900"
+    },
+    {
+      "source_id": "src-enc-040",
+      "locator": "E0061133"
+    },
+    {
+      "source_id": "src-ins-042",
+      "locator": "id=2281"
+    },
+    {
+      "source_id": "src-aca-010",
+      "locator": "DIKO0015504019"
+    },
+    {
+      "source_id": "src-pri-028",
+      "locator": "사료 카탈로그 참조(grade_reason)"
+    }
+  ],
+  "clm-0180": [
+    {
+      "source_id": "src-web-002",
+      "locator": null
+    },
+    {
+      "source_id": "src-web-024",
+      "locator": null
+    }
+  ],
+  "clm-0181": [
+    {
+      "source_id": "src-enc-001",
+      "locator": "E0035050"
+    }
+  ],
+  "clm-0182": [
+    {
+      "source_id": "src-enc-001",
+      "locator": "E0035050"
+    },
+    {
+      "source_id": "src-enc-002",
+      "locator": null
+    }
+  ],
+  "clm-0183": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "kc_n402200"
+    },
+    {
+      "source_id": "src-enc-002",
+      "locator": null
+    }
+  ],
+  "clm-0184": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id=696"
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "kc_n402200"
+    },
+    {
+      "source_id": "src-enc-002",
+      "locator": null
+    },
+    {
+      "source_id": "src-pri-017",
+      "locator": "사료 카탈로그 참조(grade_reason)"
+    }
+  ],
+  "clm-0185": [
+    {
+      "source_id": "src-web-025",
+      "locator": "2019-05-23"
+    },
+    {
+      "source_id": "src-aca-013",
+      "locator": "ART001827032"
+    },
+    {
+      "source_id": "src-enc-042",
+      "locator": null
+    },
+    {
+      "source_id": "src-pri-017",
+      "locator": "사료 카탈로그 참조(grade_reason)"
+    }
+  ],
+  "clm-0186": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-ins-034",
+      "locator": "kc_o404400"
+    },
+    {
+      "source_id": "src-web-022",
+      "locator": null
+    },
+    {
+      "source_id": "src-enc-043",
+      "locator": "E0066013"
+    },
+    {
+      "source_id": "src-aca-014",
+      "locator": "KCI artiId=ART002430591"
+    }
+  ],
+  "clm-0187": [
+    {
+      "source_id": "src-ins-034",
+      "locator": "kc_o404400"
+    },
+    {
+      "source_id": "src-web-022",
+      "locator": null
+    },
+    {
+      "source_id": "src-enc-043",
+      "locator": "E0066013"
+    }
+  ],
+  "clm-0188": [
+    {
+      "source_id": "src-ins-034",
+      "locator": "kc_o404400"
+    },
+    {
+      "source_id": "src-web-022",
+      "locator": null
+    },
+    {
+      "source_id": "src-enc-043",
+      "locator": "E0066013"
+    },
+    {
+      "source_id": "src-aca-014",
+      "locator": "KCI ART002430591"
+    },
+    {
+      "source_id": "src-ins-043",
+      "locator": "story 10984"
+    }
+  ],
+  "clm-0189": [
+    {
+      "source_id": "src-enc-024",
+      "locator": "E0019119"
+    },
+    {
+      "source_id": "src-ins-034",
+      "locator": "kc_o404400"
+    },
+    {
+      "source_id": "src-enc-043",
+      "locator": "표제어 E0066013"
+    },
+    {
+      "source_id": "src-aca-014",
+      "locator": "KCI artiId=ART002430591"
+    },
+    {
+      "source_id": "src-web-026",
+      "locator": null
+    },
+    {
+      "source_id": "src-pri-020",
+      "locator": "사료 카탈로그 참조(grade_reason)"
+    }
+  ],
+  "clm-0190": [
+    {
+      "source_id": "src-enc-024",
+      "locator": "E0019119"
+    },
+    {
+      "source_id": "src-ins-034",
+      "locator": "levelId=kc_o404400"
+    },
+    {
+      "source_id": "src-enc-043",
+      "locator": "표제어 E0066013"
+    },
+    {
+      "source_id": "src-aca-014",
+      "locator": "KCI artiId=ART002430591"
+    },
+    {
+      "source_id": "src-web-026",
+      "locator": null
+    }
+  ],
+  "clm-0191": [
+    {
+      "source_id": "src-ins-034",
+      "locator": "levelId=kc_o404400"
+    },
+    {
+      "source_id": "src-enc-043",
+      "locator": "표제어 E0066013"
+    },
+    {
+      "source_id": "src-aca-014",
+      "locator": "KCI artiId=ART002430591"
+    }
+  ],
+  "clm-0192": [
+    {
+      "source_id": "src-enc-022",
+      "locator": "표제어 E0056315"
+    },
+    {
+      "source_id": "src-enc-024",
+      "locator": "표제어 E0019119"
+    },
+    {
+      "source_id": "src-ins-034",
+      "locator": "levelId=kc_o404400"
+    },
+    {
+      "source_id": "src-enc-043",
+      "locator": "표제어 E0066013"
+    },
+    {
+      "source_id": "src-aca-014",
+      "locator": "KCI artiId=ART002430591"
+    },
+    {
+      "source_id": "src-pri-031",
+      "locator": "사료 카탈로그 참조(grade_reason)"
+    }
+  ],
+  "clm-0193": [
+    {
+      "source_id": "src-enc-022",
+      "locator": "표제어 E0056315"
+    },
+    {
+      "source_id": "src-enc-024",
+      "locator": "표제어 E0019119"
+    }
+  ],
+  "clm-0194": [
+    {
+      "source_id": "src-ins-034",
+      "locator": "kc_o404400"
+    },
+    {
+      "source_id": "src-web-027",
+      "locator": null
+    },
+    {
+      "source_id": "src-pri-021",
+      "locator": "사료 카탈로그 참조(grade_reason)"
+    }
+  ],
+  "clm-0195": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id=696"
+    }
+  ],
+  "clm-0196": [
+    {
+      "source_id": "src-ins-034",
+      "locator": "kc_o404400"
+    },
+    {
+      "source_id": "src-web-022",
+      "locator": null
+    },
+    {
+      "source_id": "src-enc-044",
+      "locator": "E0031544"
+    }
+  ],
+  "clm-0197": [
+    {
+      "source_id": "src-ins-034",
+      "locator": "kc_o404400"
+    },
+    {
+      "source_id": "src-web-022",
+      "locator": null
+    },
+    {
+      "source_id": "src-enc-044",
+      "locator": "E0031544"
+    }
+  ],
+  "clm-0198": [
+    {
+      "source_id": "src-ins-034",
+      "locator": "kc_o404400"
+    },
+    {
+      "source_id": "src-web-022",
+      "locator": null
+    },
+    {
+      "source_id": "src-enc-044",
+      "locator": "E0031544"
+    }
+  ],
+  "clm-0199": [
+    {
+      "source_id": "src-ins-001",
+      "locator": null
+    },
+    {
+      "source_id": "src-ins-034",
+      "locator": "kc_o404400"
+    },
+    {
+      "source_id": "src-web-022",
+      "locator": null
+    },
+    {
+      "source_id": "src-enc-044",
+      "locator": "E0031544"
+    }
+  ],
+  "clm-0200": [
+    {
+      "source_id": "src-ins-001",
+      "locator": null
+    },
+    {
+      "source_id": "src-ins-034",
+      "locator": "kc_o404400"
+    },
+    {
+      "source_id": "src-web-022",
+      "locator": null
+    },
+    {
+      "source_id": "src-enc-044",
+      "locator": "E0031544"
+    }
+  ],
+  "clm-0201": [
+    {
+      "source_id": "src-pri-022",
+      "locator": "제1호(1926.5), 국립중앙도서관 소장"
+    },
+    {
+      "source_id": "src-ins-001",
+      "locator": null
+    },
+    {
+      "source_id": "src-enc-045",
+      "locator": "E0016236"
+    },
+    {
+      "source_id": "src-ins-044",
+      "locator": "tg_004_2300"
+    },
+    {
+      "source_id": "src-ins-045",
+      "locator": "ma_014"
+    },
+    {
+      "source_id": "src-ins-046",
+      "locator": "book_search no=364"
+    }
+  ],
+  "clm-0202": [
+    {
+      "source_id": "src-pri-022",
+      "locator": "제1호(1926.5), 국립중앙도서관 소장"
+    },
+    {
+      "source_id": "src-ins-001",
+      "locator": null
+    }
+  ],
+  "clm-0203": [
+    {
+      "source_id": "src-enc-045",
+      "locator": "표제어 E0016236"
+    },
+    {
+      "source_id": "src-ins-045",
+      "locator": "ma_014"
+    },
+    {
+      "source_id": "src-ins-046",
+      "locator": "book_search no=364"
+    }
+  ],
+  "clm-0204": [
+    {
+      "source_id": "src-ins-034",
+      "locator": "kc_o404400"
+    },
+    {
+      "source_id": "src-enc-044",
+      "locator": "E0031544"
+    }
+  ],
+  "clm-0205": [
+    {
+      "source_id": "src-pri-014",
+      "locator": "src-pri-014"
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "kc_n402200"
+    },
+    {
+      "source_id": "src-web-025",
+      "locator": "2019-05-23"
+    },
+    {
+      "source_id": "src-aca-013",
+      "locator": "KCI ART001827032"
+    },
+    {
+      "source_id": "src-enc-042",
+      "locator": null
+    }
+  ],
+  "clm-0206": [
+    {
+      "source_id": "src-ins-004",
+      "locator": "kc_n402200"
+    },
+    {
+      "source_id": "src-web-025",
+      "locator": "2019-05-23"
+    },
+    {
+      "source_id": "src-aca-013",
+      "locator": "KCI ART001827032"
+    }
+  ],
+  "clm-0207": [
+    {
+      "source_id": "src-web-025",
+      "locator": "2019-05-23"
+    },
+    {
+      "source_id": "src-aca-013",
+      "locator": "pp.171-218"
+    }
+  ],
+  "clm-0208": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-web-025",
+      "locator": "2019-05-23"
+    },
+    {
+      "source_id": "src-aca-013",
+      "locator": "KCI ART001827032"
+    }
+  ],
+  "clm-0209": [
+    {
+      "source_id": "src-web-025",
+      "locator": "2019-05-23"
+    },
+    {
+      "source_id": "src-aca-013",
+      "locator": "pp.171-218"
+    }
+  ],
+  "clm-0210": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "kc_n402200"
+    },
+    {
+      "source_id": "src-aca-013",
+      "locator": "KCI ART001827032"
+    },
+    {
+      "source_id": "src-pri-014",
+      "locator": "사료 카탈로그 참조(grade_reason)"
+    }
+  ],
+  "clm-0211": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "kc_n402200"
+    },
+    {
+      "source_id": "src-aca-013",
+      "locator": "KCI ART001827032"
+    },
+    {
+      "source_id": "src-pri-018",
+      "locator": "사료 카탈로그 참조(grade_reason)"
+    }
+  ],
+  "clm-0212": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-enc-002",
+      "locator": null
+    },
+    {
+      "source_id": "src-aca-013",
+      "locator": "KCI ART001827032"
+    }
+  ],
+  "clm-0213": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-enc-002",
+      "locator": null
+    },
+    {
+      "source_id": "src-aca-013",
+      "locator": "KCI ART001827032"
+    },
+    {
+      "source_id": "src-pri-034",
+      "locator": "사료 카탈로그 참조(grade_reason)"
+    }
+  ],
+  "clm-0214": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id=696"
+    },
+    {
+      "source_id": "src-enc-001",
+      "locator": "E0035050"
+    },
+    {
+      "source_id": "src-web-025",
+      "locator": "2019-05-23"
+    },
+    {
+      "source_id": "src-aca-013",
+      "locator": "KCI ART001827032"
+    }
+  ],
+  "clm-0215": [
+    {
+      "source_id": "src-enc-001",
+      "locator": "E0035050"
+    },
+    {
+      "source_id": "src-aca-013",
+      "locator": "KCI ART001827032"
+    }
+  ],
+  "clm-0216": [
+    {
+      "source_id": "src-ins-001",
+      "locator": null
+    },
+    {
+      "source_id": "src-ins-002",
+      "locator": "id=696"
+    },
+    {
+      "source_id": "src-enc-001",
+      "locator": "E0035050"
+    },
+    {
+      "source_id": "src-web-025",
+      "locator": "2019-05-23"
+    }
+  ],
+  "clm-0217": [
+    {
+      "source_id": "src-ins-001",
+      "locator": null
+    },
+    {
+      "source_id": "src-ins-002",
+      "locator": "id=696"
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "kc_n402200"
+    },
+    {
+      "source_id": "src-enc-001",
+      "locator": "E0035050"
+    },
+    {
+      "source_id": "src-web-028",
+      "locator": null
+    }
+  ],
+  "clm-0218": [
+    {
+      "source_id": "src-ins-004",
+      "locator": "kc_n402200"
+    },
+    {
+      "source_id": "src-ins-034",
+      "locator": "kc_o404400"
+    },
+    {
+      "source_id": "src-web-022",
+      "locator": null
+    },
+    {
+      "source_id": "src-web-025",
+      "locator": "2019-05-23"
+    },
+    {
+      "source_id": "src-enc-044",
+      "locator": "E0031544"
+    }
+  ],
+  "clm-0219": [
+    {
+      "source_id": "src-ins-034",
+      "locator": "kc_o404400"
+    },
+    {
+      "source_id": "src-web-022",
+      "locator": null
+    },
+    {
+      "source_id": "src-web-025",
+      "locator": "2019-05-23"
+    },
+    {
+      "source_id": "src-enc-044",
+      "locator": "E0031544"
+    }
+  ],
+  "clm-0220": [
+    {
+      "source_id": "src-ins-004",
+      "locator": "kc_n402200"
+    },
+    {
+      "source_id": "src-web-025",
+      "locator": "2019-05-23"
+    },
+    {
+      "source_id": "src-enc-044",
+      "locator": "E0031544"
+    }
+  ],
+  "clm-0221": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-enc-002",
+      "locator": null
+    },
+    {
+      "source_id": "src-web-025",
+      "locator": "2019-05-14/2019-05-23"
+    },
+    {
+      "source_id": "src-aca-013",
+      "locator": "KCI ART001827032"
+    }
+  ],
+  "clm-0222": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-enc-001",
+      "locator": "E0035050"
+    },
+    {
+      "source_id": "src-enc-002",
+      "locator": null
+    },
+    {
+      "source_id": "src-web-025",
+      "locator": "2019-05-23"
+    }
+  ],
+  "clm-0223": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-enc-001",
+      "locator": "E0035050"
+    },
+    {
+      "source_id": "src-enc-002",
+      "locator": null
+    },
+    {
+      "source_id": "src-web-025",
+      "locator": "2019-05-23"
+    }
+  ],
+  "clm-0224": [
+    {
+      "source_id": "src-pri-014",
+      "locator": "src-pri-014/src-pri-015"
+    },
+    {
+      "source_id": "src-pri-015",
+      "locator": "src-pri-014/src-pri-015"
+    },
+    {
+      "source_id": "src-ins-001",
+      "locator": null
+    },
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "kc_n402200"
+    },
+    {
+      "source_id": "src-enc-001",
+      "locator": "E0035050"
+    },
+    {
+      "source_id": "src-web-025",
+      "locator": "2019-05-23"
+    },
+    {
+      "source_id": "src-web-028",
+      "locator": null
+    }
+  ],
+  "clm-0225": [
+    {
+      "source_id": "src-ins-001",
+      "locator": null
+    },
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "kc_n402200"
+    },
+    {
+      "source_id": "src-enc-001",
+      "locator": "E0035050"
+    },
+    {
+      "source_id": "src-web-025",
+      "locator": "2019-05-23"
+    },
+    {
+      "source_id": "src-web-028",
+      "locator": null
+    },
+    {
+      "source_id": "src-pri-035",
+      "locator": "사료 카탈로그 참조(grade_reason)"
+    }
+  ],
+  "clm-0226": [
+    {
+      "source_id": "src-web-025",
+      "locator": "2019-05-23"
+    }
+  ],
+  "clm-0227": [
+    {
+      "source_id": "src-enc-002",
+      "locator": null
+    },
+    {
+      "source_id": "src-enc-018",
+      "locator": "GC06133123"
+    },
+    {
+      "source_id": "src-web-025",
+      "locator": "2019-05-23"
+    },
+    {
+      "source_id": "src-enc-046",
+      "locator": "GC04830008"
+    },
+    {
+      "source_id": "src-web-029",
+      "locator": null
+    }
+  ],
+  "clm-0228": [
+    {
+      "source_id": "src-enc-002",
+      "locator": null
+    },
+    {
+      "source_id": "src-enc-018",
+      "locator": "GC06133123"
+    },
+    {
+      "source_id": "src-web-025",
+      "locator": "2019-05-23"
+    },
+    {
+      "source_id": "src-enc-046",
+      "locator": "GC04830008"
+    },
+    {
+      "source_id": "src-web-029",
+      "locator": null
+    }
+  ],
+  "clm-0229": [
+    {
+      "source_id": "src-enc-002",
+      "locator": null
+    },
+    {
+      "source_id": "src-enc-018",
+      "locator": "GC06133123"
+    },
+    {
+      "source_id": "src-web-025",
+      "locator": "2019-05-23"
+    },
+    {
+      "source_id": "src-enc-046",
+      "locator": "GC04830008"
+    },
+    {
+      "source_id": "src-web-029",
+      "locator": null
+    }
+  ],
+  "clm-0230": [
+    {
+      "source_id": "src-web-022",
+      "locator": null
+    },
+    {
+      "source_id": "src-enc-043",
+      "locator": "E0066013"
+    }
+  ],
+  "clm-0231": [
+    {
+      "source_id": "src-enc-044",
+      "locator": "E0031544"
+    },
+    {
+      "source_id": "src-ins-047",
+      "locator": "archiveId=0001164840"
+    }
+  ],
+  "clm-0232": [
+    {
+      "source_id": "src-ins-001",
+      "locator": null
+    },
+    {
+      "source_id": "src-ins-048",
+      "locator": "훈격: 건국훈장 대한민국장(1962)"
+    },
+    {
+      "source_id": "src-ins-049",
+      "locator": "mngNo 미확정"
+    }
+  ],
+  "clm-0233": [
+    {
+      "source_id": "src-ins-049",
+      "locator": "mngNo 미확정"
+    }
+  ],
+  "clm-0234": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-enc-001",
+      "locator": "E0035050"
+    },
+    {
+      "source_id": "src-enc-046",
+      "locator": "GC04830008"
+    },
+    {
+      "source_id": "src-web-030",
+      "locator": "2021-11-03"
+    }
+  ],
+  "clm-0235": [
+    {
+      "source_id": "src-ins-034",
+      "locator": "kc_o404400"
+    },
+    {
+      "source_id": "src-web-022",
+      "locator": null
+    },
+    {
+      "source_id": "src-enc-043",
+      "locator": "E0066013"
+    }
+  ],
+  "clm-0236": [
+    {
+      "source_id": "src-pri-006",
+      "locator": "소장처: 흥사단 / 시중 간행본(범양사 등)"
+    },
+    {
+      "source_id": "src-web-031",
+      "locator": "@charam/16"
+    }
+  ],
+  "clm-0237": [
+    {
+      "source_id": "src-pri-006",
+      "locator": "소장처: 흥사단 / 시중 간행본(범양사 등)"
+    },
+    {
+      "source_id": "src-web-031",
+      "locator": "@charam/16"
+    }
+  ],
+  "clm-0238": [
+    {
+      "source_id": "src-pri-006",
+      "locator": "소장처: 흥사단 / 시중 간행본(범양사 등)"
+    },
+    {
+      "source_id": "src-web-031",
+      "locator": "@charam/16"
+    }
+  ],
+  "clm-0239": [
+    {
+      "source_id": "src-pri-006",
+      "locator": "소장처: 흥사단 / 시중 간행본(범양사 등)"
+    },
+    {
+      "source_id": "src-web-031",
+      "locator": "@charam/16"
+    }
+  ],
+  "clm-0240": [
+    {
+      "source_id": "src-ins-004",
+      "locator": "levelId=kc_n402200"
+    },
+    {
+      "source_id": "src-enc-021",
+      "locator": "표제어 E0014519"
+    }
+  ],
+  "clm-0241": [
+    {
+      "source_id": "src-web-025",
+      "locator": "2019-05-23"
+    },
+    {
+      "source_id": "src-aca-013",
+      "locator": "ART001827032"
+    },
+    {
+      "source_id": "src-enc-042",
+      "locator": null
+    },
+    {
+      "source_id": "src-pri-017",
+      "locator": "사료 카탈로그 참조(grade_reason)"
+    }
+  ],
+  "clm-0242": [
+    {
+      "source_id": "src-ins-034",
+      "locator": "levelId=kc_o404400"
+    },
+    {
+      "source_id": "src-enc-043",
+      "locator": "표제어 E0066013"
+    },
+    {
+      "source_id": "src-aca-014",
+      "locator": "KCI artiId=ART002430591"
+    }
+  ],
+  "clm-0243": [
+    {
+      "source_id": "src-pri-009",
+      "locator": "소장처: 흥사단 / 도산안창호선생기념사업회"
+    },
+    {
+      "source_id": "src-enc-002",
+      "locator": "ko.wikipedia.org"
+    }
+  ],
+  "clm-0244": [
+    {
+      "source_id": "src-enc-005",
+      "locator": "표제어 E0049857"
+    },
+    {
+      "source_id": "src-ins-005",
+      "locator": "levelId=eh_n0760_0010"
+    }
+  ],
+  "clm-0245": [
+    {
+      "source_id": "src-pri-006",
+      "locator": "소장처: 흥사단 / 시중 간행본(범양사 등)"
+    },
+    {
+      "source_id": "src-web-031",
+      "locator": "@charam/16"
+    }
+  ],
+  "clm-0246": [
+    {
+      "source_id": "src-pri-006",
+      "locator": "소장처: 흥사단 / 시중 간행본(범양사 등)"
+    },
+    {
+      "source_id": "src-web-031",
+      "locator": "@charam/16"
+    }
+  ],
+  "clm-0247": [
+    {
+      "source_id": "src-aca-011",
+      "locator": "KCI artiId=ART001936844"
+    },
+    {
+      "source_id": "src-aca-012",
+      "locator": "DBpia NODE07369851"
+    },
+    {
+      "source_id": "src-enc-041",
+      "locator": "표제어 E0052303"
+    },
+    {
+      "source_id": "src-pri-028",
+      "locator": "사료 카탈로그 참조(grade_reason)"
+    }
+  ],
+  "clm-0248": [
+    {
+      "source_id": "src-aca-011",
+      "locator": "KCI artiId=ART001936844"
+    },
+    {
+      "source_id": "src-aca-012",
+      "locator": "DBpia NODE07369851"
+    },
+    {
+      "source_id": "src-enc-041",
+      "locator": "표제어 E0052303"
+    }
+  ],
+  "clm-0249": [
+    {
+      "source_id": "src-aca-011",
+      "locator": "KCI artiId=ART001936844"
+    },
+    {
+      "source_id": "src-aca-012",
+      "locator": "DBpia NODE07369851"
+    },
+    {
+      "source_id": "src-enc-041",
+      "locator": "표제어 E0052303"
+    }
+  ],
+  "clm-0250": [
+    {
+      "source_id": "src-ins-004",
+      "locator": "kc_n402200"
+    },
+    {
+      "source_id": "src-enc-040",
+      "locator": "E0061133"
+    },
+    {
+      "source_id": "src-ins-042",
+      "locator": "id=2281"
+    },
+    {
+      "source_id": "src-aca-010",
+      "locator": "DIKO0015504019"
+    },
+    {
+      "source_id": "src-aca-011",
+      "locator": "KCI artiId=ART001936844"
+    },
+    {
+      "source_id": "src-aca-012",
+      "locator": "DBpia NODE07369851"
+    },
+    {
+      "source_id": "src-enc-041",
+      "locator": "표제어 E0052303"
+    }
+  ],
+  "clm-0251": [
+    {
+      "source_id": "src-enc-005",
+      "locator": "표제어 E0049857"
+    },
+    {
+      "source_id": "src-ins-005",
+      "locator": "levelId=eh_n0760_0010"
+    },
+    {
+      "source_id": "src-enc-021",
+      "locator": "표제어 E0014519"
+    },
+    {
+      "source_id": "src-enc-022",
+      "locator": "표제어 E0056315"
+    },
+    {
+      "source_id": "src-enc-024",
+      "locator": "표제어 E0019119"
+    },
+    {
+      "source_id": "src-ins-034",
+      "locator": "levelId=kc_o404400"
+    },
+    {
+      "source_id": "src-enc-043",
+      "locator": "표제어 E0066013"
+    },
+    {
+      "source_id": "src-aca-014",
+      "locator": "KCI artiId=ART002430591"
+    }
+  ],
+  "clm-0252": [
+    {
+      "source_id": "src-pri-032",
+      "locator": "소장처: 국립중앙도서관·한국사데이터베이스 근현대잡지자료 추정"
+    },
+    {
+      "source_id": "src-pri-006",
+      "locator": "소장처: 흥사단 / 시중 간행본(범양사 등)"
+    },
+    {
+      "source_id": "src-pri-007",
+      "locator": "소장처: 국사편찬위원회 한국사데이터베이스·대한민국역사박물관 아카이브"
+    },
+    {
+      "source_id": "src-ins-002",
+      "locator": "dictionary id=696"
+    },
+    {
+      "source_id": "src-ins-020",
+      "locator": "타임라인 1907"
+    },
+    {
+      "source_id": "src-web-014",
+      "locator": "Freeboard wr_id=149"
+    },
+    {
+      "source_id": "src-aca-008",
+      "locator": "KCI artiId=ART001459580"
+    },
+    {
+      "source_id": "src-web-031",
+      "locator": "@charam/16"
+    }
+  ],
+  "clm-0253": [
+    {
+      "source_id": "src-pri-007",
+      "locator": "소장처: 국사편찬위원회 한국사데이터베이스·대한민국역사박물관 아카이브"
+    },
+    {
+      "source_id": "src-ins-002",
+      "locator": "dictionary id=696"
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "levelId=kc_n402200"
+    },
+    {
+      "source_id": "src-aca-008",
+      "locator": "KCI artiId=ART001459580"
+    },
+    {
+      "source_id": "src-aca-011",
+      "locator": "KCI artiId=ART001936844"
+    },
+    {
+      "source_id": "src-aca-012",
+      "locator": "DBpia NODE07369851"
+    },
+    {
+      "source_id": "src-enc-041",
+      "locator": "표제어 E0052303"
+    }
+  ],
+  "clm-0254": [
+    {
+      "source_id": "src-ins-004",
+      "locator": "kc_n402200"
+    },
+    {
+      "source_id": "src-enc-002",
+      "locator": null
+    },
+    {
+      "source_id": "src-enc-032",
+      "locator": null
+    },
+    {
+      "source_id": "src-enc-033",
+      "locator": "E0044938"
+    },
+    {
+      "source_id": "src-ins-035",
+      "locator": "rid=222"
+    }
+  ],
+  "clm-0255": [
+    {
+      "source_id": "src-ins-004",
+      "locator": "kc_n402200"
+    },
+    {
+      "source_id": "src-enc-002",
+      "locator": null
+    },
+    {
+      "source_id": "src-ins-027",
+      "locator": "kc_o400800"
+    },
+    {
+      "source_id": "src-enc-029",
+      "locator": "E0015017"
+    },
+    {
+      "source_id": "src-ins-031",
+      "locator": "rid=245"
+    },
+    {
+      "source_id": "src-ins-035",
+      "locator": "rid=222"
+    }
+  ],
+  "clm-0256": [
+    {
+      "source_id": "src-enc-036",
+      "locator": "E0006294"
+    },
+    {
+      "source_id": "src-ins-037",
+      "locator": "nh_048_0030_0020"
+    },
+    {
+      "source_id": "src-ins-038",
+      "locator": "nh_048_0030_0020_0020_0020"
+    }
+  ],
+  "clm-0257": [
+    {
+      "source_id": "src-enc-036",
+      "locator": "E0006294"
+    },
+    {
+      "source_id": "src-ins-037",
+      "locator": "nh_048_0030_0020"
+    },
+    {
+      "source_id": "src-ins-038",
+      "locator": "nh_048_0030_0020_0020_0020"
+    }
+  ],
+  "clm-0258": [
+    {
+      "source_id": "src-pri-006",
+      "locator": "소장처: 흥사단 / 시중 간행본(범양사 등)"
+    },
+    {
+      "source_id": "src-ins-034",
+      "locator": "kc_o404400"
+    },
+    {
+      "source_id": "src-web-022",
+      "locator": null
+    },
+    {
+      "source_id": "src-enc-044",
+      "locator": "E0031544"
+    },
+    {
+      "source_id": "src-web-031",
+      "locator": "@charam/16"
+    }
+  ],
+  "clm-0259": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "사전 id 696"
+    },
+    {
+      "source_id": "src-enc-001",
+      "locator": "E0035050"
+    },
+    {
+      "source_id": "src-web-002",
+      "locator": null
+    }
+  ],
+  "clm-0260": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "kc_n402200"
+    },
+    {
+      "source_id": "src-web-017",
+      "locator": "no 11225"
+    }
+  ],
+  "clm-0261": [
+    {
+      "source_id": "src-ins-004",
+      "locator": "levelId=kc_n402200"
+    }
+  ],
+  "clm-0262": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "사전 id 696"
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "levelId kc_n402200"
+    },
+    {
+      "source_id": "src-enc-001",
+      "locator": "E0035050"
+    }
+  ],
+  "clm-0263": [
+    {
+      "source_id": "src-enc-016",
+      "locator": "E0032974"
+    },
+    {
+      "source_id": "src-enc-020",
+      "locator": "E0058896"
+    },
+    {
+      "source_id": "src-ins-022",
+      "locator": "id 9018"
+    },
+    {
+      "source_id": "src-web-016",
+      "locator": null
+    }
+  ],
+  "clm-0264": [
+    {
+      "source_id": "src-enc-002",
+      "locator": null
+    },
+    {
+      "source_id": "src-enc-018",
+      "locator": "GC06133123"
+    },
+    {
+      "source_id": "src-web-025",
+      "locator": "2019-05-23"
+    },
+    {
+      "source_id": "src-enc-046",
+      "locator": "GC04830008"
+    },
+    {
+      "source_id": "src-web-029",
+      "locator": null
+    }
+  ],
+  "clm-0265": [
+    {
+      "source_id": "src-enc-045",
+      "locator": "표제어 E0016236"
+    },
+    {
+      "source_id": "src-ins-045",
+      "locator": "ma_014"
+    },
+    {
+      "source_id": "src-ins-046",
+      "locator": "book_search no=364"
+    }
+  ],
+  "clm-0266": [
+    {
+      "source_id": "src-ins-004",
+      "locator": "levelId=kc_n402200"
+    },
+    {
+      "source_id": "src-enc-006",
+      "locator": "E0004272"
+    },
+    {
+      "source_id": "src-aca-002",
+      "locator": null
+    }
+  ],
+  "clm-0267": [
+    {
+      "source_id": "src-web-025",
+      "locator": "2019-05-23"
+    },
+    {
+      "source_id": "src-aca-013",
+      "locator": "ART001827032"
+    },
+    {
+      "source_id": "src-enc-042",
+      "locator": null
+    },
+    {
+      "source_id": "src-pri-017",
+      "locator": "사료 카탈로그 참조(grade_reason)"
+    }
+  ],
+  "clm-0268": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "사전 id 696"
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "levelId kc_n402200"
+    },
+    {
+      "source_id": "src-enc-001",
+      "locator": "표제어 E0035050"
+    },
+    {
+      "source_id": "src-aca-001",
+      "locator": "第一章 少年時代"
+    },
+    {
+      "source_id": "src-web-003",
+      "locator": "no.14314"
+    },
+    {
+      "source_id": "src-pri-005",
+      "locator": "사료 카탈로그 참조(grade_reason)"
+    }
+  ],
+  "clm-0269": [
+    {
+      "source_id": "src-pri-010",
+      "locator": "위키문헌 전재본"
+    },
+    {
+      "source_id": "src-enc-026",
+      "locator": "E0001791"
+    },
+    {
+      "source_id": "src-web-019",
+      "locator": null
+    }
+  ],
+  "clm-0270": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "kc_n402200"
+    },
+    {
+      "source_id": "src-aca-013",
+      "locator": "KCI ART001827032"
+    },
+    {
+      "source_id": "src-pri-018",
+      "locator": "사료 카탈로그 참조(grade_reason)"
+    }
+  ],
+  "clm-0271": [
+    {
+      "source_id": "src-ins-033",
+      "locator": "국가유산포털"
+    },
+    {
+      "source_id": "src-pri-026",
+      "locator": "사료 카탈로그 참조(grade_reason)"
+    }
+  ],
+  "clm-0272": [
+    {
+      "source_id": "src-pri-029",
+      "locator": "src-pri-029"
+    },
+    {
+      "source_id": "src-ins-025",
+      "locator": "kc_i400100"
+    },
+    {
+      "source_id": "src-enc-028",
+      "locator": "E0022233"
+    },
+    {
+      "source_id": "src-ins-026",
+      "locator": "hd_002 계열"
+    }
+  ],
+  "clm-0273": [
+    {
+      "source_id": "src-ins-025",
+      "locator": "kc_i400100"
+    },
+    {
+      "source_id": "src-enc-028",
+      "locator": "E0022233"
+    },
+    {
+      "source_id": "src-ins-026",
+      "locator": "hd_002 계열"
+    }
+  ],
+  "clm-0274": [
+    {
+      "source_id": "src-ins-025",
+      "locator": "kc_i400100"
+    },
+    {
+      "source_id": "src-enc-028",
+      "locator": "E0022233"
+    },
+    {
+      "source_id": "src-ins-026",
+      "locator": "hd_002 계열"
+    },
+    {
+      "source_id": "src-pri-029",
+      "locator": "사료 카탈로그 참조(grade_reason)"
+    }
+  ],
+  "clm-0275": [
+    {
+      "source_id": "src-enc-016",
+      "locator": "E0032974"
+    },
+    {
+      "source_id": "src-ins-025",
+      "locator": "kc_i400100"
+    },
+    {
+      "source_id": "src-enc-028",
+      "locator": "E0022233"
+    },
+    {
+      "source_id": "src-ins-026",
+      "locator": "hd_002 계열"
+    },
+    {
+      "source_id": "src-pri-016",
+      "locator": "사료 카탈로그 참조(grade_reason)"
+    }
+  ],
+  "clm-0276": [
+    {
+      "source_id": "src-ins-034",
+      "locator": "kc_o404400"
+    },
+    {
+      "source_id": "src-web-022",
+      "locator": null
+    },
+    {
+      "source_id": "src-web-025",
+      "locator": "2019-05-23"
+    },
+    {
+      "source_id": "src-enc-044",
+      "locator": "E0031544"
+    }
+  ],
+  "clm-0277": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id=696"
+    },
+    {
+      "source_id": "src-enc-001",
+      "locator": "E0035050"
+    },
+    {
+      "source_id": "src-enc-039",
+      "locator": "E0008526"
+    }
+  ],
+  "clm-0278": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id=696"
+    },
+    {
+      "source_id": "src-enc-001",
+      "locator": "E0035050"
+    },
+    {
+      "source_id": "src-enc-039",
+      "locator": "E0008526"
+    }
+  ],
+  "clm-0279": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id=696"
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "kc_n402200"
+    },
+    {
+      "source_id": "src-enc-002",
+      "locator": null
+    }
+  ],
+  "clm-0280": [
+    {
+      "source_id": "src-pri-032",
+      "locator": "소장처: 국립중앙도서관·한국사데이터베이스 근현대잡지자료 추정"
+    },
+    {
+      "source_id": "src-ins-020",
+      "locator": "타임라인 1907"
+    },
+    {
+      "source_id": "src-web-013",
+      "locator": null
+    },
+    {
+      "source_id": "src-web-014",
+      "locator": "Freeboard wr_id=149"
+    }
+  ],
+  "clm-0281": [
+    {
+      "source_id": "src-pri-030",
+      "locator": "src-pri-030"
+    },
+    {
+      "source_id": "src-ins-002",
+      "locator": "id=696"
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "kc_n402200"
+    },
+    {
+      "source_id": "src-enc-002",
+      "locator": null
+    },
+    {
+      "source_id": "src-ins-027",
+      "locator": "kc_o400800"
+    },
+    {
+      "source_id": "src-enc-029",
+      "locator": "E0015017"
+    },
+    {
+      "source_id": "src-ins-035",
+      "locator": "rid=222"
+    }
+  ],
+  "clm-0282": [
+    {
+      "source_id": "src-enc-002",
+      "locator": null
+    },
+    {
+      "source_id": "src-web-015",
+      "locator": null
+    }
+  ],
+  "clm-0283": [
+    {
+      "source_id": "src-enc-002",
+      "locator": null
+    },
+    {
+      "source_id": "src-web-018",
+      "locator": "bbIdx 8573"
+    }
+  ],
+  "clm-0284": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id=696"
+    },
+    {
+      "source_id": "src-ins-005",
+      "locator": "levelId=eh_n0760_0010"
+    },
+    {
+      "source_id": "src-web-004",
+      "locator": "2021-12-16"
+    },
+    {
+      "source_id": "src-web-005",
+      "locator": null
+    }
+  ],
+  "clm-0285": [
+    {
+      "source_id": "src-aca-001",
+      "locator": "전문 검색 결과 부재"
+    },
+    {
+      "source_id": "src-ins-007",
+      "locator": "post-289"
+    }
+  ],
+  "clm-0286": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "사전 id 696"
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "levelId kc_n402200"
+    },
+    {
+      "source_id": "src-enc-001",
+      "locator": "E0035050"
+    },
+    {
+      "source_id": "src-pri-042",
+      "locator": "사료 카탈로그 참조(grade_reason)"
+    }
+  ],
+  "clm-0287": [
+    {
+      "source_id": "src-ins-034",
+      "locator": "kc_o404400"
+    },
+    {
+      "source_id": "src-web-022",
+      "locator": null
+    },
+    {
+      "source_id": "src-enc-043",
+      "locator": "E0066013"
+    }
+  ],
+  "clm-0288": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "사전 id 696"
+    },
+    {
+      "source_id": "src-enc-001",
+      "locator": "E0035050"
+    },
+    {
+      "source_id": "src-web-002",
+      "locator": null
+    }
+  ],
+  "clm-0289": [
+    {
+      "source_id": "src-ins-004",
+      "locator": "levelId=kc_n402200"
+    },
+    {
+      "source_id": "src-enc-009",
+      "locator": "E0073696"
+    },
+    {
+      "source_id": "src-enc-047",
+      "locator": "GC95100211"
+    }
+  ],
+  "clm-0290": [
+    {
+      "source_id": "src-enc-047",
+      "locator": "GC95100211"
+    }
+  ],
+  "clm-0291": [
+    {
+      "source_id": "src-ins-043",
+      "locator": "story 10984"
+    },
+    {
+      "source_id": "src-ins-048",
+      "locator": "1995 건국훈장 독립장"
+    },
+    {
+      "source_id": "src-pri-023",
+      "locator": "사료 카탈로그 참조(grade_reason)"
+    }
+  ],
+  "clm-0292": [
+    {
+      "source_id": "src-ins-043",
+      "locator": "story 10984"
+    },
+    {
+      "source_id": "src-ins-048",
+      "locator": "1995 건국훈장 독립장"
+    }
+  ],
+  "clm-0293": [
+    {
+      "source_id": "src-enc-025",
+      "locator": "E0043482"
+    },
+    {
+      "source_id": "src-ins-050",
+      "locator": "정책브리핑 newsId 155805121 (첨부 원문 HWP — 본문 직접 확인 불가)"
+    }
+  ],
+  "clm-0294": [
+    {
+      "source_id": "src-enc-025",
+      "locator": "E0043482"
+    },
+    {
+      "source_id": "src-ins-050",
+      "locator": "정책브리핑 newsId 155805121 (첨부 원문 HWP — 본문 직접 확인 불가)"
+    }
+  ],
+  "clm-0295": [
+    {
+      "source_id": "src-enc-036",
+      "locator": "E0006294"
+    },
+    {
+      "source_id": "src-ins-037",
+      "locator": "nh_048_0030_0020"
+    },
+    {
+      "source_id": "src-ins-038",
+      "locator": "nh_048_0030_0020_0020_0020"
+    },
+    {
+      "source_id": "src-ins-051",
+      "locator": "tg_004_2110"
+    }
+  ],
+  "clm-0296": [
+    {
+      "source_id": "src-ins-034",
+      "locator": "kc_o404400"
+    },
+    {
+      "source_id": "src-web-022",
+      "locator": null
+    },
+    {
+      "source_id": "src-enc-044",
+      "locator": "E0031544"
+    }
+  ],
+  "clm-0297": [
+    {
+      "source_id": "src-ins-034",
+      "locator": "kc_o404400"
+    }
+  ],
+  "clm-0298": [
+    {
+      "source_id": "src-ins-034",
+      "locator": "kc_o404400"
+    },
+    {
+      "source_id": "src-web-022",
+      "locator": null
+    },
+    {
+      "source_id": "src-enc-044",
+      "locator": "E0031544"
+    }
+  ],
+  "clm-0299": [
+    {
+      "source_id": "src-ins-034",
+      "locator": "kc_o404400"
+    }
+  ],
+  "clm-0300": [
+    {
+      "source_id": "src-pri-006",
+      "locator": "소장처: 흥사단 / 시중 간행본(범양사 등)"
+    },
+    {
+      "source_id": "src-ins-034",
+      "locator": "kc_o404400"
+    },
+    {
+      "source_id": "src-web-031",
+      "locator": "@charam/16"
+    },
+    {
+      "source_id": "src-ins-052",
+      "locator": "hm_141_0080"
+    }
+  ],
+  "clm-0301": [
+    {
+      "source_id": "src-ins-053",
+      "locator": "id 698"
+    }
+  ],
+  "clm-0302": [
+    {
+      "source_id": "src-enc-048",
+      "locator": "E0030567 (사진 설명 '흥사단 단원')"
+    }
+  ],
+  "clm-0303": [
+    {
+      "source_id": "src-ins-001",
+      "locator": null
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "kc_n402200"
+    },
+    {
+      "source_id": "src-enc-001",
+      "locator": "E0035050"
+    },
+    {
+      "source_id": "src-ins-019",
+      "locator": "kc_o402010"
+    },
+    {
+      "source_id": "src-enc-025",
+      "locator": "E0043482"
+    },
+    {
+      "source_id": "src-enc-027",
+      "locator": null
+    },
+    {
+      "source_id": "src-ins-023",
+      "locator": "id 11304"
+    }
+  ],
+  "clm-0304": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "id 696"
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "kc_n402200"
+    },
+    {
+      "source_id": "src-enc-001",
+      "locator": "E0035050"
+    },
+    {
+      "source_id": "src-enc-002",
+      "locator": null
+    },
+    {
+      "source_id": "src-ins-018",
+      "locator": "mngNo 3154"
+    },
+    {
+      "source_id": "src-web-017",
+      "locator": "no 11225"
+    },
+    {
+      "source_id": "src-pri-038",
+      "locator": "사료 카탈로그 참조(grade_reason)"
+    }
+  ],
+  "clm-0305": [
+    {
+      "source_id": "src-ins-002",
+      "locator": "사전 id 696"
+    },
+    {
+      "source_id": "src-ins-004",
+      "locator": "levelId kc_n402200"
+    },
+    {
+      "source_id": "src-enc-001",
+      "locator": "E0035050"
+    }
+  ]
+}

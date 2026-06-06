@@ -1,0 +1,50 @@
+{
+  "counts": {
+    "events_total": 172,
+    "events_rendered": 165,
+    "events_excluded_d": 7,
+    "events_disputed": 17,
+    "events_with_geo": 113,
+    "persons": 59,
+    "orgs": 22,
+    "edges": 135,
+    "edges_unconfirmed": 19,
+    "claims": 305,
+    "sources": 194,
+    "primary_sources": 48,
+    "images": 80
+  },
+  "claim_grades": {
+    "A": 9,
+    "B": 155,
+    "C": 89,
+    "D": 52
+  },
+  "timeline_confidence": {
+    "A": 8,
+    "B": 106,
+    "C": 51
+  },
+  "timeline_tags": {
+    "결사": 112,
+    "이동": 37,
+    "사상": 33,
+    "가족": 28,
+    "교육": 22,
+    "언론": 17,
+    "연설": 1
+  },
+  "images_by_period": {
+    "P5": 18,
+    "P4": 12,
+    "P7": 11,
+    "P2": 5,
+    "P6": 6,
+    "P3": 9,
+    "P1": 8,
+    "P8": 11
+  },
+  "refs": 155,
+  "generated": "2026-06-06",
+  "note": "사이트 자기 서술 수치(architecture.md §3.8·00_common §3(iii))의 단일 출처. 전부 site/data 실제 레코드 집계. home 통계·qa 정합 검사 입력."
+}

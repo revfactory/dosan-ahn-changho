@@ -1,0 +1,593 @@
+[
+  {
+    "id": "evt-amer-001",
+    "title": "도미 출항과 태평양 항해 — 호 '도산(島山)' 작명 전승",
+    "date": { "start": "1902-09-04", "end": "1902-10-14", "precision": "range", "calendar": "solar" },
+    "place": { "name": "인천항 출항(도쿄·하와이·밴쿠버·시애틀 경유 전승)", "modern_name": "대한민국 인천 → 미국 샌프란시스코 항로", "lat": null, "lng": null },
+    "actors": ["안창호", "이혜련"],
+    "orgs": [],
+    "summary": "1902년 9월 4일(결혼식 다음날) 안창호가 부인 이혜련과 함께 인천항에서 미국 유학길에 올라 태평양을 건넜다. 항해 중 하와이 섬을 보고 호를 '도산(島山)'으로 지었다는 전승이 있다.",
+    "detail": "독립기념관 인명사전은 '1902년 9월 3일 제중원에서 밀러 선교사의 주례로 이혜련과 결혼식을 올린 다음날, 인천항을 통해 부인과 함께 미국 유학길에 올라' 도미했다고 기록한다. 경로에 대해 우리역사넷(교과서용 서술)은 도쿄·하와이·밴쿠버·시애틀을 거쳐 기차로 샌프란시스코에 도착했다고 서술하나 선박명은 확인되지 않는다〔선박명 미확인〕. 호 '도산'의 유래는 (1) 항해 중 망망대해에 솟은 하와이 섬의 모습에서 따왔다는 설(Korea Herald 등 영문 자료: 'the Korean name for the island of Hawaii rising out of the Pacific Ocean, which Dosan saw from his ship')과 (2) 고향 도롱섬(島籠島)에서 따왔다는 설이 병존한다 — 양설 병기, 채택 판단은 Phase 2. 결혼식 자체는 early-life 소유이므로 본 레코드는 출항부터 기록.",
+    "sources": [
+      { "type": "institutional", "title": "독립기념관 한국독립운동인명사전 '안창호'", "locator": "id=696", "url": "https://search.i815.or.kr/dictionary/detail.do?searchWord=&reSearchWord=&searchType=all&index=1&id=696" },
+      { "type": "institutional", "title": "우리역사넷(국사편찬위원회) 안창호 관련 서술", "locator": "levelId=eh_n0760_0010", "url": "https://contents.history.go.kr/mobile/eh/view.do?levelId=eh_n0760_0010" },
+      { "type": "web", "title": "The Korea Herald, 'Dosan Ahn Chang-ho, founding father of America's first Koreatown'", "locator": "2021-12-16", "url": "https://www.koreaherald.com/article/2742425" },
+      { "type": "web", "title": "도산안창호선생기념사업회 온라인기념관 연보", "locator": null, "url": "http://www.ahnchangho.or.kr/site/main/d02_02.php" }
+    ],
+    "confidence": "B",
+    "tags": ["이동", "가족"]
+  },
+  {
+    "id": "evt-amer-002",
+    "title": "샌프란시스코 도착 — 최초의 한인 부부 합법 이민",
+    "date": { "start": "1902-10-14", "end": "1902-10-14", "precision": "day", "calendar": "solar" },
+    "place": { "name": "샌프란시스코", "modern_name": "미국 캘리포니아주 샌프란시스코", "lat": 37.7749, "lng": -122.4194 },
+    "actors": ["안창호", "이혜련"],
+    "orgs": [],
+    "summary": "1902년 10월 14일 안창호·이혜련 부부가 샌프란시스코에 도착했다. 부부 단위로 미국에 합법 이민한 최초의 한인으로 기록된다.",
+    "detail": "독립기념관 인명사전: '그 해 10월 14일 샌프란시스코에 도착하였다.' USC 한국학연구소는 안창호·이혜련 부부를 'the first Koreans to legally immigrate to America as a married couple'로 서술한다. 영문 자료(Korea Herald 계열)는 두 사람의 여권 번호가 51·52호였다고 전한다〔여권 번호는 영문 언론 단독 서술 — 교차 미확인〕. 한·영 출처가 도착일과 '최초 부부 이민' 서술에서 일치한다.",
+    "sources": [
+      { "type": "institutional", "title": "독립기념관 한국독립운동인명사전 '안창호'", "locator": "id=696", "url": "https://search.i815.or.kr/dictionary/detail.do?searchWord=&reSearchWord=&searchType=all&index=1&id=696" },
+      { "type": "institutional", "title": "USC Dornsife Korean Studies Institute, 'Ahn Family House'", "locator": null, "url": "https://dornsife.usc.edu/ksi/ahn-family-house/" },
+      { "type": "web", "title": "The Korea Herald, 'Dosan Ahn Chang-ho, founding father of America's first Koreatown'", "locator": "2021-12-16", "url": "https://www.koreaherald.com/article/2742425" }
+    ],
+    "confidence": "B",
+    "tags": ["이동", "가족"]
+  },
+  {
+    "id": "evt-amer-003",
+    "title": "샌프란시스코 정착 초기 — 소학교 입학과 영어 수학",
+    "date": { "start": "1902-10-14", "end": "1903-12-31", "precision": "range", "calendar": "solar" },
+    "place": { "name": "샌프란시스코", "modern_name": "미국 캘리포니아주 샌프란시스코", "lat": 37.7749, "lng": -122.4194 },
+    "actors": ["안창호", "이혜련"],
+    "orgs": [],
+    "summary": "샌프란시스코 정착 직후 안창호는 소학교(grammar school)에 입학해 영어 공부를 시작하며 생계를 꾸렸다.",
+    "detail": "우리역사넷: '1902년 10월 샌프란시스코에 정착한 안창호는 소학교에 입학해 영어공부를 시작.' 20대 기혼 성인이 소학교 과정부터 수학한 사실은 여러 전기에서 일치한다. 이 시기 가사노동(하우스보이) 등으로 생계를 유지했다는 서술이 후대 전기(이광수)에 보이나 고용주 등 세부는 미확인〔생계 수단 세부 미확인〕.",
+    "sources": [
+      { "type": "institutional", "title": "우리역사넷(국사편찬위원회) '안창호'", "locator": "levelId=kc_n402200", "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n402200&code=kc_age_40" },
+      { "type": "academic", "title": "이광수, 『도산 안창호』 제2장 미주유학시대", "locator": "제2장", "url": "https://ko.wikisource.org/wiki/도산_안창호" }
+    ],
+    "confidence": "C",
+    "tags": ["교육"]
+  },
+  {
+    "id": "evt-amer-004",
+    "title": "한인 인삼 행상 갈등 중재와 생활 개선 운동",
+    "date": { "start": "1902-10-14", "end": "1903-12-31", "precision": "range", "calendar": "solar" },
+    "place": { "name": "샌프란시스코", "modern_name": "미국 캘리포니아주 샌프란시스코", "lat": 37.7749, "lng": -122.4194 },
+    "actors": ["안창호"],
+    "orgs": [],
+    "summary": "안창호가 샌프란시스코 길거리에서 한인 인삼 행상 두 명이 상투를 잡고 싸우는 것을 목격한 뒤, 한인들의 집을 직접 청소하고 커튼을 달아 주는 등 생활 개선 운동에 나섰다고 전기에 기록되어 있다.",
+    "detail": "이광수 『도산 안창호』 제2장 원문: '샌프란시스코우에 상륙한지 얼마 아니 된 어떤 날 도산은 길가에서 한인 두 사람이 상투를 마주 잡고 싸우는 광경을 미국인들이 재미있게 보고 있는 것을 보았다.' 또한 '그는 손수 비로 쓸고, 훔치고, 창을 닦고 또 헝겊과 철사를 사다가 창에다가 얌전하게 커어튼을 만들어 치고'라는 구절로 한인 가정 청소·환경 개선 활동을 전한다. 이 일화는 후대(1947) 전기의 회고적 서술로 동시대 1차 사료로는 미확인 — 출처 비판 필요. 싸움의 원인이 인삼 판매 구역 다툼이었다는 통설적 부연은 전기 본문 추가 확인 필요〔일화 세부 미확인〕.",
+    "sources": [
+      { "type": "academic", "title": "이광수, 『도산 안창호』 제2장 미주유학시대", "locator": "제2장", "url": "https://ko.wikisource.org/wiki/도산_안창호" }
+    ],
+    "confidence": "C",
+    "tags": ["사상", "결사"]
+  },
+  {
+    "id": "evt-amer-005",
+    "title": "샌프란시스코 한인친목회(상항친목회) 결성 — 회장 선출",
+    "date": { "start": "1903-09-01", "end": "1903-09-30", "precision": "month", "calendar": "solar" },
+    "place": { "name": "상항(샌프란시스코)", "modern_name": "미국 캘리포니아주 샌프란시스코", "lat": 37.7749, "lng": -122.4194 },
+    "actors": ["안창호", "이대위", "박영순", "김성무", "장경", "박선겸", "김병모", "전동삼", "김찬일", "박승지"],
+    "orgs": ["한인친목회(상항친목회)"],
+    "summary": "1903년 9월 안창호가 이대위·박영순·김성무 등과 함께 북미 최초의 한인 단체인 상항친목회(桑港親睦會)를 결성하고 회장에 선출되었다.",
+    "detail": "독립기념관 인명사전: '1903년 9월 북미 최초의 한인 조직인 상항(桑港, 샌프란시스코)친목회를 결성하고 회장에 선출되었다.' 한국민족문화대백과(공립협회 항목): '1903년 9월 미국 샌프란시스코에서 안창호를 비롯한 이대위, 박영순, 김성무, 장경, 박선겸, 김병모, 전동삼, 김찬일, 박승지 등이 주도하여 친목회를 조직.' 도산기념사업회 연보는 일자를 9월 23일로 적시하나(단체 자료), 기관 출처들은 월 단위까지만 보장 — precision은 month로 기록하고 23일설은 병기〔일자 9월 23일설 — 단체 연보 단독〕. 이 단체는 1905년 공립협회로 발전한다(evt-amer-010).",
+    "sources": [
+      { "type": "institutional", "title": "독립기념관 한국독립운동인명사전 '안창호'", "locator": "id=696", "url": "https://search.i815.or.kr/dictionary/detail.do?searchWord=&reSearchWord=&searchType=all&index=1&id=696" },
+      { "type": "encyclopedia", "title": "한국민족문화대백과사전 '공립협회'", "locator": "E0004272", "url": "https://encykorea.aks.ac.kr/Article/E0004272" },
+      { "type": "web", "title": "도산안창호선생기념사업회 온라인기념관 연보", "locator": null, "url": "http://www.ahnchangho.or.kr/site/main/d02_02.php" }
+    ],
+    "confidence": "B",
+    "tags": ["결사"]
+  },
+  {
+    "id": "evt-amer-006",
+    "title": "리버사이드 이주",
+    "date": { "start": "1904-03-23", "end": "1904-03-23", "precision": "day", "calendar": "solar" },
+    "place": { "name": "리버사이드", "modern_name": "미국 캘리포니아주 리버사이드", "lat": 33.9806, "lng": -117.3755 },
+    "actors": ["안창호", "이혜련"],
+    "orgs": [],
+    "summary": "1904년 3월 23일 안창호가 샌프란시스코에서 오렌지 산지 리버사이드로 이주하여 한인 노동자 공동체 건설에 착수했다.",
+    "detail": "UCR(캘리포니아대 리버사이드) 김영옥재미동포연구소의 파차파 캠프 연표: 'March 23, 1904: Dosan Ahn Chang Ho arrived in Riverside.' 한국 측 기관 출처(우리역사넷·독립기념관)는 '1904년 리버사이드로 이주'로 연도만 기록 — 일자는 미국 측 학술 연구(Edward T. Chang) 단독이므로 영문 학술 출처 기준으로 day precision 채택, 한글 출처와 연도 일치 확인. 리버사이드 도착 100주년 기념일(2017-03-23 헌정식)도 이 날짜를 따랐다.",
+    "sources": [
+      { "type": "academic", "title": "UCR Young Oak Kim Center, 'Pachappa Camp: History & Timeline'", "locator": null, "url": "https://pachappacamp.ucr.edu/history-timeline/" },
+      { "type": "institutional", "title": "우리역사넷(국사편찬위원회) '안창호'", "locator": "levelId=kc_n402200", "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n402200&code=kc_age_40" }
+    ],
+    "confidence": "B",
+    "tags": ["이동"]
+  },
+  {
+    "id": "evt-amer-007",
+    "title": "파차파 캠프 형성 — 미주 최초의 한인촌('도산 공화국')",
+    "date": { "start": "1904-03-23", "end": "1905-12-31", "precision": "range", "calendar": "solar" },
+    "place": { "name": "리버사이드 파차파 캠프(1532 Pachappa Avenue)", "modern_name": "미국 캘리포니아주 리버사이드 3096 Cottage Street", "lat": 33.9806, "lng": -117.3755 },
+    "actors": ["안창호"],
+    "orgs": ["파차파 캠프"],
+    "summary": "안창호 주도로 리버사이드에 미주 최초의 한인촌으로 평가되는 파차파 캠프가 형성되었다. 건물 약 20동과 공회당을 갖추고 최성기 약 300명이 거주했으며 '도산 공화국(Dosan's Republic)'으로 불렸다.",
+    "detail": "설립 시점은 출처 간 차이가 있다: 영문 위키백과는 1904년 설립, UCR 연표는 '1905년(또는 1904년 말)' — range로 기록. 원주소 1532 Pachappa Avenue(현 3096 Cottage Street). 1907년까지 200명 이상 거주, 성수기 약 300명, 건물 20동과 공회당(UCR·위키백과). 결혼식·장례·독립운동 집회가 열리는 자치 공동체였다. 1913년 1월 대한파(시트러스 동해)로 쇠퇴 시작, 1918년경 소수 가족만 남았고 1920년 센서스에는 10가구 미만(영문 위키백과). 2016년 12월 리버사이드시가 첫 'Point of Cultural Interest'로 지정, 2017년 3월 23일 헌정식. Edward T. Chang의 단행본 'Pachappa Camp: The First Koreatown in the United States'(2021)가 핵심 학술 연구.",
+    "sources": [
+      { "type": "academic", "title": "UCR Young Oak Kim Center, 'Pachappa Camp: History & Timeline'", "locator": null, "url": "https://pachappacamp.ucr.edu/history-timeline/" },
+      { "type": "academic", "title": "Edward T. Chang, 'Pachappa Camp: The First Koreatown in the United States' (Lexington Books, 2021)", "locator": null, "url": "https://escholarship.org/uc/item/8p88m8mw" },
+      { "type": "encyclopedia", "title": "Wikipedia(en), 'Pachappa Camp'", "locator": null, "url": "https://en.wikipedia.org/wiki/Pachappa_Camp" },
+      { "type": "web", "title": "PBS NewsHour, 'Buried past of America's first Koreatown uncovered in California's Riverside'", "locator": null, "url": "https://www.pbs.org/newshour/show/buried-past-of-americas-first-koreatown-uncovered-in-californias-riverside" }
+    ],
+    "confidence": "B",
+    "tags": ["결사"]
+  },
+  {
+    "id": "evt-amer-008",
+    "title": "한인노동국(Korean Labor Bureau) 설립 — 럼지의 1,500달러 대부",
+    "date": { "start": "1904-06-01", "end": "1905-04-30", "precision": "range", "calendar": "solar" },
+    "place": { "name": "리버사이드 파차파 캠프", "modern_name": "미국 캘리포니아주 리버사이드", "lat": 33.9806, "lng": -117.3755 },
+    "actors": ["안창호", "코닐리어스 럼지(Cornelius Earle Rumsey)"],
+    "orgs": ["한인노동국(Korean Labor Bureau)"],
+    "summary": "안창호가 내셔널비스킷사 은퇴 임원 코닐리어스 럼지에게서 1,500달러를 대부받아 한인 직업소개·노동 알선 기구인 한인노동국을 세웠다. 1905년 4월에는 운영이 확인되며 대부금은 2개월 만에 상환했다.",
+    "detail": "영문 위키백과: 럼지가 'a $1500 loan to lease housing and office space for a Korean employment agency'를 제공, 'The Korean Labor Bureau opened by April 1905 and repaid the loan within two months.' UCR 연표도 럼지의 1,500달러 대부를 기록. 한인노동국은 오렌지 농장 노동 알선과 함께 한인 노동의 신용을 높이는 노동 개혁의 거점이 되었다. 설립 착수 시점은 사료상 1904년 중~1905년 4월 사이로만 특정 가능〔설립 일자 미확인〕.",
+    "sources": [
+      { "type": "encyclopedia", "title": "Wikipedia(en), 'Pachappa Camp'", "locator": null, "url": "https://en.wikipedia.org/wiki/Pachappa_Camp" },
+      { "type": "academic", "title": "UCR Young Oak Kim Center, 'Pachappa Camp: History & Timeline'", "locator": null, "url": "https://pachappacamp.ucr.edu/history-timeline/" }
+    ],
+    "confidence": "B",
+    "tags": ["결사"]
+  },
+  {
+    "id": "evt-amer-009",
+    "title": "〔미확인-최초 출전〕 오렌지 농장 노동 훈화 — '오렌지 한 개를 따더라도 정성껏'",
+    "date": { "start": "1904-03-23", "end": "1906-12-31", "precision": "range", "calendar": "solar" },
+    "place": { "name": "리버사이드 오렌지 농장", "modern_name": "미국 캘리포니아주 리버사이드", "lat": 33.9806, "lng": -117.3755 },
+    "actors": ["안창호"],
+    "orgs": [],
+    "summary": "〔미확인-최초 출전〕 안창호가 리버사이드 오렌지 농장 한인 노동자들에게 '오렌지 한 개를 따더라도 정성껏 따는 것이 나라를 위하는 일'이라고 훈화했다는 일화. 기관 자료에 널리 반복되나 동시대 1차 사료의 최초 출전은 확인하지 못했다.",
+    "detail": "월간 독립기념관 등 3단계 기관 자료가 '리버사이드의 오렌지농장 노동자들에게 오렌지 한 개를 따더라도 정성껏 따는 것이 나라를 위하는 일이다라고 강조'했다고 서술한다. 그러나 위키문헌 수록 이광수 『도산 안창호』 본문 검색에서는 해당 구절을 찾지 못했고(전문 재확인 필요), 주요한 『안도산전서』·장리욱 회고 등 후보 출전의 원문은 웹에서 확인 불가 — 최초 출전 역추적 실패를 명시한다. 일화의 취지(성실 노동=애국)는 도산의 무실역행 사상과 부합하며 노동국 활동(evt-amer-008)과 함께 전해지나, 발화 시점·장소·원문 표현의 1차 근거는 미확인. primary-source-researcher의 원전 확인 필요.",
+    "sources": [
+      { "type": "institutional", "title": "월간 독립기념관, '한국 독립운동의 스승 안창호'", "locator": "post-289", "url": "https://www.i815.or.kr/upload/kr/magazine/magazine/28/post-289.html" },
+      { "type": "academic", "title": "이광수, 『도산 안창호』(위키문헌) — 해당 구절 미발견 확인", "locator": "전문 검색 결과 부재", "url": "https://ko.wikisource.org/wiki/도산_안창호" }
+    ],
+    "confidence": "D",
+    "tags": ["사상"]
+  },
+  {
+    "id": "evt-amer-010",
+    "title": "공립협회 창립 — 초대 회장 취임",
+    "date": { "start": "1905-04-05", "end": "1905-04-05", "precision": "day", "calendar": "solar" },
+    "place": { "name": "샌프란시스코", "modern_name": "미국 캘리포니아주 샌프란시스코", "lat": 37.7749, "lng": -122.4194 },
+    "actors": ["안창호", "송석준", "정재관", "임준기", "이강", "임치정", "방화중"],
+    "orgs": ["공립협회"],
+    "summary": "1905년 4월 5일 안창호 등이 친목회를 확대 개편하여 샌프란시스코에서 공립협회(共立協會)를 창립했고 안창호가 초대 회장에 선출되었다.",
+    "detail": "우리역사넷: '1905년 4월 5일 공립협회(共立協會)를 창립하여 초대 회장에 선출.' 한국민족문화대백과는 '1905년 4월', 발기 회원으로 '안창호, 송석준, 정재관, 임준기, 이강, 임치정, 방화중 외'를 기록(일자는 월 단위). 중앙총본부로 공립관(共立館)을 설치하고 캘리포니아를 중심으로 지회를 두었다. 영문 자료(UCR 계열)는 'Gongnip Hyophoe(Cooperative Association)'로 표기하며 1905년 설립으로 일치 — 한·영 표기 대응: 공립협회=Gongnip Hyophoe=Mutual Assistance Society/Cooperative Association(영문 번역어 복수 통용). 공립협회는 1906~07년 신민회 구상의 기반이 되나 그 구상 논의는 shinminhoe 소유로 이관.",
+    "sources": [
+      { "type": "institutional", "title": "우리역사넷(국사편찬위원회) '안창호'", "locator": "levelId=kc_n402200", "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n402200&code=kc_age_40" },
+      { "type": "encyclopedia", "title": "한국민족문화대백과사전 '공립협회'", "locator": "E0004272", "url": "https://encykorea.aks.ac.kr/Article/E0004272" },
+      { "type": "academic", "title": "UCR Young Oak Kim Center, 'Pachappa Camp: History & Timeline'", "locator": null, "url": "https://pachappacamp.ucr.edu/history-timeline/" }
+    ],
+    "confidence": "B",
+    "tags": ["결사"]
+  },
+  {
+    "id": "evt-amer-011",
+    "title": "공립신보 창간 — 사장 안창호",
+    "date": { "start": "1905-11-22", "end": "1905-11-22", "precision": "day", "calendar": "solar" },
+    "place": { "name": "샌프란시스코 공립관", "modern_name": "미국 캘리포니아주 샌프란시스코", "lat": 37.7749, "lng": -122.4194 },
+    "actors": ["안창호", "송석준"],
+    "orgs": ["공립협회"],
+    "summary": "1905년 11월 22일 공립협회가 순국문 기관지 『공립신보(共立新報)』를 창간했다. 창간 당시 사장은 안창호, 주필은 송석준이었다.",
+    "detail": "한국민족문화대백과('공립협회'·'공립신보' 두 항목 일치): 창간일 1905년 11월 22일, '순국문으로 석판인쇄하여 매월 2회 발행', 1907년 4월부터 활판 인쇄 주간신문화. 배포망은 미국 본토 외 하와이 4개소, 블라디보스토크 1개소, 국내 서울 등 전국 32개 보급소. 단, 우리역사넷 안창호 항목은 '1905년 11월 20일 순국문판 신문 발행'으로 일자가 상충 — 11월 22일(대백과 2개 항목)과 11월 20일(우리역사넷) 양설 병기, 채택은 Phase 2. 공립신보는 1909년 2월 신한민보로 개제된다(evt-amer-014).",
+    "sources": [
+      { "type": "encyclopedia", "title": "한국민족문화대백과사전 '공립신보'", "locator": "E0004270", "url": "https://encykorea.aks.ac.kr/Article/E0004270" },
+      { "type": "encyclopedia", "title": "한국민족문화대백과사전 '공립협회'", "locator": "E0004272", "url": "https://encykorea.aks.ac.kr/Article/E0004272" },
+      { "type": "institutional", "title": "우리역사넷(국사편찬위원회) '안창호' — 11월 20일설", "locator": "levelId=kc_n402200", "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n402200&code=kc_age_40" }
+    ],
+    "confidence": "B",
+    "tags": ["언론"]
+  },
+  {
+    "id": "evt-amer-012",
+    "title": "귀국 결정과 미주 고별 (1차 미주 체류 종료)",
+    "date": { "start": "1907-01-01", "end": "1907-02-28", "precision": "range", "calendar": "solar" },
+    "place": { "name": "샌프란시스코·리버사이드", "modern_name": "미국 캘리포니아주", "lat": 37.7749, "lng": -122.4194 },
+    "actors": ["안창호", "이혜련"],
+    "orgs": ["공립협회"],
+    "summary": "1907년 초 안창호가 국권 회복 운동을 위해 귀국을 결정하고 미주 동포 사회와 고별했다. 가족(이혜련·안필립)은 미국에 남았다.",
+    "detail": "독립기념관 인명사전은 '1907년 2월 한국 귀국'으로 기록 — 역산하면 미주 출발은 1907년 1~2월이나 출항 일자는 미확인〔출항 일자 미확인〕. 본 레코드는 매트릭스 경계 규칙에 따라 출발 결정·고별까지만 기록하며, 출항·도쿄 체류(태극학회 연설)·국내 도착 이후는 shinminhoe-researcher 소유로 이관. 부인 이혜련과 장남 안필립(1905년생)은 캘리포니아에 남아 생계를 꾸렸다. 귀국 전후 미주에서의 신민회 구상 논의 역시 shinminhoe 소유 — 인계 메모 참조.",
+    "sources": [
+      { "type": "institutional", "title": "독립기념관 한국독립운동인명사전 '안창호'", "locator": "id=696", "url": "https://search.i815.or.kr/dictionary/detail.do?searchWord=&reSearchWord=&searchType=all&index=1&id=696" }
+    ],
+    "confidence": "C",
+    "tags": ["이동", "가족"]
+  },
+  {
+    "id": "evt-amer-013",
+    "title": "국민회 성립 — 공립협회와 하와이 한인합성협회의 합동",
+    "date": { "start": "1909-02-01", "end": "1909-02-01", "precision": "day", "calendar": "solar" },
+    "place": { "name": "샌프란시스코", "modern_name": "미국 캘리포니아주 샌프란시스코", "lat": 37.7749, "lng": -122.4194 },
+    "actors": [],
+    "orgs": ["국민회", "공립협회", "한인합성협회"],
+    "summary": "1909년 2월 1일 공립협회와 하와이 한인합성협회가 합동하여 미주 한인의 통일 기관 '국민회(國民會)'를 창립했다. 공립협회는 국민회 북미지방총회로 개편되었다.",
+    "detail": "1908년 3월 장인환·전명운의 스티븐스 처단 의거를 계기로 통합 운동이 본격화되어 1908년 11월 합동발기문 발표, 1909년 2월 1일 국민회 출범(대한인국민회기념재단 50년사·한국민족문화대백과). 공립협회→국민회 북미지방총회, 합성협회→하와이지방총회로 개편. 1909년 4월 북미지방총회가 황사용·방화중을 멕시코에 특파하여 멕시코지방회 설립(기념재단 50년사). 이 사건 당시 안창호는 국내 체류 중(T5)이나, 공립협회 계보의 미주 조직사이므로 디렉터 지시에 따라 america가 기록 — shinminhoe와의 중복 금지 메모 참조.",
+    "sources": [
+      { "type": "institutional", "title": "대한인국민회기념재단, '대한인국민회 50년사'", "locator": null, "url": "https://knamf.org/대한인국민회-50년사/" },
+      { "type": "encyclopedia", "title": "한국민족문화대백과사전 '공립협회'", "locator": "E0004272", "url": "https://encykorea.aks.ac.kr/Article/E0004272" },
+      { "type": "institutional", "title": "우리역사넷(국사편찬위원회) '대한인 국민회'", "locator": "levelId=kc_o400900", "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_o400900&code=kc_age_40" }
+    ],
+    "confidence": "B",
+    "tags": ["결사"]
+  },
+  {
+    "id": "evt-amer-014",
+    "title": "신한민보 창간 — 공립신보의 지령 승계",
+    "date": { "start": "1909-02-10", "end": "1909-02-10", "precision": "day", "calendar": "solar" },
+    "place": { "name": "샌프란시스코", "modern_name": "미국 캘리포니아주 샌프란시스코", "lat": 37.7749, "lng": -122.4194 },
+    "actors": [],
+    "orgs": ["국민회", "공립협회"],
+    "summary": "1909년 2월 10일 『공립신보』가 국민회 기관지 『신한민보(新韓民報)』 제119호로 개제되어 발간되었다.",
+    "detail": "한국민족문화대백과('공립신보'): '1909년 2월 10일 국민회 기관지 『신한민보』(제119호)로 발간' — 공립신보의 지령(호수)을 그대로 승계했다. 신한민보는 이후 대한인국민회의 기관지로 미주 한인 사회와 독립운동 보도의 핵심 1차 사료가 된다. 원지 디지털 원문은 한국사데이터베이스 근대 사료 DB에 수록 — 원문 전사·분석은 primary-source-researcher로 인계. 1914년 안창호(중앙총회)가 이광수를 신한민보 주필로 초빙 교섭한 연구(춘원연구학보)가 존재한다.",
+    "sources": [
+      { "type": "encyclopedia", "title": "한국민족문화대백과사전 '공립신보'", "locator": "E0004270", "url": "https://encykorea.aks.ac.kr/Article/E0004270" },
+      { "type": "institutional", "title": "한국사데이터베이스 근대 사료 DB '신한민보'", "locator": "npsh", "url": "https://db.history.go.kr/modern/level.do?levelId=npsh_1920_09_02_v0003_0150" }
+    ],
+    "confidence": "B",
+    "tags": ["언론"]
+  },
+  {
+    "id": "evt-amer-015",
+    "title": "대한인국민회로 개칭 — 대동보국회 통합",
+    "date": { "start": "1910-05-10", "end": "1910-05-10", "precision": "day", "calendar": "solar" },
+    "place": { "name": "샌프란시스코", "modern_name": "미국 캘리포니아주 샌프란시스코", "lat": 37.7749, "lng": -122.4194 },
+    "actors": [],
+    "orgs": ["대한인국민회", "국민회", "대동보국회"],
+    "summary": "1910년 5월 10일 국민회에 대동보국회(大同保國會)가 합류하면서 회명을 '대한인국민회(大韓人國民會)'로 개칭했다.",
+    "detail": "대한인국민회기념재단 50년사: '이듬해 5월 10일에 대동보국회가 참가하면서 그 명칭이 대한인국민회가 되었다.' 우리역사넷 안창호 항목은 '1910년 5월에는 국민회와 북미 대동보국회가 통합하여 대한인국민회로 개편'으로 일치(월 단위). 대한인국민회는 이후 미주 한인의 사실상 자치 기관이자 독립운동 중추 조직으로 발전한다. 관련 원본 기록물은 국가지정기록물 제5호('도산 안창호 관련 미주 국민회 기록물', 국가기록원)로 지정되어 있다.",
+    "sources": [
+      { "type": "institutional", "title": "대한인국민회기념재단, '대한인국민회 50년사'", "locator": null, "url": "https://knamf.org/대한인국민회-50년사/" },
+      { "type": "institutional", "title": "우리역사넷(국사편찬위원회) '안창호'", "locator": "levelId=kc_n402200", "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n402200&code=kc_age_40" },
+      { "type": "institutional", "title": "국가기록원 국가지정기록물 제5호 '도산 안창호 관련 미주 국민회 기록물'", "locator": "제5호", "url": "https://theme.archives.go.kr/next/nationalArchives/subPage/nationalArchives4.do" }
+    ],
+    "confidence": "B",
+    "tags": ["결사"]
+  },
+  {
+    "id": "evt-amer-016",
+    "title": "2차 미주 체류 시작 — 캘리포니아 재정착과 국민회 활동 재개",
+    "date": { "start": "1911-09-03", "end": "1911-12-31", "precision": "range", "calendar": "solar" },
+    "place": { "name": "캘리포니아", "modern_name": "미국 캘리포니아주", "lat": null, "lng": null },
+    "actors": ["안창호", "이혜련", "안필립"],
+    "orgs": ["대한인국민회"],
+    "summary": "1911년 9월 3일 뉴욕 도착(망명 여정 종착) 직후 안창호는 대륙을 횡단해 캘리포니아로 이동, 가족과 재회하고 대한인국민회 조직 정비 활동에 착수했다.",
+    "detail": "우리역사넷: '1911년 9월 미국으로 돌아온 안창호는 도착하자마자 대한인국민회 일로 분주했다.' 뉴욕 도착(1911-09-03)까지의 망명 여정은 shinminhoe 소유 — 본 레코드는 도착 이후부터. 뉴욕→캘리포니아 이동 일자·경로는 미확인〔이동 경로 미확인〕. 4년 만의 가족 재회 시점·장소도 1차 사료로 특정하지 못했다〔재회 시점 미확인〕. 같은 해 12월 파차파 캠프에서 대한인국민회 북미지방총회 회의가 열렸다는 UCR 연표 기록('The 1911 Korean National Association of North America meeting was held in December')이 있어 이 시기 리버사이드와의 연결이 확인된다.",
+    "sources": [
+      { "type": "institutional", "title": "우리역사넷(국사편찬위원회) '안창호'", "locator": "levelId=kc_n402200", "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n402200&code=kc_age_40" },
+      { "type": "academic", "title": "UCR Young Oak Kim Center, 'Pachappa Camp: History & Timeline'", "locator": null, "url": "https://pachappacamp.ucr.edu/history-timeline/" }
+    ],
+    "confidence": "C",
+    "tags": ["이동", "가족", "결사"]
+  },
+  {
+    "id": "evt-amer-017",
+    "title": "북미실업주식회사 발기·설립",
+    "date": { "start": "1912-01-01", "end": "1912-01-31", "precision": "month", "calendar": "solar" },
+    "place": { "name": "캘리포니아〔소재지 세부 미확인〕", "modern_name": "미국 캘리포니아주", "lat": null, "lng": null },
+    "actors": ["안창호", "김인수", "송종익", "김종혁", "조성환", "김기만", "정원도", "임준기", "손양선", "강번"],
+    "orgs": ["북미실업주식회사"],
+    "summary": "1912년 1월 안창호 등 10인을 발기인으로 북미실업주식회사(北美實業株式會社)가 출범했다. 한인 자본을 모아 실업을 일으키고 독립운동 재정 기반을 만들려는 회사였다.",
+    "detail": "한국민족문화대백과('북미실업주식회사'): 1912년 1월 김인수·송종익·김종혁·조성환·김기만·정원도·임준기·손양선·강번·안창호를 발기인으로 출범, 자본금 총액 4만 5,000달러를 목표로 주식 모집 시작. 1917년 무렵 임원진은 사장 임준기, 총무 송종익, 재무 정봉규 등. 자본 총액은 1918년 5만 달러, 1919년 3월 8만 달러(총자본 20만 달러)로 성장. 우리역사넷도 '1912년 북미실업주식회사 설립'으로 일치. 도산의 실업 활동은 운동 자금 기반 구축의 일환(매트릭스 결사 축 포함).",
+    "sources": [
+      { "type": "encyclopedia", "title": "한국민족문화대백과사전 '북미실업주식회사'", "locator": "E0073696", "url": "https://encykorea.aks.ac.kr/Article/E0073696" },
+      { "type": "institutional", "title": "우리역사넷(국사편찬위원회) '안창호'", "locator": "levelId=kc_n402200", "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n402200&code=kc_age_40" }
+    ],
+    "confidence": "B",
+    "tags": ["결사"]
+  },
+  {
+    "id": "evt-amer-018",
+    "title": "대한인국민회 중앙총회 결성 — 제1차 대표원의회 참가와 총회장 선거",
+    "date": { "start": "1912-11-08", "end": "1912-11-20", "precision": "range", "calendar": "solar" },
+    "place": { "name": "샌프란시스코", "modern_name": "미국 캘리포니아주 샌프란시스코", "lat": 37.7749, "lng": -122.4194 },
+    "actors": ["안창호", "윤병구", "황사용"],
+    "orgs": ["대한인국민회"],
+    "summary": "1912년 11월 8일 샌프란시스코에서 대한인국민회 제1차 대표원의회가 열려 중앙총회를 결성하고 11월 20일 '해외 한인의 최고기관'으로 선포했다. 안창호는 만주 지방총회 대표 대리로 참가해 중앙총회장 선거에 출마했으나 윤병구가 당선되었다.",
+    "detail": "국사편찬위 신편한국사: 1912년 11월 8일 대표원의회에서 중앙총회장 윤병구(尹炳求)·부회장 황사용(黃思溶) 선임, 11월 20일 결성 선포식에서 중앙총회를 '해외 한인의 최고기관'으로 인정 선언. 우리역사넷 안창호 항목 계열 서술: 안창호는 만주리아 지방총회 대표 대리로 참가, 총회장 선거에서 윤병구에게 낙선. 【상충】 다수의 통설적 서술(독립기념관 인명사전 '1912년 11월 대한인국민회 중앙총회장 선출', 흥사단·기념사업회 자료의 '초대 중앙총회장 안창호')과 정면 상충 — 사료 기반 서술(신편한국사)은 윤병구 당선을 명시하므로 양설 병기, 채택 판단은 Phase 2. 대한인국민회기념재단 50년사는 역대 중앙총회장으로 '안창호, 백일규, 윤병구'를 들어 안창호의 재임 자체는 확인되나 시점이 갈린다(1914년 당선설은 evt-amer-020).",
+    "sources": [
+      { "type": "institutional", "title": "신편한국사 '국민국가 수립론과 대한인국민회 중앙총회의 설립'", "locator": "nh_047_0030_0020_0040_0040", "url": "https://contents.history.go.kr/mobile/nh/view.do?levelId=nh_047_0030_0020_0040_0040" },
+      { "type": "institutional", "title": "독립기념관 한국독립운동인명사전 '안창호' — 1912년 중앙총회장 선출설", "locator": "id=696", "url": "https://search.i815.or.kr/dictionary/detail.do?searchWord=&reSearchWord=&searchType=all&index=1&id=696" },
+      { "type": "institutional", "title": "대한인국민회기념재단, '대한인국민회 50년사'", "locator": null, "url": "https://knamf.org/대한인국민회-50년사/" }
+    ],
+    "confidence": "B",
+    "tags": ["결사"]
+  },
+  {
+    "id": "evt-amer-019",
+    "title": "헤멧 밸리 사건 — 대한인국민회의 외교적 대응과 한인 지위의 사실상 승인",
+    "date": { "start": "1913-01-01", "end": "1913-12-31", "precision": "year", "calendar": "solar" },
+    "place": { "name": "헤멧(Hemet)", "modern_name": "미국 캘리포니아주 헤멧", "lat": 33.7475, "lng": -116.9719 },
+    "actors": ["이대위", "윌리엄 제닝스 브라이언(William Jennings Bryan)"],
+    "orgs": ["대한인국민회"],
+    "summary": "1913년 캘리포니아 헤멧에서 살구 수확 한인 노동자 11명이 일본인으로 오인한 백인 군중의 위협으로 축출당하자, 대한인국민회(북미지방총회장 이대위)가 '한인은 일본 신민이 아니다'라며 직접 교섭해 미 국무장관 브라이언이 사건 종결을 발표 — 재미 한인의 독자적 지위를 사실상 승인받았다.",
+    "detail": "영문 위키백과(Pachappa Camp): 1913년 헤멧에서 한인 노동자 11명이 100명 이상의 백인 군중에게 축출 위협을 받았고, 남캘리포니아 일본인회가 일본 영사를 통한 개입을 시도했으나 한인들은 '일본의 한국 병탄 이전에 도미한 한인은 일본 신민이 아니다'라며 거부. 국무장관 브라이언이 조사를 명령했고, 국민회(KNA) 총회장 이대위(David Lee)가 전보로 '사건은 해결되었으며 미 정부는 재미 한인 문제를 일본 정부와 교섭하지 말라'고 요청, 브라이언이 사건 종결 보도자료를 발표하여 'a de facto recognition of the Korean national status of Koreans in the United States'가 되었다. 발생 월은 6월로 알려져 있으나 본 조사의 확보 출처는 연도까지만 보장〔발생 월 미확인〕. 안창호 본인의 직접 개입 여부는 확보 출처에서 미확인 — 국민회 조직사 사건으로 기록.",
+    "sources": [
+      { "type": "encyclopedia", "title": "Wikipedia(en), 'Pachappa Camp' — Hemet Valley Incident", "locator": null, "url": "https://en.wikipedia.org/wiki/Pachappa_Camp" },
+      { "type": "academic", "title": "Edward T. Chang, 'Pachappa Camp: The First Koreatown in the United States' (2021)", "locator": null, "url": "https://escholarship.org/uc/item/8p88m8mw" }
+    ],
+    "confidence": "C",
+    "tags": ["결사"]
+  },
+  {
+    "id": "evt-amer-020",
+    "title": "대한인국민회 중앙총회장 당선",
+    "date": { "start": "1914-11-01", "end": "1914-11-30", "precision": "month", "calendar": "solar" },
+    "place": { "name": "샌프란시스코(대한인국민회 중앙총회 소재지)", "modern_name": "미국 캘리포니아주 샌프란시스코", "lat": 37.7749, "lng": -122.4194 },
+    "actors": ["안창호"],
+    "orgs": ["대한인국민회"],
+    "summary": "1914년 11월 대한인국민회 대표원회에서 안창호가 중앙총회장에 당선되었다.",
+    "detail": "우리역사넷(국사편찬위): '1914년 11월 대한인국민회 대표원회에서 중앙총회장에 당선.' 1912년 11월 선거에서 윤병구에게 낙선(evt-amer-018)한 뒤의 당선이다. 대표원회 개최 장소의 세부는 미확인이나 중앙총회 소재지는 샌프란시스코. 【상충 주의】 독립기념관 인명사전 등은 1912년 11월 중앙총회장 선출로 서술 — evt-amer-018의 상충 병기와 연동하여 Phase 2에서 일괄 판정 필요.",
+    "sources": [
+      { "type": "institutional", "title": "우리역사넷(국사편찬위원회) '안창호'", "locator": "levelId=kc_n402200", "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n402200&code=kc_age_40" }
+    ],
+    "confidence": "B",
+    "tags": ["결사"]
+  },
+  {
+    "id": "evt-amer-021",
+    "title": "대한인국민회 중앙총회장 취임식",
+    "date": { "start": "1915-06-23", "end": "1915-06-23", "precision": "day", "calendar": "solar" },
+    "place": { "name": "샌프란시스코(대한인국민회 중앙총회 소재지)", "modern_name": "미국 캘리포니아주 샌프란시스코", "lat": 37.7749, "lng": -122.4194 },
+    "actors": ["안창호"],
+    "orgs": ["대한인국민회"],
+    "summary": "1915년 6월 23일 안창호가 대한인국민회 중앙총회장 취임식에서 동포 사회의 단결을 강조하는 연설을 했다.",
+    "detail": "우리역사넷: '1915년 6월 23일 중앙총회 회장 취임식에서 안창호는 동포사회의 단결을 강조.' 취임식 개최 장소의 세부(회관명)는 확보 출처에 명시되지 않음. 이 연설은 사상이 표명된 사건으로 philosophy-researcher와 교차 층위 중복이 허용된다. 중앙총회장으로서 안창호는 멕시코 순방(evt-amer-022), 파리강화회의 대표 선출(evt-amer-023) 등을 주재한다.",
+    "sources": [
+      { "type": "institutional", "title": "우리역사넷(국사편찬위원회) '안창호'", "locator": "levelId=kc_n402200", "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n402200&code=kc_age_40" }
+    ],
+    "confidence": "B",
+    "tags": ["결사", "사상"]
+  },
+  {
+    "id": "evt-amer-022",
+    "title": "멕시코 한인사회 순방 (약 10개월)",
+    "date": { "start": "1917-10-01", "end": "1918-08-31", "precision": "range", "calendar": "solar" },
+    "place": { "name": "멕시코 각지(유카탄 에네켄 농장 지대·과달라하라 등)", "modern_name": "멕시코", "lat": null, "lng": null },
+    "actors": ["안창호"],
+    "orgs": ["대한인국민회"],
+    "summary": "1917년 10월부터 1918년 8월까지 안창호가 대한인국민회 중앙총회장 자격으로 멕시코 한인사회를 약 10개월간 순방하며 노동 실태 개선과 국민회 조직 정비를 이끌었다.",
+    "detail": "학술 논문 「도산 안창호의 멕시코 순행과 그 업적」 및 언론 보도(서울신문 2016-03-01): '멕시코 한인의 초청으로 1917년 10월부터 1918년 8월까지 약 10개월간 멕시코 전역을 순행', '도산 개인의 자격이 아닌 대한인국민회 중앙총회장이라는 공적인 직함을 가지고' 방문. 귀로에 미국 재입국 허가를 위해 과달라하라로 이동, 프란세스 호텔에 체류한 행적이 2016년 현지 조사로 확인되었다. 멕시코 한인은 에네켄(henequen) 농장 노동자들이 중심으로, 1909년 설립된 국민회 멕시코지방회(evt-amer-013 detail 참조)를 기반으로 했다. 출발·귀환의 정확한 일자는 미확인〔출발일 미확인 — 10월 12일설 등 일자 단위 출처 미확보〕.",
+    "sources": [
+      { "type": "academic", "title": "「도산 안창호의 멕시코 순행과 그 업적」", "locator": "koreascholar Article 328875", "url": "https://db.koreascholar.com/Article/Detail/328875" },
+      { "type": "web", "title": "서울신문, '멕시코까지 퍼져나간 독립의 꿈…안창호 행적 첫 발견'", "locator": "2016-03-01", "url": "https://www.seoul.co.kr/news/life/2016/03/01/20160301800020" },
+      { "type": "institutional", "title": "독립기념관 한국독립운동인명사전 '안창호'", "locator": "id=696", "url": "https://search.i815.or.kr/dictionary/detail.do?searchWord=&reSearchWord=&searchType=all&index=1&id=696" }
+    ],
+    "confidence": "B",
+    "tags": ["이동", "결사"]
+  },
+  {
+    "id": "evt-amer-023",
+    "title": "파리강화회의 파견 대표 3인 선출 — 중앙총회 전체회의 소집",
+    "date": { "start": "1918-11-01", "end": "1918-11-30", "precision": "month", "calendar": "solar" },
+    "place": { "name": "샌프란시스코(대한인국민회 중앙총회 소재지)", "modern_name": "미국 캘리포니아주 샌프란시스코", "lat": 37.7749, "lng": -122.4194 },
+    "actors": ["안창호", "이승만", "정한경", "민찬호"],
+    "orgs": ["대한인국민회"],
+    "summary": "1918년 11월 안창호가 대한인국민회 중앙총회 전체회의를 소집하여 이승만·정한경·민찬호 3인을 파리강화회의 파견 대표로 선출했다.",
+    "detail": "우리역사넷: '1918년 11월에는 대한인국민회 중앙총회 전체회의를 소집해 이승만, 정한경(鄭翰景), 민찬호 3인을 파리강화회의 파견대표로 선출.' 대한인국민회기념재단 50년사도 '이승만, 민찬호, 정한경을 대표로 임명하여 강화회의에 파송했다'로 일치. 1차 세계대전 종전(1918-11-11)과 윌슨의 민족자결주의에 대한 미주 한인사회의 즉각 대응이었다. 대표단의 이후 여권 발급 거부 등 전개는 본 레코드 범위 외.",
+    "sources": [
+      { "type": "institutional", "title": "우리역사넷(국사편찬위원회) '안창호'", "locator": "levelId=kc_n402200", "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n402200&code=kc_age_40" },
+      { "type": "institutional", "title": "대한인국민회기념재단, '대한인국민회 50년사'", "locator": null, "url": "https://knamf.org/대한인국민회-50년사/" }
+    ],
+    "confidence": "B",
+    "tags": ["결사"]
+  },
+  {
+    "id": "evt-amer-024",
+    "title": "3·1운동 소식 접수와 안창호 특파 결정 (2차 미주 체류 종료 국면)",
+    "date": { "start": "1919-03-09", "end": "1919-03-31", "precision": "range", "calendar": "solar" },
+    "place": { "name": "샌프란시스코·로스앤젤레스", "modern_name": "미국 캘리포니아주", "lat": null, "lng": null },
+    "actors": ["안창호"],
+    "orgs": ["대한인국민회"],
+    "summary": "1919년 3월 9일 대한인국민회가 국내 독립선언(3·1운동) 소식을 접수했고, 3월 13일 안창호가 중앙총회 긴급협의회에서 '3·1운동을 계승하자'고 연설했다. 이어 중앙총회는 안창호를 중국(상하이)에 특파하기로 결정했다.",
+    "detail": "대한인국민회기념재단: '1919년 3월 9일, 조국 독립선언의 소식을 받고… 독립운동과 상해의 대한민국임시정부 건설을 후원.' 독립기념관 인명사전: '3월 13일 대한인국민회 긴급위원회에서 연설: 3·1운동을 계승하자.' 특파 결의의 정확한 일자는 출처 간 차이가 있어 미확인 — 3월 24일 결의설이 있으나 1차 확인 못함〔특파 결의 일자 미확인〕. 국민회가 특파에 즈음해 거액의 독립운동 자금(2만 달러설)을 지원했다는 서술도 금액의 1차 근거 미확인〔지원금 액수 미확인〕. 매트릭스 경계에 따라 본 레코드는 특파 결정까지 — 1919년 4월 출항, 5월 25일 상하이 도착 이후는 provisional-gov 소유로 이관.",
+    "sources": [
+      { "type": "institutional", "title": "독립기념관 한국독립운동인명사전 '안창호'", "locator": "id=696", "url": "https://search.i815.or.kr/dictionary/detail.do?searchWord=&reSearchWord=&searchType=all&index=1&id=696" },
+      { "type": "institutional", "title": "대한인국민회기념재단, '대한인국민회 50년사'", "locator": null, "url": "https://knamf.org/대한인국민회-50년사/" },
+      { "type": "institutional", "title": "국가기록원 국가지정기록물 제5호 '도산 안창호 관련 미주 국민회 기록물'", "locator": "제5호", "url": "https://theme.archives.go.kr/next/nationalArchives/subPage/nationalArchives4.do" }
+    ],
+    "confidence": "B",
+    "tags": ["결사", "사상"]
+  },
+  {
+    "id": "evt-amer-025",
+    "title": "3차 도미 — 상하이 출발과 샌프란시스코 도착",
+    "date": { "start": "1924-11-01", "end": "1924-12-16", "precision": "range", "calendar": "solar" },
+    "place": { "name": "샌프란시스코(도착항)", "modern_name": "미국 캘리포니아주 샌프란시스코", "lat": 37.7749, "lng": -122.4194 },
+    "actors": ["안창호"],
+    "orgs": [],
+    "summary": "1924년 11월 안창호가 상하이를 떠나 12월 16일 샌프란시스코에 도착, 세 번째 미주 체류를 시작했다.",
+    "detail": "독립기념관 인명사전: '1924년 11월 상하이를 떠나 12월 16일 샌프란시스코에 도착해 1926년 2월까지 미국에 머물며' 임시정부 지지와 재정 지원을 호소. 매트릭스 경계 규칙('이동은 목적지 연구원 소유')에 따라 중국 출항을 포함한 미주행 이동 전체를 america가 기록. 상하이 출항의 정확한 일자는 미확인〔출항 일자 미확인〕.",
+    "sources": [
+      { "type": "institutional", "title": "독립기념관 한국독립운동인명사전 '안창호'", "locator": "id=696", "url": "https://search.i815.or.kr/dictionary/detail.do?searchWord=&reSearchWord=&searchType=all&index=1&id=696" }
+    ],
+    "confidence": "B",
+    "tags": ["이동"]
+  },
+  {
+    "id": "evt-amer-026",
+    "title": "3차 미주 체류 활동 — 각지 순회, 임시정부 재정 지원 호소, 가족 재회",
+    "date": { "start": "1924-12-16", "end": "1926-02-28", "precision": "range", "calendar": "solar" },
+    "place": { "name": "캘리포니아 각지(로스앤젤레스·샌프란시스코 등)·유타 솔트레이크", "modern_name": "미국 서부", "lat": null, "lng": null },
+    "actors": ["안창호", "이혜련", "안필립", "안필선", "안수산", "안수라"],
+    "orgs": ["대한인국민회"],
+    "summary": "1924년 12월부터 1926년 초까지 안창호는 미주 각지를 순회하며 임시정부 지지와 재정 지원을 호소했고, 유타주 솔트레이크 도시개발 현지 조사를 수행했으며, 로스앤젤레스의 가족과 약 5년 만에 재회했다.",
+    "detail": "독립기념관 인명사전: '1926년 2월까지 미국에 머물며' 임시정부 지지·재정 지원 호소, '유타주 솔트레이크 도시개발 현지 조사' 수행. 솔트레이크 조사는 도산의 이상촌 구상과 연관된 것으로 해석되나 이상촌 후보지 물색(만주·남경 등)의 본류는 provisional-gov 소유 — 미주 내 조사 사건만 본 레코드에 포함. 이 체류기 중 막내 안필영이 잉태되었고(1926-09-28 출생, evt-amer-035), 도산 출국 후 태어나 부자는 끝내 만나지 못했다. 이 시기 흥사단 관련 활동(단소 순방 등)은 heungsadan 소유로 기록하지 않음 — 인계 메모 참조. 순회 도시·일정의 세부는 미확인〔순회 일정 미확인〕.",
+    "sources": [
+      { "type": "institutional", "title": "독립기념관 한국독립운동인명사전 '안창호'", "locator": "id=696", "url": "https://search.i815.or.kr/dictionary/detail.do?searchWord=&reSearchWord=&searchType=all&index=1&id=696" },
+      { "type": "encyclopedia", "title": "Wikipedia(en), 'Ralph Ahn'", "locator": null, "url": "https://en.wikipedia.org/wiki/Ralph_Ahn" }
+    ],
+    "confidence": "C",
+    "tags": ["결사", "가족", "이동"]
+  },
+  {
+    "id": "evt-amer-027",
+    "title": "3차 미주 체류 종료 — 미주 고별·중국 복귀 출발 결정",
+    "date": { "start": "1926-02-01", "end": "1926-03-31", "precision": "range", "calendar": "solar" },
+    "place": { "name": "샌프란시스코·로스앤젤레스", "modern_name": "미국 캘리포니아주", "lat": null, "lng": null },
+    "actors": ["안창호", "이혜련"],
+    "orgs": [],
+    "summary": "1926년 초(2~3월) 안창호가 미주 활동을 마무리하고 중국 복귀를 위해 출국했다. 이것이 도산의 마지막 미국 체류가 되었다.",
+    "detail": "독립기념관 인명사전은 미국 체류를 '1926년 2월까지'로 기록하나 정확한 출항 일자·출항지는 미확인〔출항 일자 미확인〕. 위키백과 등은 배편으로 하와이를 거쳐 상하이로 복귀했다고 서술하며, 상하이 도착은 1926년 5월 16일(도착 전인 5월 3일 임시정부가 그를 국무령으로 선출). 매트릭스 §5 규칙상 1926년 중국 복귀 이동(출항 포함)은 provisional-gov 소유 — 본 레코드는 미주 고별·출발 결정 국면까지만 기록하고 항해·하와이 경유·상하이 도착은 인계. 가족과의 이 이별이 도산과 미주 가족의 마지막 대면이 되었다.",
+    "sources": [
+      { "type": "institutional", "title": "독립기념관 한국독립운동인명사전 '안창호'", "locator": "id=696", "url": "https://search.i815.or.kr/dictionary/detail.do?searchWord=&reSearchWord=&searchType=all&index=1&id=696" },
+      { "type": "encyclopedia", "title": "위키백과(ko) '안창호'", "locator": null, "url": "https://ko.wikipedia.org/wiki/안창호" }
+    ],
+    "confidence": "C",
+    "tags": ["이동", "가족"]
+  },
+  {
+    "id": "evt-amer-028",
+    "title": "이혜련(李惠鍊) 생애 — 미주 한인 여성 독립운동가",
+    "date": { "start": "1884-04-21", "end": "1969-04-21", "precision": "range", "calendar": "solar" },
+    "place": { "name": "평안남도 강서 출생, 로스앤젤레스 사망", "modern_name": "미국 캘리포니아주 로스앤젤레스(주 활동지)", "lat": 34.0522, "lng": -118.2437 },
+    "actors": ["이혜련", "안창호"],
+    "orgs": ["대한여자애국단", "부인친애회"],
+    "summary": "도산의 부인 이혜련은 1884년 4월 21일 평남 강서 출생, 1902년 결혼·도미 후 도산의 장기 부재 중 가사노동으로 다섯 자녀를 키우며 가계를 지탱했고, 대한여자애국단 총단장을 역임한 독립운동가다. 1969년 4월 21일(85세 생일) 로스앤젤레스에서 사망, 2008년 건국훈장 애족장이 추서되었다.",
+    "detail": "한국민족문화대백과('이혜련'): 1884년 출생, 1969년 사망, '일제강점기 미주에서 대한여자애국단 총단장을 역임한 독립운동가.' 한인역사박물관 등은 생일 1884-04-21, 사망일 1969-04-21(본인 85세 생일)로 기록. 1902년 안창호와 결혼해 함께 도미(여권 51·52호 — evt-amer-002). 도산이 생애 대부분을 국내외 운동에 바치는 동안 삯바느질·가사노동 등으로 가족 생계를 책임졌다. 1919년 부인친애회 조직, 1919년 8월 대한여자애국단 창립 참여(evt-amer-029), 국민 의무금·국민회 보조금·특별 의연금 모금 활동(대백과). 총단장 재임 시기는 미확인〔총단장 재임 연도 미확인〕. 2008년 정부가 건국훈장 애족장 추서. 1973년 유해가 서울 도산공원으로 이장되어 도산과 합장 — 합장 사건 자체는 heungsadan 사후 영역으로 이관.",
+    "sources": [
+      { "type": "encyclopedia", "title": "한국민족문화대백과사전 '이혜련'", "locator": "E0079746", "url": "https://encykorea.aks.ac.kr/Article/E0079746" },
+      { "type": "institutional", "title": "한인역사박물관 '이혜련 Hea Ryun Lee 李惠鍊'", "locator": null, "url": "https://kahistorymuseum.org/이-혜-련-hea-ryun-lee-李惠鍊/" },
+      { "type": "institutional", "title": "USC Dornsife Korean Studies Institute, 'Ahn Family House'", "locator": null, "url": "https://dornsife.usc.edu/ksi/ahn-family-house/" }
+    ],
+    "confidence": "B",
+    "tags": ["가족", "결사"]
+  },
+  {
+    "id": "evt-amer-029",
+    "title": "이혜련의 부인친애회 조직과 대한여자애국단 창립 참여",
+    "date": { "start": "1919-03-01", "end": "1919-08-05", "precision": "range", "calendar": "solar" },
+    "place": { "name": "로스앤젤레스·다뉴바(합동 발기대회)", "modern_name": "미국 캘리포니아주 로스앤젤레스·디누바(Dinuba)", "lat": 36.5433, "lng": -119.3873 },
+    "actors": ["이혜련"],
+    "orgs": ["부인친애회", "대한여자애국단", "대한인국민회"],
+    "summary": "3·1운동 소식을 들은 이혜련은 로스앤젤레스에서 부인친애회를 조직해 독립의연금 모금에 나섰고, 1919년 8월 2일 다뉴바 합동 발기대회를 거쳐 8월 5일 대한인국민회 중앙총회 인준으로 발족한 대한여자애국단에 부인친애회 대표로 참여했다.",
+    "detail": "한국민족문화대백과('대한여자애국단'): 캘리포니아 각지 부인회들이 1919년 8월 2일 다뉴바에서 합동 발기대회를 열고 8월 5일 대한인국민회 중앙총회 인준을 받아 정식 발족, 중앙본부는 다뉴바, 샌프란시스코·로스앤젤레스에 지부. 한국민족문화대백과('이혜련'): '3·1운동의 소식을 듣고 로스앤젤레스에서 부인친애회(婦人親愛會)를 조직하여 독립의연금 모금에 솔선수범', 통합 시 부인친애회 대표로 참가. 대한여자애국단은 군자금을 모집해 임시정부 등에 송금했고 후일 광복군 창설 지원금도 보냈다. 이 사건 시기 도산은 상하이 체류 중(provisional-gov 시기) — 미주 거주 가족의 활동이므로 america 소유.",
+    "sources": [
+      { "type": "encyclopedia", "title": "한국민족문화대백과사전 '대한여자애국단'", "locator": "E0015135", "url": "https://encykorea.aks.ac.kr/Article/E0015135" },
+      { "type": "encyclopedia", "title": "한국민족문화대백과사전 '이혜련'", "locator": "E0079746", "url": "https://encykorea.aks.ac.kr/Article/E0079746" }
+    ],
+    "confidence": "B",
+    "tags": ["가족", "결사"]
+  },
+  {
+    "id": "evt-amer-030",
+    "title": "장남 안필립(Philip Ahn) 출생",
+    "date": { "start": "1905-03-29", "end": "1905-03-29", "precision": "day", "calendar": "solar" },
+    "place": { "name": "로스앤젤레스 하이랜드파크", "modern_name": "미국 캘리포니아주 로스앤젤레스 하이랜드파크", "lat": 34.0522, "lng": -118.2437 },
+    "actors": ["안필립", "안창호", "이혜련"],
+    "orgs": [],
+    "summary": "1905년 3월 29일 도산의 장남 안필립이 로스앤젤레스 하이랜드파크에서 태어났다.",
+    "detail": "영문 위키백과('Philip Ahn'): 'born on March 29, 1905… in the Highland Park neighborhood of Los Angeles.' 출생 당시 도산은 리버사이드를 거점으로 활동 중이었다(evt-amer-006~008과 같은 시기) — 출생지가 리버사이드가 아닌 LA 하이랜드파크인 점에서 가족 거주지의 이동 혹은 출산지 선택의 세부는 미확인〔당시 가족 거주지 세부 미확인〕. 일부 자료는 안필립을 '미국 본토에서 출생한 최초의 한인 2세 중 한 명'으로 서술하나 '최초' 단정의 근거는 확인하지 못해 채택하지 않음.",
+    "sources": [
+      { "type": "encyclopedia", "title": "Wikipedia(en), 'Philip Ahn'", "locator": null, "url": "https://en.wikipedia.org/wiki/Philip_Ahn" },
+      { "type": "institutional", "title": "USC Dornsife Korean Studies Institute, 'Ahn Family House'", "locator": null, "url": "https://dornsife.usc.edu/ksi/ahn-family-house/" }
+    ],
+    "confidence": "B",
+    "tags": ["가족"]
+  },
+  {
+    "id": "evt-amer-031",
+    "title": "안필립의 생애 — 할리우드 최초의 한국계 미국인 배우",
+    "date": { "start": "1905-03-29", "end": "1978-02-28", "precision": "range", "calendar": "solar" },
+    "place": { "name": "로스앤젤레스·할리우드", "modern_name": "미국 캘리포니아주 로스앤젤레스", "lat": 34.0522, "lng": -118.2437 },
+    "actors": ["안필립"],
+    "orgs": [],
+    "summary": "도산의 장남 안필립(Philip Ahn, 1905-03-29~1978-02-28)은 할리우드 최초의 한국계 미국인 영화배우로 평가되며, 1935~1978년 180여 편의 영화·TV에 출연했고 1984년 한국계 배우 최초로 할리우드 명예의 거리에 헌액되었다.",
+    "detail": "영문 위키백과·Hollywood Walk of Fame 공식 사이트: 'widely regarded as the first Korean American film actor in Hollywood', 'over 180 film and television credits between 1935 and 1978', 1984년 사후 헌액(별 위치 6211 Hollywood Boulevard). 1978년 2월 28일 사망. 부친의 유산을 알리는 활동과 한인 사회 공헌도 지속했다(AsAmNews 등). 동생 수라와 함께 파노라마시티에서 'Phil Ahn's Moongate' 중식당을 30여 년 운영(evt-amer-034). 한·영 표기 대응: 안필립=Philip Ahn(동일 인물 확정 — 부모·생몰·경력 일치).",
+    "sources": [
+      { "type": "encyclopedia", "title": "Wikipedia(en), 'Philip Ahn'", "locator": null, "url": "https://en.wikipedia.org/wiki/Philip_Ahn" },
+      { "type": "web", "title": "Hollywood Walk of Fame, 'Philip Ahn'", "locator": null, "url": "https://walkoffame.com/philip-ahn/" },
+      { "type": "web", "title": "AsAmNews, 'Philip Ahn – The Korean American Pioneer in Hollywood'", "locator": "2023-05-25", "url": "https://asamnews.com/2023/05/25/phillip-ahn-the-korean-american-pioneer-in-hollywood/" }
+    ],
+    "confidence": "B",
+    "tags": ["가족"]
+  },
+  {
+    "id": "evt-amer-032",
+    "title": "차남 안필선(Philson Ahn)의 생애 — 항공우주 엔지니어",
+    "date": { "start": "1912-07-05", "end": "2001-05-23", "precision": "range", "calendar": "solar" },
+    "place": { "name": "로스앤젤레스", "modern_name": "미국 캘리포니아주 로스앤젤레스", "lat": 34.0522, "lng": -118.2437 },
+    "actors": ["안필선"],
+    "orgs": [],
+    "summary": "도산의 차남 안필선(Philson Ahn, 1912-07-05~2001-05-23)은 UC버클리를 졸업한 엔지니어로 휴즈항공(Hughes Aircraft) 부사장까지 올랐으며, 2차대전기 시제 비행정 H-4 허큘리스 개발에 참여했다.",
+    "detail": "USC·역사표지(hmdb)·IMDb 전기: 'graduated from the University of California, Berkeley and became an engineer… aerospace vice president of the Hughes Aircraft Company… contributed to the development of the Hughes H-4 Hercules.' 생몰일(1912-07-05~2001-05-23)은 IMDb 등 웹 출처 기반으로 기관 출처 교차 확인 미완〔생몰일 교차 미확인〕. 출생 시점(1912년 7월)은 도산의 2차 미주 체류 개시(1911-09) 후로 체류지 정합성에 모순 없음. 일부 웹 전기(IMDb)는 필선을 '막내(youngest child)'로 잘못 서술 — 막내는 안필영(evt-amer-035)이며 도산이 보지 못한 자녀도 필영이다(출처 오류로 판단, 병기). 청년기에 단역 배우 활동도 했다(IMDb).",
+    "sources": [
+      { "type": "web", "title": "IMDb, 'Philson Ahn — Biography'", "locator": "nm0014218", "url": "https://www.imdb.com/name/nm0014218/bio/" },
+      { "type": "web", "title": "HMDB, 'The Ahn Family Residence' historical marker", "locator": "m=229279", "url": "https://www.hmdb.org/m.asp?m=229279" },
+      { "type": "institutional", "title": "USC Dornsife Korean Studies Institute, 'Ahn Family House'", "locator": null, "url": "https://dornsife.usc.edu/ksi/ahn-family-house/" }
+    ],
+    "confidence": "C",
+    "tags": ["가족"]
+  },
+  {
+    "id": "evt-amer-033",
+    "title": "장녀 안수산(Susan Ahn Cuddy)의 생애 — 미 해군 최초의 아시아계 여성 장교",
+    "date": { "start": "1915-01-16", "end": "2015-06-24", "precision": "range", "calendar": "solar" },
+    "place": { "name": "로스앤젤레스", "modern_name": "미국 캘리포니아주 로스앤젤레스", "lat": 34.0522, "lng": -118.2437 },
+    "actors": ["안수산"],
+    "orgs": ["미국 해군"],
+    "summary": "도산의 장녀 안수산(Susan Ahn Cuddy, 1915-01-16 로스앤젤레스 출생~2015-06-24)은 1942년 미 해군에 입대해 해군 최초의 아시아계 미국인 여성이자 최초의 여성 포술 장교(gunnery officer)가 되었고, 대위(Lieutenant)로 전역 후 해군정보부·NSA에서 일했다.",
+    "detail": "미 해군 역사유산사령부(Naval History and Heritage Command)·Britannica·영문 위키백과 일치: 1915년 1월 16일 LA 출생, 1942년 입대, 'the first Asian-American woman to join the U.S. Navy', 'the first female gunnery officer in the United States Navy', 1943년 링크 트레이너(비행 모의훈련기) 교관, 1946년까지 복무(최종 계급 Lieutenant), 'the first Korean-American in U.S. Naval Intelligence.' 이후 NSA에서 근무했다. 2015년 6월 24일 사망. 출생 시점은 도산의 2차 미주 체류기로 도산이 출생을 지켜본 자녀다. 한·영 표기 대응: 안수산=Susan Ahn Cuddy(결혼 후 성 Cuddy — 1947년 Francis X. Cuddy와 결혼, 동일 인물 확정).",
+    "sources": [
+      { "type": "institutional", "title": "Naval History and Heritage Command, 'Lieutenant Susan Ahn Cuddy'", "locator": null, "url": "https://www.history.navy.mil/browse-by-topic/diversity/asian-americans-pacific-islanders-in-the-navy/susan-ahn-cuddy.html/" },
+      { "type": "encyclopedia", "title": "Britannica, 'Susan Ahn Cuddy'", "locator": null, "url": "https://www.britannica.com/biography/Susan-Ahn-Cuddy" },
+      { "type": "encyclopedia", "title": "Wikipedia(en), 'Susan Ahn Cuddy'", "locator": null, "url": "https://en.wikipedia.org/wiki/Susan_Ahn_Cuddy" }
+    ],
+    "confidence": "B",
+    "tags": ["가족"]
+  },
+  {
+    "id": "evt-amer-034",
+    "title": "차녀 안수라(Soorah Ahn Buffum)의 생애 — 문게이트 레스토랑 경영",
+    "date": { "start": "1917-05-27", "end": "2016-12-31", "precision": "range", "calendar": "solar" },
+    "place": { "name": "로스앤젤레스·파노라마시티", "modern_name": "미국 캘리포니아주 로스앤젤레스", "lat": 34.0522, "lng": -118.2437 },
+    "actors": ["안수라"],
+    "orgs": [],
+    "summary": "〔미확인-생몰〕 도산의 차녀 안수라(Soorah Ahn Buffum)는 1917년 5월 27일 출생, 2016년 사망으로 전해지나 생몰의 공식 출처는 확인하지 못했다. 1954년 개업한 파노라마시티의 중식당 'Phil Ahn's Moongate'를 형제와 함께 30여 년간 경영했다.",
+    "detail": "생몰일(1917-05-27~2016)은 계보 웹사이트(WikiTree) 단독 — 기관·학술 출처 미확보로 D등급〔생몰일 미확인〕. 식당 경영은 복수 출처 확인: USC 계열·역사표지 자료는 '수라가 오빠 필립과 함께 Moongate를 30년 이상 운영', 다른 서술은 '1954년 오빠 필선과 함께 개업, 파노라마시티 최초기의 중식당, 1990년 폐업' — 동업 형제가 필립인지 필선인지 출처 간 상충(식당명 'Phil Ahn's Moongate'는 필립의 이름) — 양설 병기. 출생 시점(1917년 5월)은 도산의 멕시코 순방 출발(1917년 10월) 전으로 체류지 정합성에 모순 없음. 사망 연도의 일자 미상으로 end는 2016-12-31로 표기(연 단위).",
+    "sources": [
+      { "type": "web", "title": "WikiTree, 'Soorah (Ahn) Buffum (1917-2016)'", "locator": "Ahn-324", "url": "https://www.wikitree.com/wiki/Ahn-324" },
+      { "type": "web", "title": "HMDB, 'The Ahn Family Residence' historical marker", "locator": "m=229279", "url": "https://www.hmdb.org/m.asp?m=229279" },
+      { "type": "institutional", "title": "USC Dornsife Korean Studies Institute, 'Ahn Family House'", "locator": null, "url": "https://dornsife.usc.edu/ksi/ahn-family-house/" }
+    ],
+    "confidence": "D",
+    "tags": ["가족"]
+  },
+  {
+    "id": "evt-amer-035",
+    "title": "막내 안필영(Ralph Ahn) 출생과 생애 — 아버지가 만나지 못한 아들",
+    "date": { "start": "1926-09-28", "end": "2022-02-26", "precision": "range", "calendar": "solar" },
+    "place": { "name": "로스앤젤레스", "modern_name": "미국 캘리포니아주 로스앤젤레스", "lat": 34.0522, "lng": -118.2437 },
+    "actors": ["안필영"],
+    "orgs": [],
+    "summary": "도산의 막내 안필영(Ralph Philander Ahn, 1926-09-28 로스앤젤레스 출생~2022-02-26)은 도산이 1926년 중국으로 떠난 뒤 태어나 아버지를 평생 만나지 못했다. 체육 교사를 거쳐 배우로 활동했으며 TV 시리즈 'New Girl'의 트랜 역으로 알려졌다.",
+    "detail": "영문 위키백과('Ralph Ahn'): 'Ralph Philander Ahn was born in Los Angeles on September 28, 1926', 2022년 2월 26일 사망. 도산의 마지막 미주 출국(1926년 봄, evt-amer-027) 약 6개월 후 출생 — 시간 정합성 성립, 도산은 1938년 순국까지 다시 도미하지 못해 부자가 대면한 적이 없다. 1952년부터 TV 출연 경력을 쌓았고(역사표지 자료: 'the most well known member to mainstream America… most recently appearing as Tran in the hit TV series, New Girl'), 가족 자료는 체육 교사·노인 건강 강사 경력도 전한다(대한인국민회기념재단 가족 이야기). 도산 가족 중 마지막 생존자였다.",
+    "sources": [
+      { "type": "encyclopedia", "title": "Wikipedia(en), 'Ralph Ahn'", "locator": null, "url": "https://en.wikipedia.org/wiki/Ralph_Ahn" },
+      { "type": "web", "title": "HMDB, 'The Ahn Family Residence' historical marker", "locator": "m=229279", "url": "https://www.hmdb.org/m.asp?m=229279" },
+      { "type": "institutional", "title": "대한인국민회기념재단, '글과 사진으로 보는 도산 안창호 가족 이야기'", "locator": null, "url": "https://knamf.org/글과-사진으로-보는-도산-안창호-가족-이야기/" }
+    ],
+    "confidence": "B",
+    "tags": ["가족"]
+  },
+  {
+    "id": "evt-amer-036",
+    "title": "안 패밀리 하우스 거주 (1937–1946) — LA 한인 사회의 구심점",
+    "date": { "start": "1937-01-01", "end": "1946-12-31", "precision": "range", "calendar": "solar" },
+    "place": { "name": "로스앤젤레스 W 34번가(현 USC 캠퍼스 내 809 W. 34th St)", "modern_name": "미국 캘리포니아주 로스앤젤레스 USC 캠퍼스", "lat": 34.0224, "lng": -118.2851 },
+    "actors": ["이혜련", "안필립", "안필선", "안수산", "안수라", "안필영"],
+    "orgs": [],
+    "summary": "이혜련과 다섯 자녀는 1937년부터 1946년까지 LA의 주택(현 USC 캠퍼스 내 '안 패밀리 하우스')에 거주했으며, 이 집은 초기 LA 한인 사회의 중심 모임 장소였다.",
+    "detail": "USC 한국학연구소: 가족이 'lived in this house from 1937-1946', 이 집은 'a central gathering place for the early Korean American community'였고 당시 한인 커뮤니티의 약 80%가 USC 반경 1마일 내에 거주했다고 추정. 1960년대 USC 캠퍼스 확장 때 USC가 매입했고, 2004년 이전·복원하여 한국학연구소 청사로 사용(현 주소 809 W. 34th St). 아메리칸 포스퀘어 양식으로 LA시 사적 지정. 도산 본인은 이 집에 거주한 적이 없으나(1926년 최종 출국, 1938년 순국) 미주 가족사의 핵심 장소로 기록. 가족 관련 문서·사진은 USC Korean American Digital Archive에 소장 — 본 조사에서 USC 디지털라이브러리 직접 접근은 403으로 실패(교차 검증 미완), 소장처 기록으로 갈음.",
+    "sources": [
+      { "type": "institutional", "title": "USC Dornsife Korean Studies Institute, 'Ahn Family House'", "locator": null, "url": "https://dornsife.usc.edu/ksi/ahn-family-house/" },
+      { "type": "encyclopedia", "title": "한국민족문화대백과사전 '안창호 훼밀리하우스'", "locator": "E0074094", "url": "https://encykorea.aks.ac.kr/Article/E0074094" },
+      { "type": "web", "title": "HMDB, 'The Ahn Family Residence' historical marker", "locator": "m=229279", "url": "https://www.hmdb.org/m.asp?m=229279" }
+    ],
+    "confidence": "B",
+    "tags": ["가족"]
+  }
+]

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>활동 지도 — 도산 안창호 일대기</title>
+  <meta name="description" content="안창호(1878–1938)의 검증된 활동 가운데 위치가 확인된 사건 113건을 거점 마커로, 다섯 차례의 대이동을 경로선으로 보여주는 활동 지도. 좌표는 검증 데이터만 사용한다.">
+
+  <!-- 폰트: display=swap + 시스템 폴백(design-system §3) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;500;700&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+
+  <!-- 디자인 토큰(ui-designer) → 공통(frontend) → 지도 전용(map-) -->
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/map.css">
+
+  <!-- Leaflet 1.9.x CSS — 청사진이 허용한 유일 외부 의존(architecture §1·D-10). map.html에만 로드. -->
+  <link rel="stylesheet"
+        href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+        crossorigin="">
+</head>
+<body>
+  <!-- 헤더는 layout.js가 공통 주입(sitemap §2·D-07). layout.js가 [data-site-header]를 채운다. -->
+  <header id="site-header" data-site-header></header>
+
+  <main id="app" class="map-main" data-load-error>
+    <!-- 페이지 헤더(도입문) — pages/map.json blocks를 JS가 렌더 -->
+    <div class="map-page-head">
+      <h1 class="map-page-title" id="map-title">활동 지도</h1>
+      <div class="map-lead" id="map-lead">
+        <!-- pages/map.json map-intro 문단 → 여기 렌더, [ref:]는 footnotes가 후처리 -->
+      </div>
+    </div>
+
+    <!-- ===== 컨트롤: 시기 슬라이더(P1~P8) + 경로 토글 ===== -->
+    <section class="map-controls" aria-label="지도 필터와 이동 경로">
+      <div class="map-control-group" role="group" aria-labelledby="map-period-label">
+        <label class="map-control-label" id="map-period-label" for="map-period-slider">시기로 보기</label>
+        <div class="map-slider-wrap">
+          <input type="range" id="map-period-slider" class="map-period-slider"
+                 min="0" max="8" step="1" value="0"
+                 list="map-period-ticks"
+                 aria-describedby="map-period-readout"
+                 aria-valuetext="전체 시기">
+          <datalist id="map-period-ticks">
+            <option value="0" label="전체"></option>
+            <option value="1" label="P1"></option><option value="2" label="P2"></option>
+            <option value="3" label="P3"></option><option value="4" label="P4"></option>
+            <option value="5" label="P5"></option><option value="6" label="P6"></option>
+            <option value="7" label="P7"></option><option value="8" label="P8"></option>
+          </datalist>
+        </div>
+        <output id="map-period-readout" class="map-period-readout" for="map-period-slider">전체 시기</output>
+        <button type="button" id="map-period-reset" class="map-period-reset" hidden>전체 보기</button>
+      </div>
+
+      <div class="map-control-group" role="group" aria-labelledby="map-route-label">
+        <span class="map-control-label" id="map-route-label">이동 경로</span>
+        <!-- 경로 버튼은 map.js가 routes 정의에서 생성(근거 사건 좌표 보유분만) -->
+        <div id="map-route-buttons" class="map-route-buttons"></div>
+      </div>
+    </section>
+
+    <!-- 필터/경로 상태 라이브 영역(스크린리더, interactive-viz §5) -->
+    <p id="map-live" class="map-status" aria-live="polite" role="status"></p>
+
+    <!-- ===== Leaflet 지도 ===== -->
+    <div class="map-canvas-wrap">
+      <div id="map-canvas" class="map-canvas" role="application"
+           aria-label="안창호 활동 거점 지도. 키보드 사용자는 아래 거점 목록을 이용하세요.">
+        <!-- Leaflet/타일 로드 실패 시 map.js가 이 안에 폴백 안내를 렌더 -->
+      </div>
+      <p id="map-tile-status" class="map-tile-status" role="status" aria-live="polite"></p>
+    </div>
+
+    <!-- 현재 선택된 경로의 해설 캡션(pages/map.json map-routes 연동) -->
+    <figure class="map-route-caption-wrap">
+      <figcaption id="map-route-caption" class="map-route-caption"></figcaption>
+    </figure>
+
+    <!-- ===== 거점 목록(지도와 동등 콘텐츠 — 키보드/스크린리더 1급) ===== -->
+    <section class="map-places" aria-labelledby="map-places-heading">
+      <h2 id="map-places-heading">거점 목록</h2>
+      <p class="map-places-note">
+        위치가 확인된 사건을 거점별로 묶었습니다. 지도 마커와 같은 내용이며, 위 시기 필터가 함께 적용됩니다.
+        각 사건의 “연표에서 보기”로 상세·출처를 확인할 수 있습니다.
+      </p>
+      <div id="map-places-list" class="map-places-list">
+        <!-- map.js가 거점 단위로 렌더(좌표 보유 113건) -->
+      </div>
+    </section>
+  </main>
+
+  <!-- 푸터는 layout.js가 공통 주입. layout.js가 [data-site-footer]를 채운다. -->
+  <footer id="site-footer" data-site-footer></footer>
+
+  <!--
+    비-JS 폴백(interactive-viz §4): JS가 없으면 fetch가 동작하지 않으므로
+    핵심 거점·경로 요약과 정적 진입 동선을 직접 제공한다(지도가 콘텐츠 전부가 되지 않게).
+  -->
+  <noscript>
+    <div class="map-noscript">
+      <h1>활동 지도 — 도산 안창호 일대기</h1>
+      <p>
+        이 지도는 검증 데이터(<code>data/timeline.json</code>)에서 거점 마커와 이동 경로를 그립니다.
+        자바스크립트가 꺼져 있어 동적 지도를 표시할 수 없으므로, 아래에 시기별 대표 거점과
+        다섯 차례의 대이동을 정리해 둡니다. 전체 사건과 출처는
+        <a href="timeline.html">연표</a>·<a href="life.html">생애</a> 페이지에서 볼 수 있습니다.
+      </p>
+
+      <h2>시기별 대표 거점</h2>
+      <ul class="map-noscript-places">
+        <li><strong>P1 성장과 수학 (1878–1899)</strong> — 평양 대동강 국수당 · 한성 정동 구세학당</li>
+        <li><strong>P2 결혼과 1차 미주 (1899–1907)</strong> — 샌프란시스코 · 리버사이드 파차파 캠프 · 로스앤젤레스</li>
+        <li><strong>P3 신민회와 망명 (1907–1911)</strong> — 한성(서울) · 평양 대성학교 · 고양군 행주 · 위해위 · 청도 · 해삼위(블라디보스토크)</li>
+        <li><strong>P4 2차 미주·국민회·흥사단 (1911–1919)</strong> — 샌프란시스코 · 로스앤젤레스 · 뉴욕항</li>
+        <li><strong>P5 임시정부와 모색 (1919–1924)</strong> — 상하이 프랑스조계 · 베이징 · 난징</li>
+        <li><strong>P6 재방문과 대독립당 (1924–1932)</strong> — 상하이 · 샌프란시스코 · 길림 대동공사 · 마닐라</li>
+        <li><strong>P7 수감과 순국 (1932–1938)</strong> — 상하이 일본총영사관 · 서대문형무소 · 경성지방법원</li>
+        <li><strong>P8 사후 (1938~)</strong> — 망우리 공동묘지 · 도산공원</li>
+      </ul>
+
+      <h2>다섯 번의 대이동</h2>
+      <ol class="map-noscript-routes">
+        <li><strong>R1 도미 (1902)</strong> — 인천항 출국 → (도쿄·하와이·밴쿠버·시애틀 경유, 전승) → 샌프란시스코 도착</li>
+        <li><strong>R2 귀국 (1907)</strong> — 샌프란시스코 → 도쿄 → 한성(서울)</li>
+        <li><strong>R3 망명 대장정 (1910–1911)</strong> — 고양군 행주 → 위해위 → 청도 → 해삼위(블라디보스토크) → (시베리아·상트페테르부르크·베를린·런던 경유, 전승) → 뉴욕항</li>
+        <li><strong>R4 재방문 왕복 (1924–1926)</strong> — 상하이 → 샌프란시스코 → 상하이</li>
+        <li><strong>R5 압송 (1932)</strong> — 상하이 → 한성(서울)</li>
+      </ol>
+      <p>경로선은 좌표가 확인된 근거 사건만 잇습니다 — 기록에 없는 중간 기착지는 추정으로 보간하지 않았습니다.</p>
+    </div>
+  </noscript>
+
+  <!-- Leaflet 스크립트(classic defer) — 문서 순서상 map.js(module) 전에 실행되어 window.L 준비. 실패 시 map.js가 폴백. -->
+  <script defer
+          src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+          integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+          crossorigin=""></script>
+
+  <!-- 지도 모듈(map-developer 소유). ES module, 상대 경로 import. -->
+  <script type="module" src="js/map.js"></script>
+</body>
+</html>

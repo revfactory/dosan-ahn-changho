@@ -1,0 +1,2735 @@
+{
+  "meta": {
+    "source": "03_content/citations.json",
+    "ref_count": 155,
+    "source_count": 194,
+    "orphan_source_count": 55,
+    "source_types": {
+      "academic": 14,
+      "encyclopedia": 48,
+      "institutional": 53,
+      "primary": 48,
+      "web": 31
+    },
+    "note": "refs(마커 대상)→source_id→sources[].id 앵커. orphan sources는 본문 미참조 서지로 references.html에 정상 게재."
+  },
+  "refs": [
+    {
+      "id": "ref-001",
+      "source_id": "src-ins-001",
+      "page_or_locator": null
+    },
+    {
+      "id": "ref-002",
+      "source_id": "src-ins-002",
+      "page_or_locator": "id 696"
+    },
+    {
+      "id": "ref-004",
+      "source_id": "src-ins-004",
+      "page_or_locator": "kc_n402200"
+    },
+    {
+      "id": "ref-006",
+      "source_id": "src-ins-006",
+      "page_or_locator": null
+    },
+    {
+      "id": "ref-007",
+      "source_id": "src-aca-002",
+      "page_or_locator": null
+    },
+    {
+      "id": "ref-008",
+      "source_id": "src-aca-006",
+      "page_or_locator": "DBpia NODE11582497"
+    },
+    {
+      "id": "ref-009",
+      "source_id": "src-ins-017",
+      "page_or_locator": "nh_043_0040_0010_0030"
+    },
+    {
+      "id": "ref-010",
+      "source_id": "src-aca-004",
+      "page_or_locator": "춘원연구학보 7, 2014"
+    },
+    {
+      "id": "ref-012",
+      "source_id": "src-aca-014",
+      "page_or_locator": "KCI ART002430591"
+    },
+    {
+      "id": "ref-013",
+      "source_id": "src-ins-038",
+      "page_or_locator": "nh_048_0030_0020_0020_0020"
+    },
+    {
+      "id": "ref-014",
+      "source_id": "src-enc-036",
+      "page_or_locator": "E0006294"
+    },
+    {
+      "id": "ref-015",
+      "source_id": "src-pri-014",
+      "page_or_locator": null
+    },
+    {
+      "id": "ref-016",
+      "source_id": "src-pri-015",
+      "page_or_locator": null
+    },
+    {
+      "id": "ref-017",
+      "source_id": "src-aca-001",
+      "page_or_locator": "第一章 少年時代"
+    },
+    {
+      "id": "ref-018",
+      "source_id": "src-enc-002",
+      "page_or_locator": "구세학당 수학 절"
+    },
+    {
+      "id": "ref-019",
+      "source_id": "src-enc-002",
+      "page_or_locator": "약혼 관련 절"
+    },
+    {
+      "id": "ref-020",
+      "source_id": "src-pri-042",
+      "page_or_locator": null
+    },
+    {
+      "id": "ref-021",
+      "source_id": "src-pri-005",
+      "page_or_locator": null
+    },
+    {
+      "id": "ref-022",
+      "source_id": "src-enc-001",
+      "page_or_locator": "E0035050"
+    },
+    {
+      "id": "ref-023",
+      "source_id": "src-ins-005",
+      "page_or_locator": "levelId=eh_n0760_0010"
+    },
+    {
+      "id": "ref-025",
+      "source_id": "src-enc-005",
+      "page_or_locator": "표제어 E0049857"
+    },
+    {
+      "id": "ref-026",
+      "source_id": "src-web-002",
+      "page_or_locator": null
+    },
+    {
+      "id": "ref-027",
+      "source_id": "src-enc-004",
+      "page_or_locator": "E0079746"
+    },
+    {
+      "id": "ref-028",
+      "source_id": "src-pri-024",
+      "page_or_locator": null
+    },
+    {
+      "id": "ref-029",
+      "source_id": "src-pri-039",
+      "page_or_locator": null
+    },
+    {
+      "id": "ref-030",
+      "source_id": "src-enc-003",
+      "page_or_locator": "Early life 절"
+    },
+    {
+      "id": "ref-031",
+      "source_id": "src-aca-001",
+      "page_or_locator": "제2장"
+    },
+    {
+      "id": "ref-032",
+      "source_id": "src-aca-003",
+      "page_or_locator": null
+    },
+    {
+      "id": "ref-033",
+      "source_id": "src-enc-007",
+      "page_or_locator": null
+    },
+    {
+      "id": "ref-034",
+      "source_id": "src-pri-011",
+      "page_or_locator": "제1호(1905.11.22), 독립기념관·국사편찬위원회 소장"
+    },
+    {
+      "id": "ref-035",
+      "source_id": "src-ins-018",
+      "page_or_locator": "mngNo 3154"
+    },
+    {
+      "id": "ref-036",
+      "source_id": "src-enc-016",
+      "page_or_locator": "E0032974"
+    },
+    {
+      "id": "ref-037",
+      "source_id": "src-enc-017",
+      "page_or_locator": null
+    },
+    {
+      "id": "ref-038",
+      "source_id": "src-pri-032",
+      "page_or_locator": "소장처: 국립중앙도서관·한국사데이터베이스 근현대잡지자료 추정"
+    },
+    {
+      "id": "ref-039",
+      "source_id": "src-ins-020",
+      "page_or_locator": null
+    },
+    {
+      "id": "ref-040",
+      "source_id": "src-ins-021",
+      "page_or_locator": "kc_o401800"
+    },
+    {
+      "id": "ref-041",
+      "source_id": "src-enc-019",
+      "page_or_locator": "E0027787"
+    },
+    {
+      "id": "ref-042",
+      "source_id": "src-ins-019",
+      "page_or_locator": "kc_o402010"
+    },
+    {
+      "id": "ref-043",
+      "source_id": "src-enc-021",
+      "page_or_locator": "표제어 E0014519"
+    },
+    {
+      "id": "ref-044",
+      "source_id": "src-pri-038",
+      "page_or_locator": null
+    },
+    {
+      "id": "ref-045",
+      "source_id": "src-pri-010",
+      "page_or_locator": "위키문헌 전재본"
+    },
+    {
+      "id": "ref-046",
+      "source_id": "src-enc-026",
+      "page_or_locator": "E0001791"
+    },
+    {
+      "id": "ref-047",
+      "source_id": "src-pri-046",
+      "page_or_locator": null
+    },
+    {
+      "id": "ref-048",
+      "source_id": "src-pri-010",
+      "page_or_locator": null
+    },
+    {
+      "id": "ref-049",
+      "source_id": "src-enc-002",
+      "page_or_locator": null
+    },
+    {
+      "id": "ref-050",
+      "source_id": "src-ins-023",
+      "page_or_locator": "id 11304"
+    },
+    {
+      "id": "ref-051",
+      "source_id": "src-enc-027",
+      "page_or_locator": null
+    },
+    {
+      "id": "ref-052",
+      "source_id": "src-aca-007",
+      "page_or_locator": "DOI 10.15799/kimos.2015..52.002"
+    },
+    {
+      "id": "ref-053",
+      "source_id": "src-ins-008",
+      "page_or_locator": null
+    },
+    {
+      "id": "ref-054",
+      "source_id": "src-ins-009",
+      "page_or_locator": "levelId=kc_o400900"
+    },
+    {
+      "id": "ref-055",
+      "source_id": "src-pri-012",
+      "page_or_locator": null
+    },
+    {
+      "id": "ref-056",
+      "source_id": "src-ins-010",
+      "page_or_locator": "npsh"
+    },
+    {
+      "id": "ref-058",
+      "source_id": "src-enc-009",
+      "page_or_locator": "E0073696"
+    },
+    {
+      "id": "ref-059",
+      "source_id": "src-aca-005",
+      "page_or_locator": "koreascholar Article 328875"
+    },
+    {
+      "id": "ref-060",
+      "source_id": "src-ins-025",
+      "page_or_locator": "kc_i400100"
+    },
+    {
+      "id": "ref-061",
+      "source_id": "src-ins-026",
+      "page_or_locator": "hd_002 계열"
+    },
+    {
+      "id": "ref-062",
+      "source_id": "src-pri-016",
+      "page_or_locator": null
+    },
+    {
+      "id": "ref-063",
+      "source_id": "src-pri-029",
+      "page_or_locator": null
+    },
+    {
+      "id": "ref-064",
+      "source_id": "src-ins-027",
+      "page_or_locator": "kc_o400800"
+    },
+    {
+      "id": "ref-065",
+      "source_id": "src-ins-028",
+      "page_or_locator": "ij_008"
+    },
+    {
+      "id": "ref-066",
+      "source_id": "src-ins-029",
+      "page_or_locator": "nh_048_0030_0010_0030_0020"
+    },
+    {
+      "id": "ref-067",
+      "source_id": "src-pri-013",
+      "page_or_locator": "제1호"
+    },
+    {
+      "id": "ref-069",
+      "source_id": "src-enc-032",
+      "page_or_locator": null
+    },
+    {
+      "id": "ref-070",
+      "source_id": "src-enc-033",
+      "page_or_locator": "E0044938"
+    },
+    {
+      "id": "ref-071",
+      "source_id": "src-pri-007",
+      "page_or_locator": "1920년 1월 게재분"
+    },
+    {
+      "id": "ref-072",
+      "source_id": "src-aca-008",
+      "page_or_locator": "KCI artiId=ART001459580"
+    },
+    {
+      "id": "ref-073",
+      "source_id": "src-ins-034",
+      "page_or_locator": "kc_o404400"
+    },
+    {
+      "id": "ref-074",
+      "source_id": "src-pri-001",
+      "page_or_locator": null
+    },
+    {
+      "id": "ref-075",
+      "source_id": "src-ins-033",
+      "page_or_locator": "국가유산포털"
+    },
+    {
+      "id": "ref-077",
+      "source_id": "src-ins-035",
+      "page_or_locator": "rid=222"
+    },
+    {
+      "id": "ref-078",
+      "source_id": "src-pri-030",
+      "page_or_locator": null
+    },
+    {
+      "id": "ref-079",
+      "source_id": "src-pri-013",
+      "page_or_locator": "1921-05-21, 1921-05-31"
+    },
+    {
+      "id": "ref-080",
+      "source_id": "src-ins-036",
+      "page_or_locator": "mngNo=7338"
+    },
+    {
+      "id": "ref-081",
+      "source_id": "src-ins-037",
+      "page_or_locator": "nh_048_0030_0020"
+    },
+    {
+      "id": "ref-082",
+      "source_id": "src-pri-007",
+      "page_or_locator": "소장처: 국사편찬위원회 한국사데이터베이스·대한민국역사박물관 아카이브"
+    },
+    {
+      "id": "ref-083",
+      "source_id": "src-ins-039",
+      "page_or_locator": "no=1018"
+    },
+    {
+      "id": "ref-084",
+      "source_id": "src-pri-009",
+      "page_or_locator": "소장처: 흥사단 / 도산안창호선생기념사업회"
+    },
+    {
+      "id": "ref-086",
+      "source_id": "src-pri-009",
+      "page_or_locator": null
+    },
+    {
+      "id": "ref-087",
+      "source_id": "src-pri-008",
+      "page_or_locator": null
+    },
+    {
+      "id": "ref-088",
+      "source_id": "src-aca-010",
+      "page_or_locator": "DIKO0015504019"
+    },
+    {
+      "id": "ref-089",
+      "source_id": "src-aca-011",
+      "page_or_locator": "KCI artiId=ART001936844"
+    },
+    {
+      "id": "ref-090",
+      "source_id": "src-aca-009",
+      "page_or_locator": "vol.23 no.1"
+    },
+    {
+      "id": "ref-091",
+      "source_id": "src-ins-040",
+      "page_or_locator": "tg_004_2230"
+    },
+    {
+      "id": "ref-092",
+      "source_id": "src-enc-038",
+      "page_or_locator": "E0061141"
+    },
+    {
+      "id": "ref-093",
+      "source_id": "src-pri-048",
+      "page_or_locator": "한국사데이터베이스 npjo_1930_01_11"
+    },
+    {
+      "id": "ref-094",
+      "source_id": "src-ins-039",
+      "page_or_locator": null
+    },
+    {
+      "id": "ref-095",
+      "source_id": "src-web-024",
+      "page_or_locator": null
+    },
+    {
+      "id": "ref-097",
+      "source_id": "src-aca-013",
+      "page_or_locator": "ART001827032"
+    },
+    {
+      "id": "ref-098",
+      "source_id": "src-pri-017",
+      "page_or_locator": null
+    },
+    {
+      "id": "ref-100",
+      "source_id": "src-enc-042",
+      "page_or_locator": null
+    },
+    {
+      "id": "ref-101",
+      "source_id": "src-aca-013",
+      "page_or_locator": "pp.171-218"
+    },
+    {
+      "id": "ref-102",
+      "source_id": "src-web-025",
+      "page_or_locator": "2019-05-23"
+    },
+    {
+      "id": "ref-104",
+      "source_id": "src-pri-018",
+      "page_or_locator": null
+    },
+    {
+      "id": "ref-105",
+      "source_id": "src-pri-034",
+      "page_or_locator": null
+    },
+    {
+      "id": "ref-106",
+      "source_id": "src-enc-044",
+      "page_or_locator": "E0031544"
+    },
+    {
+      "id": "ref-107",
+      "source_id": "src-pri-035",
+      "page_or_locator": null
+    },
+    {
+      "id": "ref-108",
+      "source_id": "src-enc-018",
+      "page_or_locator": "GC06133123"
+    },
+    {
+      "id": "ref-109",
+      "source_id": "src-ins-047",
+      "page_or_locator": "archiveId=0001164840"
+    },
+    {
+      "id": "ref-110",
+      "source_id": "src-ins-048",
+      "page_or_locator": "훈격: 건국훈장 대한민국장(1962)"
+    },
+    {
+      "id": "ref-111",
+      "source_id": "src-enc-043",
+      "page_or_locator": "E0066013"
+    },
+    {
+      "id": "ref-112",
+      "source_id": "src-web-022",
+      "page_or_locator": null
+    },
+    {
+      "id": "ref-113",
+      "source_id": "src-ins-049",
+      "page_or_locator": null
+    },
+    {
+      "id": "ref-115",
+      "source_id": "src-pri-031",
+      "page_or_locator": null
+    },
+    {
+      "id": "ref-116",
+      "source_id": "src-enc-047",
+      "page_or_locator": "GC95100211"
+    },
+    {
+      "id": "ref-118",
+      "source_id": "src-pri-020",
+      "page_or_locator": null
+    },
+    {
+      "id": "ref-120",
+      "source_id": "src-pri-021",
+      "page_or_locator": null
+    },
+    {
+      "id": "ref-121",
+      "source_id": "src-web-027",
+      "page_or_locator": null
+    },
+    {
+      "id": "ref-122",
+      "source_id": "src-pri-022",
+      "page_or_locator": "제1호(1926.5), 국립중앙도서관 소장"
+    },
+    {
+      "id": "ref-123",
+      "source_id": "src-pri-022",
+      "page_or_locator": null
+    },
+    {
+      "id": "ref-124",
+      "source_id": "src-ins-045",
+      "page_or_locator": "ma_014"
+    },
+    {
+      "id": "ref-125",
+      "source_id": "src-ins-046",
+      "page_or_locator": "book_search no=364"
+    },
+    {
+      "id": "ref-126",
+      "source_id": "src-ins-053",
+      "page_or_locator": "id 698"
+    },
+    {
+      "id": "ref-127",
+      "source_id": "src-pri-037",
+      "page_or_locator": null
+    },
+    {
+      "id": "ref-128",
+      "source_id": "src-ins-020",
+      "page_or_locator": "타임라인 1907"
+    },
+    {
+      "id": "ref-129",
+      "source_id": "src-pri-032",
+      "page_or_locator": null
+    },
+    {
+      "id": "ref-130",
+      "source_id": "src-pri-013",
+      "page_or_locator": null
+    },
+    {
+      "id": "ref-131",
+      "source_id": "src-pri-006",
+      "page_or_locator": "소장처: 흥사단 / 시중 간행본(범양사 등)"
+    },
+    {
+      "id": "ref-132",
+      "source_id": "src-web-031",
+      "page_or_locator": "@charam/16"
+    },
+    {
+      "id": "ref-133",
+      "source_id": "src-pri-006",
+      "page_or_locator": null
+    },
+    {
+      "id": "ref-134",
+      "source_id": "src-pri-033",
+      "page_or_locator": null
+    },
+    {
+      "id": "ref-135",
+      "source_id": "src-enc-022",
+      "page_or_locator": "표제어 E0056315"
+    },
+    {
+      "id": "ref-136",
+      "source_id": "src-enc-024",
+      "page_or_locator": "표제어 E0019119"
+    },
+    {
+      "id": "ref-137",
+      "source_id": "src-aca-012",
+      "page_or_locator": "DBpia NODE07369851"
+    },
+    {
+      "id": "ref-138",
+      "source_id": "src-pri-028",
+      "page_or_locator": null
+    },
+    {
+      "id": "ref-139",
+      "source_id": "src-pri-043",
+      "page_or_locator": null
+    },
+    {
+      "id": "ref-140",
+      "source_id": "src-ins-013",
+      "page_or_locator": null
+    },
+    {
+      "id": "ref-141",
+      "source_id": "src-enc-011",
+      "page_or_locator": "E0015135"
+    },
+    {
+      "id": "ref-142",
+      "source_id": "src-ins-014",
+      "page_or_locator": "Collection 3007"
+    },
+    {
+      "id": "ref-143",
+      "source_id": "src-enc-012",
+      "page_or_locator": null
+    },
+    {
+      "id": "ref-144",
+      "source_id": "src-web-008",
+      "page_or_locator": null
+    },
+    {
+      "id": "ref-145",
+      "source_id": "src-ins-015",
+      "page_or_locator": null
+    },
+    {
+      "id": "ref-146",
+      "source_id": "src-web-010",
+      "page_or_locator": "nm0014218"
+    },
+    {
+      "id": "ref-147",
+      "source_id": "src-web-011",
+      "page_or_locator": "m=229279"
+    },
+    {
+      "id": "ref-148",
+      "source_id": "src-ins-016",
+      "page_or_locator": null
+    },
+    {
+      "id": "ref-149",
+      "source_id": "src-enc-010",
+      "page_or_locator": null
+    },
+    {
+      "id": "ref-150",
+      "source_id": "src-enc-015",
+      "page_or_locator": "E0074094"
+    },
+    {
+      "id": "ref-151",
+      "source_id": "src-ins-022",
+      "page_or_locator": "id 9018"
+    },
+    {
+      "id": "ref-152",
+      "source_id": "src-ins-050",
+      "page_or_locator": "정책브리핑 newsId 155805121 (첨부 원문 HWP — 본문 직접 확인 불가)"
+    },
+    {
+      "id": "ref-153",
+      "source_id": "src-enc-025",
+      "page_or_locator": "E0043482"
+    },
+    {
+      "id": "ref-154",
+      "source_id": "src-ins-043",
+      "page_or_locator": "story 10984"
+    },
+    {
+      "id": "ref-155",
+      "source_id": "src-pri-023",
+      "page_or_locator": null
+    },
+    {
+      "id": "ref-156",
+      "source_id": "src-ins-048",
+      "page_or_locator": "1995 건국훈장 독립장"
+    },
+    {
+      "id": "ref-157",
+      "source_id": "src-ins-051",
+      "page_or_locator": "tg_004_2110"
+    },
+    {
+      "id": "ref-158",
+      "source_id": "src-ins-052",
+      "page_or_locator": "hm_141_0080"
+    },
+    {
+      "id": "ref-159",
+      "source_id": "src-pri-036",
+      "page_or_locator": null
+    },
+    {
+      "id": "ref-160",
+      "source_id": "src-pri-025",
+      "page_or_locator": null
+    },
+    {
+      "id": "ref-161",
+      "source_id": "src-pri-026",
+      "page_or_locator": null
+    },
+    {
+      "id": "ref-162",
+      "source_id": "src-pri-002",
+      "page_or_locator": null
+    },
+    {
+      "id": "ref-163",
+      "source_id": "src-pri-047",
+      "page_or_locator": null
+    },
+    {
+      "id": "ref-164",
+      "source_id": "src-pri-041",
+      "page_or_locator": null
+    },
+    {
+      "id": "ref-165",
+      "source_id": "src-pri-044",
+      "page_or_locator": null
+    },
+    {
+      "id": "ref-166",
+      "source_id": "src-web-015",
+      "page_or_locator": null
+    },
+    {
+      "id": "ref-167",
+      "source_id": "src-web-018",
+      "page_or_locator": "bbIdx 8573"
+    },
+    {
+      "id": "ref-168",
+      "source_id": "src-aca-001",
+      "page_or_locator": null
+    },
+    {
+      "id": "ref-169",
+      "source_id": "src-ins-007",
+      "page_or_locator": "post-289"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-aca-001",
+      "type": "academic",
+      "author": "이광수",
+      "title": "도산 안창호",
+      "publisher": "위키문헌 수록본(초판 도산안창호기념사업회, 1947)",
+      "year": 1947,
+      "url": "https://ko.wikisource.org/wiki/%EB%8F%84%EC%82%B0_%EC%95%88%EC%B0%BD%ED%98%B8",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-aca-002",
+      "type": "academic",
+      "author": "UCR Young Oak Kim Center for Korean American Studies",
+      "title": "Pachappa Camp: History & Timeline",
+      "publisher": "Pachappa Camp 프로젝트 사이트",
+      "year": null,
+      "url": "https://pachappacamp.ucr.edu/history-timeline/",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-aca-003",
+      "type": "academic",
+      "author": "Edward T. Chang",
+      "title": "Pachappa Camp: The First Koreatown in the United States",
+      "publisher": "Lexington Books(eScholarship 공개본)",
+      "year": 2021,
+      "url": "https://escholarship.org/uc/item/8p88m8mw",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-aca-004",
+      "type": "academic",
+      "author": "김원모",
+      "title": "한국 민족운동의 시단: 미주 대한인국민회 중앙총회(안창호)의 이광수 신한민보 주필 초빙교섭(1914)",
+      "publisher": "오프라인 학술 문헌(소장처: 국내 학술 DB 미확정 — 서지 보강 대상)",
+      "year": null,
+      "url": null,
+      "accessed": null
+    },
+    {
+      "id": "src-aca-005",
+      "type": "academic",
+      "author": null,
+      "title": "도산 안창호의 멕시코 순행과 그 업적",
+      "publisher": "Korea Scholar 등재 논문(저자·게재지 서지 보강 대상)",
+      "year": null,
+      "url": "https://db.koreascholar.com/Article/Detail/328875",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-aca-006",
+      "type": "academic",
+      "author": "이선민",
+      "title": "신민회의 결성 시점에 대한 재고찰",
+      "publisher": "『대동문화연구』 121",
+      "year": 2023,
+      "url": "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11582497",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-aca-007",
+      "type": "academic",
+      "author": "김도형",
+      "title": "도산 안창호의 '여행권'을 통해 본 독립운동 행적",
+      "publisher": "『한국독립운동사연구』 52",
+      "year": 2015,
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002061754",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-aca-008",
+      "type": "academic",
+      "author": null,
+      "title": "상해판 『독립신문』과 안창호",
+      "publisher": "KCI 등재 논문(저자·게재지 서지 보강 대상)",
+      "year": null,
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001459580",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-aca-009",
+      "type": "academic",
+      "author": null,
+      "title": "Deportation of Dosan Ahn Chang Ho (1924–1926)",
+      "publisher": "『Review of Korean Studies』 23(1)",
+      "year": null,
+      "url": "https://accesson.kr/rks/assets/pdf/2562/journal-23-1-161.pdf",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-aca-010",
+      "type": "academic",
+      "author": null,
+      "title": "1930년 한국독립당 당의·당강의 이념과 성격",
+      "publisher": "학위논문(ScienceON 등재 — 저자 서지 보강 대상)",
+      "year": null,
+      "url": "https://scienceon.kisti.re.kr/srch/selectPORSrchArticle.do?cn=DIKO0015504019",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-aca-011",
+      "type": "academic",
+      "author": "장석흥",
+      "title": "차리석의 '한국독립당 당의의 이론체계 초안(1942)'과 안창호의 대공주의",
+      "publisher": "『한국독립운동사연구』 49",
+      "year": 2014,
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001936844",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-aca-012",
+      "type": "academic",
+      "author": "박만규",
+      "title": "안창호의 대공주의에 관한 두 가지 쟁점",
+      "publisher": "『한국독립운동사연구』 61, 187–219쪽",
+      "year": 2018,
+      "url": "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07369851",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-aca-013",
+      "type": "academic",
+      "author": "이명화",
+      "title": "도산 안창호의 서대문형무소 투옥과 수감 생활",
+      "publisher": "『한국독립운동사연구』 46",
+      "year": 2013,
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001827032",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-aca-014",
+      "type": "academic",
+      "author": null,
+      "title": "흥사단의 1차 약법개정 논의와 운동노선",
+      "publisher": "KCI 등재 논문(저자·게재지 서지 보강 대상)",
+      "year": null,
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002430591",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-enc-001",
+      "type": "encyclopedia",
+      "author": "한국학중앙연구원",
+      "title": "안창호",
+      "publisher": "한국민족문화대백과사전",
+      "year": null,
+      "url": "https://encykorea.aks.ac.kr/Article/E0035050",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-enc-002",
+      "type": "encyclopedia",
+      "author": null,
+      "title": "안창호",
+      "publisher": "위키백과",
+      "year": null,
+      "url": "https://ko.wikipedia.org/wiki/%EC%95%88%EC%B0%BD%ED%98%B8",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-enc-003",
+      "type": "encyclopedia",
+      "author": null,
+      "title": "Ahn Chang Ho",
+      "publisher": "New World Encyclopedia",
+      "year": null,
+      "url": "https://www.newworldencyclopedia.org/entry/Ahn_Chang_Ho",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-enc-004",
+      "type": "encyclopedia",
+      "author": "한국학중앙연구원",
+      "title": "이혜련",
+      "publisher": "한국민족문화대백과사전",
+      "year": null,
+      "url": "https://encykorea.aks.ac.kr/Article/E0079746",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-enc-005",
+      "type": "encyclopedia",
+      "author": "한국학중앙연구원",
+      "title": "점진학교",
+      "publisher": "한국민족문화대백과사전",
+      "year": null,
+      "url": "https://encykorea.aks.ac.kr/Article/E0049857",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-enc-006",
+      "type": "encyclopedia",
+      "author": "한국학중앙연구원",
+      "title": "공립협회",
+      "publisher": "한국민족문화대백과사전",
+      "year": null,
+      "url": "https://encykorea.aks.ac.kr/Article/E0004272",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-enc-007",
+      "type": "encyclopedia",
+      "author": null,
+      "title": "Pachappa Camp",
+      "publisher": "Wikipedia(영문)",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Pachappa_Camp",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-enc-008",
+      "type": "encyclopedia",
+      "author": "한국학중앙연구원",
+      "title": "공립신보",
+      "publisher": "한국민족문화대백과사전",
+      "year": null,
+      "url": "https://encykorea.aks.ac.kr/Article/E0004270",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-enc-009",
+      "type": "encyclopedia",
+      "author": "한국학중앙연구원",
+      "title": "북미실업주식회사",
+      "publisher": "한국민족문화대백과사전",
+      "year": null,
+      "url": "https://encykorea.aks.ac.kr/Article/E0073696",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-enc-010",
+      "type": "encyclopedia",
+      "author": null,
+      "title": "Ralph Ahn",
+      "publisher": "Wikipedia(영문)",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Ralph_Ahn",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-enc-011",
+      "type": "encyclopedia",
+      "author": "한국학중앙연구원",
+      "title": "대한여자애국단",
+      "publisher": "한국민족문화대백과사전",
+      "year": null,
+      "url": "https://encykorea.aks.ac.kr/Article/E0015135",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-enc-012",
+      "type": "encyclopedia",
+      "author": null,
+      "title": "Philip Ahn",
+      "publisher": "Wikipedia(영문)",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Philip_Ahn",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-enc-013",
+      "type": "encyclopedia",
+      "author": null,
+      "title": "Susan Ahn Cuddy",
+      "publisher": "Encyclopaedia Britannica",
+      "year": null,
+      "url": "https://www.britannica.com/biography/Susan-Ahn-Cuddy",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-enc-014",
+      "type": "encyclopedia",
+      "author": null,
+      "title": "Susan Ahn Cuddy",
+      "publisher": "Wikipedia(영문)",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Susan_Ahn_Cuddy",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-enc-015",
+      "type": "encyclopedia",
+      "author": "한국학중앙연구원",
+      "title": "안창호 훼밀리하우스",
+      "publisher": "한국민족문화대백과사전",
+      "year": null,
+      "url": "https://encykorea.aks.ac.kr/Article/E0074094",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-enc-016",
+      "type": "encyclopedia",
+      "author": "한국학중앙연구원",
+      "title": "신민회",
+      "publisher": "한국민족문화대백과사전",
+      "year": null,
+      "url": "https://encykorea.aks.ac.kr/Article/E0032974",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-enc-017",
+      "type": "encyclopedia",
+      "author": null,
+      "title": "이광수",
+      "publisher": "위키백과",
+      "year": null,
+      "url": "https://ko.wikipedia.org/wiki/%EC%9D%B4%EA%B4%91%EC%88%98",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-enc-018",
+      "type": "encyclopedia",
+      "author": "한국학중앙연구원",
+      "title": "안창호 묘",
+      "publisher": "디지털구리문화대전(한국향토문화전자대전)",
+      "year": null,
+      "url": "http://guri.grandculture.net/guri/toc/GC06142033",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-enc-019",
+      "type": "encyclopedia",
+      "author": "한국학중앙연구원",
+      "title": "서북학회",
+      "publisher": "한국민족문화대백과사전",
+      "year": null,
+      "url": "http://encykorea.aks.ac.kr/Contents/Item/E0027787",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-enc-020",
+      "type": "encyclopedia",
+      "author": "한국학중앙연구원",
+      "title": "태극서관",
+      "publisher": "한국민족문화대백과사전",
+      "year": null,
+      "url": "https://encykorea.aks.ac.kr/Article/E0058896",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-enc-021",
+      "type": "encyclopedia",
+      "author": "한국학중앙연구원",
+      "title": "대성학교",
+      "publisher": "한국민족문화대백과사전",
+      "year": null,
+      "url": "https://encykorea.aks.ac.kr/Article/E0014519",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-enc-022",
+      "type": "encyclopedia",
+      "author": "한국학중앙연구원",
+      "title": "청년학우회",
+      "publisher": "한국민족문화대백과사전",
+      "year": null,
+      "url": "https://encykorea.aks.ac.kr/Article/E0056315",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-enc-023",
+      "type": "encyclopedia",
+      "author": null,
+      "title": "청년학우회",
+      "publisher": "위키백과",
+      "year": null,
+      "url": "https://ko.wikipedia.org/wiki/%EC%B2%AD%EB%85%84%ED%95%99%EC%9A%B0%ED%9A%8C",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-enc-024",
+      "type": "encyclopedia",
+      "author": "한국학중앙연구원",
+      "title": "무실역행",
+      "publisher": "한국민족문화대백과사전",
+      "year": null,
+      "url": "https://encykorea.aks.ac.kr/Article/E0019119",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-enc-025",
+      "type": "encyclopedia",
+      "author": "한국학중앙연구원",
+      "title": "이갑",
+      "publisher": "한국민족문화대백과사전",
+      "year": null,
+      "url": "https://encykorea.aks.ac.kr/Article/E0043482",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-enc-026",
+      "type": "encyclopedia",
+      "author": "한국학중앙연구원",
+      "title": "거국가",
+      "publisher": "한국민족문화대백과사전",
+      "year": null,
+      "url": "http://encykorea.aks.ac.kr/Article/E0001791",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-enc-027",
+      "type": "encyclopedia",
+      "author": null,
+      "title": "신채호",
+      "publisher": "위키백과",
+      "year": null,
+      "url": "https://ko.wikipedia.org/wiki/%EC%8B%A0%EC%B1%84%ED%98%B8",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-enc-028",
+      "type": "encyclopedia",
+      "author": "한국학중앙연구원",
+      "title": "105인 사건",
+      "publisher": "한국민족문화대백과사전",
+      "year": null,
+      "url": "https://encykorea.aks.ac.kr/Article/E0022233",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-enc-029",
+      "type": "encyclopedia",
+      "author": "한국학중앙연구원",
+      "title": "대한민국임시정부",
+      "publisher": "한국민족문화대백과사전",
+      "year": null,
+      "url": "https://encykorea.aks.ac.kr/Article/E0015017",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-enc-030",
+      "type": "encyclopedia",
+      "author": "한국학중앙연구원",
+      "title": "연통제",
+      "publisher": "한국민족문화대백과사전",
+      "year": null,
+      "url": "https://encykorea.aks.ac.kr/Article/E0036949",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-enc-031",
+      "type": "encyclopedia",
+      "author": "한국학중앙연구원",
+      "title": "독립신문(獨立新聞)",
+      "publisher": "한국민족문화대백과사전",
+      "year": null,
+      "url": "https://encykorea.aks.ac.kr/Article/E0015986",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-enc-032",
+      "type": "encyclopedia",
+      "author": null,
+      "title": "이승만",
+      "publisher": "위키백과",
+      "year": null,
+      "url": "https://ko.wikipedia.org/wiki/이승만",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-enc-033",
+      "type": "encyclopedia",
+      "author": "한국학중앙연구원",
+      "title": "이승만",
+      "publisher": "한국민족문화대백과사전",
+      "year": null,
+      "url": "https://encykorea.aks.ac.kr/Article/E0044938",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-enc-034",
+      "type": "encyclopedia",
+      "author": "한국학중앙연구원",
+      "title": "안창호",
+      "publisher": "세계한민족문화대전",
+      "year": null,
+      "url": "http://www.okpedia.kr/Contents/ContentsView?contentsId=GC95100282&localCode=naw",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-enc-035",
+      "type": "encyclopedia",
+      "author": "한국학중앙연구원",
+      "title": "시사책진회",
+      "publisher": "한국민족문화대백과사전",
+      "year": null,
+      "url": "https://encykorea.aks.ac.kr/Article/Search/%EC%8B%9C%EC%82%AC%EC%B1%85%EC%A7%84%ED%9A%8C",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-enc-036",
+      "type": "encyclopedia",
+      "author": "한국학중앙연구원",
+      "title": "국민대표회의",
+      "publisher": "한국민족문화대백과사전",
+      "year": null,
+      "url": "https://encykorea.aks.ac.kr/Article/E0006294",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-enc-037",
+      "type": "encyclopedia",
+      "author": "한국학중앙연구원",
+      "title": "동명학원(東明學院)",
+      "publisher": "한국민족문화대백과사전",
+      "year": null,
+      "url": "https://encykorea.aks.ac.kr/Article/E0016444",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-enc-038",
+      "type": "encyclopedia",
+      "author": "한국학중앙연구원",
+      "title": "대독립당조직북경촉성회",
+      "publisher": "한국민족문화대백과사전",
+      "year": null,
+      "url": "https://encykorea.aks.ac.kr/Article/E0061141",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-enc-039",
+      "type": "encyclopedia",
+      "author": "한국학중앙연구원",
+      "title": "길림 대검거 사건",
+      "publisher": "한국민족문화대백과사전",
+      "year": null,
+      "url": "https://encykorea.aks.ac.kr/Article/E0008526",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-enc-040",
+      "type": "encyclopedia",
+      "author": "한국학중앙연구원",
+      "title": "한국독립당(韓國獨立黨)",
+      "publisher": "한국민족문화대백과사전",
+      "year": null,
+      "url": "https://encykorea.aks.ac.kr/Article/E0061133",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-enc-041",
+      "type": "encyclopedia",
+      "author": "한국학중앙연구원",
+      "title": "조소앙",
+      "publisher": "한국민족문화대백과사전",
+      "year": null,
+      "url": "https://encykorea.aks.ac.kr/Article/E0052303",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-enc-042",
+      "type": "encyclopedia",
+      "author": null,
+      "title": "Ahn Chang Ho",
+      "publisher": "Wikipedia(영문)",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Ahn_Chang_Ho",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-enc-043",
+      "type": "encyclopedia",
+      "author": "한국학중앙연구원",
+      "title": "흥사단",
+      "publisher": "한국민족문화대백과사전",
+      "year": null,
+      "url": "https://encykorea.aks.ac.kr/Article/E0066013",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-enc-044",
+      "type": "encyclopedia",
+      "author": "한국학중앙연구원",
+      "title": "수양동우회",
+      "publisher": "한국민족문화대백과사전",
+      "year": null,
+      "url": "https://encykorea.aks.ac.kr/Article/E0031544",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-enc-045",
+      "type": "encyclopedia",
+      "author": "한국학중앙연구원",
+      "title": "동광",
+      "publisher": "한국민족문화대백과사전",
+      "year": null,
+      "url": "https://encykorea.aks.ac.kr/Article/E0016236",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-enc-046",
+      "type": "encyclopedia",
+      "author": "한국학중앙연구원",
+      "title": "서울 안창호 묘소",
+      "publisher": "디지털강남문화대전(한국향토문화전자대전)",
+      "year": null,
+      "url": "https://www.grandculture.net/gangnam/toc/GC04830008",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-enc-047",
+      "type": "encyclopedia",
+      "author": "한국학중앙연구원",
+      "title": "북미실업주식회사",
+      "publisher": "세계한민족문화대전",
+      "year": null,
+      "url": "https://www.okpedia.kr/Contents/ContentsView?contentsId=GC95100211&localCode=naw",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-enc-048",
+      "type": "encyclopedia",
+      "author": "한국학중앙연구원",
+      "title": "손정도",
+      "publisher": "한국민족문화대백과사전",
+      "year": null,
+      "url": "https://encykorea.aks.ac.kr/Article/E0030567",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-ins-001",
+      "type": "institutional",
+      "author": "흥사단",
+      "title": "도산 연보",
+      "publisher": "흥사단 공식 사이트",
+      "year": null,
+      "url": "https://www.yka.or.kr/html/about_dosan/dosans_chronology.asp",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-ins-002",
+      "type": "institutional",
+      "author": "이명화",
+      "title": "안창호",
+      "publisher": "독립운동인명사전(독립기념관 한국독립운동정보시스템)",
+      "year": null,
+      "url": "https://search.i815.or.kr/dictionary/detail.do?id=696",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-ins-003",
+      "type": "institutional",
+      "author": "한인역사박물관",
+      "title": "안창호 Chang Ho Ahn 安昌浩",
+      "publisher": "한인역사박물관 사이트",
+      "year": null,
+      "url": "https://kahistorymuseum.org/%EC%95%88-%EC%B0%BD-%ED%98%B8-chang-ho-ahn-%E5%AE%89%E6%98%8C%E6%B5%A9/",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-ins-004",
+      "type": "institutional",
+      "author": "국사편찬위원회",
+      "title": "안창호 (한국사 인물)",
+      "publisher": "우리역사넷",
+      "year": null,
+      "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n402200",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-ins-005",
+      "type": "institutional",
+      "author": "국사편찬위원회",
+      "title": "안창호 관련 서술",
+      "publisher": "우리역사넷",
+      "year": null,
+      "url": "https://contents.history.go.kr/mobile/eh/view.do?levelId=eh_n0760_0010",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-ins-006",
+      "type": "institutional",
+      "author": "USC Dornsife Korean Studies Institute",
+      "title": "Ahn Family House",
+      "publisher": "USC Dornsife",
+      "year": null,
+      "url": "https://dornsife.usc.edu/ksi/ahn-family-house/",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-ins-007",
+      "type": "institutional",
+      "author": "독립기념관",
+      "title": "한국 독립운동의 스승 안창호",
+      "publisher": "월간 독립기념관",
+      "year": null,
+      "url": "https://www.i815.or.kr/upload/kr/magazine/magazine/28/post-289.html",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-ins-008",
+      "type": "institutional",
+      "author": "대한인국민회기념재단",
+      "title": "대한인국민회 50년사",
+      "publisher": "대한인국민회기념재단 사이트",
+      "year": null,
+      "url": "https://knamf.org/대한인국민회-50년사/",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-ins-009",
+      "type": "institutional",
+      "author": "국사편찬위원회",
+      "title": "대한인 국민회",
+      "publisher": "우리역사넷",
+      "year": null,
+      "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_o400900&code=kc_age_40",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-ins-010",
+      "type": "institutional",
+      "author": "국사편찬위원회",
+      "title": "근대 사료 DB '신한민보'",
+      "publisher": "한국사데이터베이스",
+      "year": null,
+      "url": "https://db.history.go.kr/modern/level.do?levelId=npsh_1920_09_02_v0003_0150",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-ins-011",
+      "type": "institutional",
+      "author": "국가기록원",
+      "title": "국가지정기록물 제5호 '도산 안창호 관련 미주 국민회 기록물'",
+      "publisher": "국가기록원",
+      "year": null,
+      "url": "https://theme.archives.go.kr/next/nationalArchives/subPage/nationalArchives4.do",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-ins-012",
+      "type": "institutional",
+      "author": "국사편찬위원회",
+      "title": "신편한국사 '국민국가 수립론과 대한인국민회 중앙총회의 설립'",
+      "publisher": "우리역사넷",
+      "year": null,
+      "url": "https://contents.history.go.kr/mobile/nh/view.do?levelId=nh_047_0030_0020_0040_0040",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-ins-013",
+      "type": "institutional",
+      "author": "한인역사박물관",
+      "title": "이혜련 Hea Ryun Lee 李惠鍊",
+      "publisher": "한인역사박물관 사이트",
+      "year": null,
+      "url": "https://kahistorymuseum.org/이-혜-련-hea-ryun-lee-李惠鍊/",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-ins-014",
+      "type": "institutional",
+      "author": "USC Libraries",
+      "title": "Philip Ahn papers finding aid",
+      "publisher": "Online Archive of California",
+      "year": null,
+      "url": "https://oac.cdlib.org/findaid/ark:/13030/c8qj7pmj/",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-ins-015",
+      "type": "institutional",
+      "author": "Naval History and Heritage Command",
+      "title": "Lieutenant Susan Ahn Cuddy",
+      "publisher": "history.navy.mil",
+      "year": null,
+      "url": "https://www.history.navy.mil/browse-by-topic/diversity/asian-americans-pacific-islanders-in-the-navy/susan-ahn-cuddy.html/",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-ins-016",
+      "type": "institutional",
+      "author": "대한인국민회기념재단",
+      "title": "글과 사진으로 보는 도산 안창호 가족 이야기",
+      "publisher": "대한인국민회기념재단 사이트",
+      "year": null,
+      "url": "https://knamf.org/글과-사진으로-보는-도산-안창호-가족-이야기/",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-ins-017",
+      "type": "institutional",
+      "author": "국사편찬위원회",
+      "title": "신편한국사 43권 「가. 신민회의 창건」",
+      "publisher": "우리역사넷",
+      "year": null,
+      "url": "https://contents.history.go.kr/front/nh/view.do?levelId=nh_043_0040_0010_0030",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-ins-018",
+      "type": "institutional",
+      "author": "국가보훈부",
+      "title": "이달의 독립운동가 「안창호」",
+      "publisher": "공훈전자사료관",
+      "year": null,
+      "url": "https://e-gonghun.mpva.go.kr/user/IndepCrusaderDetail.do?goTocode=20003&mngNo=3154",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-ins-019",
+      "type": "institutional",
+      "author": "국사편찬위원회",
+      "title": "신민회 1907",
+      "publisher": "우리역사넷",
+      "year": null,
+      "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_o402010",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-ins-020",
+      "type": "institutional",
+      "author": "성북구청",
+      "title": "성북마을발견+독립운동 아카이브 연표",
+      "publisher": "성북마을아카이브",
+      "year": null,
+      "url": "https://archive.sb.go.kr/isbcc/town/815/timeline.do",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-ins-021",
+      "type": "institutional",
+      "author": "국사편찬위원회",
+      "title": "서북학회 전경",
+      "publisher": "우리역사넷",
+      "year": null,
+      "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_o401800&code=kc_age_40",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-ins-022",
+      "type": "institutional",
+      "author": "독립기념관",
+      "title": "이승훈",
+      "publisher": "독립운동인명사전(한국독립운동정보시스템)",
+      "year": null,
+      "url": "https://search.i815.or.kr/dictionary/detail/print.do?id=9018",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-ins-023",
+      "type": "institutional",
+      "author": "독립기념관",
+      "title": "이종호",
+      "publisher": "독립운동인명사전(한국독립운동정보시스템)",
+      "year": null,
+      "url": "https://search.i815.or.kr/dictionary/detail.do?searchWord=&reSearchWord=&searchType=all&index=1&id=11304",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-ins-024",
+      "type": "institutional",
+      "author": "국사편찬위원회",
+      "title": "신편한국사 47권 「다. 국민회」",
+      "publisher": "우리역사넷",
+      "year": null,
+      "url": "https://contents.history.go.kr/mobile/nh/view.do?levelId=nh_047_0030_0020_0020_0010_0030",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-ins-025",
+      "type": "institutional",
+      "author": "국사편찬위원회",
+      "title": "105인 사건 1911~1913",
+      "publisher": "우리역사넷",
+      "year": null,
+      "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_i400100",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-ins-026",
+      "type": "institutional",
+      "author": "국사편찬위원회",
+      "title": "한민족독립운동사자료집",
+      "publisher": "한국사데이터베이스",
+      "year": null,
+      "url": "https://db.history.go.kr/modern/level.do?levelId=hd_002_0010_0050",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-ins-027",
+      "type": "institutional",
+      "author": "국사편찬위원회",
+      "title": "대한민국 임시정부 1919",
+      "publisher": "우리역사넷",
+      "year": null,
+      "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_o400800",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-ins-028",
+      "type": "institutional",
+      "author": "국사편찬위원회",
+      "title": "대한민국임시정부자료집",
+      "publisher": "한국사데이터베이스",
+      "year": null,
+      "url": "https://db.history.go.kr/modern/level.do?levelId=ij_008_$1exp",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-ins-029",
+      "type": "institutional",
+      "author": "국사편찬위원회",
+      "title": "가. 연통제의 시행과 운영",
+      "publisher": "우리역사넷",
+      "year": null,
+      "url": "https://contents.history.go.kr/mobile/nh/view.do?levelId=nh_048_0030_0010_0030_0020",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-ins-030",
+      "type": "institutional",
+      "author": "국사편찬위원회",
+      "title": "상해판 독립신문 창간호",
+      "publisher": "우리역사넷",
+      "year": null,
+      "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_o401610&code=kc_age_40",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-ins-031",
+      "type": "institutional",
+      "author": "국립대한민국임시정부기념관",
+      "title": "통합 임시정부, 승인과 개조의 갈림길에서",
+      "publisher": "국립대한민국임시정부기념관 웹진",
+      "year": null,
+      "url": "https://www.nmkpg.go.kr/webzine/story/cn.do?rid=245",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-ins-032",
+      "type": "institutional",
+      "author": "국사편찬위원회",
+      "title": "'독립전쟁의 원년 선포' 관련 서술",
+      "publisher": "우리역사넷",
+      "year": null,
+      "url": "https://contents.history.go.kr/front/nh/print.do?levelId=nh_048_0030_0010_0030_0030_0020",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-ins-033",
+      "type": "institutional",
+      "author": "국가유산청",
+      "title": "국가등록문화유산 「도산 안창호 일기」",
+      "publisher": "국가유산포털",
+      "year": null,
+      "url": "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?VdkVgwKey=79,07210000,34",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-ins-034",
+      "type": "institutional",
+      "author": "국사편찬위원회",
+      "title": "흥사단 (한국사연대기)",
+      "publisher": "우리역사넷",
+      "year": null,
+      "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_o404400&code=kc_age_40",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-ins-035",
+      "type": "institutional",
+      "author": "국립대한민국임시정부기념관",
+      "title": "국민대표회의의 배경과 개최 과정",
+      "publisher": "국립대한민국임시정부기념관 웹진",
+      "year": null,
+      "url": "https://www.nmkpg.go.kr/webzine/story/cn.do?rid=222",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-ins-036",
+      "type": "institutional",
+      "author": "국가보훈부",
+      "title": "독립유공자 공적정보",
+      "publisher": "공훈전자사료관",
+      "year": null,
+      "url": "https://e-gonghun.mpva.go.kr/user/ContribuReportDetailPopup.do?mngNo=7338",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-ins-037",
+      "type": "institutional",
+      "author": "국사편찬위원회",
+      "title": "'국민대표회의' 관련 서술",
+      "publisher": "우리역사넷",
+      "year": null,
+      "url": "https://contents.history.go.kr/mobile/nh/view.do?levelId=nh_048_0030_0020_0010_0010",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-ins-038",
+      "type": "institutional",
+      "author": "국사편찬위원회",
+      "title": "(2) 삼방회의와 국민대표회의의 결렬",
+      "publisher": "우리역사넷",
+      "year": null,
+      "url": "https://contents.history.go.kr/mobile/nh/view.do?levelId=nh_048_0030_0020_0020_0020",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-ins-039",
+      "type": "institutional",
+      "author": "흥사단",
+      "title": "자료 소개 '1920년대 이상촌 건설운동과 안창호'",
+      "publisher": "흥사단 공식 사이트",
+      "year": null,
+      "url": "https://www.yka.or.kr/html/info/book_search.asp?no=1018",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-ins-040",
+      "type": "institutional",
+      "author": "국사편찬위원회",
+      "title": "민족 유일당 운동",
+      "publisher": "우리역사넷",
+      "year": null,
+      "url": "https://contents.history.go.kr/mobile/tg/view.do?subjectCode=tg_ty_040&tabId=02&levelId=tg_004_2230&pageUnit=10",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-ins-041",
+      "type": "institutional",
+      "author": "국사편찬위원회",
+      "title": "한국독립당 1930~1970",
+      "publisher": "우리역사넷",
+      "year": null,
+      "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_o403900",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-ins-042",
+      "type": "institutional",
+      "author": "독립기념관",
+      "title": "독립운동인명사전 표제어(항목명 미상 — 사전 id 2281, 서지 보강 대상)",
+      "publisher": "독립운동인명사전(한국독립운동정보시스템)",
+      "year": null,
+      "url": "https://search.i815.or.kr/dictionary/detail/print.do?id=2281",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-ins-043",
+      "type": "institutional",
+      "author": "한국문화정보원",
+      "title": "흥사단의 첫 동지 송종익",
+      "publisher": "지역N문화",
+      "year": null,
+      "url": "https://ncms.nculture.org/independence-movement/story/10984",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-ins-044",
+      "type": "institutional",
+      "author": "국사편찬위원회",
+      "title": "교과서 용어해설 '동광'",
+      "publisher": "우리역사넷",
+      "year": null,
+      "url": "https://contents.history.go.kr/front/tg/view.do?treeId=0100&levelId=tg_004_2300",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-ins-045",
+      "type": "institutional",
+      "author": "국사편찬위원회",
+      "title": "근현대잡지자료 『동광』",
+      "publisher": "한국사데이터베이스",
+      "year": null,
+      "url": "https://db.history.go.kr/id/ma_014",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-ins-046",
+      "type": "institutional",
+      "author": "흥사단",
+      "title": "흥사단 소장 『동광』 1926년 11월호(제7호) 서지",
+      "publisher": "흥사단 공식 사이트",
+      "year": null,
+      "url": "https://www.yka.or.kr/html/info/book_search.asp?no=364",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-ins-047",
+      "type": "institutional",
+      "author": "국가기록원",
+      "title": "독립운동관련 판결문 시스템",
+      "publisher": "국가기록원",
+      "year": null,
+      "url": "https://theme.archives.go.kr/next/indy/viewIndyDetail.do?archiveId=0001164840",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-ins-048",
+      "type": "institutional",
+      "author": "국가보훈부",
+      "title": "독립유공자 공적정보 「송종익」",
+      "publisher": "공훈전자사료관",
+      "year": null,
+      "url": "https://e-gonghun.mpva.go.kr/",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-ins-049",
+      "type": "institutional",
+      "author": "국가보훈부",
+      "title": "독립유공자 공적정보 '안창호'",
+      "publisher": "공훈전자사료관",
+      "year": null,
+      "url": "https://e-gonghun.mpva.go.kr/user/ContribuReportDetail.do?goTocode=20001&pageTitle=Merit&mngNo=669",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-ins-050",
+      "type": "institutional",
+      "author": "국가보훈처",
+      "title": "1월의 독립운동가 이갑 선생",
+      "publisher": "대한민국 정책브리핑",
+      "year": 2011,
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=155805121",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-ins-051",
+      "type": "institutional",
+      "author": "국사편찬위원회",
+      "title": "교과서 용어해설 「국민대표회의」",
+      "publisher": "우리역사넷",
+      "year": null,
+      "url": "https://contents.history.go.kr/front/tg/view.do?treeId=0204&levelId=tg_004_2110",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-ins-052",
+      "type": "institutional",
+      "author": "국사편찬위원회",
+      "title": "사료로 본 한국사 「이광수의 민족 개조론, 민족적 경륜」",
+      "publisher": "우리역사넷",
+      "year": null,
+      "url": "http://contents.history.go.kr/id/hm_141_0080",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-ins-053",
+      "type": "institutional",
+      "author": "독립기념관",
+      "title": "오영선",
+      "publisher": "독립운동인명사전(한국독립운동정보시스템)",
+      "year": null,
+      "url": "https://search.i815.or.kr/dictionary/detail.do?id=698",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-pri-001",
+      "type": "primary",
+      "author": "안창호",
+      "title": "도산 안창호 일기 (1920–1921, 상하이, 3책)",
+      "publisher": "독립기념관",
+      "year": 1920,
+      "url": "http://www.heritage.go.kr/heri/cul/culSelectDetail.do?VdkVgwKey=79%2C07210000%2C34",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-pri-002",
+      "type": "primary",
+      "author": "안창호",
+      "title": "안창호 발신 서한 — 이혜련 앞 (왕복 서신 포함)",
+      "publisher": "USC East Asian Library",
+      "year": null,
+      "url": "https://calisphere.org/collections/27344/",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-pri-003",
+      "type": "primary",
+      "author": "안창호",
+      "title": "안창호 발신 서한 — 자녀(안필립·안필선·안수산·안수라·안필영) 앞",
+      "publisher": "USC East Asian Library",
+      "year": null,
+      "url": "https://oac.cdlib.org/findaid/ark:/13030/c8qj7pmj/",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-pri-004",
+      "type": "primary",
+      "author": "안창호",
+      "title": "안창호 발신 서한 — 동지·단체 앞 (이강·송종익·홍언·흥사단 단우 등)",
+      "publisher": "분산 소장 — 독립기념관, 도산안창호선생기념사업회",
+      "year": null,
+      "url": null,
+      "accessed": null
+    },
+    {
+      "id": "src-pri-005",
+      "type": "primary",
+      "author": "안창호",
+      "title": "쾌재정 연설 (1898, 평양 만민공동회 관서지부 행사 연설)",
+      "publisher": "소재 미확인",
+      "year": null,
+      "url": null,
+      "accessed": null
+    },
+    {
+      "id": "src-pri-006",
+      "type": "primary",
+      "author": "안창호",
+      "title": "「개조(改造)」 연설 (1919, 상하이)",
+      "publisher": "원 속기록 소재 미확인 — 활자 수록: 『안도산전서』",
+      "year": null,
+      "url": null,
+      "accessed": null
+    },
+    {
+      "id": "src-pri-007",
+      "type": "primary",
+      "author": "안창호",
+      "title": "신년축하회 연설 「우리 국민이 단정코 실행할 육대사(六大事)」 (1920-01, 상하이)",
+      "publisher": "독립신문",
+      "year": 1920,
+      "url": "https://archive.much.go.kr/archive/newspaper/information.do",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-pri-008",
+      "type": "primary",
+      "author": "안창호",
+      "title": "삼일당(三一堂) 연설 「우리 혁명운동과 임시정부 문제에 대하여」 (1926-07-08, 상하이)",
+      "publisher": "원 기록 소재 미확인 — 활자 수록: 『도산안창호전집』·『안도산전서』",
+      "year": 1926,
+      "url": null,
+      "accessed": null
+    },
+    {
+      "id": "src-pri-009",
+      "type": "primary",
+      "author": "안창호",
+      "title": "「동포에게 고하는 글」 (1924, 베이징에서 집필·발송)",
+      "publisher": "원 원고 소재 미확인 — 활자 수록: 『안도산전서』·『도산안창호전집』",
+      "year": null,
+      "url": null,
+      "accessed": null
+    },
+    {
+      "id": "src-pri-010",
+      "type": "primary",
+      "author": "안창호",
+      "title": "거국가(去國歌) (1910, 망명 시 작별 가사)",
+      "publisher": "원 출전 확인본: 한영서원 간행 『창가집』",
+      "year": null,
+      "url": "https://encykorea.aks.ac.kr/Article/E0001791",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-pri-011",
+      "type": "primary",
+      "author": "공립협회",
+      "title": "공립신보(共立新報) (1905–1909, 샌프란시스코, 공립협회 기관지)",
+      "publisher": "국사편찬위원회 한국사데이터베이스",
+      "year": 1905,
+      "url": "https://db.history.go.kr/modern/level.do?itemId=npgr",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-pri-012",
+      "type": "primary",
+      "author": "대한인국민회",
+      "title": "신한민보(新韓民報) (1909–1945, 샌프란시스코, 대한인국민회 기관지)",
+      "publisher": "국사편찬위원회 한국사데이터베이스",
+      "year": 1909,
+      "url": "https://db.history.go.kr/introduction/intro_npsh.html",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-pri-013",
+      "type": "primary",
+      "author": "독립신문사",
+      "title": "독립신문(獨立新聞, 상하이판) (1919-08-21 ~ 1926-11-26, 통권 198호)",
+      "publisher": "대한민국역사박물관",
+      "year": 1919,
+      "url": "https://archive.much.go.kr/archive/newspaper/information.do",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-pri-014",
+      "type": "primary",
+      "author": "동아일보사",
+      "title": "동아일보 도산 관련 기사군 (1920–1938: 1932-06 압송·공판 보도, 1937 동우회 사건 보도, 1938-03 서거 보도)",
+      "publisher": "국사편찬위원회 한국사데이터베이스",
+      "year": 1920,
+      "url": "https://db.history.go.kr/modern/level.do?itemId=npda",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-pri-015",
+      "type": "primary",
+      "author": "조선일보사",
+      "title": "조선일보 도산 관련 기사군 (1920–1938)",
+      "publisher": "조선일보사 — 조선 뉴스 라이브러리 100",
+      "year": 1920,
+      "url": "https://newslibrary.chosun.com",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-pri-016",
+      "type": "primary",
+      "author": "조선총독부 경무총감부·검사국·법원",
+      "title": "105인 사건 신문조서·공판시말서 (1911–1913)",
+      "publisher": "국사편찬위원회 — 『한민족독립운동사자료집』 제1~4권",
+      "year": 1911,
+      "url": "https://db.history.go.kr/modern/level.do?levelId=hd_032_0050_0050",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-pri-017",
+      "type": "primary",
+      "author": "일제 경찰·검사·예심판사",
+      "title": "안창호 신문조서 (1932, 경기도경찰부·경성지방법원 검사국·예심)",
+      "publisher": "원본 소장처 미확정",
+      "year": 1932,
+      "url": null,
+      "accessed": null
+    },
+    {
+      "id": "src-pri-018",
+      "type": "primary",
+      "author": "경성지방법원",
+      "title": "안창호 판결문 (1932-12, 경성지방법원, 치안유지법 위반, 징역 4년)",
+      "publisher": "소재 미확인",
+      "year": 1932,
+      "url": null,
+      "accessed": null
+    },
+    {
+      "id": "src-pri-019",
+      "type": "primary",
+      "author": "경성지방법원·경성복심법원·고등법원",
+      "title": "동우회 사건 재판 기록 (1937–1941: 예심·1심 무죄(1939-12)·복심 유죄(1940-08)·고등법원 전원 무죄(1941-11))",
+      "publisher": "흥사단",
+      "year": 1937,
+      "url": "https://www.yka.or.kr/html/info/book_search.asp?no=342",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-pri-020",
+      "type": "primary",
+      "author": "흥사단",
+      "title": "흥사단 약법(約法) (1913, 샌프란시스코)",
+      "publisher": "1913년 원본 실물 소재 미확인 — 현행 전재: 흥사단",
+      "year": 1913,
+      "url": "https://www.yka.or.kr/html/about_dosan/movement_theory_04.asp",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-pri-021",
+      "type": "primary",
+      "author": "흥사단",
+      "title": "흥사단 입단문답 기록 (문답례·실제 문답 채록)",
+      "publisher": "소재 미확인 — 재구성 텍스트: 이광수 『도산 안창호』",
+      "year": 1913,
+      "url": null,
+      "accessed": null
+    },
+    {
+      "id": "src-pri-022",
+      "type": "primary",
+      "author": "동광사",
+      "title": "동광(東光) (1926-05 ~ 1933-01, 통권 40호, 수양동우회 계열 잡지)",
+      "publisher": "국사편찬위원회 한국사데이터베이스",
+      "year": 1926,
+      "url": "https://db.history.go.kr/id/ma_014",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-pri-023",
+      "type": "primary",
+      "author": "대한인국민회 중앙총회·지방총회 등",
+      "title": "도산 안창호 관련 미주 국민회 기록물 (국가지정기록물 제5호, 5,563점)",
+      "publisher": "도산안창호선생기념사업회",
+      "year": null,
+      "url": "https://theme.archives.go.kr/next/nationalArchives/subPage/nationalArchives4.do",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-pri-024",
+      "type": "primary",
+      "author": "대한제국",
+      "title": "안창호 집조(執照, 대한제국 여권) (1902)",
+      "publisher": "국가지정기록물 '도산 안창호 관련 자료' 구성 문서",
+      "year": 1902,
+      "url": "https://www.archives.go.kr/next/common/archivedata/render.do?filePath=2F757046696c652F70616c67616e2F313332353233323239343537382e706466",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-pri-025",
+      "type": "primary",
+      "author": "주요한",
+      "title": "『안도산전서(安島山全書)』 (주요한 편저, 초판 삼중당 1963; 증보판 흥사단 1999)",
+      "publisher": "국립중앙도서관·국회도서관 등",
+      "year": 1963,
+      "url": null,
+      "accessed": null
+    },
+    {
+      "id": "src-pri-026",
+      "type": "primary",
+      "author": "도산안창호선생기념사업회",
+      "title": "『도산안창호전집』 전14권 (도산안창호선생기념사업회, 2000)",
+      "publisher": "국립중앙도서관·국회도서관·주요 대학도서관",
+      "year": 2000,
+      "url": null,
+      "accessed": null
+    },
+    {
+      "id": "src-pri-027",
+      "type": "primary",
+      "author": "국사편찬위원회",
+      "title": "『대한민국임시정부자료집』 (국사편찬위원회, 2005–2011) — 임정 공문서·독립신문 수록 사료집",
+      "publisher": "국사편찬위원회 한국사데이터베이스",
+      "year": 2005,
+      "url": "https://db.history.go.kr/modern/level.do?levelId=ij_039_$1exp",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-pri-028",
+      "type": "primary",
+      "author": "차리석",
+      "title": "차리석 「한국독립당 당의의 이론체계 초안」 (1942-08, 충칭)",
+      "publisher": "원문 소장처 미확정 — 학술 전거: 장석흥 「차리석의 '한국독립당 당의의 이론체계 초안",
+      "year": 1942,
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001936844",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-pri-029",
+      "type": "primary",
+      "author": "경성복심법원",
+      "title": "105인 사건 제30회 공판시말서 (경성복심법원, 1913-01-15) — 안창호 거명 개소",
+      "publisher": "국사편찬위원회 — 『한민족독립운동사자료집』 제2권 수록·DB 구축",
+      "year": 1913,
+      "url": "https://db.history.go.kr/modern/level.do?levelId=hd_002_0010_0050",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-pri-030",
+      "type": "primary",
+      "author": "대한민국임시정부",
+      "title": "대한민국임시정부 공보 (1919-09-03 제1호 ~ 1944-12-20, 현전 57개호 + 호외 19개호)",
+      "publisher": "국사편찬위원회 — 『대한민국임시정부자료집』 제1권",
+      "year": 1919,
+      "url": "https://db.history.go.kr/item/level.do?levelId=ij_001_$2exp",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-pri-031",
+      "type": "primary",
+      "author": "청년학우회",
+      "title": "청년학우회 설립취지서 (1909, 최남선 기초 전승)",
+      "publisher": "소재 미확인 — 게재 추정 매체: 『소년』",
+      "year": 1909,
+      "url": null,
+      "accessed": null
+    },
+    {
+      "id": "src-pri-032",
+      "type": "primary",
+      "author": "서우학회",
+      "title": "『서우(西友)』 (서우학회 기관지, 1906-12 ~ 1908, 17호) — 삼선평 연설 게재지",
+      "publisher": "국사편찬위원회 한국사데이터베이스",
+      "year": 1906,
+      "url": "https://db.history.go.kr/id/ma_003",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-pri-033",
+      "type": "primary",
+      "author": "안창호",
+      "title": "점진가 (점진학교 교가, 1899년경 작사 전승)",
+      "publisher": "당대 원본 미확인 — 가사 전승: 『안도산전서』 등 전기·기념 문헌",
+      "year": null,
+      "url": null,
+      "accessed": null
+    },
+    {
+      "id": "src-pri-034",
+      "type": "primary",
+      "author": "안창호",
+      "title": "안창호 옥중 서한 — 대전형무소발 이혜련 수신 (1933-06-01설)",
+      "publisher": "소재 미확인 — 추정 경로: USC KADA 이혜련 수신 서한군",
+      "year": 1933,
+      "url": null,
+      "accessed": null
+    },
+    {
+      "id": "src-pri-035",
+      "type": "primary",
+      "author": "경성제국대학 부속의원",
+      "title": "안창호 사망진단서 (1938-03-10, 경성제국대학 부속의원)",
+      "publisher": "소재 미확인",
+      "year": 1938,
+      "url": null,
+      "accessed": null
+    },
+    {
+      "id": "src-pri-036",
+      "type": "primary",
+      "author": "오기영 / 김정련 / 김여제",
+      "title": "수감·임종 회고 사료 3종 — 오기영 「도산선생의 최후」(1947-05) · 김정련 「형무소의 도산선생」(『새벽』 1957-04) · 김여제 「옥중에서 도산선생을 모시고」(『기러기』 1966)",
+      "publisher": "오기영: 『동전 오기영 전집』",
+      "year": 1947,
+      "url": "https://www.mosinsaram.com/417",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-pri-037",
+      "type": "primary",
+      "author": "대한신민회",
+      "title": "「대한신민회 취지서」·「대한신민회 통용장정」 (1906–07, 일제 압수 문서)",
+      "publisher": "국사편찬위원회",
+      "year": 1906,
+      "url": "https://db.history.go.kr/introduction/intro_jh.html",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-pri-038",
+      "type": "primary",
+      "author": "일제 한국주차헌병대",
+      "title": "안창호 용산 헌병대 신문기록 (1909-10 ~ 1910, 안중근 의거 연루 혐의 구금)",
+      "publisher": "소재 미확인",
+      "year": 1909,
+      "url": null,
+      "accessed": null
+    },
+    {
+      "id": "src-pri-039",
+      "type": "primary",
+      "author": "대한제국 외부 / 청국총영사관 / 중국 당국",
+      "title": "안창호 여행권 4종 — 집조(1902) · 블라디보스토크 청국총영사관 호조 · 상하이 발급 호조(1924) · 필리핀행 중국 호조(1929)",
+      "publisher": "독립기념관 등 소장 추정 — 학술 전거: 김도형 「도산 안창호의 '여행권'을 통해 본 독립운동 행적」, 『한국독립운동사연구』 52",
+      "year": 1902,
+      "url": "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART002061754",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-pri-040",
+      "type": "primary",
+      "author": "태극학회",
+      "title": "『태극학보(太極學報)』 (태극학회, 도쿄, 1906-08 ~ 1908-12, 통권 27호)",
+      "publisher": "국사편찬위원회 한국사데이터베이스",
+      "year": 1906,
+      "url": "https://db.history.go.kr/id/ma_007",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-pri-041",
+      "type": "primary",
+      "author": "미국 이민 당국",
+      "title": "안창호 뉴욕항 입국 기록 (1911-09, 선객 명부)",
+      "publisher": "미국 국립문서기록관리청",
+      "year": 1911,
+      "url": "https://www.statueofliberty.org/heritage-documents/",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-pri-042",
+      "type": "primary",
+      "author": "새문안교회",
+      "title": "새문안교회(구세학당 모교회) 초기 교인·세례 명부 (1890년대)",
+      "publisher": "소재 미확인 — 새문안교회 현존 최고",
+      "year": null,
+      "url": "https://saemoonan.org/church/Sub_02_01.aspx",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-pri-043",
+      "type": "primary",
+      "author": "김구",
+      "title": "『백범일지』 친필본 (김구, 상권 1929·하권 1942–43 집필) — 안창호 관련 대목",
+      "publisher": "백범김구기념관",
+      "year": 1929,
+      "url": "https://www.kimkoomuseum.org/",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-pri-044",
+      "type": "primary",
+      "author": "Frederick S. Miller",
+      "title": "밀러(F. S. Miller, 민로아) 선교사 보고서·서한 (1892–1899 서울 시기) — 구세학당 학생 기록",
+      "publisher": "소재 미확인 — 추정: Presbyterian Historical Society",
+      "year": 1892,
+      "url": null,
+      "accessed": null
+    },
+    {
+      "id": "src-pri-045",
+      "type": "primary",
+      "author": "일제 관동도독부·통감부",
+      "title": "안중근 사건 신문·공판 기록 (『한국독립운동사 자료』 6·7권 안중근편 I·II, 국사편찬위원회) — 안창호 관련 개소",
+      "publisher": "국사편찬위원회 — 『한국독립운동사 자료』 6·7권",
+      "year": 1909,
+      "url": "https://db.history.go.kr/introduction/intro_kd.html",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-pri-046",
+      "type": "primary",
+      "author": "대한매일신보사",
+      "title": "대한매일신보 1910-05-12자 「거국가」 게재 지면",
+      "publisher": "국립중앙도서관 대한민국 신문 아카이브",
+      "year": 1910,
+      "url": "https://www.nl.go.kr/newspaper/",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-pri-047",
+      "type": "primary",
+      "author": "상하이 일본총영사관 경찰부",
+      "title": "안창호 신문조서 — 상하이 일본총영사관 (1932-04-29 피체 직후)",
+      "publisher": "소재 미확인 — 추정: 일본 외무성 외교사료관",
+      "year": 1932,
+      "url": null,
+      "accessed": null
+    },
+    {
+      "id": "src-pri-048",
+      "type": "primary",
+      "author": null,
+      "title": "중외일보 1930-01-11자 필리핀 이주 계획 보도 기사",
+      "publisher": "중외일보 — 한국사데이터베이스 수록",
+      "year": 1930,
+      "url": "https://db.history.go.kr/modern/level.do?levelId=npjo_1930_01_11_w0003",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-web-001",
+      "type": "web",
+      "author": null,
+      "title": "안창호(安昌浩, 1878-1938) 계몽운동가, 독립운동가 ①",
+      "publisher": "기독타임즈",
+      "year": null,
+      "url": "http://www.kidoktimes.co.kr/5787",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-web-002",
+      "type": "web",
+      "author": "대한인국민회기념재단",
+      "title": "안창호 약전",
+      "publisher": "대한인국민회기념재단 사이트",
+      "year": null,
+      "url": "https://knamf.org/%EC%95%88%EC%B0%BD%ED%98%B8/",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-web-003",
+      "type": "web",
+      "author": "흥사단",
+      "title": "안창호 '쾌재정 연설'과 120년 후 '광화문촛불 청소년시민'",
+      "publisher": "흥사단 공식 사이트",
+      "year": null,
+      "url": "https://www.yka.or.kr/html/info/column.asp?no=14314",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-web-004",
+      "type": "web",
+      "author": null,
+      "title": "Dosan Ahn Chang-ho, founding father of America's first Koreatown",
+      "publisher": "The Korea Herald",
+      "year": null,
+      "url": "https://www.koreaherald.com/article/2742425",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-web-005",
+      "type": "web",
+      "author": "도산안창호선생기념사업회",
+      "title": "온라인기념관 도산 연보",
+      "publisher": "도산안창호선생기념사업회 온라인기념관",
+      "year": null,
+      "url": "http://www.ahnchangho.or.kr/site/main/d02_02.php",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-web-006",
+      "type": "web",
+      "author": null,
+      "title": "Buried past of America's first Koreatown uncovered in California's Riverside",
+      "publisher": "PBS NewsHour",
+      "year": null,
+      "url": "https://www.pbs.org/newshour/show/buried-past-of-americas-first-koreatown-uncovered-in-californias-riverside",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-web-007",
+      "type": "web",
+      "author": null,
+      "title": "멕시코까지 퍼져나간 독립의 꿈…안창호 행적 첫 발견",
+      "publisher": "서울신문",
+      "year": 2016,
+      "url": "https://www.seoul.co.kr/news/life/2016/03/01/20160301800020",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-web-008",
+      "type": "web",
+      "author": null,
+      "title": "Philip Ahn",
+      "publisher": "Hollywood Walk of Fame",
+      "year": null,
+      "url": "https://walkoffame.com/philip-ahn/",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-web-009",
+      "type": "web",
+      "author": null,
+      "title": "Philip Ahn – The Korean American Pioneer in Hollywood",
+      "publisher": "AsAmNews",
+      "year": null,
+      "url": "https://asamnews.com/2023/05/25/phillip-ahn-the-korean-american-pioneer-in-hollywood/",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-web-010",
+      "type": "web",
+      "author": null,
+      "title": "Philson Ahn — Biography",
+      "publisher": "IMDb",
+      "year": null,
+      "url": "https://www.imdb.com/name/nm0014218/bio/",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-web-011",
+      "type": "web",
+      "author": null,
+      "title": "'The Ahn Family Residence' historical marker",
+      "publisher": "Historical Marker Database(HMDB)",
+      "year": null,
+      "url": "https://www.hmdb.org/m.asp?m=229279",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-web-012",
+      "type": "web",
+      "author": null,
+      "title": "Soorah (Ahn) Buffum (1917-2016)",
+      "publisher": "WikiTree",
+      "year": null,
+      "url": "https://www.wikitree.com/wiki/Ahn-324",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-web-013",
+      "type": "web",
+      "author": "흥사단 미주위원부(LA)",
+      "title": "삼선평 연설 (제2차 동맹독서)",
+      "publisher": "흥사단 미주위원부 사이트",
+      "year": null,
+      "url": "https://www.ykausa.org/bbs/board.php?bo_table=Freeboard&wr_id=130&page=1",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-web-014",
+      "type": "web",
+      "author": "흥사단 미주위원부(LA)",
+      "title": "도산의 삼선평 연설 초록",
+      "publisher": "흥사단 미주위원부 사이트",
+      "year": null,
+      "url": "https://www.ykausa.org/bbs/board.php?bo_table=Freeboard&wr_id=149",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-web-015",
+      "type": "web",
+      "author": null,
+      "title": "안창호/생애",
+      "publisher": "나무위키",
+      "year": null,
+      "url": "https://namu.wiki/w/%EC%95%88%EC%B0%BD%ED%98%B8/%EC%83%9D%EC%95%A0",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-web-016",
+      "type": "web",
+      "author": null,
+      "title": "태극서관",
+      "publisher": "나무위키",
+      "year": null,
+      "url": "https://namu.wiki/w/%ED%83%9C%EA%B7%B9%EC%84%9C%EA%B4%80",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-web-017",
+      "type": "web",
+      "author": "흥사단",
+      "title": "[연재] 도산 안창호의 형무소 투옥 생활 1",
+      "publisher": "흥사단 공식 사이트",
+      "year": null,
+      "url": "https://www.yka.or.kr/html/info/column.asp?no=11225",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-web-018",
+      "type": "web",
+      "author": "한국문화정보원",
+      "title": "도산 안창호",
+      "publisher": "한국문화정보원",
+      "year": null,
+      "url": "https://www.kculture.or.kr/brd/board/252/L/menu/465?brdType=R&thisPage=14&bbIdx=8573&recordCnt=10",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-web-019",
+      "type": "web",
+      "author": null,
+      "title": "윤치호 '애국가', 안창호 '거국가'",
+      "publisher": "e-전라매일",
+      "year": null,
+      "url": "http://m.e-jlmaeil.com/view.php?idx=240536",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-web-020",
+      "type": "web",
+      "author": "대한인국민회기념재단",
+      "title": "정재관",
+      "publisher": "대한인국민회기념재단 사이트",
+      "year": null,
+      "url": "https://knamf.org/%EC%A0%95%EC%9E%AC%EA%B4%80/",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-web-021",
+      "type": "web",
+      "author": null,
+      "title": "[신주백의 사연 史淵] 안창호의 독립전쟁과 독립정신의 현재성",
+      "publisher": "경향신문",
+      "year": null,
+      "url": "https://www.khan.co.kr/article/202512082012005",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-web-022",
+      "type": "web",
+      "author": "부산흥사단",
+      "title": "흥사단 역사",
+      "publisher": "부산흥사단 사이트",
+      "year": null,
+      "url": "https://ykabs.or.kr/heungsa_hist1.php?bo_table=b322",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-web-023",
+      "type": "web",
+      "author": "장석흥",
+      "title": "실록 대한민국임시정부 — 안창호와 민족유일당 운동",
+      "publisher": "국민대학교(언론 기고 소개)",
+      "year": null,
+      "url": "https://iat.kookmin.ac.kr/international/community/newnhot/press/1071250?pn=90",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-web-024",
+      "type": "web",
+      "author": null,
+      "title": "무실역행의 지도자, 안창호",
+      "publisher": "역사 인물 웹자료(koreanperson.web3.newwaynet.co.kr)",
+      "year": null,
+      "url": "http://koreanperson.web3.newwaynet.co.kr/bbs/board.php?bo_table=sub02_03&wr_id=2",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-web-025",
+      "type": "web",
+      "author": "이기환",
+      "title": "[이기환의 흔적의 역사] 억장이 무너지는 도산 안창호 선생의 사진 3장",
+      "publisher": "경향신문",
+      "year": 2019,
+      "url": "https://www.khan.co.kr/article/201905231407001",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-web-026",
+      "type": "web",
+      "author": "대구흥사단",
+      "title": "흥사단 약법",
+      "publisher": "대구흥사단 사이트",
+      "year": null,
+      "url": "http://www.tgyka.or.kr/open_content/info/info_02.php",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-web-027",
+      "type": "web",
+      "author": "서울흥사단",
+      "title": "입단 안내",
+      "publisher": "서울흥사단 사이트",
+      "year": null,
+      "url": "http://syka.dothome.co.kr/?page_id=370",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-web-028",
+      "type": "web",
+      "author": "흥사단",
+      "title": "도산 안창호의 생애와 업적",
+      "publisher": "흥사단 공식 사이트",
+      "year": null,
+      "url": "https://www.yka.or.kr/html/about_dosan/life_achievement.asp",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-web-029",
+      "type": "web",
+      "author": null,
+      "title": "[망우리 사잇길을 걷다] 도산 안창호와 비서 유상규",
+      "publisher": "경기신문",
+      "year": null,
+      "url": "https://www.kgnews.co.kr/news/article.html?no=875363",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-web-030",
+      "type": "web",
+      "author": null,
+      "title": "73년 11월10일 도산공원 개원, 안창호 선생과 부인 이혜련 여사 합장",
+      "publisher": "한국일보",
+      "year": null,
+      "url": "https://www.hankookilbo.com/News/Read/A2021110319110004288",
+      "accessed": "2026-06-06"
+    },
+    {
+      "id": "src-web-031",
+      "type": "web",
+      "author": null,
+      "title": "도산 안창호 상하이 연설",
+      "publisher": "브런치(『안도산전서』 수록본 전사)",
+      "year": null,
+      "url": "https://brunch.co.kr/@charam/16",
+      "accessed": "2026-06-06"
+    }
+  ]
+}

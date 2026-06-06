@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>연표 — 도산 안창호 일대기</title>
+  <meta name="description" content="안창호(1878–1938)의 검증 통과 사건 165건을 시기·주제로 추리는 인터랙티브 연표. 날짜 정밀도·음양력·기록 상충을 데이터 그대로 표시한다.">
+
+  <!-- 폰트: display=swap + 시스템 폴백(design-system §3) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;500;700&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+
+  <!-- 디자인 토큰(ui-designer) → 공통(frontend) → 연표 전용(tl-) -->
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/timeline.css">
+</head>
+<body>
+  <!-- 헤더는 layout.js가 공통 주입(sitemap §2). 마운트포인트만 제공 (layout.js 계약: data-site-header) -->
+  <header data-site-header></header>
+
+  <main id="app" class="tl-main" data-load-error>
+    <!-- 페이지 헤더(도입문) — pages/timeline.json blocks를 JS가 렌더 -->
+    <div class="tl-page-head">
+      <h1 class="tl-page-title" id="tl-title">연표</h1>
+      <div class="tl-lead" id="tl-lead">
+        <!-- pages/timeline.json sections[].blocks → 여기 렌더, [ref:] 각주는 footnotes -->
+      </div>
+    </div>
+
+    <!-- 필터 바: 시기(P1~P8) · 주제 태그 · disputed 토글 -->
+    <section class="tl-controls" aria-label="연표 필터">
+      <div class="tl-filter-group" role="group" aria-labelledby="tl-period-label">
+        <span class="tl-filter-label" id="tl-period-label">시기</span>
+        <div class="tl-chip-row" id="tl-period-filter">
+          <!-- 칩 버튼은 JS 생성: 전체 + P1~P8 (period 필드에 실재하는 시기만) -->
+        </div>
+      </div>
+
+      <div class="tl-filter-group" role="group" aria-labelledby="tl-tag-label">
+        <span class="tl-filter-label" id="tl-tag-label">주제</span>
+        <div class="tl-chip-row" id="tl-tag-filter">
+          <!-- 칩 버튼은 JS 생성: 전체 + 태그 7종 -->
+        </div>
+      </div>
+
+      <div class="tl-filter-group tl-filter-toggle">
+        <label class="tl-toggle">
+          <input type="checkbox" id="tl-disputed-only">
+          <span>기록 상충 사건만 보기</span>
+        </label>
+        <button type="button" class="tl-reset" id="tl-reset" hidden>필터 초기화</button>
+      </div>
+    </section>
+
+    <!-- 시기 점프 내비(세로 스크롤 + 시기 점프, interactive-viz §1) -->
+    <nav class="tl-jump" id="tl-jump" aria-label="시기로 이동" hidden>
+      <!-- JS 생성: 현재 표시 중인 시기로 점프하는 링크 -->
+    </nav>
+
+    <!-- 필터 결과 라이브 영역(스크린리더, interactive-viz §5) -->
+    <p id="tl-status" class="tl-status" aria-live="polite" role="status"></p>
+
+    <!-- 사건 목록 컨테이너(이벤트 위임 1개 리스너의 위임 루트) -->
+    <div id="tl-list" class="tl-list">
+      <!-- 시기 그룹 + tl-event-card 들을 JS가 DocumentFragment로 1회 삽입 -->
+    </div>
+
+    <!-- 필터 결과 0건 빈 상태(경계상황, design-system §7) -->
+    <p id="tl-empty" class="empty-state" hidden>해당 조건의 사건이 없습니다. 필터를 바꾸거나 초기화해 보세요.</p>
+  </main>
+
+  <!-- 푸터는 layout.js가 공통 주입 (layout.js 계약: data-site-footer) -->
+  <footer data-site-footer></footer>
+
+  <!--
+    상세 패널: 네이티브 <dialog> — 포커스 트랩·Esc 닫기·배경 비활성을 브라우저가 제공
+    (interactive-viz §1). 내용은 열릴 때 지연 렌더.
+  -->
+  <dialog id="tl-detail" class="tl-detail" aria-labelledby="tl-detail-title">
+    <form method="dialog" class="tl-detail-closebar">
+      <button class="tl-detail-close" value="close" aria-label="닫기">✕</button>
+    </form>
+    <div id="tl-detail-body" class="tl-detail-body">
+      <!-- 지연 렌더: 사건 상세·출처·교차링크 -->
+    </div>
+  </dialog>
+
+  <!--
+    비-JS 폴백(interactive-viz §4): JS가 없으면 fetch가 동작하지 않으므로
+    핵심 안내 + 정적 진입 동선을 제공한다. JS가 로드되면 숨긴다.
+  -->
+  <noscript>
+    <div class="tl-noscript">
+      <h1>연표 — 도산 안창호 일대기</h1>
+      <p>
+        이 인터랙티브 연표는 사건 데이터를 자바스크립트로 불러와 표시합니다.
+        자바스크립트가 꺼져 있어 동적 연표를 표시할 수 없습니다.
+      </p>
+      <p>다음 정적 페이지에서 같은 내용을 확인할 수 있습니다:</p>
+      <ul>
+        <li><a href="life.html">생애</a> — 8부 15장으로 정리한 전 생애 서술</li>
+        <li><a href="archives.html">사료</a> — 사건의 근거가 된 1차 사료 카탈로그</li>
+        <li><a href="references.html">참고문헌</a> — 인용·출처 일람과 검증 방법론</li>
+      </ul>
+      <p>
+        검증을 통과한 사건은 165건이며(조사 172건 중 검증 미달 7건 제외),
+        그중 17건은 기록이 갈리는 상충 사건입니다.
+      </p>
+    </div>
+  </noscript>
+
+  <script type="module" src="js/timeline.js"></script>
+</body>
+</html>

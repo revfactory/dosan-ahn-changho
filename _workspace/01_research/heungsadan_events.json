@@ -1,0 +1,495 @@
+[
+  {
+    "id": "evt-hsd-001",
+    "title": "흥사단 창립",
+    "date": { "start": "1913-05-13", "end": "1913-05-13", "precision": "day", "calendar": "solar" },
+    "place": { "name": "샌프란시스코 강영소 자택", "modern_name": "미국 캘리포니아주 샌프란시스코", "lat": null, "lng": null },
+    "actors": ["안창호", "강영소", "홍언", "염만석", "조병옥", "민찬호", "송종익", "김종림", "정원도"],
+    "orgs": ["흥사단"],
+    "summary": "안창호가 샌프란시스코 강영소의 집에서 발기인 25명으로 흥사단 창립총회를 열었다.",
+    "detail": "1912년 안창호는 로스앤젤레스에서 송종익에게 먼저 흥사단 약법 초안을 보였고, 지역주의 극복을 상징하기 위해 8도 대표제를 채택해 창립위원을 선임했다. 8도 대표는 경기도 홍언, 강원도 염만석, 충청도 조병옥, 황해도 민찬호, 경상도 송종익, 평안도 강영소, 함경도 김종림, 전라도 정원도이다. 흥사단은 국내 청년학우회(1909, 신민회 계열)의 취지를 계승한 인격·단결 훈련 단체로 출발했다(청년학우회 자체는 shinminhoe 소유 영역).",
+    "sources": [
+      { "type": "institutional", "title": "우리역사넷 한국사연대기 '흥사단'(국사편찬위원회)", "locator": "kc_o404400", "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_o404400&code=kc_age_40" },
+      { "type": "encyclopedia", "title": "한국민족문화대백과사전 '흥사단'(한국학중앙연구원)", "locator": "E0066013", "url": "https://encykorea.aks.ac.kr/Article/E0066013" },
+      { "type": "web", "title": "부산흥사단 '흥사단 역사' (흥사단 자체 기록)", "locator": null, "url": "https://ykabs.or.kr/heungsa_hist1.php?bo_table=b322" }
+    ],
+    "confidence": "A",
+    "tags": ["결사"]
+  },
+  {
+    "id": "evt-hsd-002",
+    "title": "흥사단 약법 제정과 4대 정신",
+    "date": { "start": "1913-01-01", "end": "1913-12-31", "precision": "year", "calendar": "solar" },
+    "place": { "name": "샌프란시스코", "modern_name": "미국 캘리포니아주 샌프란시스코", "lat": null, "lng": null },
+    "actors": ["안창호", "송종익"],
+    "orgs": ["흥사단"],
+    "summary": "안창호가 기초한 흥사단 약법이 제정되어 무실(務實)·역행(力行)·충의(忠義)·용감(勇敢)의 4대 정신과 덕·체·지 삼육 동맹수련을 단의 기본 규범으로 삼았다.",
+    "detail": "약법 목적 조항(제2조)은 \"본 단의 목적은 무실역행으로 생명을 삼는 충의남녀를 단합하여 정의(情誼)를 돈수(敦修)하며 덕·체·지 삼육을 동맹수련하여 건전한 인격을 지으며 신성한 단체를 이루어 우리 민족 전도 번영의 기초를 수립함에 있다\"로 전해진다. 이 조문 텍스트는 흥사단 지부 게시 자료로 확인한 것으로, 1913년 제정 당시 원문(원본 문서)과의 일치 여부는 원문 미확인 상태다. 약법은 이후 수차례 개정되었다(흥사단 소장 '약법 1차 개정', '약법 5차 개정' 자료 존재). 4대 정신의 사상적 해석은 philosophy 소유 영역.",
+    "sources": [
+      { "type": "web", "title": "대구흥사단 '흥사단 약법' (흥사단 자체 기록)", "locator": null, "url": "http://www.tgyka.or.kr/open_content/info/info_02.php" },
+      { "type": "encyclopedia", "title": "한국민족문화대백과사전 '무실역행'(한국학중앙연구원)", "locator": "E0019119", "url": "https://encykorea.aks.ac.kr/Article/E0019119" },
+      { "type": "institutional", "title": "우리역사넷 한국사연대기 '흥사단'(국사편찬위원회)", "locator": "kc_o404400", "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_o404400&code=kc_age_40" }
+    ],
+    "confidence": "B",
+    "tags": ["결사", "사상"]
+  },
+  {
+    "id": "evt-hsd-003",
+    "title": "흥사단 입단 절차와 입단문답 제도 운영",
+    "date": { "start": "1913-01-01", "end": null, "precision": "year", "calendar": "solar" },
+    "place": { "name": "샌프란시스코·로스앤젤레스 등 흥사단 단소", "modern_name": "미국 캘리포니아주", "lat": null, "lng": null },
+    "actors": ["안창호"],
+    "orgs": ["흥사단"],
+    "summary": "〔부분 미확인〕 흥사단은 단우 2명 이상의 추천서·이력서·보증서·입단금을 갖춘 지원자를 심사해 입단시키고 예비·통상·특별 단우의 등급을 두었으며, 입단 시 문답(입단문답)을 거치게 한 것으로 전해진다.",
+    "detail": "입단 등록 절차(추천서 2인 이상, 이력서·지원서·보증서·입단금 제출, 단원 번호 교부)와 단우 등급(예비단우·통상단우·특별단우)은 기관·단체 기록으로 확인된다. 안창호가 입단 지원자와 직접 장시간 문답을 진행했다는 입단문답 일화는 흥사단 전승과 회고록 계열에 널리 전하나, 이번 조사에서 문답 기록 원문이나 학술적 전거를 직접 확인하지 못했다 — 원문 미확인. 입단문답 기록 원문의 발굴·전사는 primary-source 소유.",
+    "sources": [
+      { "type": "institutional", "title": "우리역사넷 한국사연대기 '흥사단'(국사편찬위원회)", "locator": "kc_o404400", "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_o404400&code=kc_age_40" },
+      { "type": "web", "title": "서울흥사단 입단 안내 (흥사단 자체 기록)", "locator": null, "url": "http://syka.dothome.co.kr/?page_id=370" }
+    ],
+    "confidence": "C",
+    "tags": ["결사"]
+  },
+  {
+    "id": "evt-hsd-004",
+    "title": "흥사단 원동임시위원부 조직",
+    "date": { "start": "1920-01-01", "end": "1920-09-30", "precision": "range", "calendar": "solar" },
+    "place": { "name": "상하이", "modern_name": "중국 상하이시", "lat": null, "lng": null },
+    "actors": ["안창호", "박선제", "김항주", "정인과", "김병연", "이광수", "백영엽", "이용설", "차리석", "선우훈"],
+    "orgs": ["흥사단", "흥사단 원동임시위원부"],
+    "summary": "안창호가 상하이에서 흥사단 원동임시위원부를 조직했다. 1920년 1월부터 상하이 단우들의 활동이 시작되어 같은 해 9월 정식 발족했다.",
+    "detail": "1920년 1월부터 미주에서 온 단우(박선제·김항주, 이어 정인과·김병연 등)와 함께 약법을 인쇄하며 조직을 준비했고 2월부터 이광수 등 유망 청년들이 입단하기 시작했다. 원동위원부는 9월 정식 발족해 국내·중국·연해주·일본 지역을 관할하는 미주 흥사단의 지부 조직이 되었으며, 1920년 12월 상하이에서 흥사단 제7회 대회를 개최하면서 활동이 표면화되었다. 미주 본단이 인격 수양·실력 양성에 집중한 데 비해 원동위원부는 독립운동 실행과의 결합 성격이 강했다는 평가가 있다. 정확한 발족 일자(월내 일자)는 미확인.",
+    "sources": [
+      { "type": "web", "title": "부산흥사단 '흥사단 역사' (흥사단 자체 기록)", "locator": null, "url": "https://ykabs.or.kr/heungsa_hist1.php?bo_table=b322" },
+      { "type": "encyclopedia", "title": "세계한민족문화대전 '흥사단'", "locator": "GC95100282", "url": "http://www.okpedia.kr/Contents/ContentsView?contentsId=GC95100282&localCode=naw" }
+    ],
+    "confidence": "B",
+    "tags": ["결사"]
+  },
+  {
+    "id": "evt-hsd-005",
+    "title": "흥사단 원동임시위원부 본부 난징 이전",
+    "date": { "start": "1924-01-01", "end": "1924-12-31", "precision": "year", "calendar": "solar" },
+    "place": { "name": "난징", "modern_name": "중국 장쑤성 난징시", "lat": null, "lng": null },
+    "actors": ["안창호"],
+    "orgs": ["흥사단 원동임시위원부"],
+    "summary": "1924년 흥사단 원동임시위원부 본부가 난징으로 옮겨졌다.",
+    "detail": "독립운동인명사전(독립기념관)은 \"1924년 난징에 흥사단 원동임시위원부 본부를 옮기고\"라고 기술한다. 같은 시기 안창호가 난징에 설립한 동명학원(1924)과 활동 기반이 겹치나, 동명학원 설립 사건 자체는 provisional-gov 소유. 단일 출처 확인이므로 추가 교차 확인 필요.",
+    "sources": [
+      { "type": "institutional", "title": "독립운동인명사전 '안창호'(독립기념관)", "locator": "id=696", "url": "https://search.i815.or.kr/dictionary/detail.do?searchWord=&reSearchWord=&searchType=all&index=1&id=696" }
+    ],
+    "confidence": "C",
+    "tags": ["결사"]
+  },
+  {
+    "id": "evt-hsd-006",
+    "title": "수양동맹회 결성 (경성)",
+    "date": { "start": "1922-02-12", "end": "1922-02-12", "precision": "day", "calendar": "solar" },
+    "place": { "name": "경성", "modern_name": "대한민국 서울특별시", "lat": null, "lng": null },
+    "actors": ["이광수", "김종덕", "박현환", "김윤경", "강창기"],
+    "orgs": ["수양동맹회", "흥사단"],
+    "summary": "안창호로부터 흥사단 국내 조직 결성의 사명을 받고 귀국한 이광수가 김종덕·박현환·김윤경·강창기 등 11명을 규합해 서울에서 수양동맹회를 결성했다.",
+    "detail": "1921년 상하이에 있던 이광수가 안창호로부터 흥사단 국내 지부 조직의 사명을 받고 귀국한 뒤, 1922년 2월 청년 수양 기관을 표방한 수양동맹회를 창립했다. 일자 '2월 12일'은 흥사단 자체 기록(부산흥사단)에 따른 것이며, 한국민족문화대백과는 '1922년 2월'로만 기술한다.",
+    "sources": [
+      { "type": "encyclopedia", "title": "한국민족문화대백과사전 '수양동우회'(한국학중앙연구원)", "locator": "E0031544", "url": "https://encykorea.aks.ac.kr/Article/E0031544" },
+      { "type": "web", "title": "부산흥사단 '흥사단 역사' (흥사단 자체 기록)", "locator": null, "url": "https://ykabs.or.kr/heungsa_hist1.php?bo_table=b322" },
+      { "type": "institutional", "title": "우리역사넷 한국사연대기 '흥사단'(국사편찬위원회)", "locator": "kc_o404400", "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_o404400&code=kc_age_40" }
+    ],
+    "confidence": "B",
+    "tags": ["결사"]
+  },
+  {
+    "id": "evt-hsd-007",
+    "title": "동우구락부 결성 (평양)",
+    "date": { "start": "1922-07-01", "end": "1923-01-16", "precision": "range", "calendar": "solar" },
+    "place": { "name": "평양", "modern_name": "조선민주주의인민공화국 평양시", "lat": null, "lng": null },
+    "actors": ["김동원", "김성업", "조명식", "김영윤", "김광신", "이제학", "김형식"],
+    "orgs": ["동우구락부", "흥사단"],
+    "summary": "김동원·김성업 등 흥사단 계열 인물들이 평양에서 친목 단체로 합법 위장한 동우구락부를 결성했다. 결성 시점은 출처 간 상충한다(1922년 7월설과 1923년 1월 16일설).",
+    "detail": "한국민족문화대백과는 '1922년 7월 평양에서 조직'으로, 국사편찬위 우리역사넷과 흥사단 자체 기록(부산흥사단)은 '1923년 1월(16일) 창립대회'로 기술한다. 양설을 병기하며 채택 판단은 Phase 2로 넘긴다. 참여 인물은 김동원·김성업·조명식·김영윤·김광신·이제학·김형식 등.",
+    "sources": [
+      { "type": "encyclopedia", "title": "한국민족문화대백과사전 '수양동우회'(한국학중앙연구원)", "locator": "E0031544", "url": "https://encykorea.aks.ac.kr/Article/E0031544" },
+      { "type": "institutional", "title": "우리역사넷 한국사연대기 '흥사단'(국사편찬위원회)", "locator": "kc_o404400", "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_o404400&code=kc_age_40" },
+      { "type": "web", "title": "부산흥사단 '흥사단 역사' (흥사단 자체 기록)", "locator": null, "url": "https://ykabs.or.kr/heungsa_hist1.php?bo_table=b322" }
+    ],
+    "confidence": "C",
+    "tags": ["결사"]
+  },
+  {
+    "id": "evt-hsd-008",
+    "title": "수양동맹회·동우구락부 통합, 수양동우회 발족",
+    "date": { "start": "1926-01-01", "end": "1926-01-31", "precision": "month", "calendar": "solar" },
+    "place": { "name": "경성", "modern_name": "대한민국 서울특별시", "lat": null, "lng": null },
+    "actors": ["이광수", "주요한", "조병옥", "김동원"],
+    "orgs": ["수양동맹회", "동우구락부", "수양동우회", "흥사단"],
+    "summary": "같은 흥사단 계열인 서울의 수양동맹회와 평양의 동우구락부가 통합하여 수양동우회가 발족했다.",
+    "detail": "한국민족문화대백과는 '1926년 1월 통합, 수양동우회라 하였다'고 기술하고, 흥사단 자체 기록(부산흥사단)은 '1925년 12월' 통합으로 기술한다 — 통합 결의와 발족 시점의 차이일 가능성이 있으나 미확정으로 병기. 주요 인물은 이광수·주요한·조병옥 등이며 82명의 중견 회원을 확보했다는 기술(민족문화대백과)이 있다.",
+    "sources": [
+      { "type": "encyclopedia", "title": "한국민족문화대백과사전 '수양동우회'(한국학중앙연구원)", "locator": "E0031544", "url": "https://encykorea.aks.ac.kr/Article/E0031544" },
+      { "type": "institutional", "title": "우리역사넷 한국사연대기 '흥사단'(국사편찬위원회)", "locator": "kc_o404400", "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_o404400&code=kc_age_40" },
+      { "type": "web", "title": "부산흥사단 '흥사단 역사' (흥사단 자체 기록)", "locator": null, "url": "https://ykabs.or.kr/heungsa_hist1.php?bo_table=b322" }
+    ],
+    "confidence": "B",
+    "tags": ["결사"]
+  },
+  {
+    "id": "evt-hsd-009",
+    "title": "기관지 『동광』 창간",
+    "date": { "start": "1926-05-01", "end": "1926-05-31", "precision": "month", "calendar": "solar" },
+    "place": { "name": "경성", "modern_name": "대한민국 서울특별시", "lat": null, "lng": null },
+    "actors": ["주요한", "이광수", "안창호"],
+    "orgs": ["수양동우회", "흥사단"],
+    "summary": "수양동우회 기관지 성격의 종합지 『동광(東光)』이 주요한을 편집 겸 발행인으로 창간되었다.",
+    "detail": "『동광』은 흥사단·수양동우회를 배경으로 1926년 5월 창간되었다. 제16호(1927년 8월)까지 내고 휴간했다가 이광수의 주선으로 1931년 1월 제17호를 속간했고, 1933년 1월 통권 40호로 종간했다(제3호가 원고 압수로 미발행되어 실제 발행은 39호). 제16호까지는 안창호의 글이 빠지지 않았고 수양동우회 회원의 글이 많았다.",
+    "sources": [
+      { "type": "encyclopedia", "title": "한국민족문화대백과사전 '동광'(한국학중앙연구원)", "locator": "E0016236", "url": "https://encykorea.aks.ac.kr/Article/E0016236" },
+      { "type": "institutional", "title": "우리역사넷 교과서 용어해설 '동광'(국사편찬위원회)", "locator": "tg_004_2300", "url": "https://contents.history.go.kr/front/tg/view.do?treeId=0100&levelId=tg_004_2300" }
+    ],
+    "confidence": "B",
+    "tags": ["언론", "결사"]
+  },
+  {
+    "id": "evt-hsd-010",
+    "title": "수양동우회의 동우회 개칭",
+    "date": { "start": "1929-11-01", "end": "1929-11-30", "precision": "month", "calendar": "solar" },
+    "place": { "name": "경성", "modern_name": "대한민국 서울특별시", "lat": null, "lng": null },
+    "actors": ["이광수", "주요한"],
+    "orgs": ["수양동우회", "동우회", "흥사단"],
+    "summary": "수양동우회가 국외의 흥사단과 통합하기로 하고 명칭을 동우회(同友會)로 변경했다.",
+    "detail": "한국민족문화대백과는 '1929년 11월 수양동우회는 국외에 있던 흥사단과 통합하여 동우회로 개칭'으로, 우리역사넷은 '1929년 11월 명칭 변경 결정'으로 기술한다.",
+    "sources": [
+      { "type": "encyclopedia", "title": "한국민족문화대백과사전 '수양동우회'(한국학중앙연구원)", "locator": "E0031544", "url": "https://encykorea.aks.ac.kr/Article/E0031544" },
+      { "type": "institutional", "title": "우리역사넷 한국사연대기 '흥사단'(국사편찬위원회)", "locator": "kc_o404400", "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_o404400&code=kc_age_40" }
+    ],
+    "confidence": "B",
+    "tags": ["결사"]
+  },
+  {
+    "id": "evt-hsd-011",
+    "title": "안창호 국내 압송",
+    "date": { "start": "1932-06-02", "end": "1932-06-02", "precision": "day", "calendar": "solar" },
+    "place": { "name": "경성 (상하이발 압송)", "modern_name": "대한민국 서울특별시", "lat": null, "lng": null },
+    "actors": ["안창호"],
+    "orgs": [],
+    "summary": "윤봉길 의거 당일(1932.4.29) 상하이에서 피체된 안창호가 1932년 6월 2일 국내로 압송되었다. 1910년 망명 이후 23년 만의 귀국이 체포된 몸으로 이루어졌다.",
+    "detail": "상하이 일본총영사관에서의 피체·신문은 provisional-gov 소유이며 본 레코드는 압송선 승선 이후부터다. 이명화 연구에 기반한 보도(경향신문)는 6월 2일 서울 도착으로 기술한다. 상하이 출항 일자와 인천 경유 여부 등 압송 경로의 세부는 이번 조사에서 확인하지 못했다 — 〔미확인〕. 압송 직후 경기도경찰부로 인계되었다.",
+    "sources": [
+      { "type": "web", "title": "경향신문 '[이기환의 흔적의 역사] 억장이 무너지는 도산 안창호 선생의 사진 3장' (이명화 논문 기반 보도)", "locator": "2019-05-23", "url": "https://www.khan.co.kr/article/201905231407001" },
+      { "type": "academic", "title": "이명화, '도산 안창호의 서대문형무소 투옥과 수감 생활', 한국독립운동사연구 46 (2013)", "locator": "pp.171-218", "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001827032" },
+      { "type": "institutional", "title": "우리역사넷 한국사연대기 '안창호'(국사편찬위원회)", "locator": "kc_n402200", "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n402200" }
+    ],
+    "confidence": "B",
+    "tags": ["이동", "결사"]
+  },
+  {
+    "id": "evt-hsd-012",
+    "title": "경기도경찰부 신문 (약 40일)",
+    "date": { "start": "1932-06-02", "end": "1932-07-15", "precision": "range", "calendar": "solar" },
+    "place": { "name": "경기도경찰부", "modern_name": "대한민국 서울특별시", "lat": null, "lng": null },
+    "actors": ["안창호"],
+    "orgs": [],
+    "summary": "압송된 안창호가 경기도경찰부에서 약 40여 일간 신문을 받았으며, 이 기간 지병인 해수병(기침병)이 악화되고 소화불량으로 신음했다.",
+    "detail": "이명화 연구 기반 보도에 따르면 40여 일간 심문이 이어졌고, 그 와중에 고질인 기침병이 악화되었으며 음식을 거의 섭취하지 못하는 소화불량을 겪었다. 신문조서 원문 전사는 primary-source 소유.",
+    "sources": [
+      { "type": "web", "title": "경향신문 '[이기환의 흔적의 역사] 억장이 무너지는 도산 안창호 선생의 사진 3장' (이명화 논문 기반 보도)", "locator": "2019-05-23", "url": "https://www.khan.co.kr/article/201905231407001" },
+      { "type": "academic", "title": "이명화, '도산 안창호의 서대문형무소 투옥과 수감 생활', 한국독립운동사연구 46 (2013)", "locator": "pp.171-218", "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001827032" }
+    ],
+    "confidence": "B",
+    "tags": ["결사"]
+  },
+  {
+    "id": "evt-hsd-013",
+    "title": "서대문형무소 수감 (미결)",
+    "date": { "start": "1932-07-01", "end": "1932-07-31", "precision": "month", "calendar": "solar" },
+    "place": { "name": "서대문형무소", "modern_name": "대한민국 서울특별시 서대문구 (서대문형무소역사관)", "lat": 37.5744, "lng": 126.956 },
+    "actors": ["안창호"],
+    "orgs": [],
+    "summary": "안창호가 1932년 7월 서대문형무소에 수감되었다.",
+    "detail": "이명화 연구 기반 보도는 1932년 7월 15일 입감, 수형기록 사진 촬영 7월 4일로 전하는데 두 일자 간 선후가 맞지 않아 일자 수준은 미확정으로 두고 월 단위로 기록한다(수형기록카드 사진은 '다소 야위었지만 깔끔한 양복 차림'). 서대문형무소에서는 특별 감시 대상으로 수감되었고(특수감방 7호실 기술), 12월 판결 후 기결수로 복역을 계속했다.",
+    "sources": [
+      { "type": "web", "title": "경향신문 '[이기환의 흔적의 역사] 억장이 무너지는 도산 안창호 선생의 사진 3장' (이명화 논문 기반 보도)", "locator": "2019-05-23", "url": "https://www.khan.co.kr/article/201905231407001" },
+      { "type": "academic", "title": "이명화, '도산 안창호의 서대문형무소 투옥과 수감 생활', 한국독립운동사연구 46 (2013)", "locator": "pp.171-218", "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001827032" }
+    ],
+    "confidence": "B",
+    "tags": ["결사"]
+  },
+  {
+    "id": "evt-hsd-014",
+    "title": "치안유지법 위반 징역 4년 판결",
+    "date": { "start": "1932-12-26", "end": "1932-12-26", "precision": "day", "calendar": "solar" },
+    "place": { "name": "경성지방법원", "modern_name": "대한민국 서울특별시", "lat": null, "lng": null },
+    "actors": ["안창호"],
+    "orgs": [],
+    "summary": "안창호가 치안유지법 위반으로 징역 4년을 선고받았다.",
+    "detail": "독립운동인명사전은 '1932년 12월 26일 징역 4년형을 받고 서대문형무소에 수감'으로 기술한다. 국사편찬위 우리역사넷도 '1932년 12월 치안유지법 위반으로 4년형 선고'로 일치한다. 일부 웹 출처에 미결구류 50일 산입 기술이 있으나 원판결문으로 확인하지 못했다 — 판결문 원문 확인은 primary-source 발굴 요청 대상.",
+    "sources": [
+      { "type": "institutional", "title": "독립운동인명사전 '안창호'(독립기념관)", "locator": "id=696", "url": "https://search.i815.or.kr/dictionary/detail.do?searchWord=&reSearchWord=&searchType=all&index=1&id=696" },
+      { "type": "institutional", "title": "우리역사넷 한국사연대기 '안창호'(국사편찬위원회)", "locator": "kc_n402200", "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n402200" }
+    ],
+    "confidence": "A",
+    "tags": ["결사"]
+  },
+  {
+    "id": "evt-hsd-015",
+    "title": "대전형무소 이감",
+    "date": { "start": "1933-01-01", "end": "1933-12-31", "precision": "year", "calendar": "solar" },
+    "place": { "name": "대전형무소", "modern_name": "대한민국 대전광역시", "lat": null, "lng": null },
+    "actors": ["안창호"],
+    "orgs": [],
+    "summary": "안창호가 서대문형무소에서 대전형무소로 이감되어 복역을 계속했다.",
+    "detail": "이감 시점은 출처 간 진술이 갈린다. 독립운동인명사전은 1933년 2월 이감으로 기술하고, 위키백과 계열은 1933년 6월 1일 대전형무소에서 아내에게 보낸 서한이 남아 있어 그 이전 이감으로 추정한다. 정밀 일자는 미확정이므로 연 단위로 기록한다. 대전형무소는 1933년 사상범 수용 형무소로 지정되었다.",
+    "sources": [
+      { "type": "institutional", "title": "독립운동인명사전 '안창호'(독립기념관)", "locator": "id=696", "url": "https://search.i815.or.kr/dictionary/detail.do?searchWord=&reSearchWord=&searchType=all&index=1&id=696" },
+      { "type": "encyclopedia", "title": "위키백과 '안창호' (1933.6.1 대전발 서한 단서)", "locator": null, "url": "https://ko.wikipedia.org/wiki/%EC%95%88%EC%B0%BD%ED%98%B8" }
+    ],
+    "confidence": "C",
+    "tags": ["결사", "이동"]
+  },
+  {
+    "id": "evt-hsd-016",
+    "title": "대전형무소 가출옥",
+    "date": { "start": "1935-02-10", "end": "1935-02-10", "precision": "day", "calendar": "solar" },
+    "place": { "name": "대전형무소", "modern_name": "대한민국 대전광역시", "lat": null, "lng": null },
+    "actors": ["안창호"],
+    "orgs": [],
+    "summary": "안창호가 형기 만기(1935.11.6)를 약 9개월 앞두고 대전형무소에서 가출옥했다.",
+    "detail": "1935년 2월 10일 가출옥. 일왕자(아키히토) 탄생 축하 특별감형 조치에 따른 것이었다. 2년 6개월여의 복역이었다.",
+    "sources": [
+      { "type": "institutional", "title": "독립운동인명사전 '안창호'(독립기념관)", "locator": "id=696", "url": "https://search.i815.or.kr/dictionary/detail.do?searchWord=&reSearchWord=&searchType=all&index=1&id=696" },
+      { "type": "web", "title": "경향신문 '[이기환의 흔적의 역사] 억장이 무너지는 도산 안창호 선생의 사진 3장' (이명화 논문 기반 보도)", "locator": "2019-05-23", "url": "https://www.khan.co.kr/article/201905231407001" },
+      { "type": "encyclopedia", "title": "한국민족문화대백과사전 '안창호'(한국학중앙연구원)", "locator": "E0035050", "url": "https://encykorea.aks.ac.kr/Article/E0035050" }
+    ],
+    "confidence": "A",
+    "tags": ["결사"]
+  },
+  {
+    "id": "evt-hsd-017",
+    "title": "가출옥 후 치료와 지방 순회",
+    "date": { "start": "1935-02-10", "end": null, "precision": "range", "calendar": "solar" },
+    "place": { "name": "경성·지방 각지", "modern_name": "대한민국·북한 각지", "lat": null, "lng": null },
+    "actors": ["안창호"],
+    "orgs": [],
+    "summary": "가출옥한 안창호는 세브란스병원에서 약 40일간 치료(치과 치료 포함)를 받은 뒤 각지를 순회했다.",
+    "detail": "이명화 연구 기반 보도는 세브란스병원에서 40여 일 치과 치료 후 전국 순회에 나섰다고 전하고, 독립운동인명사전은 '지방 순회 후 송태산장 은거'로 기술한다. 순회의 구체 경로·일정·종료 시점은 미확인.",
+    "sources": [
+      { "type": "web", "title": "경향신문 '[이기환의 흔적의 역사] 억장이 무너지는 도산 안창호 선생의 사진 3장' (이명화 논문 기반 보도)", "locator": "2019-05-23", "url": "https://www.khan.co.kr/article/201905231407001" },
+      { "type": "institutional", "title": "독립운동인명사전 '안창호'(독립기념관)", "locator": "id=696", "url": "https://search.i815.or.kr/dictionary/detail.do?searchWord=&reSearchWord=&searchType=all&index=1&id=696" }
+    ],
+    "confidence": "B",
+    "tags": ["이동"]
+  },
+  {
+    "id": "evt-hsd-018",
+    "title": "송태산장 은거",
+    "date": { "start": "1935-01-01", "end": "1937-06-28", "precision": "range", "calendar": "solar" },
+    "place": { "name": "평안남도 대동군 대보산 송태산장", "modern_name": "조선민주주의인민공화국 평안남도", "lat": null, "lng": null },
+    "actors": ["안창호"],
+    "orgs": [],
+    "summary": "안창호가 평안남도 대동군 대보산의 송태산장(松苔山莊)에 은거하며 일제 경찰의 감시 아래 지냈다.",
+    "detail": "가출옥 후 지방 순회를 마친 1935년부터 1937년 동우회 사건으로 피체될 때까지 송태산장에 은거했다. 은거 시작의 정밀 시점은 미확인(1935년 중). 송태산장을 도산이 직접 설계·건축했다는 일화가 전하나 이번 조사에서 학술 전거를 확인하지 못해 기록하지 않는다.",
+    "sources": [
+      { "type": "institutional", "title": "독립운동인명사전 '안창호'(독립기념관)", "locator": "id=696", "url": "https://search.i815.or.kr/dictionary/detail.do?searchWord=&reSearchWord=&searchType=all&index=1&id=696" },
+      { "type": "institutional", "title": "우리역사넷 한국사연대기 '안창호'(국사편찬위원회)", "locator": "kc_n402200", "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n402200" },
+      { "type": "web", "title": "흥사단 '도산 안창호의 생애와 업적' (흥사단 자체 기록)", "locator": null, "url": "https://www.yka.or.kr/html/about_dosan/life_achievement.asp" }
+    ],
+    "confidence": "B",
+    "tags": ["가족", "결사"]
+  },
+  {
+    "id": "evt-hsd-019",
+    "title": "수양동우회 사건 — 일제의 동우회원 대량 검거",
+    "date": { "start": "1937-06-06", "end": "1938-03-31", "precision": "range", "calendar": "solar" },
+    "place": { "name": "경성·평양·선천·안악", "modern_name": "대한민국 서울특별시·북한 평양·평안북도·황해도", "lat": null, "lng": null },
+    "actors": ["이광수", "주요한", "조병옥", "김동원", "김성업", "김윤경"],
+    "orgs": ["동우회", "수양동우회", "흥사단"],
+    "summary": "중일전쟁 직전 일제가 치안유지법 위반 혐의로 동우회원을 대량 검거했다. 1937년 6월부터 1938년 3월까지 총 181명이 검거·송치되었다.",
+    "detail": "검거는 3차에 걸쳐 진행되었다: 서울 55명(1937.6), 평양·선천 93명(1937.11), 안악 33명(1938.3) — 총 181명(한국민족문화대백과). 검거 개시일은 출처별로 6월 6일(경향신문, 이명화 연구 기반)과 6월 7일(흥사단 자체 기록)로 갈린다. 기소 인원도 상충한다: 민족문화대백과 '기소 49명, 기소유예 57명, 기소중지 75명' / 우리역사넷 '41명 기소'. 취조 과정의 고문 피해 증언(김윤경 등)이 전한다. 신문조서·판결문 원문 전사는 primary-source 소유.",
+    "sources": [
+      { "type": "encyclopedia", "title": "한국민족문화대백과사전 '수양동우회'(한국학중앙연구원)", "locator": "E0031544", "url": "https://encykorea.aks.ac.kr/Article/E0031544" },
+      { "type": "institutional", "title": "우리역사넷 한국사연대기 '흥사단'(국사편찬위원회)", "locator": "kc_o404400", "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_o404400&code=kc_age_40" },
+      { "type": "web", "title": "경향신문 '[이기환의 흔적의 역사] 억장이 무너지는 도산 안창호 선생의 사진 3장' (이명화 논문 기반 보도)", "locator": "2019-05-23", "url": "https://www.khan.co.kr/article/201905231407001" },
+      { "type": "web", "title": "부산흥사단 '흥사단 역사' (흥사단 자체 기록)", "locator": null, "url": "https://ykabs.or.kr/heungsa_hist1.php?bo_table=b322" }
+    ],
+    "confidence": "B",
+    "tags": ["결사"]
+  },
+  {
+    "id": "evt-hsd-020",
+    "title": "안창호 동우회 사건으로 피체, 종로경찰서 구금",
+    "date": { "start": "1937-06-28", "end": "1937-11-01", "precision": "range", "calendar": "solar" },
+    "place": { "name": "평양 → 경성 종로경찰서", "modern_name": "대한민국 서울특별시 종로구", "lat": null, "lng": null },
+    "actors": ["안창호"],
+    "orgs": ["동우회", "흥사단"],
+    "summary": "안창호가 1937년 6월 28일 평양에서 체포되어 서울로 압송된 뒤 종로경찰서에서 약 135일간 취조를 받았다.",
+    "detail": "우리역사넷은 1937년 6월 28일 체포로 기술하고, 이명화 연구 기반 보도는 6월 28일 평양 체포 후 서울 압송, 종로경찰서에서 135일간 취조로 전한다. 구금 중 동지 김여제의 회고('옥중에서 도산선생을 모시고', 기러기 1966)가 전한다.",
+    "sources": [
+      { "type": "institutional", "title": "우리역사넷 한국사연대기 '안창호'(국사편찬위원회)", "locator": "kc_n402200", "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n402200" },
+      { "type": "web", "title": "경향신문 '[이기환의 흔적의 역사] 억장이 무너지는 도산 안창호 선생의 사진 3장' (이명화 논문 기반 보도)", "locator": "2019-05-23", "url": "https://www.khan.co.kr/article/201905231407001" }
+    ],
+    "confidence": "B",
+    "tags": ["결사"]
+  },
+  {
+    "id": "evt-hsd-021",
+    "title": "서대문형무소 재수감",
+    "date": { "start": "1937-11-01", "end": "1937-11-01", "precision": "day", "calendar": "solar" },
+    "place": { "name": "서대문형무소", "modern_name": "대한민국 서울특별시 서대문구 (서대문형무소역사관)", "lat": 37.5744, "lng": 126.956 },
+    "actors": ["안창호", "장이욱", "김정련"],
+    "orgs": [],
+    "summary": "안창호가 1937년 11월 1일 서대문형무소에 재수감되었다. 11월 10일 촬영된 수형기록카드 사진은 극도로 쇠약해진 모습을 보여준다.",
+    "detail": "1937년 11월 1일 송치·재입감, 11월 10일 수형기록카드 사진 촬영. 함께 수감되었던 장이욱은 '옷을 벗고 나선 모습은 문자 그대로 피골상접이었다'고 회고했다(김정련 '형무소의 도산 선생', 새벽 1957년 4월호 게재 회고 — 회고 사료이므로 사료 비판 필요).",
+    "sources": [
+      { "type": "web", "title": "경향신문 '[이기환의 흔적의 역사] 피골이 상접한 도산 안창호 선생의 사진' (이명화 논문·회고 기반 보도)", "locator": "2019-05-14/2019-05-23", "url": "https://www.khan.co.kr/article/201905231407001" },
+      { "type": "encyclopedia", "title": "위키백과 '안창호'", "locator": null, "url": "https://ko.wikipedia.org/wiki/%EC%95%88%EC%B0%BD%ED%98%B8" }
+    ],
+    "confidence": "B",
+    "tags": ["결사"]
+  },
+  {
+    "id": "evt-hsd-022",
+    "title": "병보석 출감, 경성제국대학 부속의원 입원",
+    "date": { "start": "1937-12-23", "end": "1937-12-24", "precision": "range", "calendar": "solar" },
+    "place": { "name": "경성제국대학 의학부 부속의원", "modern_name": "대한민국 서울특별시 종로구 (현 서울대학교병원 자리)", "lat": null, "lng": null },
+    "actors": ["안창호"],
+    "orgs": [],
+    "summary": "병세가 위중해진 안창호가 병보석으로 출감하여 경성제국대학 의학부 부속의원에 입원했다. 출감 일자는 12월 23일설과 24일설이 상충한다.",
+    "detail": "이명화 연구 기반 보도는 1937년 12월 23일 병보석 출감으로, 위키백과·다수 웹 출처는 12월 24일로 기술한다 — 보석 결정일과 출감일의 차이일 가능성이 있으나 미확정으로 양설 병기. 입원처는 경성제대 의학부 부속의원 이와이(岩井) 내과.",
+    "sources": [
+      { "type": "web", "title": "경향신문 '[이기환의 흔적의 역사] 억장이 무너지는 도산 안창호 선생의 사진 3장' (이명화 논문 기반 보도)", "locator": "2019-05-23", "url": "https://www.khan.co.kr/article/201905231407001" },
+      { "type": "encyclopedia", "title": "위키백과 '안창호'", "locator": null, "url": "https://ko.wikipedia.org/wiki/%EC%95%88%EC%B0%BD%ED%98%B8" },
+      { "type": "encyclopedia", "title": "한국민족문화대백과사전 '안창호'(한국학중앙연구원) — '같은 해 12월에 병으로 보석'", "locator": "E0035050", "url": "https://encykorea.aks.ac.kr/Article/E0035050" }
+    ],
+    "confidence": "B",
+    "tags": ["결사"]
+  },
+  {
+    "id": "evt-hsd-023",
+    "title": "안창호 순국",
+    "date": { "start": "1938-03-10", "end": "1938-03-10", "precision": "day", "calendar": "solar" },
+    "place": { "name": "경성제국대학 의학부 부속의원", "modern_name": "대한민국 서울특별시 종로구 (현 서울대학교병원 자리)", "lat": null, "lng": null },
+    "actors": ["안창호", "김용필"],
+    "orgs": [],
+    "summary": "1938년 3월 10일 0시 5분, 안창호가 경성제국대학 의학부 부속의원에서 만 59년 4개월을 일기로 순국했다.",
+    "detail": "1938년 3월 9일 주치의 김용필이 가족에게 임종 준비를 고지했고, 3월 10일 0시 5분 운명했다. 사인은 출처별로 다르게 기술된다: 간경화증(민족문화대백과), 위하수증·간경화·만성기관지염(우리역사넷), 위장병 및 폐결핵증(이명화 연구 기반 보도), 간경화·소화불량·폐렴·만성기관지염·위장병 합병증(위키백과) — 만성 소화기·간·호흡기 질환의 복합이라는 점은 일치하며 사망진단서 원문 확인은 primary-source 발굴 요청 대상. 흥사단 자체 기록과 학계 서술 모두 1938.3.10을 일관 기록.",
+    "sources": [
+      { "type": "institutional", "title": "우리역사넷 한국사연대기 '안창호'(국사편찬위원회)", "locator": "kc_n402200", "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n402200" },
+      { "type": "encyclopedia", "title": "한국민족문화대백과사전 '안창호'(한국학중앙연구원)", "locator": "E0035050", "url": "https://encykorea.aks.ac.kr/Article/E0035050" },
+      { "type": "web", "title": "경향신문 '[이기환의 흔적의 역사] 억장이 무너지는 도산 안창호 선생의 사진 3장' (이명화 논문 기반 보도)", "locator": "2019-05-23", "url": "https://www.khan.co.kr/article/201905231407001" },
+      { "type": "web", "title": "흥사단 '도산 안창호의 생애와 업적' (흥사단 자체 기록)", "locator": null, "url": "https://www.yka.or.kr/html/about_dosan/life_achievement.asp" }
+    ],
+    "confidence": "A",
+    "tags": ["결사", "가족"]
+  },
+  {
+    "id": "evt-hsd-024",
+    "title": "임종 전후 어록 (전승 기록)",
+    "date": { "start": "1938-03-01", "end": "1938-03-10", "precision": "range", "calendar": "solar" },
+    "place": { "name": "경성제국대학 의학부 부속의원", "modern_name": "대한민국 서울특별시 종로구", "lat": null, "lng": null },
+    "actors": ["안창호", "오기영"],
+    "orgs": [],
+    "summary": "〔미확인〕 임종 직전 안창호가 '알았소… 죽기도 죄스럽소… 병이 나아봐야 갈 곳이 감옥뿐이오'라고 말했다는 기록이 오기영의 회고('도산 선생의 최후')로 전한다.",
+    "detail": "이 어록은 오기영의 '도산 선생의 최후'(경향신문 보도 기준 『동광』 1947년 게재)에서 인용된 것으로, 회고 사료이므로 원출전·진위의 사료 비판이 필요하다. 그 밖에 널리 알려진 '낙심 마오' 등 임종 어록들은 이번 조사에서 동시대 출전을 확인하지 못했다 — 확정 서술 금지 대상이며 최초 출전 역추적은 philosophy·primary-source에 이관.",
+    "sources": [
+      { "type": "web", "title": "경향신문 '[이기환의 흔적의 역사] 억장이 무너지는 도산 안창호 선생의 사진 3장' — 오기영 '도산 선생의 최후'(동광 1947) 재인용", "locator": "2019-05-23", "url": "https://www.khan.co.kr/article/201905231407001" }
+    ],
+    "confidence": "D",
+    "tags": ["사상", "가족"]
+  },
+  {
+    "id": "evt-hsd-025",
+    "title": "장례와 망우리 안장 (일제 통제)",
+    "date": { "start": "1938-03-10", "end": "1938-03-31", "precision": "range", "calendar": "solar" },
+    "place": { "name": "망우리 공동묘지", "modern_name": "대한민국 서울특별시 중랑구 망우역사문화공원", "lat": 37.6, "lng": 127.106 },
+    "actors": ["안창호", "유상규", "윤치호", "이광수", "김성수", "여운형"],
+    "orgs": ["흥사단", "동우회"],
+    "summary": "일제의 엄격한 통제 아래 장례가 치러져 안창호는 망우리 공동묘지, 먼저 묻힌 제자 유상규의 묘 곁에 안장되었다. 안장 정확 일자는 〔미확인〕.",
+    "detail": "조선총독부는 추도회·고별식을 금지하고 조문과 상복 착용까지 통제했으며, 영안실에 경찰관 약 40명과 고등계 형사를 배치하고 영구차 전후로 경찰 차량이 경계했다(이명화 연구 기반 보도). 위키백과 계열은 장례에 윤치호·이광수·김성수·여운형 등이 참석했고, 애제자 유상규의 묘 곁에 묻어 달라는 유언에 따라 안장되었다고 기술한다(유언설은 회고 전승 — 추가 검증 필요). 안장 일자는 기관·학술 출처에서 확인되지 않아 월 범위로 기록한다.",
+    "sources": [
+      { "type": "web", "title": "경향신문 '[이기환의 흔적의 역사] 억장이 무너지는 도산 안창호 선생의 사진 3장' (이명화 논문 기반 보도)", "locator": "2019-05-23", "url": "https://www.khan.co.kr/article/201905231407001" },
+      { "type": "encyclopedia", "title": "위키백과 '안창호'", "locator": null, "url": "https://ko.wikipedia.org/wiki/%EC%95%88%EC%B0%BD%ED%98%B8" },
+      { "type": "web", "title": "경기신문 '[망우리 사잇길을 걷다] 도산 안창호와 비서 유상규'", "locator": null, "url": "https://www.kgnews.co.kr/news/article.html?no=875363" }
+    ],
+    "confidence": "C",
+    "tags": ["가족", "결사"]
+  },
+  {
+    "id": "evt-hsd-026",
+    "title": "동우회 강제 해산",
+    "date": { "start": "1937-08-01", "end": "1937-08-31", "precision": "month", "calendar": "solar" },
+    "place": { "name": "경성", "modern_name": "대한민국 서울특별시", "lat": null, "lng": null },
+    "actors": [],
+    "orgs": ["동우회", "흥사단"],
+    "summary": "동우회 사건 와중에 일제의 강요로 동우회가 해산되어 흥사단의 국내 조직이 소멸했다.",
+    "detail": "흥사단 자체 기록(부산흥사단)은 1937년 8월 6일 해산 강요로 기술하고, 한국민족문화대백과는 '동우회 사건으로 강제 해산'으로만 기술한다. 일자 수준은 단체 기록 단독이므로 월 단위로 기록한다. 이로써 국내 흥사단 계열 조직은 해방까지 단절되었고 미주 본단만 존속했다.",
+    "sources": [
+      { "type": "web", "title": "부산흥사단 '흥사단 역사' (흥사단 자체 기록)", "locator": null, "url": "https://ykabs.or.kr/heungsa_hist1.php?bo_table=b322" },
+      { "type": "encyclopedia", "title": "한국민족문화대백과사전 '흥사단'(한국학중앙연구원)", "locator": "E0066013", "url": "https://encykorea.aks.ac.kr/Article/E0066013" }
+    ],
+    "confidence": "C",
+    "tags": ["결사"]
+  },
+  {
+    "id": "evt-hsd-027",
+    "title": "동우회 사건 재판 — 1심 무죄, 복심 유죄, 상고심 전원 무죄",
+    "date": { "start": "1938-08-01", "end": "1941-11-30", "precision": "range", "calendar": "solar" },
+    "place": { "name": "경성지방법원·경성복심법원·경성고등법원", "modern_name": "대한민국 서울특별시", "lat": null, "lng": null },
+    "actors": ["이광수", "주요한", "조병옥", "김동원"],
+    "orgs": ["동우회", "흥사단"],
+    "summary": "동우회 사건 재판은 1938년 8월 예심 종결 후 1939년 12월 경성지방법원 전원 무죄, 1940년 8월 경성복심법원 유죄, 1941년 11월 경성고등법원 전원 무죄로 종결되었다.",
+    "detail": "한국민족문화대백과 기준: 예심 종결 1938년 8월 → 1심(경성지방법원) 1939년 12월 전원 무죄 → 2심(경성복심법원) 1940년 8월 유죄 → 상고심(경성고등법원) 1941년 11월 전원 무죄. 안창호는 기소 단계 이전인 1938년 3월 순국하여 재판 대상에서 제외되었다. 상고심 무죄 판결일(11월 17일설)과 개별 피고인 형량은 판결문 원문으로 확인 필요 — 국가기록원 '독립운동관련 판결문' 시스템에 관련 판결문 소장 단서가 있어 primary-source 발굴 요청 대상.",
+    "sources": [
+      { "type": "encyclopedia", "title": "한국민족문화대백과사전 '수양동우회'(한국학중앙연구원)", "locator": "E0031544", "url": "https://encykorea.aks.ac.kr/Article/E0031544" },
+      { "type": "institutional", "title": "국가기록원 독립운동관련 판결문 시스템 (동우회 사건 판결문 소장 단서)", "locator": "archiveId=0001164840", "url": "https://theme.archives.go.kr/next/indy/viewIndyDetail.do?archiveId=0001164840" }
+    ],
+    "confidence": "B",
+    "tags": ["결사"]
+  },
+  {
+    "id": "evt-hsd-028",
+    "title": "건국훈장 대한민국장 추서",
+    "date": { "start": "1962-03-01", "end": "1962-03-01", "precision": "day", "calendar": "solar" },
+    "place": { "name": "서울", "modern_name": "대한민국 서울특별시", "lat": null, "lng": null },
+    "actors": ["안창호"],
+    "orgs": [],
+    "summary": "대한민국 정부가 안창호에게 건국훈장 대한민국장(당시 건국공로훈장 중장)을 추서했다.",
+    "detail": "1962년 3월 1일 건국공로훈장 중장(重章, 후의 건국훈장 대한민국장) 추서. 공훈전자사료관(국가보훈부)에 공적 정보가 등재되어 있다. 추서 일자 '3월 1일'은 검색 결과 수준 확인이므로 공적조서 원문 대조 권장.",
+    "sources": [
+      { "type": "institutional", "title": "공훈전자사료관 독립유공자 공적정보 '안창호'(국가보훈부)", "locator": "mngNo 미확정", "url": "https://e-gonghun.mpva.go.kr/user/ContribuReportDetail.do?goTocode=20001&pageTitle=Merit&mngNo=669" }
+    ],
+    "confidence": "B",
+    "tags": ["결사"]
+  },
+  {
+    "id": "evt-hsd-029",
+    "title": "도산공원 이장과 이혜련 합장",
+    "date": { "start": "1973-11-10", "end": "1973-11-10", "precision": "day", "calendar": "solar" },
+    "place": { "name": "도산공원", "modern_name": "대한민국 서울특별시 강남구 신사동 도산공원", "lat": 37.524, "lng": 127.035 },
+    "actors": ["안창호", "이혜련"],
+    "orgs": ["도산안창호선생기념사업회"],
+    "summary": "1973년 11월 10일 도산공원 개원에 맞춰 안창호의 유해가 망우리에서 이장되고, 미국에서 환국한 부인 이혜련의 유해와 합장되었다.",
+    "detail": "이혜련은 1969년 로스앤젤레스에서 사망하며 '사랑하는 조국 도산 곁에 묻어 달라'는 유언을 남겼고, 유해는 LA 유해보관소에 안치되었다가 환국해 합장되었다(1902년 도미 후 72년 만의 환국 — 한국일보). 1973년 11월 8일 박정희 대통령이 동상 건립 현장을 방문했다는 보도가 있다. 도산공원은 서울 강남구 신사동(현 도산대로45길 20)에 조성되었다. 이혜련의 미주 생활 전반은 america 소유 — 합장 사건만 기록.",
+    "sources": [
+      { "type": "web", "title": "한국일보 '73년 11월10일 도산공원 개원, 안창호 선생과 부인 이혜련 여사 합장'", "locator": "2021-11-03", "url": "https://www.hankookilbo.com/News/Read/A2021110319110004288" },
+      { "type": "encyclopedia", "title": "한국민족문화대백과사전 '안창호'(한국학중앙연구원)", "locator": "E0035050", "url": "https://encykorea.aks.ac.kr/Article/E0035050" },
+      { "type": "institutional", "title": "디지털강남문화대전 '서울 안창호 묘소'", "locator": "GC04830008", "url": "https://www.grandculture.net/gangnam/toc/GC04830008" }
+    ],
+    "confidence": "A",
+    "tags": ["가족", "이동"]
+  },
+  {
+    "id": "evt-hsd-030",
+    "title": "해방 후 흥사단의 존속과 재건",
+    "date": { "start": "1946-01-01", "end": "1969-08-19", "precision": "range", "calendar": "solar" },
+    "place": { "name": "서울 (본부, 로스앤젤레스에서 이전)", "modern_name": "대한민국 서울특별시", "lat": null, "lng": null },
+    "actors": [],
+    "orgs": ["흥사단"],
+    "summary": "동우회 사건으로 국내 조직이 해산된 뒤에도 미주 본단으로 존속한 흥사단은 광복 후 1946년 국내위원부를 설치하고 1948년 본부를 로스앤젤레스에서 서울로 이전했다.",
+    "detail": "우리역사넷 기준: 1946년 국내위원부 설치, 1948년 본부 서울 이전, 1961년 5월~1963년 7월 활동 중단(5·16 군사정변 후 단체 해산 조치기) 후 부활. 민족문화대백과는 1963년 7월 부활, 1969년 8월 19일 사단법인 설립으로 기술한다. 현재 국내 지부, 미주위원부 산하 지부 등으로 존속한다. 본부 이전 연도에 대한 이설(1949년설) 여부는 추가 확인 필요.",
+    "sources": [
+      { "type": "institutional", "title": "우리역사넷 한국사연대기 '흥사단'(국사편찬위원회)", "locator": "kc_o404400", "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_o404400&code=kc_age_40" },
+      { "type": "encyclopedia", "title": "한국민족문화대백과사전 '흥사단'(한국학중앙연구원)", "locator": "E0066013", "url": "https://encykorea.aks.ac.kr/Article/E0066013" },
+      { "type": "web", "title": "부산흥사단 '흥사단 역사' (흥사단 자체 기록)", "locator": null, "url": "https://ykabs.or.kr/heungsa_hist1.php?bo_table=b322" }
+    ],
+    "confidence": "B",
+    "tags": ["결사"]
+  }
+]

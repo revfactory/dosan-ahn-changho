@@ -1,0 +1,214 @@
+# 참고문헌
+
+> citations.json에서 기계 생성됨 (생성 스크립트: _citation_work/make_references_page.py). 수기 편집 금지 — 수정은 citations.json에서.
+
+## 1차 사료 (48건)
+
+- <a id="src-pri-044"></a>Frederick S. Miller, 「밀러(F. S. Miller, 민로아) 선교사 보고서·서한 (1892–1899 서울 시기) — 구세학당 학생 기록」, 1892, 소재 미확인 — 추정: Presbyterian Historical Society.
+- <a id="src-pri-029"></a>경성복심법원, 「105인 사건 제30회 공판시말서 (경성복심법원, 1913-01-15) — 안창호 거명 개소」, 1913, 국사편찬위원회 — 『한민족독립운동사자료집』 제2권 수록·DB 구축, https://db.history.go.kr/modern/level.do?levelId=hd_002_0010_0050 (접속일: 2026-06-06).
+- <a id="src-pri-035"></a>경성제국대학 부속의원, 「안창호 사망진단서 (1938-03-10, 경성제국대학 부속의원)」, 1938, 소재 미확인.
+- <a id="src-pri-018"></a>경성지방법원, 「안창호 판결문 (1932-12, 경성지방법원, 치안유지법 위반, 징역 4년)」, 1932, 소재 미확인.
+- <a id="src-pri-019"></a>경성지방법원·경성복심법원·고등법원, 「동우회 사건 재판 기록 (1937–1941: 예심·1심 무죄(1939-12)·복심 유죄(1940-08)·고등법원 전원 무죄(1941-11))」, 1937, 흥사단, https://www.yka.or.kr/html/info/book_search.asp?no=342 (접속일: 2026-06-06).
+- <a id="src-pri-011"></a>공립협회, 「공립신보(共立新報) (1905–1909, 샌프란시스코, 공립협회 기관지)」, 1905, 국사편찬위원회 한국사데이터베이스, https://db.history.go.kr/modern/level.do?itemId=npgr (접속일: 2026-06-06).
+- <a id="src-pri-027"></a>국사편찬위원회, 『대한민국임시정부자료집』 (국사편찬위원회, 2005–2011) — 임정 공문서·독립신문 수록 사료집, 2005, 국사편찬위원회 한국사데이터베이스, https://db.history.go.kr/modern/level.do?levelId=ij_039_$1exp (접속일: 2026-06-06).
+- <a id="src-pri-043"></a>김구, 『백범일지』 친필본 (김구, 상권 1929·하권 1942–43 집필) — 안창호 관련 대목, 1929, 백범김구기념관, https://www.kimkoomuseum.org/ (접속일: 2026-06-06).
+- <a id="src-pri-046"></a>대한매일신보사, 대한매일신보 1910-05-12자 「거국가」 게재 지면, 1910, 국립중앙도서관 대한민국 신문 아카이브, https://www.nl.go.kr/newspaper/ (접속일: 2026-06-06).
+- <a id="src-pri-030"></a>대한민국임시정부, 「대한민국임시정부 공보 (1919-09-03 제1호 ~ 1944-12-20, 현전 57개호 + 호외 19개호)」, 1919, 국사편찬위원회 — 『대한민국임시정부자료집』 제1권, https://db.history.go.kr/item/level.do?levelId=ij_001_$2exp (접속일: 2026-06-06).
+- <a id="src-pri-037"></a>대한신민회, 「대한신민회 취지서」·「대한신민회 통용장정」 (1906–07, 일제 압수 문서), 1906, 국사편찬위원회, https://db.history.go.kr/introduction/intro_jh.html (접속일: 2026-06-06).
+- <a id="src-pri-012"></a>대한인국민회, 「신한민보(新韓民報) (1909–1945, 샌프란시스코, 대한인국민회 기관지)」, 1909, 국사편찬위원회 한국사데이터베이스, https://db.history.go.kr/introduction/intro_npsh.html (접속일: 2026-06-06).
+- <a id="src-pri-023"></a>대한인국민회 중앙총회·지방총회 등, 「도산 안창호 관련 미주 국민회 기록물 (국가지정기록물 제5호, 5,563점)」, 도산안창호선생기념사업회, https://theme.archives.go.kr/next/nationalArchives/subPage/nationalArchives4.do (접속일: 2026-06-06).
+- <a id="src-pri-024"></a>대한제국, 「안창호 집조(執照, 대한제국 여권) (1902)」, 1902, 국가지정기록물 '도산 안창호 관련 자료' 구성 문서, https://www.archives.go.kr/next/common/archivedata/render.do?filePath=2F757046696c652F70616c67616e2F313332353233323239343537382e706466 (접속일: 2026-06-06).
+- <a id="src-pri-039"></a>대한제국 외부 / 청국총영사관 / 중국 당국, 「안창호 여행권 4종 — 집조(1902) · 블라디보스토크 청국총영사관 호조 · 상하이 발급 호조(1924) · 필리핀행 중국 호조(1929)」, 1902, 독립기념관 등 소장 추정 — 학술 전거: 김도형 「도산 안창호의 '여행권'을 통해 본 독립운동 행적」, 『한국독립운동사연구』 52, https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART002061754 (접속일: 2026-06-06).
+- <a id="src-pri-026"></a>도산안창호선생기념사업회, 『도산안창호전집』 전14권 (도산안창호선생기념사업회, 2000), 2000, 국립중앙도서관·국회도서관·주요 대학도서관.
+- <a id="src-pri-013"></a>독립신문사, 「독립신문(獨立新聞, 상하이판) (1919-08-21 ~ 1926-11-26, 통권 198호)」, 1919, 대한민국역사박물관, https://archive.much.go.kr/archive/newspaper/information.do (접속일: 2026-06-06).
+- <a id="src-pri-022"></a>동광사, 「동광(東光) (1926-05 ~ 1933-01, 통권 40호, 수양동우회 계열 잡지)」, 1926, 국사편찬위원회 한국사데이터베이스, https://db.history.go.kr/id/ma_014 (접속일: 2026-06-06).
+- <a id="src-pri-014"></a>동아일보사, 「동아일보 도산 관련 기사군 (1920–1938: 1932-06 압송·공판 보도, 1937 동우회 사건 보도, 1938-03 서거 보도)」, 1920, 국사편찬위원회 한국사데이터베이스, https://db.history.go.kr/modern/level.do?itemId=npda (접속일: 2026-06-06).
+- <a id="src-pri-041"></a>미국 이민 당국, 「안창호 뉴욕항 입국 기록 (1911-09, 선객 명부)」, 1911, 미국 국립문서기록관리청, https://www.statueofliberty.org/heritage-documents/ (접속일: 2026-06-06).
+- <a id="src-pri-047"></a>상하이 일본총영사관 경찰부, 「안창호 신문조서 — 상하이 일본총영사관 (1932-04-29 피체 직후)」, 1932, 소재 미확인 — 추정: 일본 외무성 외교사료관.
+- <a id="src-pri-042"></a>새문안교회, 「새문안교회(구세학당 모교회) 초기 교인·세례 명부 (1890년대)」, 소재 미확인 — 새문안교회 현존 최고, https://saemoonan.org/church/Sub_02_01.aspx (접속일: 2026-06-06).
+- <a id="src-pri-032"></a>서우학회, 『서우(西友)』 (서우학회 기관지, 1906-12 ~ 1908, 17호) — 삼선평 연설 게재지, 1906, 국사편찬위원회 한국사데이터베이스, https://db.history.go.kr/id/ma_003 (접속일: 2026-06-06).
+- <a id="src-pri-001"></a>안창호, 「도산 안창호 일기 (1920–1921, 상하이, 3책)」, 1920, 독립기념관, http://www.heritage.go.kr/heri/cul/culSelectDetail.do?VdkVgwKey=79%2C07210000%2C34 (접속일: 2026-06-06).
+- <a id="src-pri-002"></a>안창호, 「안창호 발신 서한 — 이혜련 앞 (왕복 서신 포함)」, USC East Asian Library, https://calisphere.org/collections/27344/ (접속일: 2026-06-06).
+- <a id="src-pri-003"></a>안창호, 「안창호 발신 서한 — 자녀(안필립·안필선·안수산·안수라·안필영) 앞」, USC East Asian Library, https://oac.cdlib.org/findaid/ark:/13030/c8qj7pmj/ (접속일: 2026-06-06).
+- <a id="src-pri-004"></a>안창호, 「안창호 발신 서한 — 동지·단체 앞 (이강·송종익·홍언·흥사단 단우 등)」, 분산 소장 — 독립기념관, 도산안창호선생기념사업회.
+- <a id="src-pri-005"></a>안창호, 「쾌재정 연설 (1898, 평양 만민공동회 관서지부 행사 연설)」, 소재 미확인.
+- <a id="src-pri-006"></a>안창호, 「개조(改造)」 연설 (1919, 상하이), 원 속기록 소재 미확인 — 활자 수록: 『안도산전서』.
+- <a id="src-pri-007"></a>안창호, 신년축하회 연설 「우리 국민이 단정코 실행할 육대사(六大事)」 (1920-01, 상하이), 1920, 독립신문, https://archive.much.go.kr/archive/newspaper/information.do (접속일: 2026-06-06).
+- <a id="src-pri-008"></a>안창호, 삼일당(三一堂) 연설 「우리 혁명운동과 임시정부 문제에 대하여」 (1926-07-08, 상하이), 1926, 원 기록 소재 미확인 — 활자 수록: 『도산안창호전집』·『안도산전서』.
+- <a id="src-pri-009"></a>안창호, 「동포에게 고하는 글」 (1924, 베이징에서 집필·발송), 원 원고 소재 미확인 — 활자 수록: 『안도산전서』·『도산안창호전집』.
+- <a id="src-pri-010"></a>안창호, 「거국가(去國歌) (1910, 망명 시 작별 가사)」, 원 출전 확인본: 한영서원 간행 『창가집』, https://encykorea.aks.ac.kr/Article/E0001791 (접속일: 2026-06-06).
+- <a id="src-pri-033"></a>안창호, 「점진가 (점진학교 교가, 1899년경 작사 전승)」, 당대 원본 미확인 — 가사 전승: 『안도산전서』 등 전기·기념 문헌.
+- <a id="src-pri-034"></a>안창호, 「안창호 옥중 서한 — 대전형무소발 이혜련 수신 (1933-06-01설)」, 1933, 소재 미확인 — 추정 경로: USC KADA 이혜련 수신 서한군.
+- <a id="src-pri-036"></a>오기영 / 김정련 / 김여제, 수감·임종 회고 사료 3종 — 오기영 「도산선생의 최후」(1947-05) · 김정련 「형무소의 도산선생」(『새벽』 1957-04) · 김여제 「옥중에서 도산선생을 모시고」(『기러기』 1966), 1947, 오기영: 『동전 오기영 전집』, https://www.mosinsaram.com/417 (접속일: 2026-06-06).
+- <a id="src-pri-017"></a>일제 경찰·검사·예심판사, 「안창호 신문조서 (1932, 경기도경찰부·경성지방법원 검사국·예심)」, 1932, 원본 소장처 미확정.
+- <a id="src-pri-045"></a>일제 관동도독부·통감부, 안중근 사건 신문·공판 기록 (『한국독립운동사 자료』 6·7권 안중근편 I·II, 국사편찬위원회) — 안창호 관련 개소, 1909, 국사편찬위원회 — 『한국독립운동사 자료』 6·7권, https://db.history.go.kr/introduction/intro_kd.html (접속일: 2026-06-06).
+- <a id="src-pri-038"></a>일제 한국주차헌병대, 「안창호 용산 헌병대 신문기록 (1909-10 ~ 1910, 안중근 의거 연루 혐의 구금)」, 1909, 소재 미확인.
+- <a id="src-pri-015"></a>조선일보사, 「조선일보 도산 관련 기사군 (1920–1938)」, 1920, 조선일보사 — 조선 뉴스 라이브러리 100, https://newslibrary.chosun.com (접속일: 2026-06-06).
+- <a id="src-pri-016"></a>조선총독부 경무총감부·검사국·법원, 「105인 사건 신문조서·공판시말서 (1911–1913)」, 1911, 국사편찬위원회 — 『한민족독립운동사자료집』 제1~4권, https://db.history.go.kr/modern/level.do?levelId=hd_032_0050_0050 (접속일: 2026-06-06).
+- <a id="src-pri-025"></a>주요한, 『안도산전서(安島山全書)』 (주요한 편저, 초판 삼중당 1963; 증보판 흥사단 1999), 1963, 국립중앙도서관·국회도서관 등.
+- <a id="src-pri-048"></a>「중외일보 1930-01-11자 필리핀 이주 계획 보도 기사」, 1930, 중외일보 — 한국사데이터베이스 수록, https://db.history.go.kr/modern/level.do?levelId=npjo_1930_01_11_w0003 (접속일: 2026-06-06).
+- <a id="src-pri-028"></a>차리석, 차리석 「한국독립당 당의의 이론체계 초안」 (1942-08, 충칭), 1942, 원문 소장처 미확정 — 학술 전거: 장석흥 「차리석의 '한국독립당 당의의 이론체계 초안, https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001936844 (접속일: 2026-06-06).
+- <a id="src-pri-031"></a>청년학우회, 「청년학우회 설립취지서 (1909, 최남선 기초 전승)」, 1909, 소재 미확인 — 게재 추정 매체: 『소년』.
+- <a id="src-pri-040"></a>태극학회, 『태극학보(太極學報)』 (태극학회, 도쿄, 1906-08 ~ 1908-12, 통권 27호), 1906, 국사편찬위원회 한국사데이터베이스, https://db.history.go.kr/id/ma_007 (접속일: 2026-06-06).
+- <a id="src-pri-020"></a>흥사단, 「흥사단 약법(約法) (1913, 샌프란시스코)」, 1913, 1913년 원본 실물 소재 미확인 — 현행 전재: 흥사단, https://www.yka.or.kr/html/about_dosan/movement_theory_04.asp (접속일: 2026-06-06).
+- <a id="src-pri-021"></a>흥사단, 「흥사단 입단문답 기록 (문답례·실제 문답 채록)」, 1913, 소재 미확인 — 재구성 텍스트: 이광수 『도산 안창호』.
+
+## 학술 논문·단행본 (14건)
+
+- <a id="src-aca-010"></a>「1930년 한국독립당 당의·당강의 이념과 성격」, 학위논문(ScienceON 등재 — 저자 서지 보강 대상), https://scienceon.kisti.re.kr/srch/selectPORSrchArticle.do?cn=DIKO0015504019 (접속일: 2026-06-06).
+- <a id="src-aca-009"></a>「Deportation of Dosan Ahn Chang Ho (1924–1926)」, 『Review of Korean Studies』 23(1), https://accesson.kr/rks/assets/pdf/2562/journal-23-1-161.pdf (접속일: 2026-06-06).
+- <a id="src-aca-003"></a>Edward T. Chang, 『Pachappa Camp: The First Koreatown in the United States』, Lexington Books(eScholarship 공개본), 2021, https://escholarship.org/uc/item/8p88m8mw (접속일: 2026-06-06).
+- <a id="src-aca-002"></a>UCR Young Oak Kim Center for Korean American Studies, 「Pachappa Camp: History & Timeline」, Pachappa Camp 프로젝트 사이트, https://pachappacamp.ucr.edu/history-timeline/ (접속일: 2026-06-06).
+- <a id="src-aca-007"></a>김도형, 「도산 안창호의 '여행권'을 통해 본 독립운동 행적」, 『한국독립운동사연구』 52, 2015, https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002061754 (접속일: 2026-06-06).
+- <a id="src-aca-004"></a>김원모, 「한국 민족운동의 시단: 미주 대한인국민회 중앙총회(안창호)의 이광수 신한민보 주필 초빙교섭(1914)」, 오프라인 학술 문헌(소장처: 국내 학술 DB 미확정 — 서지 보강 대상).
+- <a id="src-aca-005"></a>「도산 안창호의 멕시코 순행과 그 업적」, Korea Scholar 등재 논문(저자·게재지 서지 보강 대상), https://db.koreascholar.com/Article/Detail/328875 (접속일: 2026-06-06).
+- <a id="src-aca-012"></a>박만규, 「안창호의 대공주의에 관한 두 가지 쟁점」, 『한국독립운동사연구』 61, 187–219쪽, 2018, https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07369851 (접속일: 2026-06-06).
+- <a id="src-aca-008"></a>상해판 『독립신문』과 안창호, KCI 등재 논문(저자·게재지 서지 보강 대상), https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001459580 (접속일: 2026-06-06).
+- <a id="src-aca-001"></a>이광수, 『도산 안창호』, 위키문헌 수록본(초판 도산안창호기념사업회, 1947), 1947, https://ko.wikisource.org/wiki/%EB%8F%84%EC%82%B0_%EC%95%88%EC%B0%BD%ED%98%B8 (접속일: 2026-06-06).
+- <a id="src-aca-013"></a>이명화, 「도산 안창호의 서대문형무소 투옥과 수감 생활」, 『한국독립운동사연구』 46, 2013, https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001827032 (접속일: 2026-06-06).
+- <a id="src-aca-006"></a>이선민, 「신민회의 결성 시점에 대한 재고찰」, 『대동문화연구』 121, 2023, https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11582497 (접속일: 2026-06-06).
+- <a id="src-aca-011"></a>장석흥, 「차리석의 '한국독립당 당의의 이론체계 초안(1942)'과 안창호의 대공주의」, 『한국독립운동사연구』 49, 2014, https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001936844 (접속일: 2026-06-06).
+- <a id="src-aca-014"></a>「흥사단의 1차 약법개정 논의와 운동노선」, KCI 등재 논문(저자·게재지 서지 보강 대상), https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002430591 (접속일: 2026-06-06).
+
+## 공공기관·단체 DB 및 발간물 (53건)
+
+- <a id="src-ins-015"></a>Naval History and Heritage Command, 「Lieutenant Susan Ahn Cuddy」, history.navy.mil, https://www.history.navy.mil/browse-by-topic/diversity/asian-americans-pacific-islanders-in-the-navy/susan-ahn-cuddy.html/ (접속일: 2026-06-06).
+- <a id="src-ins-006"></a>USC Dornsife Korean Studies Institute, 「Ahn Family House」, USC Dornsife, https://dornsife.usc.edu/ksi/ahn-family-house/ (접속일: 2026-06-06).
+- <a id="src-ins-014"></a>USC Libraries, 「Philip Ahn papers finding aid」, Online Archive of California, https://oac.cdlib.org/findaid/ark:/13030/c8qj7pmj/ (접속일: 2026-06-06).
+- <a id="src-ins-011"></a>국가기록원, 「국가지정기록물 제5호 '도산 안창호 관련 미주 국민회 기록물'」, 국가기록원, https://theme.archives.go.kr/next/nationalArchives/subPage/nationalArchives4.do (접속일: 2026-06-06).
+- <a id="src-ins-047"></a>국가기록원, 「독립운동관련 판결문 시스템」, 국가기록원, https://theme.archives.go.kr/next/indy/viewIndyDetail.do?archiveId=0001164840 (접속일: 2026-06-06).
+- <a id="src-ins-018"></a>국가보훈부, 이달의 독립운동가 「안창호」, 공훈전자사료관, https://e-gonghun.mpva.go.kr/user/IndepCrusaderDetail.do?goTocode=20003&mngNo=3154 (접속일: 2026-06-06).
+- <a id="src-ins-036"></a>국가보훈부, 「독립유공자 공적정보」, 공훈전자사료관, https://e-gonghun.mpva.go.kr/user/ContribuReportDetailPopup.do?mngNo=7338 (접속일: 2026-06-06).
+- <a id="src-ins-048"></a>국가보훈부, 독립유공자 공적정보 「송종익」, 공훈전자사료관, https://e-gonghun.mpva.go.kr/ (접속일: 2026-06-06).
+- <a id="src-ins-049"></a>국가보훈부, 「독립유공자 공적정보 '안창호'」, 공훈전자사료관, https://e-gonghun.mpva.go.kr/user/ContribuReportDetail.do?goTocode=20001&pageTitle=Merit&mngNo=669 (접속일: 2026-06-06).
+- <a id="src-ins-050"></a>국가보훈처, 「1월의 독립운동가 이갑 선생」, 대한민국 정책브리핑, 2011, https://www.korea.kr/briefing/pressReleaseView.do?newsId=155805121 (접속일: 2026-06-06).
+- <a id="src-ins-033"></a>국가유산청, 국가등록문화유산 「도산 안창호 일기」, 국가유산포털, https://www.heritage.go.kr/heri/cul/culSelectDetail.do?VdkVgwKey=79,07210000,34 (접속일: 2026-06-06).
+- <a id="src-ins-031"></a>국립대한민국임시정부기념관, 「통합 임시정부, 승인과 개조의 갈림길에서」, 국립대한민국임시정부기념관 웹진, https://www.nmkpg.go.kr/webzine/story/cn.do?rid=245 (접속일: 2026-06-06).
+- <a id="src-ins-035"></a>국립대한민국임시정부기념관, 「국민대표회의의 배경과 개최 과정」, 국립대한민국임시정부기념관 웹진, https://www.nmkpg.go.kr/webzine/story/cn.do?rid=222 (접속일: 2026-06-06).
+- <a id="src-ins-004"></a>국사편찬위원회, 「안창호 (한국사 인물)」, 우리역사넷, https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n402200 (접속일: 2026-06-06).
+- <a id="src-ins-005"></a>국사편찬위원회, 「안창호 관련 서술」, 우리역사넷, https://contents.history.go.kr/mobile/eh/view.do?levelId=eh_n0760_0010 (접속일: 2026-06-06).
+- <a id="src-ins-009"></a>국사편찬위원회, 「대한인 국민회」, 우리역사넷, https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_o400900&code=kc_age_40 (접속일: 2026-06-06).
+- <a id="src-ins-010"></a>국사편찬위원회, 「근대 사료 DB '신한민보'」, 한국사데이터베이스, https://db.history.go.kr/modern/level.do?levelId=npsh_1920_09_02_v0003_0150 (접속일: 2026-06-06).
+- <a id="src-ins-012"></a>국사편찬위원회, 「신편한국사 '국민국가 수립론과 대한인국민회 중앙총회의 설립'」, 우리역사넷, https://contents.history.go.kr/mobile/nh/view.do?levelId=nh_047_0030_0020_0040_0040 (접속일: 2026-06-06).
+- <a id="src-ins-017"></a>국사편찬위원회, 신편한국사 43권 「가. 신민회의 창건」, 우리역사넷, https://contents.history.go.kr/front/nh/view.do?levelId=nh_043_0040_0010_0030 (접속일: 2026-06-06).
+- <a id="src-ins-019"></a>국사편찬위원회, 「신민회 1907」, 우리역사넷, https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_o402010 (접속일: 2026-06-06).
+- <a id="src-ins-021"></a>국사편찬위원회, 「서북학회 전경」, 우리역사넷, https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_o401800&code=kc_age_40 (접속일: 2026-06-06).
+- <a id="src-ins-024"></a>국사편찬위원회, 신편한국사 47권 「다. 국민회」, 우리역사넷, https://contents.history.go.kr/mobile/nh/view.do?levelId=nh_047_0030_0020_0020_0010_0030 (접속일: 2026-06-06).
+- <a id="src-ins-025"></a>국사편찬위원회, 「105인 사건 1911~1913」, 우리역사넷, https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_i400100 (접속일: 2026-06-06).
+- <a id="src-ins-026"></a>국사편찬위원회, 「한민족독립운동사자료집」, 한국사데이터베이스, https://db.history.go.kr/modern/level.do?levelId=hd_002_0010_0050 (접속일: 2026-06-06).
+- <a id="src-ins-027"></a>국사편찬위원회, 「대한민국 임시정부 1919」, 우리역사넷, https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_o400800 (접속일: 2026-06-06).
+- <a id="src-ins-028"></a>국사편찬위원회, 「대한민국임시정부자료집」, 한국사데이터베이스, https://db.history.go.kr/modern/level.do?levelId=ij_008_$1exp (접속일: 2026-06-06).
+- <a id="src-ins-029"></a>국사편찬위원회, 「가. 연통제의 시행과 운영」, 우리역사넷, https://contents.history.go.kr/mobile/nh/view.do?levelId=nh_048_0030_0010_0030_0020 (접속일: 2026-06-06).
+- <a id="src-ins-030"></a>국사편찬위원회, 「상해판 독립신문 창간호」, 우리역사넷, https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_o401610&code=kc_age_40 (접속일: 2026-06-06).
+- <a id="src-ins-032"></a>국사편찬위원회, 「'독립전쟁의 원년 선포' 관련 서술」, 우리역사넷, https://contents.history.go.kr/front/nh/print.do?levelId=nh_048_0030_0010_0030_0030_0020 (접속일: 2026-06-06).
+- <a id="src-ins-034"></a>국사편찬위원회, 「흥사단 (한국사연대기)」, 우리역사넷, https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_o404400&code=kc_age_40 (접속일: 2026-06-06).
+- <a id="src-ins-037"></a>국사편찬위원회, 「'국민대표회의' 관련 서술」, 우리역사넷, https://contents.history.go.kr/mobile/nh/view.do?levelId=nh_048_0030_0020_0010_0010 (접속일: 2026-06-06).
+- <a id="src-ins-038"></a>국사편찬위원회, 「(2) 삼방회의와 국민대표회의의 결렬」, 우리역사넷, https://contents.history.go.kr/mobile/nh/view.do?levelId=nh_048_0030_0020_0020_0020 (접속일: 2026-06-06).
+- <a id="src-ins-040"></a>국사편찬위원회, 「민족 유일당 운동」, 우리역사넷, https://contents.history.go.kr/mobile/tg/view.do?subjectCode=tg_ty_040&tabId=02&levelId=tg_004_2230&pageUnit=10 (접속일: 2026-06-06).
+- <a id="src-ins-041"></a>국사편찬위원회, 「한국독립당 1930~1970」, 우리역사넷, https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_o403900 (접속일: 2026-06-06).
+- <a id="src-ins-044"></a>국사편찬위원회, 「교과서 용어해설 '동광'」, 우리역사넷, https://contents.history.go.kr/front/tg/view.do?treeId=0100&levelId=tg_004_2300 (접속일: 2026-06-06).
+- <a id="src-ins-045"></a>국사편찬위원회, 근현대잡지자료 『동광』, 한국사데이터베이스, https://db.history.go.kr/id/ma_014 (접속일: 2026-06-06).
+- <a id="src-ins-051"></a>국사편찬위원회, 교과서 용어해설 「국민대표회의」, 우리역사넷, https://contents.history.go.kr/front/tg/view.do?treeId=0204&levelId=tg_004_2110 (접속일: 2026-06-06).
+- <a id="src-ins-052"></a>국사편찬위원회, 사료로 본 한국사 「이광수의 민족 개조론, 민족적 경륜」, 우리역사넷, http://contents.history.go.kr/id/hm_141_0080 (접속일: 2026-06-06).
+- <a id="src-ins-008"></a>대한인국민회기념재단, 「대한인국민회 50년사」, 대한인국민회기념재단 사이트, https://knamf.org/대한인국민회-50년사/ (접속일: 2026-06-06).
+- <a id="src-ins-016"></a>대한인국민회기념재단, 「글과 사진으로 보는 도산 안창호 가족 이야기」, 대한인국민회기념재단 사이트, https://knamf.org/글과-사진으로-보는-도산-안창호-가족-이야기/ (접속일: 2026-06-06).
+- <a id="src-ins-007"></a>독립기념관, 「한국 독립운동의 스승 안창호」, 월간 독립기념관, https://www.i815.or.kr/upload/kr/magazine/magazine/28/post-289.html (접속일: 2026-06-06).
+- <a id="src-ins-022"></a>독립기념관, 「이승훈」, 독립운동인명사전(한국독립운동정보시스템), https://search.i815.or.kr/dictionary/detail/print.do?id=9018 (접속일: 2026-06-06).
+- <a id="src-ins-023"></a>독립기념관, 「이종호」, 독립운동인명사전(한국독립운동정보시스템), https://search.i815.or.kr/dictionary/detail.do?searchWord=&reSearchWord=&searchType=all&index=1&id=11304 (접속일: 2026-06-06).
+- <a id="src-ins-042"></a>독립기념관, 「독립운동인명사전 표제어(항목명 미상 — 사전 id 2281, 서지 보강 대상)」, 독립운동인명사전(한국독립운동정보시스템), https://search.i815.or.kr/dictionary/detail/print.do?id=2281 (접속일: 2026-06-06).
+- <a id="src-ins-053"></a>독립기념관, 「오영선」, 독립운동인명사전(한국독립운동정보시스템), https://search.i815.or.kr/dictionary/detail.do?id=698 (접속일: 2026-06-06).
+- <a id="src-ins-020"></a>성북구청, 「성북마을발견+독립운동 아카이브 연표」, 성북마을아카이브, https://archive.sb.go.kr/isbcc/town/815/timeline.do (접속일: 2026-06-06).
+- <a id="src-ins-002"></a>이명화, 「안창호」, 독립운동인명사전(독립기념관 한국독립운동정보시스템), https://search.i815.or.kr/dictionary/detail.do?id=696 (접속일: 2026-06-06).
+- <a id="src-ins-043"></a>한국문화정보원, 「흥사단의 첫 동지 송종익」, 지역N문화, https://ncms.nculture.org/independence-movement/story/10984 (접속일: 2026-06-06).
+- <a id="src-ins-003"></a>한인역사박물관, 「안창호 Chang Ho Ahn 安昌浩」, 한인역사박물관 사이트, https://kahistorymuseum.org/%EC%95%88-%EC%B0%BD-%ED%98%B8-chang-ho-ahn-%E5%AE%89%E6%98%8C%E6%B5%A9/ (접속일: 2026-06-06).
+- <a id="src-ins-013"></a>한인역사박물관, 「이혜련 Hea Ryun Lee 李惠鍊」, 한인역사박물관 사이트, https://kahistorymuseum.org/이-혜-련-hea-ryun-lee-李惠鍊/ (접속일: 2026-06-06).
+- <a id="src-ins-001"></a>흥사단, 「도산 연보」, 흥사단 공식 사이트, https://www.yka.or.kr/html/about_dosan/dosans_chronology.asp (접속일: 2026-06-06).
+- <a id="src-ins-039"></a>흥사단, 「자료 소개 '1920년대 이상촌 건설운동과 안창호'」, 흥사단 공식 사이트, https://www.yka.or.kr/html/info/book_search.asp?no=1018 (접속일: 2026-06-06).
+- <a id="src-ins-046"></a>흥사단, 흥사단 소장 『동광』 1926년 11월호(제7호) 서지, 흥사단 공식 사이트, https://www.yka.or.kr/html/info/book_search.asp?no=364 (접속일: 2026-06-06).
+
+## 백과사전 (48건)
+
+- <a id="src-enc-003"></a>「Ahn Chang Ho」, New World Encyclopedia, https://www.newworldencyclopedia.org/entry/Ahn_Chang_Ho (접속일: 2026-06-06).
+- <a id="src-enc-042"></a>「Ahn Chang Ho」, Wikipedia(영문), https://en.wikipedia.org/wiki/Ahn_Chang_Ho (접속일: 2026-06-06).
+- <a id="src-enc-007"></a>「Pachappa Camp」, Wikipedia(영문), https://en.wikipedia.org/wiki/Pachappa_Camp (접속일: 2026-06-06).
+- <a id="src-enc-012"></a>「Philip Ahn」, Wikipedia(영문), https://en.wikipedia.org/wiki/Philip_Ahn (접속일: 2026-06-06).
+- <a id="src-enc-010"></a>「Ralph Ahn」, Wikipedia(영문), https://en.wikipedia.org/wiki/Ralph_Ahn (접속일: 2026-06-06).
+- <a id="src-enc-013"></a>「Susan Ahn Cuddy」, Encyclopaedia Britannica, https://www.britannica.com/biography/Susan-Ahn-Cuddy (접속일: 2026-06-06).
+- <a id="src-enc-014"></a>「Susan Ahn Cuddy」, Wikipedia(영문), https://en.wikipedia.org/wiki/Susan_Ahn_Cuddy (접속일: 2026-06-06).
+- <a id="src-enc-027"></a>「신채호」, 위키백과, https://ko.wikipedia.org/wiki/%EC%8B%A0%EC%B1%84%ED%98%B8 (접속일: 2026-06-06).
+- <a id="src-enc-002"></a>「안창호」, 위키백과, https://ko.wikipedia.org/wiki/%EC%95%88%EC%B0%BD%ED%98%B8 (접속일: 2026-06-06).
+- <a id="src-enc-017"></a>「이광수」, 위키백과, https://ko.wikipedia.org/wiki/%EC%9D%B4%EA%B4%91%EC%88%98 (접속일: 2026-06-06).
+- <a id="src-enc-032"></a>「이승만」, 위키백과, https://ko.wikipedia.org/wiki/이승만 (접속일: 2026-06-06).
+- <a id="src-enc-023"></a>「청년학우회」, 위키백과, https://ko.wikipedia.org/wiki/%EC%B2%AD%EB%85%84%ED%95%99%EC%9A%B0%ED%9A%8C (접속일: 2026-06-06).
+- <a id="src-enc-001"></a>한국학중앙연구원, 「안창호」, 한국민족문화대백과사전, https://encykorea.aks.ac.kr/Article/E0035050 (접속일: 2026-06-06).
+- <a id="src-enc-004"></a>한국학중앙연구원, 「이혜련」, 한국민족문화대백과사전, https://encykorea.aks.ac.kr/Article/E0079746 (접속일: 2026-06-06).
+- <a id="src-enc-005"></a>한국학중앙연구원, 「점진학교」, 한국민족문화대백과사전, https://encykorea.aks.ac.kr/Article/E0049857 (접속일: 2026-06-06).
+- <a id="src-enc-006"></a>한국학중앙연구원, 「공립협회」, 한국민족문화대백과사전, https://encykorea.aks.ac.kr/Article/E0004272 (접속일: 2026-06-06).
+- <a id="src-enc-008"></a>한국학중앙연구원, 「공립신보」, 한국민족문화대백과사전, https://encykorea.aks.ac.kr/Article/E0004270 (접속일: 2026-06-06).
+- <a id="src-enc-009"></a>한국학중앙연구원, 「북미실업주식회사」, 한국민족문화대백과사전, https://encykorea.aks.ac.kr/Article/E0073696 (접속일: 2026-06-06).
+- <a id="src-enc-011"></a>한국학중앙연구원, 「대한여자애국단」, 한국민족문화대백과사전, https://encykorea.aks.ac.kr/Article/E0015135 (접속일: 2026-06-06).
+- <a id="src-enc-015"></a>한국학중앙연구원, 「안창호 훼밀리하우스」, 한국민족문화대백과사전, https://encykorea.aks.ac.kr/Article/E0074094 (접속일: 2026-06-06).
+- <a id="src-enc-016"></a>한국학중앙연구원, 「신민회」, 한국민족문화대백과사전, https://encykorea.aks.ac.kr/Article/E0032974 (접속일: 2026-06-06).
+- <a id="src-enc-018"></a>한국학중앙연구원, 「안창호 묘」, 디지털구리문화대전(한국향토문화전자대전), http://guri.grandculture.net/guri/toc/GC06142033 (접속일: 2026-06-06).
+- <a id="src-enc-019"></a>한국학중앙연구원, 「서북학회」, 한국민족문화대백과사전, http://encykorea.aks.ac.kr/Contents/Item/E0027787 (접속일: 2026-06-06).
+- <a id="src-enc-020"></a>한국학중앙연구원, 「태극서관」, 한국민족문화대백과사전, https://encykorea.aks.ac.kr/Article/E0058896 (접속일: 2026-06-06).
+- <a id="src-enc-021"></a>한국학중앙연구원, 「대성학교」, 한국민족문화대백과사전, https://encykorea.aks.ac.kr/Article/E0014519 (접속일: 2026-06-06).
+- <a id="src-enc-022"></a>한국학중앙연구원, 「청년학우회」, 한국민족문화대백과사전, https://encykorea.aks.ac.kr/Article/E0056315 (접속일: 2026-06-06).
+- <a id="src-enc-024"></a>한국학중앙연구원, 「무실역행」, 한국민족문화대백과사전, https://encykorea.aks.ac.kr/Article/E0019119 (접속일: 2026-06-06).
+- <a id="src-enc-025"></a>한국학중앙연구원, 「이갑」, 한국민족문화대백과사전, https://encykorea.aks.ac.kr/Article/E0043482 (접속일: 2026-06-06).
+- <a id="src-enc-026"></a>한국학중앙연구원, 「거국가」, 한국민족문화대백과사전, http://encykorea.aks.ac.kr/Article/E0001791 (접속일: 2026-06-06).
+- <a id="src-enc-028"></a>한국학중앙연구원, 「105인 사건」, 한국민족문화대백과사전, https://encykorea.aks.ac.kr/Article/E0022233 (접속일: 2026-06-06).
+- <a id="src-enc-029"></a>한국학중앙연구원, 「대한민국임시정부」, 한국민족문화대백과사전, https://encykorea.aks.ac.kr/Article/E0015017 (접속일: 2026-06-06).
+- <a id="src-enc-030"></a>한국학중앙연구원, 「연통제」, 한국민족문화대백과사전, https://encykorea.aks.ac.kr/Article/E0036949 (접속일: 2026-06-06).
+- <a id="src-enc-031"></a>한국학중앙연구원, 「독립신문(獨立新聞)」, 한국민족문화대백과사전, https://encykorea.aks.ac.kr/Article/E0015986 (접속일: 2026-06-06).
+- <a id="src-enc-033"></a>한국학중앙연구원, 「이승만」, 한국민족문화대백과사전, https://encykorea.aks.ac.kr/Article/E0044938 (접속일: 2026-06-06).
+- <a id="src-enc-034"></a>한국학중앙연구원, 「안창호」, 세계한민족문화대전, http://www.okpedia.kr/Contents/ContentsView?contentsId=GC95100282&localCode=naw (접속일: 2026-06-06).
+- <a id="src-enc-035"></a>한국학중앙연구원, 「시사책진회」, 한국민족문화대백과사전, https://encykorea.aks.ac.kr/Article/Search/%EC%8B%9C%EC%82%AC%EC%B1%85%EC%A7%84%ED%9A%8C (접속일: 2026-06-06).
+- <a id="src-enc-036"></a>한국학중앙연구원, 「국민대표회의」, 한국민족문화대백과사전, https://encykorea.aks.ac.kr/Article/E0006294 (접속일: 2026-06-06).
+- <a id="src-enc-037"></a>한국학중앙연구원, 「동명학원(東明學院)」, 한국민족문화대백과사전, https://encykorea.aks.ac.kr/Article/E0016444 (접속일: 2026-06-06).
+- <a id="src-enc-038"></a>한국학중앙연구원, 「대독립당조직북경촉성회」, 한국민족문화대백과사전, https://encykorea.aks.ac.kr/Article/E0061141 (접속일: 2026-06-06).
+- <a id="src-enc-039"></a>한국학중앙연구원, 「길림 대검거 사건」, 한국민족문화대백과사전, https://encykorea.aks.ac.kr/Article/E0008526 (접속일: 2026-06-06).
+- <a id="src-enc-040"></a>한국학중앙연구원, 「한국독립당(韓國獨立黨)」, 한국민족문화대백과사전, https://encykorea.aks.ac.kr/Article/E0061133 (접속일: 2026-06-06).
+- <a id="src-enc-041"></a>한국학중앙연구원, 「조소앙」, 한국민족문화대백과사전, https://encykorea.aks.ac.kr/Article/E0052303 (접속일: 2026-06-06).
+- <a id="src-enc-043"></a>한국학중앙연구원, 「흥사단」, 한국민족문화대백과사전, https://encykorea.aks.ac.kr/Article/E0066013 (접속일: 2026-06-06).
+- <a id="src-enc-044"></a>한국학중앙연구원, 「수양동우회」, 한국민족문화대백과사전, https://encykorea.aks.ac.kr/Article/E0031544 (접속일: 2026-06-06).
+- <a id="src-enc-045"></a>한국학중앙연구원, 「동광」, 한국민족문화대백과사전, https://encykorea.aks.ac.kr/Article/E0016236 (접속일: 2026-06-06).
+- <a id="src-enc-046"></a>한국학중앙연구원, 「서울 안창호 묘소」, 디지털강남문화대전(한국향토문화전자대전), https://www.grandculture.net/gangnam/toc/GC04830008 (접속일: 2026-06-06).
+- <a id="src-enc-047"></a>한국학중앙연구원, 「북미실업주식회사」, 세계한민족문화대전, https://www.okpedia.kr/Contents/ContentsView?contentsId=GC95100211&localCode=naw (접속일: 2026-06-06).
+- <a id="src-enc-048"></a>한국학중앙연구원, 「손정도」, 한국민족문화대백과사전, https://encykorea.aks.ac.kr/Article/E0030567 (접속일: 2026-06-06).
+
+## 일반 웹 자료 (31건)
+
+- <a id="src-web-011"></a>「'The Ahn Family Residence' historical marker」, Historical Marker Database(HMDB), https://www.hmdb.org/m.asp?m=229279 (접속일: 2026-06-06).
+- <a id="src-web-030"></a>「73년 11월10일 도산공원 개원, 안창호 선생과 부인 이혜련 여사 합장」, 한국일보, https://www.hankookilbo.com/News/Read/A2021110319110004288 (접속일: 2026-06-06).
+- <a id="src-web-006"></a>「Buried past of America's first Koreatown uncovered in California's Riverside」, PBS NewsHour, https://www.pbs.org/newshour/show/buried-past-of-americas-first-koreatown-uncovered-in-californias-riverside (접속일: 2026-06-06).
+- <a id="src-web-004"></a>「Dosan Ahn Chang-ho, founding father of America's first Koreatown」, The Korea Herald, https://www.koreaherald.com/article/2742425 (접속일: 2026-06-06).
+- <a id="src-web-008"></a>「Philip Ahn」, Hollywood Walk of Fame, https://walkoffame.com/philip-ahn/ (접속일: 2026-06-06).
+- <a id="src-web-009"></a>「Philip Ahn – The Korean American Pioneer in Hollywood」, AsAmNews, https://asamnews.com/2023/05/25/phillip-ahn-the-korean-american-pioneer-in-hollywood/ (접속일: 2026-06-06).
+- <a id="src-web-010"></a>「Philson Ahn — Biography」, IMDb, https://www.imdb.com/name/nm0014218/bio/ (접속일: 2026-06-06).
+- <a id="src-web-012"></a>「Soorah (Ahn) Buffum (1917-2016)」, WikiTree, https://www.wikitree.com/wiki/Ahn-324 (접속일: 2026-06-06).
+- <a id="src-web-029"></a>「[망우리 사잇길을 걷다] 도산 안창호와 비서 유상규」, 경기신문, https://www.kgnews.co.kr/news/article.html?no=875363 (접속일: 2026-06-06).
+- <a id="src-web-021"></a>「[신주백의 사연 史淵] 안창호의 독립전쟁과 독립정신의 현재성」, 경향신문, https://www.khan.co.kr/article/202512082012005 (접속일: 2026-06-06).
+- <a id="src-web-026"></a>대구흥사단, 「흥사단 약법」, 대구흥사단 사이트, http://www.tgyka.or.kr/open_content/info/info_02.php (접속일: 2026-06-06).
+- <a id="src-web-002"></a>대한인국민회기념재단, 「안창호 약전」, 대한인국민회기념재단 사이트, https://knamf.org/%EC%95%88%EC%B0%BD%ED%98%B8/ (접속일: 2026-06-06).
+- <a id="src-web-020"></a>대한인국민회기념재단, 「정재관」, 대한인국민회기념재단 사이트, https://knamf.org/%EC%A0%95%EC%9E%AC%EA%B4%80/ (접속일: 2026-06-06).
+- <a id="src-web-031"></a>「도산 안창호 상하이 연설」, 브런치(『안도산전서』 수록본 전사), https://brunch.co.kr/@charam/16 (접속일: 2026-06-06).
+- <a id="src-web-005"></a>도산안창호선생기념사업회, 「온라인기념관 도산 연보」, 도산안창호선생기념사업회 온라인기념관, http://www.ahnchangho.or.kr/site/main/d02_02.php (접속일: 2026-06-06).
+- <a id="src-web-007"></a>「멕시코까지 퍼져나간 독립의 꿈…안창호 행적 첫 발견」, 서울신문, 2016, https://www.seoul.co.kr/news/life/2016/03/01/20160301800020 (접속일: 2026-06-06).
+- <a id="src-web-024"></a>「무실역행의 지도자, 안창호」, 역사 인물 웹자료(koreanperson.web3.newwaynet.co.kr), http://koreanperson.web3.newwaynet.co.kr/bbs/board.php?bo_table=sub02_03&wr_id=2 (접속일: 2026-06-06).
+- <a id="src-web-022"></a>부산흥사단, 「흥사단 역사」, 부산흥사단 사이트, https://ykabs.or.kr/heungsa_hist1.php?bo_table=b322 (접속일: 2026-06-06).
+- <a id="src-web-027"></a>서울흥사단, 「입단 안내」, 서울흥사단 사이트, http://syka.dothome.co.kr/?page_id=370 (접속일: 2026-06-06).
+- <a id="src-web-001"></a>「안창호(安昌浩, 1878-1938) 계몽운동가, 독립운동가 ①」, 기독타임즈, http://www.kidoktimes.co.kr/5787 (접속일: 2026-06-06).
+- <a id="src-web-015"></a>「안창호/생애」, 나무위키, https://namu.wiki/w/%EC%95%88%EC%B0%BD%ED%98%B8/%EC%83%9D%EC%95%A0 (접속일: 2026-06-06).
+- <a id="src-web-019"></a>「윤치호 '애국가', 안창호 '거국가'」, e-전라매일, http://m.e-jlmaeil.com/view.php?idx=240536 (접속일: 2026-06-06).
+- <a id="src-web-025"></a>이기환, 「[이기환의 흔적의 역사] 억장이 무너지는 도산 안창호 선생의 사진 3장」, 경향신문, 2019, https://www.khan.co.kr/article/201905231407001 (접속일: 2026-06-06).
+- <a id="src-web-023"></a>장석흥, 「실록 대한민국임시정부 — 안창호와 민족유일당 운동」, 국민대학교(언론 기고 소개), https://iat.kookmin.ac.kr/international/community/newnhot/press/1071250?pn=90 (접속일: 2026-06-06).
+- <a id="src-web-016"></a>「태극서관」, 나무위키, https://namu.wiki/w/%ED%83%9C%EA%B7%B9%EC%84%9C%EA%B4%80 (접속일: 2026-06-06).
+- <a id="src-web-018"></a>한국문화정보원, 「도산 안창호」, 한국문화정보원, https://www.kculture.or.kr/brd/board/252/L/menu/465?brdType=R&thisPage=14&bbIdx=8573&recordCnt=10 (접속일: 2026-06-06).
+- <a id="src-web-003"></a>흥사단, 「안창호 '쾌재정 연설'과 120년 후 '광화문촛불 청소년시민'」, 흥사단 공식 사이트, https://www.yka.or.kr/html/info/column.asp?no=14314 (접속일: 2026-06-06).
+- <a id="src-web-017"></a>흥사단, 「[연재] 도산 안창호의 형무소 투옥 생활 1」, 흥사단 공식 사이트, https://www.yka.or.kr/html/info/column.asp?no=11225 (접속일: 2026-06-06).
+- <a id="src-web-028"></a>흥사단, 「도산 안창호의 생애와 업적」, 흥사단 공식 사이트, https://www.yka.or.kr/html/about_dosan/life_achievement.asp (접속일: 2026-06-06).
+- <a id="src-web-013"></a>흥사단 미주위원부(LA), 「삼선평 연설 (제2차 동맹독서)」, 흥사단 미주위원부 사이트, https://www.ykausa.org/bbs/board.php?bo_table=Freeboard&wr_id=130&page=1 (접속일: 2026-06-06).
+- <a id="src-web-014"></a>흥사단 미주위원부(LA), 「도산의 삼선평 연설 초록」, 흥사단 미주위원부 사이트, https://www.ykausa.org/bbs/board.php?bo_table=Freeboard&wr_id=149 (접속일: 2026-06-06).
+
+<!-- 총 194건 | 모드: 전체 원장 -->

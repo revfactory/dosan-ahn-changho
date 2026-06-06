@@ -1,0 +1,4 @@
+.DS_Store
+_workspace/05_qa/resize_backup/
+__pycache__/
+*.pyc

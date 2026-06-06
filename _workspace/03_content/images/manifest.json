@@ -1,0 +1,2134 @@
+{
+  "version": "1.1",
+  "generated": "2026-06-06",
+  "generator": "visual-curator (Phase 3)",
+  "license_policy": "퍼블릭 도메인 또는 자유 라이선스(공공누리 1유형, CC0/CC BY/CC BY-SA)만 수록. 판별 기준: visual-sourcing 스킬 §1",
+  "image_root": "site/assets/images/",
+  "originals_root": "site/assets/images/originals/",
+  "stats": {
+    "total": 80,
+    "by_license": {
+      "Public Domain": 68,
+      "CC BY-SA 4.0": 3,
+      "공공누리 제1유형": 4,
+      "CC BY 4.0": 1,
+      "CC0": 2,
+      "이용제한 없음": 2
+    },
+    "by_period": {
+      "P5": 18,
+      "P4": 12,
+      "P7": 11,
+      "P2": 5,
+      "P6": 6,
+      "P3": 9,
+      "P1": 8,
+      "P8": 11
+    }
+  },
+  "unfilled_slots": [
+    {
+      "slot": "img-phil-02",
+      "page": "philosophy",
+      "subject": "『동광』 표지 또는 '산옹' 기고 지면 (1926-33)",
+      "status": "slot_unfilled (필수→권장 강등 — 명세 개정 2026-06-06)",
+      "reason": "자유 라이선스 디지털본 미발견(국편 ma_014는 이용조건 미충족). 주요한 초상 대체는 연대 부정합으로 불승인 — 동광 자유 라이선스 확보 시 필수 복귀 조건부 강등",
+      "retry_condition": "동광 표지·지면의 자유 라이선스(KOGL1 이상) 확보 시 — 필수 복귀"
+    },
+    {
+      "slot": "img-org-02",
+      "page": "organizations",
+      "subject": "점진학교 터 (권장)",
+      "status": "slot_unfilled",
+      "reason": "자유 라이선스 이미지 미발견 (강서 소재 — 북한 지역으로 현대 촬영본도 희소)",
+      "retry_condition": "통일부·공공 아카이브 KOGL 자료 발견 시"
+    },
+    {
+      "slot": "img-phil-04",
+      "page": "philosophy",
+      "subject": "점진학교 관련 (권장)",
+      "status": "slot_unfilled",
+      "reason": "img-org-02와 동일",
+      "retry_condition": "동일"
+    },
+    {
+      "slot": "img-phil-05",
+      "page": "philosophy",
+      "subject": "『서우』 표지 (권장)",
+      "status": "slot_unfilled",
+      "reason": "자유 라이선스 디지털본 미발견",
+      "retry_condition": "국편·국립중앙도서관 KOGL 자료 발견 시"
+    },
+    {
+      "slot": "img-life-10",
+      "page": "life",
+      "subject": "국민대표회의 (1923, 권장)",
+      "status": "slot_unfilled",
+      "reason": "개조파 성명서 스캔(i815)은 기관 이용조건 미확인으로 제외, 신한민보 1923 보도 지면은 기사 소재 면 미특정으로 제외 — excluded.md 참조",
+      "retry_condition": "지면 내 기사 위치 특정 또는 i815 KOGL 확인 시"
+    }
+  ],
+  "images": [
+    {
+      "id": "dosan-portrait-1919",
+      "file": "1919_dosan_portrait_shanghai.webp",
+      "original_file": "1919_dosan_portrait_shanghai.jpg",
+      "title": "안창호 초상 (상하이 시기)",
+      "date": "1919",
+      "date_precision": "circa",
+      "depicted": [
+        "안창호"
+      ],
+      "place": "상하이",
+      "period": "P5",
+      "type": "portrait",
+      "source_org": "위키미디어 커먼즈",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Dosan_Ahn_Chang-ho_in_1919.jpg",
+      "license": "Public Domain",
+      "license_evidence": "1919~1920년경 촬영, 작자 미상 — 한국·미국 모두 보호기간 만료. 촬영·공표가 도산 동시대(1938 이전)로 한국(사망/공표 후 70년)·미국(1930 이전 공표 95년) 요건 충족",
+      "caption": "1919년 무렵 상하이에서 촬영된 안창호의 초상. 임시정부 내무총장 겸 국무총리 대리로 활동하던 시기다.",
+      "credit": "출처: 위키미디어 커먼즈",
+      "slots": [
+        "img-home-01"
+      ],
+      "used_pages": [
+        "gallery",
+        "home",
+        "life"
+      ],
+      "notes": "현보유 단독 초상 중 최고 해상도(550x696) — 히어로 사용 시 해상도 한계를 ui-designer에 고지"
+    },
+    {
+      "id": "dosan-portrait-1910s-la",
+      "file": "nd1910s_dosan_portrait_la.webp",
+      "original_file": "nd1910s_dosan_portrait_la.jpg",
+      "title": "안창호 초상 (로스앤젤레스)",
+      "date": "1910s",
+      "date_precision": "circa",
+      "depicted": [
+        "안창호"
+      ],
+      "place": "로스앤젤레스",
+      "period": "P4",
+      "type": "portrait",
+      "source_org": "위키미디어 커먼즈",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Ahn_Changho.jpg",
+      "license": "Public Domain",
+      "license_evidence": "촬영·공표가 도산 동시대(1938 이전)로 한국(사망/공표 후 70년)·미국(1930 이전 공표 95년) 요건 충족",
+      "caption": "1910년대 로스앤젤레스에서 촬영된 것으로 전해지는 안창호의 초상.",
+      "credit": "출처: 위키미디어 커먼즈",
+      "slots": [],
+      "used_pages": [
+        "gallery",
+        "life"
+      ]
+    },
+    {
+      "id": "dosan-portrait-1910s",
+      "file": "nd1910s_dosan_portrait_younger.webp",
+      "original_file": "nd1910s_dosan_portrait_younger.png",
+      "title": "안창호 초상 (1910년대)",
+      "date": "1910s",
+      "date_precision": "circa",
+      "depicted": [
+        "안창호"
+      ],
+      "place": "미상",
+      "period": "P4",
+      "type": "portrait",
+      "source_org": "위키미디어 커먼즈",
+      "source_url": "https://commons.wikimedia.org/wiki/File:1910s_Ahn_Chang-ho.PNG",
+      "license": "Public Domain",
+      "license_evidence": "촬영·공표가 도산 동시대(1938 이전)로 한국(사망/공표 후 70년)·미국(1930 이전 공표 95년) 요건 충족",
+      "caption": "1910년대에 촬영된 것으로 전해지는 안창호의 초상.",
+      "credit": "출처: 위키미디어 커먼즈",
+      "slots": [],
+      "used_pages": [
+        "gallery"
+      ]
+    },
+    {
+      "id": "dosan-portrait-1920s",
+      "file": "nd1920s_dosan_portrait_small.webp",
+      "original_file": "nd1920s_dosan_portrait_small.jpg",
+      "title": "안창호 초상 (1920년대)",
+      "date": "1920s",
+      "date_precision": "circa",
+      "depicted": [
+        "안창호"
+      ],
+      "place": "미상",
+      "period": "P5",
+      "type": "portrait",
+      "source_org": "위키미디어 커먼즈",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Ahn_Chang-ho_1920%27s.jpg",
+      "license": "Public Domain",
+      "license_evidence": "촬영·공표가 도산 동시대(1938 이전)로 한국(사망/공표 후 70년)·미국(1930 이전 공표 95년) 요건 충족",
+      "caption": "1920년대에 촬영된 것으로 전해지는 안창호의 초상.",
+      "credit": "출처: 위키미디어 커먼즈",
+      "slots": [],
+      "used_pages": [
+        "gallery"
+      ],
+      "notes": "저해상(160x215) — 보조 후보"
+    },
+    {
+      "id": "dosan-portrait-1920s-2",
+      "file": "nd1920s_dosan_portrait_thumb.webp",
+      "original_file": "nd1920s_dosan_portrait_thumb.jpg",
+      "title": "안창호 초상 (1920년대, 소형)",
+      "date": "1920s",
+      "date_precision": "circa",
+      "depicted": [
+        "안창호"
+      ],
+      "place": "미상",
+      "period": "P5",
+      "type": "portrait",
+      "source_org": "위키미디어 커먼즈",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Dosan_Ahn_Changho.jpg",
+      "license": "Public Domain",
+      "license_evidence": "촬영·공표가 도산 동시대(1938 이전)로 한국(사망/공표 후 70년)·미국(1930 이전 공표 95년) 요건 충족",
+      "caption": "1920년대에 촬영된 것으로 전해지는 안창호의 초상.",
+      "credit": "출처: 위키미디어 커먼즈",
+      "slots": [],
+      "used_pages": [
+        "gallery"
+      ],
+      "notes": "저해상(120x156) — 보조 후보"
+    },
+    {
+      "id": "dosan-portrait-1937",
+      "file": "1937_dosan_portrait_last.webp",
+      "original_file": "1937_dosan_portrait_last.jpg",
+      "title": "안창호 초상 (1937)",
+      "date": "1937-11-10",
+      "date_precision": "day",
+      "depicted": [
+        "안창호"
+      ],
+      "place": "서울",
+      "period": "P7",
+      "type": "portrait",
+      "source_org": "위키미디어 커먼즈",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Ahn_Chang-ho_1937.jpg",
+      "license": "Public Domain",
+      "license_evidence": "촬영·공표가 도산 동시대(1938 이전)로 한국(사망/공표 후 70년)·미국(1930 이전 공표 95년) 요건 충족",
+      "caption": "1937년 11월 10일 촬영으로 전해지는 안창호의 만년 사진. 동우회 사건으로 수감 중이던 시기다.",
+      "credit": "출처: 위키미디어 커먼즈",
+      "slots": [],
+      "used_pages": [
+        "gallery",
+        "life"
+      ]
+    },
+    {
+      "id": "dosan-passport-1902",
+      "file": "1902_dosan_passport_jipjo.webp",
+      "original_file": "1902_dosan_passport_jipjo.jpg",
+      "title": "안창호 집조 (대한제국 여권, 1902)",
+      "date": "1902",
+      "date_precision": "year",
+      "depicted": [
+        "안창호"
+      ],
+      "place": "대한제국",
+      "period": "P2",
+      "type": "document",
+      "source_org": "위키미디어 커먼즈",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Ahnchanghopassport.jpg",
+      "license": "Public Domain",
+      "license_evidence": "1902년 대한제국 발행 공문서 — 보호기간 만료. 원본은 유족이 독립기념관에 기증",
+      "caption": "1902년 발급된 안창호의 집조(執照, 대한제국 여권). '安昌鎬' 표기가 남아 있으며, 유족이 독립기념관에 기증했다.",
+      "credit": "출처: 위키미디어 커먼즈",
+      "slots": [
+        "img-life-04",
+        "img-arc-02"
+      ],
+      "used_pages": [
+        "archives",
+        "gallery",
+        "life"
+      ]
+    },
+    {
+      "id": "dosan-oranges",
+      "file": "nd1910s_dosan_picking_oranges.webp",
+      "original_file": "nd1910s_dosan_picking_oranges.jpg",
+      "title": "오렌지를 따는 안창호",
+      "date": "1910",
+      "date_precision": "circa",
+      "depicted": [
+        "안창호"
+      ],
+      "place": "남캘리포니아",
+      "period": "P2",
+      "type": "photo",
+      "source_org": "위키미디어 커먼즈",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Dosan_Ahn_Chang_Ho,_picking_oranges_in_Southern_California.jpg",
+      "license": "Public Domain",
+      "license_evidence": "촬영·공표가 도산 동시대(1938 이전)로 한국(사망/공표 후 70년)·미국(1930 이전 공표 95년) 요건 충족",
+      "caption": "남캘리포니아의 오렌지 농장에서 오렌지를 따는 안창호로 전해지는 사진(1910년경). 안창호는 1904년 3월 리버사이드로 이주해 한인 노동자들과 오렌지 농장에서 일했다. [ref:ref-007][ref:ref-002]",
+      "credit": "출처: 위키미디어 커먼즈",
+      "slots": [
+        "img-home-02"
+      ],
+      "used_pages": [
+        "gallery",
+        "home",
+        "life"
+      ],
+      "notes": "캡션 사실 회부 반영(copy-editor 2026-06-06) 후 team-lead 지시로 B등급 사실(clm-0053 리버사이드 이주) 정박 보강 — D등급 일화(clm-0285)는 캡션·갤러리 전면 배제, archives 메타 주장 링크도 금지(명세상 캡션은 사실 기술 전용)"
+    },
+    {
+      "id": "dosan-surveillance-card",
+      "file": "nd1930s_dosan_surveillance_card.webp",
+      "original_file": "nd1930s_dosan_surveillance_card.jpg",
+      "title": "일제 주요감시대상 인물카드 — 안창호",
+      "date": "1930s",
+      "date_precision": "circa",
+      "depicted": [
+        "안창호"
+      ],
+      "place": "서울",
+      "period": "P7",
+      "type": "document",
+      "source_org": "위키미디어 커먼즈",
+      "source_url": "https://commons.wikimedia.org/wiki/File:등록문화재_제730호-일제_주요감시대상_인물카드_-_안창호.jpg",
+      "license": "Public Domain",
+      "license_evidence": "일제 관헌 작성 기록물(1930년대) — 보호기간 만료. 국가등록문화재 제730호군(일제 주요감시대상 인물카드)",
+      "caption": "일제 경찰이 작성한 주요감시대상 인물카드의 안창호 카드. 수감 시기에 촬영된 사진이 부착되어 있다. 국가등록문화재로 등록된 인물카드군에 속한다.",
+      "credit": "출처: 위키미디어 커먼즈",
+      "slots": [
+        "img-life-13",
+        "img-arc-04",
+        "img-home-04"
+      ],
+      "used_pages": [
+        "archives",
+        "gallery",
+        "home",
+        "life"
+      ],
+      "notes": "카드 부착 사진의 정확한 촬영일(1932 또는 1937-11-10, clm-0221)은 카드 원문 확인 전이므로 캡션에서 단정하지 않음"
+    },
+    {
+      "id": "dosan-family-1917",
+      "file": "1917_ahn_family_la.webp",
+      "original_file": "1917_ahn_family_la.jpg",
+      "title": "안창호 가족 사진 (1917)",
+      "date": "1917",
+      "date_precision": "year",
+      "depicted": [
+        "안창호",
+        "이혜련",
+        "안필립",
+        "안필선",
+        "안수산",
+        "안수라"
+      ],
+      "place": "로스앤젤레스",
+      "period": "P4",
+      "type": "group_photo",
+      "source_org": "위키미디어 커먼즈",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Ahn_Changho_(Ahn_Chang-ho,_안창호,_安昌浩)%27s_family,_1917.jpg",
+      "license": "Public Domain",
+      "license_evidence": "촬영·공표가 도산 동시대(1938 이전)로 한국(사망/공표 후 70년)·미국(1930 이전 공표 95년) 요건 충족. 20세기 중 전기·전집류에 광고 표시 없이 거듭 공표",
+      "caption": "1917년 로스앤젤레스에서 촬영된 안창호 가족. 안창호·이혜련 부부와 필립·필선·수산, 그리고 그해 태어난 수라가 함께했다.",
+      "credit": "출처: 위키미디어 커먼즈",
+      "slots": [
+        "img-ppl-02"
+      ],
+      "used_pages": [
+        "gallery",
+        "life",
+        "people"
+      ],
+      "notes": "img-ppl-02 정본 — content-architect 판정(2026-06-06): ppl-01 겸용 해제"
+    },
+    {
+      "id": "dosan-jaisohn-1925",
+      "file": "1925_dosan_jaisohn.webp",
+      "original_file": "1925_dosan_jaisohn.png",
+      "title": "서재필과 안창호 (1925)",
+      "date": "1925",
+      "date_precision": "year",
+      "depicted": [
+        "서재필",
+        "안창호"
+      ],
+      "place": "미국",
+      "period": "P6",
+      "type": "group_photo",
+      "source_org": "위키미디어 커먼즈",
+      "source_url": "https://commons.wikimedia.org/wiki/File:1925_philp_jaison_and_Dosan_Ahn_Changho.png",
+      "license": "Public Domain",
+      "license_evidence": "촬영·공표가 도산 동시대(1938 이전)로 한국(사망/공표 후 70년)·미국(1930 이전 공표 95년) 요건 충족",
+      "caption": "1925년 미주 재방문 시기에 서재필과 함께한 안창호.",
+      "credit": "출처: 위키미디어 커먼즈",
+      "slots": [
+        "img-life-11"
+      ],
+      "used_pages": [
+        "gallery",
+        "life"
+      ]
+    },
+    {
+      "id": "dosan-sonjungdo-1919",
+      "file": "1919_dosan_sonjungdo_birthday.webp",
+      "original_file": "1919_dosan_sonjungdo_birthday.jpg",
+      "title": "안창호와 손정도 (1919, 상하이)",
+      "date": "1919-11-09",
+      "date_precision": "day",
+      "depicted": [
+        "안창호",
+        "손정도"
+      ],
+      "place": "상하이",
+      "period": "P5",
+      "type": "group_photo",
+      "source_org": "위키미디어 커먼즈",
+      "source_url": "https://commons.wikimedia.org/wiki/File:상해에서_안창호의_생일을_기념하여_손정도와_기념_촬영.jpg",
+      "license": "Public Domain",
+      "license_evidence": "촬영·공표가 도산 동시대(1938 이전)로 한국(사망/공표 후 70년)·미국(1930 이전 공표 95년) 요건 충족",
+      "caption": "1919년 11월 9일 상하이에서 안창호의 생일을 기념해 손정도와 함께 촬영한 것으로 전해지는 사진(국사편찬위원회 전자사료관 기재 기준).",
+      "credit": "출처: 위키미디어 커먼즈",
+      "slots": [],
+      "used_pages": [
+        "gallery"
+      ]
+    },
+    {
+      "id": "dosan-yeo-cho-1935",
+      "file": "1935_dosan_yeo_cho_mansik.webp",
+      "original_file": "1935_dosan_yeo_cho_mansik.jpg",
+      "title": "여운형·안창호·조만식 (1935)",
+      "date": "1935",
+      "date_precision": "year",
+      "depicted": [
+        "여운형",
+        "안창호",
+        "조만식"
+      ],
+      "place": "서울",
+      "period": "P7",
+      "type": "group_photo",
+      "source_org": "한국어 위키백과 (몽양여운형선생기념사업회 제공본)",
+      "source_url": "https://ko.wikipedia.org/wiki/파일:안창호선생_말년.jpg",
+      "license": "Public Domain",
+      "license_evidence": "촬영 1935년(가출옥 직후) — 구 저작권법상 사진저작물 보호기간(공표 후 10년) 만료, 1996-01-01 기준 한국 PD로 URAA 회복 없음",
+      "caption": "1935년 대전형무소 가출옥 직후의 안창호(가운데). 왼쪽은 여운형, 오른쪽은 조만식이다.",
+      "credit": "출처: 몽양여운형선생기념사업회",
+      "slots": [],
+      "used_pages": [
+        "gallery",
+        "life",
+        "people"
+      ]
+    },
+    {
+      "id": "heungsadan-1915",
+      "file": "1915_heungsadan_2nd_convention_sf.webp",
+      "original_file": "1915_heungsadan_2nd_convention_sf.jpg",
+      "title": "흥사단 제2회 연례대회 (1915, 샌프란시스코)",
+      "date": "1915",
+      "date_precision": "year",
+      "depicted": [
+        "미상"
+      ],
+      "place": "샌프란시스코",
+      "period": "P4",
+      "type": "group_photo",
+      "source_org": "위키미디어 커먼즈",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Hungsadan_meeting_(2nd_-_1915_-_San_Francisco,_Calif.)_(KADA-KapsukCho-037).jpg",
+      "license": "Public Domain",
+      "license_evidence": "미국 내 1930년 이전 공표물(공표 후 95년 경과)·작자 미상 — 한·미 모두 PD. USC KADA 경유 커먼즈 등재",
+      "caption": "1915년 샌프란시스코에서 열린 흥사단 제2회 연례대회 단체 사진. USC 한인 디지털 아카이브 소장본이다.",
+      "credit": "출처: 위키미디어 커먼즈",
+      "slots": [
+        "img-life-08"
+      ],
+      "used_pages": [
+        "gallery",
+        "life",
+        "organizations"
+      ]
+    },
+    {
+      "id": "heungsadan-1916",
+      "file": "1916_heungsadan_3rd_convention_la.webp",
+      "original_file": "1916_heungsadan_3rd_convention_la.jpg",
+      "title": "흥사단 제3회 연례대회 (1916, 로스앤젤레스)",
+      "date": "1916-12-30",
+      "date_precision": "day",
+      "depicted": [
+        "미상"
+      ],
+      "place": "로스앤젤레스",
+      "period": "P4",
+      "type": "group_photo",
+      "source_org": "위키미디어 커먼즈",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Hungsadan_meeting_(3rd_-_1916_-_Los_Angeles,_Calif.)_(KADA-Ohmarsha021).jpg",
+      "license": "Public Domain",
+      "license_evidence": "미국 내 1930년 이전 공표물(공표 후 95년 경과)·작자 미상 — 한·미 모두 PD. USC KADA 경유 커먼즈 등재",
+      "caption": "1916년 12월 30일 로스앤젤레스에서 열린 흥사단 제3회 연례대회 단체 사진.",
+      "credit": "출처: 위키미디어 커먼즈",
+      "slots": [
+        "img-org-06",
+        "img-phil-01"
+      ],
+      "used_pages": [
+        "gallery",
+        "organizations",
+        "philosophy"
+      ]
+    },
+    {
+      "id": "heungsadan-1918",
+      "file": "1918_heungsadan_5th_convention_la.webp",
+      "original_file": "1918_heungsadan_5th_convention_la.jpg",
+      "title": "흥사단 제5회 연례대회 (1918, 로스앤젤레스)",
+      "date": "1918",
+      "date_precision": "year",
+      "depicted": [
+        "미상"
+      ],
+      "place": "로스앤젤레스",
+      "period": "P4",
+      "type": "group_photo",
+      "source_org": "위키미디어 커먼즈",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Hungsadan_meeting_(5th_-_1918_-_Los_Angeles,_Calif.)_(KADA-ahnph-008).jpg",
+      "license": "Public Domain",
+      "license_evidence": "미국 내 1930년 이전 공표물(공표 후 95년 경과)·작자 미상 — 한·미 모두 PD. USC KADA 경유 커먼즈 등재",
+      "caption": "1918년 로스앤젤레스에서 열린 흥사단 제5회 연례대회 파노라마 사진.",
+      "credit": "출처: 위키미디어 커먼즈",
+      "slots": [],
+      "used_pages": [
+        "gallery",
+        "organizations"
+      ]
+    },
+    {
+      "id": "heungsadan-1920",
+      "file": "1920_heungsadan_7th_convention_sf.webp",
+      "original_file": "1920_heungsadan_7th_convention_sf.jpg",
+      "title": "흥사단 제7회 연례대회 (1920, 샌프란시스코)",
+      "date": "1920-12-29",
+      "date_precision": "day",
+      "depicted": [
+        "미상"
+      ],
+      "place": "샌프란시스코",
+      "period": "P5",
+      "type": "group_photo",
+      "source_org": "위키미디어 커먼즈",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Hungsadan_meeting_(7th_-_1920_-_San_Francisco,_Calif.)_(KADA-hahns978).jpg",
+      "license": "Public Domain",
+      "license_evidence": "미국 내 1930년 이전 공표물(공표 후 95년 경과)·작자 미상 — 한·미 모두 PD. USC KADA 경유 커먼즈 등재",
+      "caption": "1920년 12월 29일 샌프란시스코에서 열린 흥사단 제7회 연례대회 파노라마 사진.",
+      "credit": "출처: 위키미디어 커먼즈",
+      "slots": [],
+      "used_pages": [
+        "gallery",
+        "organizations"
+      ]
+    },
+    {
+      "id": "heungsadan-1916-alt1",
+      "file": "1916_heungsadan_convention_alt1.webp",
+      "original_file": "1916_heungsadan_convention_alt1.jpg",
+      "title": "흥사단 연례대회 (1916) — 다른 컷",
+      "date": "1916",
+      "date_precision": "year",
+      "depicted": [
+        "미상"
+      ],
+      "place": "로스앤젤레스",
+      "period": "P4",
+      "type": "group_photo",
+      "source_org": "위키미디어 커먼즈",
+      "source_url": "https://commons.wikimedia.org/wiki/File:1916_Heungsadan%27s_annual_convention.jpg",
+      "license": "Public Domain",
+      "license_evidence": "촬영·공표가 도산 동시대(1938 이전)로 한국(사망/공표 후 70년)·미국(1930 이전 공표 95년) 요건 충족",
+      "caption": "1916년 흥사단 연례대회의 다른 컷.",
+      "credit": "출처: 위키미디어 커먼즈",
+      "slots": [],
+      "used_pages": [
+        "gallery"
+      ]
+    },
+    {
+      "id": "heungsadan-1916-alt2",
+      "file": "1916_heungsadan_convention_alt2.webp",
+      "original_file": "1916_heungsadan_convention_alt2.jpg",
+      "title": "흥사단 연례대회 (1916) — 단체 기념",
+      "date": "1916",
+      "date_precision": "year",
+      "depicted": [
+        "미상"
+      ],
+      "place": "로스앤젤레스",
+      "period": "P4",
+      "type": "group_photo",
+      "source_org": "위키미디어 커먼즈",
+      "source_url": "https://commons.wikimedia.org/wiki/File:1916_Heungsadan%27s_annual_convention_2.jpg",
+      "license": "Public Domain",
+      "license_evidence": "촬영·공표가 도산 동시대(1938 이전)로 한국(사망/공표 후 70년)·미국(1930 이전 공표 95년) 요건 충족",
+      "caption": "1916년 흥사단 연례대회 단체 기념 사진.",
+      "credit": "출처: 위키미디어 커먼즈",
+      "slots": [],
+      "used_pages": [
+        "gallery"
+      ]
+    },
+    {
+      "id": "heungsadan-fareast-1920",
+      "file": "1920_heungsadan_far_east_founding.webp",
+      "original_file": "1920_heungsadan_far_east_founding.jpg",
+      "title": "흥사단 원동임시위원부 성립 기념 (1920)",
+      "date": "1920",
+      "date_precision": "year",
+      "depicted": [
+        "미상"
+      ],
+      "place": "상하이",
+      "period": "P5",
+      "type": "group_photo",
+      "source_org": "위키미디어 커먼즈",
+      "source_url": "https://commons.wikimedia.org/wiki/File:흥사단_원동임시위원부_성립기념1920.jpg",
+      "license": "Public Domain",
+      "license_evidence": "촬영·공표가 도산 동시대(1938 이전)로 한국(사망/공표 후 70년)·미국(1930 이전 공표 95년) 요건 충족",
+      "caption": "1920년 상하이에서 흥사단 원동임시위원부 성립을 기념해 촬영한 사진. 원본은 독립기념관 소장으로 전해진다.",
+      "credit": "출처: 위키미디어 커먼즈",
+      "slots": [],
+      "used_pages": [
+        "gallery",
+        "organizations"
+      ]
+    },
+    {
+      "id": "heungsadan-fareast-1921",
+      "file": "1921_heungsadan_far_east_members.webp",
+      "original_file": "1921_heungsadan_far_east_members.png",
+      "title": "흥사단 원동위원부 단우들 (1921)",
+      "date": "1921",
+      "date_precision": "year",
+      "depicted": [
+        "미상"
+      ],
+      "place": "상하이",
+      "period": "P5",
+      "type": "group_photo",
+      "source_org": "위키미디어 커먼즈",
+      "source_url": "https://commons.wikimedia.org/wiki/File:흥사단_원동위원부.png",
+      "license": "Public Domain",
+      "license_evidence": "촬영·공표가 도산 동시대(1938 이전)로 한국(사망/공표 후 70년)·미국(1930 이전 공표 95년) 요건 충족. 이광수전집 별권(1961) 수록 화보의 복제",
+      "caption": "1921년경 흥사단 원동위원부 단우들. 상하이의 원동위원부에는 이광수가 입단한 것으로 전해진다.",
+      "credit": "출처: 위키미디어 커먼즈",
+      "slots": [],
+      "used_pages": [
+        "gallery"
+      ],
+      "notes": "캡션 사실 회부 반영 — copy-editor 회부(2026-06-06) 5건 중 1건"
+    },
+    {
+      "id": "heungsadan-office",
+      "file": "nd1910s_heungsadan_early_office.webp",
+      "original_file": "nd1910s_heungsadan_early_office.jpg",
+      "title": "흥사단 초창기 단소",
+      "date": "1910s-1920s",
+      "date_precision": "circa",
+      "depicted": [],
+      "place": "로스앤젤레스",
+      "period": "P4",
+      "type": "place",
+      "source_org": "위키미디어 커먼즈",
+      "source_url": "https://commons.wikimedia.org/wiki/File:흥사단초창기_단소.jpg",
+      "license": "CC BY-SA 4.0 (등재 라이선스)",
+      "license_evidence": "커먼즈 등재 라이선스 CC BY-SA 4.0(흥사단 계정 업로드). 피사체인 당대 사진 원본 자체는 작자 미상·동시대 공표로 PD 추정",
+      "caption": "흥사단기가 걸린 초창기 단소(團所) 건물. 미주 흥사단의 초기 거점이다.",
+      "credit": "출처: 위키미디어 커먼즈",
+      "slots": [],
+      "used_pages": [
+        "gallery"
+      ]
+    },
+    {
+      "id": "kpg-newyear-1920",
+      "file": "1920_kpg_newyear_commemoration.webp",
+      "original_file": "1920_kpg_newyear_commemoration.jpg",
+      "title": "임시정부 신년축하회 기념 (1920)",
+      "date": "1920-01-01",
+      "date_precision": "day",
+      "depicted": [
+        "안창호",
+        "미상"
+      ],
+      "place": "상하이",
+      "period": "P5",
+      "type": "group_photo",
+      "source_org": "위키미디어 커먼즈",
+      "source_url": "https://commons.wikimedia.org/wiki/File:After_First_New-year_Commemoration_of_Provisional_Government_of_the_Republic_of_Korea_(1st_January_1920).jpg",
+      "license": "Public Domain",
+      "license_evidence": "촬영·공표가 도산 동시대(1938 이전)로 한국(사망/공표 후 70년)·미국(1930 이전 공표 95년) 요건 충족. 국사편찬위 전자사료관 소장본의 커먼즈 등재",
+      "caption": "1920년 1월 1일 대한민국임시정부 신년축하회 기념 사진. 안창호가 육대사 연설을 한 신년축하회와 같은 시기의 기록이다.",
+      "credit": "출처: 위키미디어 커먼즈",
+      "slots": [
+        "img-life-09",
+        "img-home-03"
+      ],
+      "used_pages": [
+        "gallery",
+        "home",
+        "life",
+        "organizations"
+      ],
+      "notes": "캡션 사실 회부 반영 — copy-editor 회부(2026-06-06) 5건 중 1건"
+    },
+    {
+      "id": "kpg-cabinet-1919",
+      "file": "1919_kpg_cabinet_october.webp",
+      "original_file": "1919_kpg_cabinet_october.jpg",
+      "title": "임시정부 국무원 기념 사진 (1919)",
+      "date": "1919-10-11",
+      "date_precision": "day",
+      "depicted": [
+        "안창호",
+        "신익희",
+        "현순",
+        "미상"
+      ],
+      "place": "상하이",
+      "period": "P5",
+      "type": "group_photo",
+      "source_org": "위키미디어 커먼즈",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Provisional_Government_of_the_Republic_of_Korea.jpg",
+      "license": "Public Domain",
+      "license_evidence": "촬영·공표가 도산 동시대(1938 이전)로 한국(사망/공표 후 70년)·미국(1930 이전 공표 95년) 요건 충족",
+      "caption": "1919년 10월 11일 촬영된 대한민국임시정부 국무원 기념 사진. 앞줄 가운데가 안창호다.",
+      "credit": "출처: 위키미디어 커먼즈",
+      "slots": [
+        "img-ppl-04"
+      ],
+      "used_pages": [
+        "gallery",
+        "life",
+        "organizations",
+        "people"
+      ]
+    },
+    {
+      "id": "kpg-assembly-1919",
+      "file": "1919_provisional_assembly_6th.webp",
+      "original_file": "1919_provisional_assembly_6th.jpg",
+      "title": "제6차 임시의정원 폐원식 (1919)",
+      "date": "1919-09-17",
+      "date_precision": "day",
+      "depicted": [
+        "안창호",
+        "미상"
+      ],
+      "place": "상하이",
+      "period": "P5",
+      "type": "group_photo",
+      "source_org": "위키미디어 커먼즈",
+      "source_url": "https://commons.wikimedia.org/wiki/File:1919년_임시의정원.jpg",
+      "license": "Public Domain",
+      "license_evidence": "촬영·공표가 도산 동시대(1938 이전)로 한국(사망/공표 후 70년)·미국(1930 이전 공표 95년) 요건 충족",
+      "caption": "1919년 9월 17일 제6차 임시의정원 폐원식 기념 사진. 통합 임시정부 출범 직후의 기록이다.",
+      "credit": "출처: 위키미디어 커먼즈",
+      "slots": [],
+      "used_pages": [
+        "gallery",
+        "life",
+        "organizations"
+      ]
+    },
+    {
+      "id": "kpg-group-1921",
+      "file": "1921_kpg_group_shanghai.webp",
+      "original_file": "1921_kpg_group_shanghai.jpg",
+      "title": "임시정부 요인들 (1921, 상하이)",
+      "date": "1921-01-01",
+      "date_precision": "day",
+      "depicted": [
+        "안창호",
+        "미상"
+      ],
+      "place": "상하이",
+      "period": "P5",
+      "type": "group_photo",
+      "source_org": "위키미디어 커먼즈",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Provisional_Government_of_the_Republic_of_Korea_1921.jpg",
+      "license": "Public Domain",
+      "license_evidence": "촬영·공표가 도산 동시대(1938 이전)로 한국(사망/공표 후 70년)·미국(1930 이전 공표 95년) 요건 충족. 국사편찬위 전자사료관 소장본의 커먼즈 등재",
+      "caption": "1921년 1월 1일 상하이에서 촬영된 대한민국임시정부 및 임시의정원 신년축하 기념 사진.",
+      "credit": "출처: 위키미디어 커먼즈",
+      "slots": [],
+      "used_pages": [
+        "gallery",
+        "organizations"
+      ]
+    },
+    {
+      "id": "dongnip-first-1919",
+      "file": "1919_dongnip_first_issue.webp",
+      "original_file": "1919_dongnip_first_issue.jpg",
+      "title": "독립신문 창간호 (『獨立』, 1919-08-21)",
+      "date": "1919-08-21",
+      "date_precision": "day",
+      "depicted": [],
+      "place": "상하이",
+      "period": "P5",
+      "type": "newspaper",
+      "source_org": "위키미디어 커먼즈",
+      "source_url": "https://commons.wikimedia.org/wiki/File:獨立.jpg",
+      "license": "Public Domain",
+      "license_evidence": "1919년 공표된 신문 지면 — 보호기간 만료",
+      "caption": "1919년 8월 21일 『독립(獨立)』 제호로 창간된 임시정부 기관지의 창간호 지면. 제호는 제22호까지 『독립』이었고 이후 『독립신문』으로 바뀌었다.",
+      "credit": "출처: 위키미디어 커먼즈",
+      "slots": [
+        "img-org-07"
+      ],
+      "used_pages": [
+        "archives",
+        "gallery",
+        "organizations",
+        "philosophy"
+      ],
+      "notes": "저해상(180x258) — 고해상 대체 후보: dongnip-no30-1919 / 캡션 사실 회부 반영 — copy-editor 회부(2026-06-06) 5건 중 1건"
+    },
+    {
+      "id": "dongnip-no30-1919",
+      "file": "1919_dongnipsinmun_no30_jinkwansa.webp",
+      "original_file": "1919_dongnipsinmun_no30_jinkwansa.jpg",
+      "title": "독립신문 제30호 (진관사 소장본)",
+      "date": "1919",
+      "date_precision": "year",
+      "depicted": [],
+      "place": "상하이 발행",
+      "period": "P5",
+      "type": "newspaper",
+      "source_org": "위키미디어 커먼즈",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Tongnip_Sinmun_No._30.jpg",
+      "license": "CC BY-SA 4.0 (촬영본 등재 라이선스)",
+      "license_evidence": "서울 진관사 칠성각에서 발견된 독립신문류(국가등록문화재)의 촬영본 — 촬영자가 CC BY-SA 4.0로 공개. 지면 원본(1919)은 보호기간 만료",
+      "caption": "서울 진관사에서 발견된 상하이판 독립신문 제30호(1919). 안창호의 '육대사' 연설은 이 신문에 1920년 1월 연재되었다 — 사진은 연재 게재호가 아닌 제30호다. 일제강점기 사찰에 숨겨져 보존된 독립신문류는 국가등록문화재로 지정되어 있다.",
+      "credit": "출처: 위키미디어 커먼즈",
+      "slots": [
+        "img-arc-05",
+        "img-phil-03"
+      ],
+      "used_pages": [
+        "archives",
+        "gallery",
+        "organizations",
+        "philosophy"
+      ],
+      "notes": "img-phil-03 대체 충족 — content-architect 승인(2026-06-06), 게재호 아님 캡션 명기 의무 이행"
+    },
+    {
+      "id": "sinhanminbo-first-1909",
+      "file": "1909_sinhanminbo_first_issue.webp",
+      "original_file": "1909_sinhanminbo_first_issue.jpg",
+      "title": "신한민보 창간호 (1909-02-10)",
+      "date": "1909-02-10",
+      "date_precision": "day",
+      "depicted": [],
+      "place": "샌프란시스코",
+      "period": "P3",
+      "type": "newspaper",
+      "source_org": "위키미디어 커먼즈",
+      "source_url": "https://commons.wikimedia.org/wiki/File:신한민보_창간호.jpg",
+      "license": "Public Domain",
+      "license_evidence": "1909년 미국 공표 신문 지면(1930년 이전 공표 — 공표 후 95년 경과)·한국 기준도 만료",
+      "caption": "1909년 2월 10일 샌프란시스코에서 발행된 신한민보 창간호 지면. 공립협회 기관지 공립신보의 지령(제118호까지)을 이어 제119호부터 신한민보로 개제되었다. [ref:ref-055][ref:ref-056]",
+      "credit": "출처: 위키미디어 커먼즈",
+      "slots": [
+        "img-org-03"
+      ],
+      "used_pages": [
+        "archives",
+        "gallery",
+        "life",
+        "organizations"
+      ],
+      "notes": "승계 캡션 문형·[ref:ref-055][ref:ref-056] 부착 — content-architect 지시(2026-06-06). org-03 배정 유지(life-05는 공립협회 사진이 정본)"
+    },
+    {
+      "id": "sinhanminbo-office-1911",
+      "file": "1911_sinhanminbo_office_sf.webp",
+      "original_file": "1911_sinhanminbo_office_sf.jpg",
+      "title": "신한민보 사옥 (1911, 샌프란시스코)",
+      "date": "1911",
+      "date_precision": "year",
+      "depicted": [
+        "미상"
+      ],
+      "place": "샌프란시스코",
+      "period": "P4",
+      "type": "place",
+      "source_org": "위키미디어 커먼즈",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sinhan_Minbo_offices,_San_Francisco_(KADA-ChungA010a).jpg",
+      "license": "Public Domain",
+      "license_evidence": "촬영·공표가 도산 동시대(1938 이전)로 한국(사망/공표 후 70년)·미국(1930 이전 공표 95년) 요건 충족. USC KADA 경유 커먼즈 등재",
+      "caption": "1911년 샌프란시스코의 신한민보 사옥 앞에서 촬영된 사진.",
+      "credit": "출처: 위키미디어 커먼즈",
+      "slots": [],
+      "used_pages": [
+        "gallery",
+        "organizations"
+      ]
+    },
+    {
+      "id": "daehanmaeil-1904",
+      "file": "1904_daehanmaeilsinbo_first_issue.webp",
+      "original_file": "1904_daehanmaeilsinbo_first_issue.jpg",
+      "title": "대한매일신보 창간호 (1904)",
+      "date": "1904",
+      "date_precision": "year",
+      "depicted": [],
+      "place": "서울",
+      "period": "P2",
+      "type": "newspaper",
+      "source_org": "위키미디어 커먼즈",
+      "source_url": "https://commons.wikimedia.org/wiki/File:대한매일신보_창간호.jpg",
+      "license": "Public Domain",
+      "license_evidence": "1904년 공표 신문 지면 — 보호기간 만료. 국립중앙도서관 소장본",
+      "caption": "1904년 창간된 대한매일신보의 창간호 지면. 신민회 창건위원 양기탁이 주필로 활동한 신문이다.",
+      "credit": "출처: 위키미디어 커먼즈",
+      "slots": [],
+      "used_pages": [
+        "gallery"
+      ]
+    },
+    {
+      "id": "dongnipsinmun-1899",
+      "file": "1899_dongnipsinmun_vol4_no108.webp",
+      "original_file": "1899_dongnipsinmun_vol4_no108.jpg",
+      "title": "독립신문 제4권 108호 (1899, 서재필 창간)",
+      "date": "1899-05-16",
+      "date_precision": "day",
+      "depicted": [],
+      "place": "서울",
+      "period": "P1",
+      "type": "newspaper",
+      "source_org": "국립중앙박물관 (e뮤지엄)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:독립신문_제4권_108호.jpg",
+      "license": "공공누리 제1유형",
+      "license_evidence": "국립중앙박물관 e뮤지엄 등재본 — 공공누리 제1유형(출처표시). 지면 원본(1899)은 보호기간 만료",
+      "caption": "1899년 5월 16일자 독립신문(제4권 108호). 서재필이 1896년 창간한 우리나라 최초의 순한글 신문으로, 독립협회 활동기의 안창호가 접한 매체다.",
+      "credit": "출처: 국립중앙박물관",
+      "slots": [],
+      "used_pages": [
+        "gallery"
+      ]
+    },
+    {
+      "id": "kdp-declaration-1930",
+      "file": "1930_kdp_founding_declaration.webp",
+      "original_file": "1930_kdp_founding_declaration.jpg",
+      "title": "한국독립당 창립 기념 선언 (1930)",
+      "date": "1930",
+      "date_precision": "year",
+      "depicted": [],
+      "place": "상하이",
+      "period": "P6",
+      "type": "document",
+      "source_org": "위키미디어 커먼즈",
+      "source_url": "https://commons.wikimedia.org/wiki/File:한국독립당_창립기념_선언.jpg",
+      "license": "CC BY-SA 4.0 (촬영본 등재 라이선스)",
+      "license_evidence": "전시·소장 문서의 촬영본 — 촬영자가 CC BY-SA 4.0로 공개. 문서 원본(1930)은 보호기간 만료",
+      "caption": "1930년 상하이에서 결성된 한국독립당의 창립 기념 선언 문서. 안창호는 김구 등과 함께 창당에 참여했다.",
+      "credit": "출처: 위키미디어 커먼즈",
+      "slots": [
+        "img-life-12",
+        "img-org-10"
+      ],
+      "used_pages": [
+        "gallery",
+        "life",
+        "organizations"
+      ]
+    },
+    {
+      "id": "kna-receipt",
+      "file": "nd1910s_kna_duty_fee_receipt.webp",
+      "original_file": "nd1910s_kna_duty_fee_receipt.jpg",
+      "title": "대한인국민회 의무금 영수증",
+      "date": "1910s",
+      "date_precision": "circa",
+      "depicted": [],
+      "place": "미주",
+      "period": "P4",
+      "type": "document",
+      "source_org": "위키미디어 커먼즈",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Korean_National_Association_Duty_Fee.jpg",
+      "license": "Public Domain",
+      "license_evidence": "대한인국민회 명의 문서(1910년대) — 단체명의 저작물 공표 후 70년 경과·미국 1930년 이전 공표",
+      "caption": "대한인국민회의 의무금 영수증. 미주 한인들이 낸 의무금은 국민회 운영과 독립운동 자금의 기반이 되었다.",
+      "credit": "출처: 위키미디어 커먼즈",
+      "slots": [
+        "img-org-05"
+      ],
+      "used_pages": [
+        "gallery",
+        "organizations"
+      ]
+    },
+    {
+      "id": "kimransa-letter",
+      "file": "nd1910s_kim_ransa_letter.webp",
+      "original_file": "nd1910s_kim_ransa_letter.jpg",
+      "title": "김란사가 안창호에게 보낸 편지",
+      "date": "1900s-1910s",
+      "date_precision": "circa",
+      "depicted": [],
+      "place": "서울교육박물관 전시",
+      "period": "P3",
+      "type": "document",
+      "source_org": "위키미디어 커먼즈",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Kim_Ransa%27s_letter_to_Ahn_Chang_Ho_in_the_Seoul_Education_Museum.jpg",
+      "license": "CC BY 4.0 (촬영본)",
+      "license_evidence": "박물관 전시 문서의 촬영본 — 촬영자 Motoko C. K.가 CC BY 4.0로 공개. 편지 원본은 보호기간 만료(김란사 1919 사망)",
+      "caption": "여성 교육자 김란사(金蘭史)가 안창호에게 보낸 편지(서울교육박물관 전시).",
+      "credit": "출처: 위키미디어 커먼즈",
+      "slots": [],
+      "used_pages": [
+        "gallery"
+      ]
+    },
+    {
+      "id": "manmin-1898",
+      "file": "1898_manmin_gongdonghoe.webp",
+      "original_file": "1898_manmin_gongdonghoe.jpg",
+      "title": "만민공동회 (1898)",
+      "date": "1898",
+      "date_precision": "year",
+      "depicted": [
+        "미상"
+      ],
+      "place": "서울",
+      "period": "P1",
+      "type": "photo",
+      "source_org": "위키미디어 커먼즈",
+      "source_url": "https://commons.wikimedia.org/wiki/File:People%27s_Joint_Association.jpg",
+      "license": "Public Domain",
+      "license_evidence": "1898년 촬영 — 보호기간 만료. 국사편찬위원회 소장본의 커먼즈 등재",
+      "caption": "1898년 서울에서 열린 만민공동회. 안창호도 같은 해 서울 종로의 만민공동회 운동에 참여했다고 전해진다. [ref:ref-004][ref:ref-022]",
+      "credit": "출처: 위키미디어 커먼즈",
+      "slots": [],
+      "used_pages": [
+        "gallery",
+        "life"
+      ],
+      "notes": "캡션 사실 회부 반영 — copy-editor 회부(2026-06-06) 5건 중 1건"
+    },
+    {
+      "id": "independence-club-seal",
+      "file": "1896_independence_club_seal.webp",
+      "original_file": "1896_independence_club_seal.png",
+      "title": "독립협회 도장 (1896)",
+      "date": "1896",
+      "date_precision": "year",
+      "depicted": [],
+      "place": "서울",
+      "period": "P1",
+      "type": "artifact",
+      "source_org": "위키미디어 커먼즈",
+      "source_url": "https://commons.wikimedia.org/wiki/File:독립협회_도장.png",
+      "license": "Public Domain",
+      "license_evidence": "1896년 제작 인장의 인영 — 보호기간 만료",
+      "caption": "독립협회의 도장. 안창호는 1897년경 독립협회에 가입해 필대은과 함께 관서지부 설립에 참여했다.",
+      "credit": "출처: 위키미디어 커먼즈",
+      "slots": [],
+      "used_pages": [
+        "gallery"
+      ]
+    },
+    {
+      "id": "105incident-arrested",
+      "file": "1911_105incident_arrested.webp",
+      "original_file": "1911_105incident_arrested.jpg",
+      "title": "105인 사건 — 연행 (1911)",
+      "date": "1911",
+      "date_precision": "year",
+      "depicted": [
+        "미상"
+      ],
+      "place": "서울",
+      "period": "P3",
+      "type": "photo",
+      "source_org": "위키미디어 커먼즈",
+      "source_url": "https://commons.wikimedia.org/wiki/File:105_peoples_Incident.jpg",
+      "license": "Public Domain",
+      "license_evidence": "촬영·공표가 도산 동시대(1938 이전)로 한국(사망/공표 후 70년)·미국(1930 이전 공표 95년) 요건 충족",
+      "caption": "105인 사건으로 연행되는 피의자들(1911). 신민회 조직이 와해된 계기가 된 사건이다.",
+      "credit": "출처: 위키미디어 커먼즈",
+      "slots": [
+        "img-arc-03"
+      ],
+      "used_pages": [
+        "archives",
+        "gallery",
+        "organizations"
+      ]
+    },
+    {
+      "id": "105incident-trial",
+      "file": "1911_105incident_trial.webp",
+      "original_file": "1911_105incident_trial.jpg",
+      "title": "105인 사건 — 공판 (1911~12)",
+      "date": "1911",
+      "date_precision": "circa",
+      "depicted": [
+        "미상"
+      ],
+      "place": "서울",
+      "period": "P3",
+      "type": "photo",
+      "source_org": "위키미디어 커먼즈",
+      "source_url": "https://commons.wikimedia.org/wiki/File:105_persons_Incidents.jpg",
+      "license": "Public Domain",
+      "license_evidence": "촬영·공표가 도산 동시대(1938 이전)로 한국(사망/공표 후 70년)·미국(1930 이전 공표 95년) 요건 충족",
+      "caption": "105인 사건 공판정으로 향하는 피고인들. 양현혜 『윤치호와 김교신』(2009) 수록 도판의 원 사진이다.",
+      "credit": "출처: 위키미디어 커먼즈",
+      "slots": [],
+      "used_pages": [
+        "gallery"
+      ]
+    },
+    {
+      "id": "yang-prison-record-1919",
+      "file": "1919_yang_gitak_prison_record.webp",
+      "original_file": "1919_yang_gitak_prison_record.jpg",
+      "title": "양기탁 수형기록 (1919)",
+      "date": "1919-05-30",
+      "date_precision": "day",
+      "depicted": [
+        "양기탁"
+      ],
+      "place": "서울",
+      "period": "P5",
+      "type": "document",
+      "source_org": "위키미디어 커먼즈",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Yang_Gi-tak_(양기탁)_Prison_Record_(1919).jpg",
+      "license": "Public Domain",
+      "license_evidence": "일제 관헌 작성 수형기록(1919) — 보호기간 만료. 국사편찬위 한국사DB 등재본의 커먼즈 등재",
+      "caption": "신민회 창건위원 양기탁의 1919년 수형기록 카드. 일제 감시·수형 기록은 독립운동가 행적의 역설적 사료다.",
+      "credit": "출처: 위키미디어 커먼즈",
+      "slots": [],
+      "used_pages": [
+        "gallery"
+      ]
+    },
+    {
+      "id": "dosan-diary-1920",
+      "file": "1920_dosan_diary_heritage.webp",
+      "original_file": "1920_dosan_diary_heritage.jpg",
+      "title": "도산 안창호 일기 (1920~21)",
+      "date": "1920",
+      "date_precision": "range",
+      "depicted": [],
+      "place": "독립기념관 소장",
+      "period": "P5",
+      "type": "document",
+      "source_org": "국가유산청 국가유산포털",
+      "source_url": "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?VdkVgwKey=79,07210000,34",
+      "license": "공공누리 제1유형",
+      "license_evidence": "국가유산청 국가유산포털 등록문화유산 사진 DB — 공공누리 제1유형(출처표시). 일기 원본(1920~21, 안창호 1938 순국)은 보호기간 만료. 국가등록문화재 제721호",
+      "caption": "임시정부 시기 안창호의 활동을 기록한 『도산 안창호 일기』(1920년 1월~1921년 3월, 3책). 임시정부 용지에 작성되었으며 국가등록문화재 제721호로 등록되어 있다. 독립기념관 소장.",
+      "credit": "출처: 국가유산청 국가유산포털",
+      "slots": [
+        "img-arc-01"
+      ],
+      "used_pages": [
+        "archives",
+        "gallery"
+      ]
+    },
+    {
+      "id": "pyongyang-chilseong",
+      "file": "nd1900s_pyongyang_chilseongmun.webp",
+      "original_file": "nd1900s_pyongyang_chilseongmun.jpg",
+      "title": "평양 칠성문 (1900년대)",
+      "date": "1900s",
+      "date_precision": "circa",
+      "depicted": [],
+      "place": "평양",
+      "period": "P1",
+      "type": "place",
+      "source_org": "위키미디어 커먼즈",
+      "source_url": "https://commons.wikimedia.org/wiki/File:평양칠성문_(1900s).jpg",
+      "license": "Public Domain",
+      "license_evidence": "1900년대 사진첩(韓國風俗人物史跡名勝寫眞帖) 수록 — 보호기간 만료",
+      "caption": "1900년대 평양 칠성문 일대. 안창호가 유년기를 보내고 쾌재정 연설(1898)과 대성학교 설립(1908)으로 거듭 돌아온 도시다.",
+      "credit": "출처: 위키미디어 커먼즈",
+      "slots": [
+        "img-life-01"
+      ],
+      "used_pages": [
+        "gallery",
+        "life"
+      ]
+    },
+    {
+      "id": "taedong-ships-1900",
+      "file": "nd1900_taedong_river_ships.webp",
+      "original_file": "nd1900_taedong_river_ships.jpg",
+      "title": "대동강의 배와 유빙 (1900년경)",
+      "date": "1900",
+      "date_precision": "circa",
+      "depicted": [],
+      "place": "평양",
+      "period": "P1",
+      "type": "place",
+      "source_org": "위키미디어 커먼즈",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Ships_at_the_River_Tadong_Drifting_Ice_ca_1900.jpg",
+      "license": "Public Domain",
+      "license_evidence": "1900년경 발행 사진엽서 — 보호기간 만료",
+      "caption": "1900년경 대동강의 모습. 안창호가 태어난 도롱섬(강서)과 유년기 평양 생활의 무대가 된 강이다.",
+      "credit": "출처: 위키미디어 커먼즈",
+      "slots": [],
+      "used_pages": [
+        "gallery"
+      ]
+    },
+    {
+      "id": "taedong-view-1921",
+      "file": "1921_pyongyang_taedong_river.webp",
+      "original_file": "1921_pyongyang_taedong_river.png",
+      "title": "모란봉에서 본 대동강 (1921)",
+      "date": "1921",
+      "date_precision": "circa",
+      "depicted": [],
+      "place": "평양",
+      "period": "P1",
+      "type": "place",
+      "source_org": "위키미디어 커먼즈",
+      "source_url": "https://commons.wikimedia.org/wiki/File:View_of_taitong_river_from_peony_point_pyongyang.png",
+      "license": "Public Domain",
+      "license_evidence": "촬영·공표가 도산 동시대(1938 이전)로 한국(사망/공표 후 70년)·미국(1930 이전 공표 95년) 요건 충족",
+      "caption": "1921년경 모란봉에서 내려다본 대동강.",
+      "credit": "출처: 위키미디어 커먼즈",
+      "slots": [],
+      "used_pages": [
+        "gallery"
+      ],
+      "notes": "생애 1장 권장연대(1880s-1900s)와 불일치 — 보조 후보"
+    },
+    {
+      "id": "gwanghwamun-1880s",
+      "file": "nd1880s_seoul_gwanghwamun.webp",
+      "original_file": "nd1880s_seoul_gwanghwamun.jpg",
+      "title": "광화문 (1880년대 말)",
+      "date": "1880s",
+      "date_precision": "circa",
+      "depicted": [],
+      "place": "서울",
+      "period": "P1",
+      "type": "place",
+      "source_org": "위키미디어 커먼즈",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Gwanghwamun_(1880s).jpg",
+      "license": "Public Domain",
+      "license_evidence": "1880년대 말 촬영 — 보호기간 만료. 스미스소니언 국립인류학아카이브 소장",
+      "caption": "1880년대 말의 광화문 일대. 안창호가 1894~95년 무렵 상경해 처음 마주했을 서울의 풍경에 가깝다(상경 연도는 기록이 갈린다).",
+      "credit": "출처: 위키미디어 커먼즈",
+      "slots": [
+        "img-life-02"
+      ],
+      "used_pages": [
+        "gallery",
+        "life"
+      ],
+      "notes": "CQA-001 정정(team-lead 2026-06-06): 상경 연도 단정→양설 한정 문형(cfl 상경 1894/1895, style_guide R0.5)."
+    },
+    {
+      "id": "seoul-vos-1898",
+      "file": "1898_seoul_scenery_vos_painting.webp",
+      "original_file": "1898_seoul_scenery_vos_painting.jpg",
+      "title": "서울 풍경 (휘베르트 보스, 1898)",
+      "date": "1898",
+      "date_precision": "year",
+      "depicted": [],
+      "place": "서울",
+      "period": "P1",
+      "type": "artwork",
+      "source_org": "위키미디어 커먼즈",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Seoul_scenery-Hubert_Vos-1898.jpg",
+      "license": "Public Domain",
+      "license_evidence": "화가 휘베르트 보스(1855-1935) 1898년작 — 보호기간 만료",
+      "caption": "네덜란드계 화가 휘베르트 보스가 1898년 그린 서울 풍경. 구세학당 수학기 전후 서울의 모습을 전한다.",
+      "credit": "출처: 위키미디어 커먼즈",
+      "slots": [],
+      "used_pages": [
+        "gallery"
+      ]
+    },
+    {
+      "id": "riverside-1900s",
+      "file": "nd1900s_riverside_main_street.webp",
+      "original_file": "nd1900s_riverside_main_street.jpg",
+      "title": "리버사이드 메인스트리트 (1900년경)",
+      "date": "1900",
+      "date_precision": "circa",
+      "depicted": [],
+      "place": "리버사이드",
+      "period": "P2",
+      "type": "place",
+      "source_org": "위키미디어 커먼즈",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Riverside%27s_Main_Street,_ca.1900-1903_(CHS-1443).jpg",
+      "license": "Public Domain",
+      "license_evidence": "C.C. Pierce(1861-1946) 촬영, 1900~03년경 — 미국 1930년 이전 공표물. USC 디지털도서관 소장",
+      "caption": "1900~1903년경 캘리포니아 리버사이드의 메인스트리트. 안창호가 파차파 캠프를 중심으로 한인 노동 공동체를 꾸린 도시다.",
+      "credit": "출처: 위키미디어 커먼즈",
+      "slots": [],
+      "used_pages": [
+        "gallery",
+        "life"
+      ]
+    },
+    {
+      "id": "daesung-school",
+      "file": "nd1908_daesung_school.webp",
+      "original_file": "nd1908_daesung_school.png",
+      "title": "대성학교",
+      "date": "1908",
+      "date_precision": "circa",
+      "depicted": [],
+      "place": "평양",
+      "period": "P3",
+      "type": "place",
+      "source_org": "위키미디어 커먼즈",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Daesong_School.png",
+      "license": "Public Domain",
+      "license_evidence": "1908~12년경 촬영, 작자 미상 — 보호기간 만료. 『좌옹 윤치호 선생 약전』(1999) 수록 도판의 원 사진",
+      "caption": "안창호가 1908년 평양에 세운 대성학교. 신민회 교육 사업의 중심으로, 1912년 폐교될 때까지 민족 교육의 거점이었다.",
+      "credit": "출처: 위키미디어 커먼즈",
+      "slots": [
+        "img-life-06",
+        "img-org-04"
+      ],
+      "used_pages": [
+        "gallery",
+        "life",
+        "organizations"
+      ]
+    },
+    {
+      "id": "qingdao-1910s",
+      "file": "nd1910s_qingdao_seafront.webp",
+      "original_file": "nd1910s_qingdao_seafront.jpg",
+      "title": "칭다오 전경 (1910년대)",
+      "date": "1910s",
+      "date_precision": "circa",
+      "depicted": [],
+      "place": "칭다오",
+      "period": "P3",
+      "type": "place",
+      "source_org": "위키미디어 커먼즈",
+      "source_url": "https://commons.wikimedia.org/wiki/File:青岛前海远景1910年代.jpg",
+      "license": "Public Domain",
+      "license_evidence": "1910년대 발행 사진·엽서 — 보호기간 만료",
+      "caption": "1910년대 칭다오 앞바다 전경. 1910년 망명길의 안창호가 청도회의를 연 도시다.",
+      "credit": "출처: 위키미디어 커먼즈",
+      "slots": [
+        "img-life-07"
+      ],
+      "used_pages": [
+        "gallery",
+        "life"
+      ]
+    },
+    {
+      "id": "vladivostok-1910",
+      "file": "1910_vladivostok_harbor.webp",
+      "original_file": "1910_vladivostok_harbor.jpg",
+      "title": "블라디보스토크 항 (1910)",
+      "date": "1910",
+      "date_precision": "year",
+      "depicted": [],
+      "place": "블라디보스토크",
+      "period": "P3",
+      "type": "place",
+      "source_org": "위키미디어 커먼즈",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Vlagyivosztok_1910,_látkép_a_kikötőből_az_Aranyszarv-öböl_kijárata_felé._Stereophoto_Fortepan_95287.jpg",
+      "license": "Public Domain",
+      "license_evidence": "1910년 촬영 스테레오 사진(Fortepan 기증 컬렉션) — 보호기간 만료",
+      "caption": "1910년 블라디보스토크 항. 망명기 안창호가 거쳐 간 연해주 한인 사회의 관문이다.",
+      "credit": "출처: 위키미디어 커먼즈",
+      "slots": [],
+      "used_pages": [
+        "gallery"
+      ]
+    },
+    {
+      "id": "independence-gate-1923",
+      "file": "1923_independence_gate_keystone.webp",
+      "original_file": "1923_independence_gate_keystone.jpg",
+      "title": "독립문 (1923)",
+      "date": "1923-12",
+      "date_precision": "circa",
+      "depicted": [],
+      "place": "서울",
+      "period": "P5",
+      "type": "place",
+      "source_org": "위키미디어 커먼즈",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Independence_Gate,_Seoul,_1923_photograph_by_Keystone_View.jpg",
+      "license": "Public Domain",
+      "license_evidence": "Keystone View사 1923년 공표 사진 — 미국 1930년 이전 공표물(공표 후 95년 경과)",
+      "caption": "1923년 키스톤뷰사가 촬영한 서울 독립문. 독립협회가 1897년 세운 문으로, 협회 활동기에 안창호가 활동을 시작했다.",
+      "credit": "출처: 위키미디어 커먼즈",
+      "slots": [
+        "img-org-01"
+      ],
+      "used_pages": [
+        "gallery",
+        "organizations"
+      ]
+    },
+    {
+      "id": "seodaemun-prison",
+      "file": "nd1920s_seodaemun_prison.webp",
+      "original_file": "nd1920s_seodaemun_prison.jpg",
+      "title": "서대문형무소 (1920년대 이전)",
+      "date": "1920s",
+      "date_precision": "circa",
+      "depicted": [],
+      "place": "서울",
+      "period": "P7",
+      "type": "place",
+      "source_org": "위키미디어 커먼즈",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Seidaimon_Prison2.JPG",
+      "license": "Public Domain",
+      "license_evidence": "1924년 이전 촬영·공표 — 보호기간 만료",
+      "caption": "일제강점기의 서대문형무소. 안창호는 1932년과 1937년 두 차례 이곳에 수감되었다.",
+      "credit": "출처: 위키미디어 커먼즈",
+      "slots": [],
+      "used_pages": [
+        "gallery",
+        "life"
+      ]
+    },
+    {
+      "id": "daejeon-prison-tower",
+      "file": "nd_daejeon_prison_watchtower.webp",
+      "original_file": "nd_daejeon_prison_watchtower.jpg",
+      "title": "구 대전형무소 망루",
+      "date": "미상(현대)",
+      "date_precision": "unknown",
+      "depicted": [],
+      "place": "대전",
+      "period": "P7",
+      "type": "place",
+      "source_org": "국가유산청 국가유산포털",
+      "source_url": "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?pageNo=1_1_2_0&VdkVgwKey=31,00470000,25",
+      "license": "공공누리 제1유형",
+      "license_evidence": "국가유산청 문화재 사진 DB — 공공누리 제1유형(출처표시)",
+      "caption": "구 대전형무소 망루. 안창호는 1932년 12월부터 1935년 2월 가출옥까지 대전형무소에서 복역했다.",
+      "credit": "출처: 국가유산청 국가유산포털",
+      "slots": [],
+      "used_pages": [
+        "gallery"
+      ]
+    },
+    {
+      "id": "dosan-park-grave",
+      "file": "2011_dosan_park_grave.webp",
+      "original_file": "2011_dosan_park_grave.jpg",
+      "title": "도산공원 안창호·이혜련 합장 묘소",
+      "date": "2011-11-29",
+      "date_precision": "day",
+      "depicted": [],
+      "place": "서울 강남",
+      "period": "P8",
+      "type": "place",
+      "source_org": "위키미디어 커먼즈",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Dosan_Memorial_Park_-_Seoul,_South_Korea_-_DSC00422.JPG",
+      "license": "CC0",
+      "license_evidence": "촬영자가 CC0으로 공개한 현대 사진",
+      "caption": "서울 도산공원의 안창호·이혜련 합장 묘소. 1973년 망우리 공동묘지와 로스앤젤레스에서 각각 이장·환국해 합장되었다.",
+      "credit": "출처: 위키미디어 커먼즈",
+      "slots": [
+        "img-life-14"
+      ],
+      "used_pages": [
+        "gallery",
+        "life"
+      ]
+    },
+    {
+      "id": "dosan-memorial-hall",
+      "file": "2011_dosan_park_memorial_hall.webp",
+      "original_file": "2011_dosan_park_memorial_hall.jpg",
+      "title": "도산안창호기념관",
+      "date": "2011-11-29",
+      "date_precision": "day",
+      "depicted": [],
+      "place": "서울 강남",
+      "period": "P8",
+      "type": "place",
+      "source_org": "위키미디어 커먼즈",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Dosan_Memorial_Park_-_Seoul,_South_Korea_-_DSC00413.JPG",
+      "license": "CC0",
+      "license_evidence": "촬영자가 CC0으로 공개한 현대 사진",
+      "caption": "도산공원의 도산안창호기념관.",
+      "credit": "출처: 위키미디어 커먼즈",
+      "slots": [],
+      "used_pages": [
+        "gallery"
+      ]
+    },
+    {
+      "id": "dosan-memorial-1958",
+      "file": "1958_dosan_20th_memorial.webp",
+      "original_file": "1958_dosan_20th_memorial.jpg",
+      "title": "도산 안창호 선생 20주기 추모식 (1958)",
+      "date": "1958-03-10",
+      "date_precision": "day",
+      "depicted": [
+        "미상"
+      ],
+      "place": "서울",
+      "period": "P8",
+      "type": "photo",
+      "source_org": "한국정책방송원 (공유마당)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:도산_안창호_선생_20주기_추모식.jpg",
+      "license": "공공누리 제1유형",
+      "license_evidence": "한국정책방송원 제작 공공저작물 — 공유마당 공공누리 제1유형(출처표시)",
+      "caption": "1958년 3월 10일 열린 도산 안창호 선생 20주기 추모식.",
+      "credit": "출처: 한국정책방송원(공유마당)",
+      "slots": [
+        "img-life-15"
+      ],
+      "used_pages": [
+        "gallery",
+        "life"
+      ]
+    },
+    {
+      "id": "gongnip-members",
+      "file": "nd1905_gongnip_association_members.webp",
+      "original_file": "nd1905_gongnip_association_members.jpg",
+      "title": "공립협회 회원들 (1904~05년경)",
+      "date": "1904-1905",
+      "date_precision": "range",
+      "depicted": [
+        "안창호",
+        "미상"
+      ],
+      "place": "샌프란시스코·리버사이드 일대",
+      "period": "P2",
+      "type": "group_photo",
+      "source_org": "위키미디어 커먼즈",
+      "source_url": "https://commons.wikimedia.org/wiki/File:공립협회.jpg",
+      "license": "Public Domain",
+      "license_evidence": "촬영·공표가 도산 동시대(1938 이전)로 한국(사망/공표 후 70년)·미국(1930 이전 공표 95년) 요건 충족",
+      "caption": "공립협회 회원들. 앞줄 오른쪽이 안창호로 전해진다. 공립협회는 1905년 4월 샌프란시스코에서 창립된 미주 한인 단체다.",
+      "credit": "출처: 위키미디어 커먼즈",
+      "slots": [
+        "img-life-05"
+      ],
+      "used_pages": [
+        "gallery",
+        "life",
+        "organizations"
+      ],
+      "notes": "커먼즈 기재 연대(1904-11)와 공립협회 창립(1905-04)이 어긋남 — 캡션은 범위 연대로 표기"
+    },
+    {
+      "id": "kna-hawaii-1915",
+      "file": "1915_kna_convention_hawaii.webp",
+      "original_file": "1915_kna_convention_hawaii.jpg",
+      "title": "대한인국민회 지방총회 경축행사 (1915, 하와이)",
+      "date": "1915",
+      "date_precision": "year",
+      "depicted": [
+        "안창호(전승)",
+        "이승만(전승)",
+        "미상"
+      ],
+      "place": "하와이",
+      "period": "P4",
+      "type": "group_photo",
+      "source_org": "위키미디어 커먼즈",
+      "source_url": "https://commons.wikimedia.org/wiki/File:1915_peoples_association_annual_convention.jpg",
+      "license": "Public Domain",
+      "license_evidence": "촬영·공표가 도산 동시대(1938 이전)로 한국(사망/공표 후 70년)·미국(1930 이전 공표 95년) 요건 충족",
+      "caption": "1915년 하와이에서 열린 대한인국민회 지방총회 경축행사로 전해지는 사진. 단상의 인물이 안창호, 오른쪽 열한 번째가 이승만으로 전해진다.",
+      "credit": "출처: 위키미디어 커먼즈",
+      "slots": [],
+      "used_pages": [
+        "gallery",
+        "organizations"
+      ],
+      "notes": "인물·장소 식별이 커먼즈 기재 전승에 의존 — 한정 문형 유지 필수"
+    },
+    {
+      "id": "yi-hyeryon-1963-1",
+      "file": "1963_yi_hyeryon_seoul_visit_1.webp",
+      "original_file": "1963_yi_hyeryon_seoul_visit_1.jpg",
+      "title": "이혜련 서울시청 방문 (1963)",
+      "date": "1963-03-11",
+      "date_precision": "day",
+      "depicted": [
+        "이혜련",
+        "미상"
+      ],
+      "place": "서울",
+      "period": "P8",
+      "type": "photo",
+      "source_org": "서울기록원",
+      "source_url": "https://archives.seoul.go.kr/item/6127",
+      "license": "이용제한 없음 (서울기록원 표기)",
+      "license_evidence": "서울기록원 기록 '이용유형: 제한없음'. 촬영 1963년 — 구 저작권법상 사진저작물 보호기간(공표 후 10년) 만료",
+      "caption": "1963년 3월 11일 서울시청을 방문한 이혜련(오른쪽). 도산 순국 25주기를 맞아 환영을 받았다.",
+      "credit": "출처: 서울기록원",
+      "slots": [
+        "img-ppl-01"
+      ],
+      "used_pages": [
+        "gallery",
+        "people"
+      ],
+      "notes": "img-ppl-01 정본 — 권장연대(1902-1940s) 밖 사용 승인(content-architect 판정 2026-06-06), 캡션 1963년 명기 의무 이행"
+    },
+    {
+      "id": "yi-hyeryon-1963-2",
+      "file": "1963_yi_hyeryon_seoul_visit_2.webp",
+      "original_file": "1963_yi_hyeryon_seoul_visit_2.jpg",
+      "title": "이혜련 환담 (1963)",
+      "date": "1963-03-11",
+      "date_precision": "day",
+      "depicted": [
+        "이혜련",
+        "미상"
+      ],
+      "place": "서울",
+      "period": "P8",
+      "type": "photo",
+      "source_org": "서울기록원",
+      "source_url": "https://archives.seoul.go.kr/item/6127",
+      "license": "이용제한 없음 (서울기록원 표기)",
+      "license_evidence": "서울기록원 기록 '이용유형: 제한없음'. 촬영 1963년 — 구 저작권법상 보호기간 만료",
+      "caption": "1963년 서울시청에서 환담하는 이혜련.",
+      "credit": "출처: 서울기록원",
+      "slots": [],
+      "used_pages": [
+        "gallery"
+      ]
+    },
+    {
+      "id": "susan-ahn-navy",
+      "file": "nd1940s_susan_ahn_cuddy_navy.webp",
+      "original_file": "nd1940s_susan_ahn_cuddy_navy.jpg",
+      "title": "안수산 해군 복무 (1940년대)",
+      "date": "1942-1946",
+      "date_precision": "range",
+      "depicted": [
+        "안수산"
+      ],
+      "place": "미국",
+      "period": "P8",
+      "type": "portrait",
+      "source_org": "미 해군 역사유산사령부",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Susan_Ahn_Cuddy_in_World_War_II_(cropped).jpg",
+      "license": "Public Domain",
+      "license_evidence": "미국 연방정부(해군) 제작 저작물 — PD-USGov",
+      "caption": "제2차 세계대전기 미 해군에 복무한 안창호의 장녀 안수산(Susan Ahn Cuddy). 해군 최초의 아시아계 미국인 여성 장교가 되었다.",
+      "credit": "출처: 미 해군 역사유산사령부",
+      "slots": [
+        "img-ppl-03"
+      ],
+      "used_pages": [
+        "gallery",
+        "people"
+      ]
+    },
+    {
+      "id": "ahn-siblings-wwii",
+      "file": "nd1940s_ahn_siblings_wwii.webp",
+      "original_file": "nd1940s_ahn_siblings_wwii.jpg",
+      "title": "안씨 남매의 2차대전 복무 (1940년대)",
+      "date": "1942-1946",
+      "date_precision": "range",
+      "depicted": [
+        "안수산",
+        "안필립",
+        "안필선"
+      ],
+      "place": "미국",
+      "period": "P8",
+      "type": "photo",
+      "source_org": "미 해군 역사유산사령부",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Ahn_Siblings_World_War_II.jpg",
+      "license": "Public Domain",
+      "license_evidence": "미국 연방정부(해군) 제작 저작물 — PD-USGov",
+      "caption": "제2차 세계대전기 미군에 복무한 안창호의 자녀들.",
+      "credit": "출처: 미 해군 역사유산사령부",
+      "slots": [],
+      "used_pages": [
+        "gallery"
+      ]
+    },
+    {
+      "id": "ralph-ahn-navy",
+      "file": "nd1940s_ralph_ahn_navy.webp",
+      "original_file": "nd1940s_ralph_ahn_navy.jpg",
+      "title": "안필영 해군 복무 (1940년대)",
+      "date": "1944-1946",
+      "date_precision": "range",
+      "depicted": [
+        "안필영"
+      ],
+      "place": "미국",
+      "period": "P8",
+      "type": "portrait",
+      "source_org": "미 해군 역사유산사령부",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Ralph_Ahn_-_World_War_II_(cropped).jpg",
+      "license": "Public Domain",
+      "license_evidence": "미국 연방정부(해군) 제작 저작물 — PD-USGov",
+      "caption": "미 해군에 복무한 안창호의 막내 안필영(Ralph Ahn).",
+      "credit": "출처: 미 해군 역사유산사령부",
+      "slots": [],
+      "used_pages": [
+        "gallery"
+      ]
+    },
+    {
+      "id": "philip-ahn-1937",
+      "file": "1937_philip_ahn_daughter_of_shanghai.webp",
+      "original_file": "1937_philip_ahn_daughter_of_shanghai.jpg",
+      "title": "안필립과 애나 메이 웡 — 〈상하이의 딸〉 (1937)",
+      "date": "1937",
+      "date_precision": "year",
+      "depicted": [
+        "안필립",
+        "애나 메이 웡"
+      ],
+      "place": "할리우드",
+      "period": "P7",
+      "type": "photo",
+      "source_org": "위키미디어 커먼즈",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Daughter_of_Shanghai_(1937)_-_Anna_May_Wong_and_Philip_Ahn.jpg",
+      "license": "Public Domain",
+      "license_evidence": "1937년 파라마운트 홍보 스틸 — 저작권 갱신 미확인으로 미국 PD 판정(커먼즈 등재 근거)",
+      "caption": "영화 〈상하이의 딸〉(1937)의 안필립과 애나 메이 웡. 안창호의 장남 안필립은 할리우드에서 활동한 한국계 미국인 배우다.",
+      "credit": "출처: 위키미디어 커먼즈",
+      "slots": [],
+      "used_pages": [
+        "gallery"
+      ]
+    },
+    {
+      "id": "philip-ahn-1958",
+      "file": "1958_philip_ahn_bonanza.webp",
+      "original_file": "1958_philip_ahn_bonanza.gif",
+      "title": "안필립 (1958, 보난자 출연분)",
+      "date": "1958",
+      "date_precision": "year",
+      "depicted": [
+        "안필립"
+      ],
+      "place": "미국",
+      "period": "P8",
+      "type": "portrait",
+      "source_org": "위키미디어 커먼즈",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Philip_Ahn.gif",
+      "license": "Public Domain",
+      "license_evidence": "저작권 미갱신으로 퍼블릭 도메인이 된 TV 에피소드의 스틸",
+      "caption": "TV 시리즈 출연 당시의 안필립(1958).",
+      "credit": "출처: 위키미디어 커먼즈",
+      "slots": [],
+      "used_pages": [
+        "gallery"
+      ]
+    },
+    {
+      "id": "rhee-1931",
+      "file": "1931_syngman_rhee_portrait.webp",
+      "original_file": "1931_syngman_rhee_portrait.jpg",
+      "title": "이승만 (1931)",
+      "date": "1931-08-29",
+      "date_precision": "day",
+      "depicted": [
+        "이승만"
+      ],
+      "place": "미상",
+      "period": "P6",
+      "type": "portrait",
+      "source_org": "위키미디어 커먼즈",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Syngman_Rhee_in_1931.JPG",
+      "license": "Public Domain",
+      "license_evidence": "1931년 촬영 — 한국 구법 보호기간 만료(1996 기준 PD, URAA 회복 없음)",
+      "caption": "1931년의 이승만. 임시정부 직제와 노선을 둘러싸고 안창호와 협력·갈등이 병존한 관계였다.",
+      "credit": "출처: 위키미디어 커먼즈",
+      "slots": [
+        "img-ppl-05"
+      ],
+      "used_pages": [
+        "gallery",
+        "people"
+      ]
+    },
+    {
+      "id": "yi-donghwi",
+      "file": "nd1920s_yi_donghwi_portrait.webp",
+      "original_file": "nd1920s_yi_donghwi_portrait.jpg",
+      "title": "이동휘",
+      "date": "1920s",
+      "date_precision": "circa",
+      "depicted": [
+        "이동휘"
+      ],
+      "place": "미상",
+      "period": "P5",
+      "type": "portrait",
+      "source_org": "위키미디어 커먼즈",
+      "source_url": "https://commons.wikimedia.org/wiki/File:이동휘.JPG",
+      "license": "Public Domain",
+      "license_evidence": "1938년 이전 촬영·공표 — 보호기간 만료",
+      "caption": "신민회 창건위원이자 임시정부 국무총리를 지낸 이동휘. 임정 시기 안창호와 노선 갈등이 있었다.",
+      "credit": "출처: 위키미디어 커먼즈",
+      "slots": [
+        "img-ppl-06"
+      ],
+      "used_pages": [
+        "gallery",
+        "people"
+      ]
+    },
+    {
+      "id": "shin-chaeho",
+      "file": "nd_shin_chaeho_portrait.webp",
+      "original_file": "nd_shin_chaeho_portrait.jpg",
+      "title": "신채호",
+      "date": "1910s-1930s",
+      "date_precision": "circa",
+      "depicted": [
+        "신채호"
+      ],
+      "place": "미상",
+      "period": "P5",
+      "type": "portrait",
+      "source_org": "위키미디어 커먼즈",
+      "source_url": "https://commons.wikimedia.org/wiki/File:단재신채호.jpg",
+      "license": "Public Domain",
+      "license_evidence": "1936년 이전 촬영(신채호 1936 옥사) — 보호기간 만료. 독립기념관 정보시스템 등재본의 커먼즈 등재",
+      "caption": "단재 신채호. 1910년 망명길을 함께한 동지였으나 임시정부 존폐를 둘러싸고 안창호와 정면 대립했다.",
+      "credit": "출처: 위키미디어 커먼즈",
+      "slots": [
+        "img-ppl-07"
+      ],
+      "used_pages": [
+        "gallery",
+        "people"
+      ]
+    },
+    {
+      "id": "kim-gu-1930",
+      "file": "1930_kim_gu_portrait.webp",
+      "original_file": "1930_kim_gu_portrait.jpg",
+      "title": "김구 (1930년대)",
+      "date": "1930s",
+      "date_precision": "circa",
+      "depicted": [
+        "김구"
+      ],
+      "place": "미상",
+      "period": "P6",
+      "type": "portrait",
+      "source_org": "위키미디어 커먼즈",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Kim_Gu_1930.jpg",
+      "license": "Public Domain",
+      "license_evidence": "1930년대 촬영 — 보호기간 만료",
+      "caption": "1930년대의 김구. 1930년 한국독립당 창당을 안창호와 함께했다.",
+      "credit": "출처: 위키미디어 커먼즈",
+      "slots": [
+        "img-ppl-08"
+      ],
+      "used_pages": [
+        "gallery",
+        "people"
+      ]
+    },
+    {
+      "id": "kim-kyusik-1925",
+      "file": "1925_kim_kyusik_portrait.webp",
+      "original_file": "1925_kim_kyusik_portrait.png",
+      "title": "김규식 (1925)",
+      "date": "1925",
+      "date_precision": "year",
+      "depicted": [
+        "김규식"
+      ],
+      "place": "미상",
+      "period": "P6",
+      "type": "portrait",
+      "source_org": "위키미디어 커먼즈",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Kim_Kyu-sik_in_1925.png",
+      "license": "Public Domain",
+      "license_evidence": "1925년 촬영·공표 — 보호기간 만료",
+      "caption": "1925년의 김규식. 1923년 국민대표회의에서 창조파로서 개조파 안창호와 대립했다.",
+      "credit": "출처: 위키미디어 커먼즈",
+      "slots": [],
+      "used_pages": [
+        "gallery",
+        "people"
+      ]
+    },
+    {
+      "id": "yeo-unhyeong-1934",
+      "file": "1934_yeo_unhyeong_portrait.webp",
+      "original_file": "1934_yeo_unhyeong_portrait.jpg",
+      "title": "여운형 (1934)",
+      "date": "1934",
+      "date_precision": "year",
+      "depicted": [
+        "여운형"
+      ],
+      "place": "미상",
+      "period": "P7",
+      "type": "portrait",
+      "source_org": "위키미디어 커먼즈",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Yuh_Woon-Hyung(1934).jpg",
+      "license": "Public Domain",
+      "license_evidence": "1934년 촬영·공표 — 구법 보호기간 만료",
+      "caption": "조선중앙일보 사장 시절의 여운형(1934). 1921년 안창호와 함께 국민대표회 소집을 제창한 것으로 전해진다.",
+      "credit": "출처: 위키미디어 커먼즈",
+      "slots": [],
+      "used_pages": [
+        "gallery",
+        "people"
+      ]
+    },
+    {
+      "id": "cho-mansik-1947",
+      "file": "1947_cho_mansik_portrait.webp",
+      "original_file": "1947_cho_mansik_portrait.jpg",
+      "title": "조만식 (1947)",
+      "date": "1947",
+      "date_precision": "year",
+      "depicted": [
+        "조만식"
+      ],
+      "place": "미상",
+      "period": "P8",
+      "type": "portrait",
+      "source_org": "위키미디어 커먼즈",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Cho_Man-sik_02.jpg",
+      "license": "Public Domain",
+      "license_evidence": "1947년 촬영·공표 — 구법(공표 후 10년) 보호기간 만료, URAA 회복 없음",
+      "caption": "고당 조만식. 1935년 가출옥한 안창호와 함께 촬영한 사진이 남아 있다.",
+      "credit": "출처: 위키미디어 커먼즈",
+      "slots": [],
+      "used_pages": [
+        "gallery",
+        "people"
+      ]
+    },
+    {
+      "id": "yun-chiho-1930",
+      "file": "1930_yun_chiho_portrait.webp",
+      "original_file": "1930_yun_chiho_portrait.jpg",
+      "title": "윤치호 (1930)",
+      "date": "1930",
+      "date_precision": "year",
+      "depicted": [
+        "윤치호"
+      ],
+      "place": "미상",
+      "period": "P6",
+      "type": "portrait",
+      "source_org": "위키미디어 커먼즈",
+      "source_url": "https://commons.wikimedia.org/wiki/File:윤치호_1930.jpg",
+      "license": "Public Domain",
+      "license_evidence": "1930년 촬영·공표 — 보호기간 만료",
+      "caption": "1930년의 윤치호. 대성학교 교장으로 추대된 인물로, 105인 사건의 피고이기도 했다.",
+      "credit": "출처: 위키미디어 커먼즈",
+      "slots": [],
+      "used_pages": [
+        "gallery",
+        "people"
+      ]
+    },
+    {
+      "id": "yi-kwangsu-1942",
+      "file": "1942_yi_kwangsu_portrait.webp",
+      "original_file": "1942_yi_kwangsu_portrait.jpg",
+      "title": "이광수 (1942)",
+      "date": "1942",
+      "date_precision": "year",
+      "depicted": [
+        "이광수"
+      ],
+      "place": "미상",
+      "period": "P7",
+      "type": "portrait",
+      "source_org": "위키미디어 커먼즈",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Lee_Kwang-su_1942.jpg",
+      "license": "Public Domain",
+      "license_evidence": "1942년 촬영·공표 — 구법 보호기간 만료, URAA 회복 없음",
+      "caption": "춘원 이광수. 흥사단 원동임시위원부에 입단하고 독립신문 사장을 지낸 동지이자, 민족개조론 이후 사상적 긴장이 병존한 인물이다.",
+      "credit": "출처: 위키미디어 커먼즈",
+      "slots": [],
+      "used_pages": [
+        "gallery",
+        "people"
+      ]
+    },
+    {
+      "id": "yi-seunghun",
+      "file": "nd1920s_yi_seunghun_portrait.webp",
+      "original_file": "nd1920s_yi_seunghun_portrait.jpg",
+      "title": "이승훈",
+      "date": "1920s",
+      "date_precision": "circa",
+      "depicted": [
+        "이승훈"
+      ],
+      "place": "미상",
+      "period": "P3",
+      "type": "portrait",
+      "source_org": "위키미디어 커먼즈",
+      "source_url": "https://commons.wikimedia.org/wiki/File:남강_이승훈.jpg",
+      "license": "Public Domain",
+      "license_evidence": "1930년(이승훈 사망) 이전 촬영 — 보호기간 만료",
+      "caption": "남강 이승훈. 1907년 평양에서 안창호의 연설에 감화되어 신민회 운동에 합류한 것으로 전해진다.",
+      "credit": "출처: 위키미디어 커먼즈",
+      "slots": [],
+      "used_pages": [
+        "gallery",
+        "people"
+      ]
+    },
+    {
+      "id": "jeon-deokgi",
+      "file": "nd1900s_jeon_deokgi_portrait.webp",
+      "original_file": "nd1900s_jeon_deokgi_portrait.jpg",
+      "title": "전덕기 목사",
+      "date": "1900s",
+      "date_precision": "circa",
+      "depicted": [
+        "전덕기"
+      ],
+      "place": "미상",
+      "period": "P3",
+      "type": "portrait",
+      "source_org": "위키미디어 커먼즈",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Chundg.jpg",
+      "license": "Public Domain",
+      "license_evidence": "1914년(전덕기 사망) 이전 촬영 — 보호기간 만료",
+      "caption": "상동교회의 전덕기 목사. 신민회 창건위원 7인 중 한 사람이다.",
+      "credit": "출처: 위키미디어 커먼즈",
+      "slots": [],
+      "used_pages": [
+        "gallery",
+        "people"
+      ]
+    },
+    {
+      "id": "yang-gitak-1934",
+      "file": "1934_yang_gitak_portrait.webp",
+      "original_file": "1934_yang_gitak_portrait.jpg",
+      "title": "양기탁 (1934)",
+      "date": "1934",
+      "date_precision": "year",
+      "depicted": [
+        "양기탁"
+      ],
+      "place": "미상",
+      "period": "P7",
+      "type": "portrait",
+      "source_org": "위키미디어 커먼즈",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Yang_Ky-tak_1934.jpg",
+      "license": "Public Domain",
+      "license_evidence": "1934년 촬영·공표 — 보호기간 만료. 국사편찬위 등재본의 커먼즈 등재",
+      "caption": "1934년의 양기탁. 신민회 창건위원이자 대한매일신보 주필이었다.",
+      "credit": "출처: 위키미디어 커먼즈",
+      "slots": [],
+      "used_pages": [
+        "gallery",
+        "people"
+      ]
+    },
+    {
+      "id": "yi-dongnyeong-1935",
+      "file": "1935_yi_dongnyeong_kpg.webp",
+      "original_file": "1935_yi_dongnyeong_kpg.jpg",
+      "title": "이동녕과 임시정부 요인들 (1935)",
+      "date": "1935-11",
+      "date_precision": "circa",
+      "depicted": [
+        "이동녕"
+      ],
+      "place": "미상",
+      "period": "P7",
+      "type": "portrait",
+      "source_org": "위키미디어 커먼즈",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Yi_Dong-nyung.jpg",
+      "license": "Public Domain",
+      "license_evidence": "1935년경 촬영 — 구법 보호기간 만료(커먼즈 등재 라이선스 CC0)",
+      "caption": "1935년경의 이동녕(가운데)과 임시정부 요인들. 이동녕은 신민회 창건위원 7인 중 한 사람이다.",
+      "credit": "출처: 위키미디어 커먼즈",
+      "slots": [],
+      "used_pages": [
+        "gallery",
+        "people"
+      ]
+    },
+    {
+      "id": "cho-byeongok-1938",
+      "file": "1938_cho_byeongok_portrait.webp",
+      "original_file": "1938_cho_byeongok_portrait.jpg",
+      "title": "조병옥 (1938)",
+      "date": "1938",
+      "date_precision": "year",
+      "depicted": [
+        "조병옥"
+      ],
+      "place": "미상",
+      "period": "P7",
+      "type": "portrait",
+      "source_org": "위키미디어 커먼즈",
+      "source_url": "https://commons.wikimedia.org/wiki/File:조병옥_1938.jpg",
+      "license": "Public Domain",
+      "license_evidence": "1938년 촬영·공표 — 구법 보호기간 만료",
+      "caption": "1938년의 조병옥. 1913년 흥사단 창립위원(충청도 대표)으로 참여했다.",
+      "credit": "출처: 위키미디어 커먼즈",
+      "slots": [],
+      "used_pages": [
+        "gallery",
+        "people"
+      ]
+    },
+    {
+      "id": "ju-yohan-1971",
+      "file": "1971_ju_yohan_portrait.webp",
+      "original_file": "1971_ju_yohan_portrait.jpg",
+      "title": "주요한 (1971)",
+      "date": "1971-09",
+      "date_precision": "circa",
+      "depicted": [
+        "주요한"
+      ],
+      "place": "미상",
+      "period": "P8",
+      "type": "portrait",
+      "source_org": "위키미디어 커먼즈",
+      "source_url": "https://commons.wikimedia.org/wiki/File:주요한_작가.jpg",
+      "license": "Public Domain",
+      "license_evidence": "1971년 신문 게재 사진 — 구법(공표 후 10년) 보호기간 만료(1981), 1987년 법 시행 전 만료로 회복 없음",
+      "caption": "주요한. 독립신문 출판부장과 『동광』 편집 겸 발행인을 맡은 안창호의 실무 동지였다.",
+      "credit": "출처: 위키미디어 커먼즈",
+      "slots": [],
+      "used_pages": [
+        "gallery",
+        "people"
+      ],
+      "notes": "phil-02 대체 불승인(연대 부정합) — people #comrades(per-043 의무 앵커)·갤러리 고유분으로 사용"
+    }
+  ],
+  "spec_revision": "명세 개정(2026-06-06) 반영: 필수 21/21 충족 — phil-02 강등, phil-03 대체 승인(진관사 30호), ppl-01 정본 1963 서울기록원, life-12 대체 승인, home-01 해상도 기준 현실화"
+}

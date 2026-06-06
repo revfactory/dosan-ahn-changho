@@ -1,0 +1,1124 @@
+[
+  {
+    "id": "evt-provgov-001",
+    "title": "미주 출항과 상하이행 여정",
+    "date": {
+      "start": "1919-04-01",
+      "end": "1919-05-25",
+      "precision": "range",
+      "calendar": "solar"
+    },
+    "place": {
+      "name": "미국 서부(출항지 미상)",
+      "modern_name": "미국 캘리포니아주",
+      "lat": null,
+      "lng": null
+    },
+    "actors": ["안창호"],
+    "orgs": ["대한인국민회"],
+    "summary": "〔미확인-출항일·경유지〕 안창호가 대한인국민회의 특파 결정에 따라 1919년 4월경 미국을 출발하여 5월 25일 상하이에 도착하는 여정에 올랐다.",
+    "detail": "대한인국민회 중앙총회의 중국 파견 결의(1919년 3월, 해당 결정 레코드는 america 소유) 이후 안창호는 미국을 떠나 중국으로 향했다. 정확한 출항 일자, 출항지(샌프란시스코로 전해짐), 선박명, 경유지(호놀룰루·마닐라 경유설이 일부 서술에 보이나 본 조사에서 1~3단계 출처로 확인하지 못함)는 미확인이다. 도착일(5월 25일)만 기관 기록으로 확인된다. 출항 관련 동시대 보도(신한민보 1919년 4~5월 지면)의 발굴이 필요하다.",
+    "sources": [
+      {
+        "type": "institutional",
+        "title": "독립운동인명사전 '안창호' (한국독립운동정보시스템, 독립기념관)",
+        "locator": "id=696",
+        "url": "https://search.i815.or.kr/dictionary/detail.do?searchType=all&index=1&id=696"
+      },
+      {
+        "type": "encyclopedia",
+        "title": "위키백과 '안창호' (출항 일자 미기재 확인)",
+        "locator": null,
+        "url": "https://ko.wikipedia.org/wiki/안창호"
+      }
+    ],
+    "confidence": "D",
+    "tags": ["이동"]
+  },
+  {
+    "id": "evt-provgov-002",
+    "title": "상하이 도착",
+    "date": {
+      "start": "1919-05-25",
+      "end": "1919-05-25",
+      "precision": "day",
+      "calendar": "solar"
+    },
+    "place": {
+      "name": "상하이",
+      "modern_name": "중국 상하이시",
+      "lat": 31.2304,
+      "lng": 121.4737
+    },
+    "actors": ["안창호"],
+    "orgs": ["대한인국민회", "대한민국임시정부"],
+    "summary": "안창호가 1919년 5월 25일 대한인국민회 원동위원 자격으로 상하이에 도착하였다.",
+    "detail": "독립기념관 독립운동인명사전은 '5월 25일에 상하이(上海)에 도착하였다'고 기록하고, 국사편찬위원회 우리역사넷은 '1919년 5월 대한인국민회 원동위원 자격으로 중국 상하이에 도착'으로 서술한다. 도착 당시 4월 11일 수립된 상하이 임시정부는 총장급 인사 다수가 부임하지 않은 상태였다.",
+    "sources": [
+      {
+        "type": "institutional",
+        "title": "독립운동인명사전 '안창호' (한국독립운동정보시스템, 독립기념관)",
+        "locator": "id=696",
+        "url": "https://search.i815.or.kr/dictionary/detail.do?searchType=all&index=1&id=696"
+      },
+      {
+        "type": "institutional",
+        "title": "우리역사넷 '안창호' (국사편찬위원회)",
+        "locator": "kc_n402200",
+        "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n402200"
+      }
+    ],
+    "confidence": "B",
+    "tags": ["이동", "결사"]
+  },
+  {
+    "id": "evt-provgov-003",
+    "title": "임시의정원의 내무총장 선임",
+    "date": {
+      "start": "1919-04-11",
+      "end": "1919-04-11",
+      "precision": "day",
+      "calendar": "solar"
+    },
+    "place": {
+      "name": "상하이 프랑스조계",
+      "modern_name": "중국 상하이시",
+      "lat": 31.2304,
+      "lng": 121.4737
+    },
+    "actors": ["안창호", "이승만", "이동휘", "김규식", "이시영", "최재형", "문창범"],
+    "orgs": ["대한민국임시정부", "임시의정원"],
+    "summary": "1919년 4월 11일 상하이 임시의정원이 정부를 조직하면서 미주 체류 중이던 안창호를 내무총장으로 선임하였다.",
+    "detail": "임시의정원은 1919년 4월 11일 대한민국 임시헌장을 제정하고 국무총리 이승만 이하 각료를 선임하였으며, 이때 안창호가 내무총장으로 선임되었다. 안창호 본인은 당시 미국에 있어 부재 중 선임이었다. 임시의정원 기사록 등 공식 기록 원문은 본 조사에서 직접 확인하지 못하였고 기관 정리 자료를 통한 2차 인용이다.",
+    "sources": [
+      {
+        "type": "encyclopedia",
+        "title": "한국민족문화대백과사전 '대한민국임시정부'",
+        "locator": "E0015017",
+        "url": "https://encykorea.aks.ac.kr/Article/E0015017"
+      },
+      {
+        "type": "institutional",
+        "title": "우리역사넷 '대한민국 임시정부 1919' (국사편찬위원회)",
+        "locator": "kc_o400800",
+        "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_o400800"
+      }
+    ],
+    "confidence": "B",
+    "tags": ["결사"]
+  },
+  {
+    "id": "evt-provgov-004",
+    "title": "내무총장 겸 국무총리 대리 취임",
+    "date": {
+      "start": "1919-06-28",
+      "end": "1919-06-28",
+      "precision": "day",
+      "calendar": "solar"
+    },
+    "place": {
+      "name": "상하이 프랑스조계",
+      "modern_name": "중국 상하이시",
+      "lat": 31.2304,
+      "lng": 121.4737
+    },
+    "actors": ["안창호"],
+    "orgs": ["대한민국임시정부"],
+    "summary": "안창호가 1919년 6월 28일 임시정부 내무총장 겸 국무총리 대리에 정식 취임하였다.",
+    "detail": "상하이 도착 후 약 한 달간의 정세 파악을 거쳐 1919년 6월 28일 내무총장에 취임하고 국무총리 이승만의 부재 중 국무총리 대리직을 수행하였다. 취임 후 정부 청사 마련과 행정 실무 체제 구축에 착수하였다. 취임식 장소(북경로 예배당설)와 미주에서 지참한 자금의 액수는 1~3단계 출처로 확인하지 못해 기재하지 않는다. 취임 일자의 전거가 되는 임시정부 공보·의정원 기록 원문은 미확인으로, 기관 서술에 따른 2차 인용이다.",
+    "sources": [
+      {
+        "type": "institutional",
+        "title": "독립운동인명사전 '안창호' (한국독립운동정보시스템, 독립기념관)",
+        "locator": "id=696",
+        "url": "https://search.i815.or.kr/dictionary/detail.do?searchType=all&index=1&id=696"
+      },
+      {
+        "type": "institutional",
+        "title": "우리역사넷 '안창호' (국사편찬위원회)",
+        "locator": "kc_n402200",
+        "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n402200"
+      }
+    ],
+    "confidence": "B",
+    "tags": ["결사"]
+  },
+  {
+    "id": "evt-provgov-005",
+    "title": "임시사료편찬회 구성과 총재 취임",
+    "date": {
+      "start": "1919-07-02",
+      "end": "1919-07-02",
+      "precision": "day",
+      "calendar": "solar"
+    },
+    "place": {
+      "name": "상하이 프랑스조계",
+      "modern_name": "중국 상하이시",
+      "lat": 31.2304,
+      "lng": 121.4737
+    },
+    "actors": ["안창호"],
+    "orgs": ["대한민국임시정부", "임시사료편찬회"],
+    "summary": "안창호가 1919년 7월 2일 임시사료편찬회를 구성하고 총재를 맡아 『한일관계사료집』 편찬을 주관하였다.",
+    "detail": "독립기념관 독립운동인명사전은 '7월 2일에는 임시사료편찬회를 구성하며 총재를 맡아 한일관계사료(韓日關係史料) 편찬'에 나섰다고 기록한다. 국제연맹에 제출할 자료 작성이 목적이었다. 대한민국임시정부자료집(국사편찬위원회)에는 1919년 7월 8일 내무총장 안창호가 임시의정원에서 국제연맹 제출 자료의 중요성과 편찬 사업의 진행을 강조하는 연설을 한 기록이 수록되어 있다(검색 결과 경유 2차 인용, 원문 직접 확인 필요).",
+    "sources": [
+      {
+        "type": "institutional",
+        "title": "독립운동인명사전 '안창호' (한국독립운동정보시스템, 독립기념관)",
+        "locator": "id=696",
+        "url": "https://search.i815.or.kr/dictionary/detail.do?searchType=all&index=1&id=696"
+      },
+      {
+        "type": "institutional",
+        "title": "대한민국임시정부자료집 (한국사데이터베이스, 2차 인용)",
+        "locator": "ij_008",
+        "url": "https://db.history.go.kr/modern/level.do?levelId=ij_008_$1exp"
+      }
+    ],
+    "confidence": "B",
+    "tags": ["언론", "결사"]
+  },
+  {
+    "id": "evt-provgov-006",
+    "title": "임시연통제 공포(국무원령 제1호)",
+    "date": {
+      "start": "1919-07-10",
+      "end": "1919-07-10",
+      "precision": "day",
+      "calendar": "solar"
+    },
+    "place": {
+      "name": "상하이 프랑스조계",
+      "modern_name": "중국 상하이시",
+      "lat": 31.2304,
+      "lng": 121.4737
+    },
+    "actors": ["안창호", "이승만"],
+    "orgs": ["대한민국임시정부"],
+    "summary": "1919년 7월 10일 임시정부 국무원령 제1호로 임시연통제가 공포되어 내무총장 안창호 주도의 국내 비밀 행정·통신망 구축이 시작되었다.",
+    "detail": "연통제는 임시정부와 국내를 연결하는 비밀 행정 조직으로 내무총장 안창호가 추진하였다. 국사편찬위원회 정리 자료는 '1919년 7월 10일 이승만과 내무총장 안창호의 이름으로 발표된 임시정부 국무원령 제1호 임시연통제가 공포'되었다고 서술한다(공포 명의의 직명 표기는 출처 간 차이가 있어 공보 원문 대조 필요). 개정 임시지방연통제에서 지방 행정단위를 도·부·군·면으로 정비하여 전국을 13도 12부 215군으로 편성하였다. 조직은 1920년 말 대부분 와해되었으며 일부 지역에서 1921년 말까지 명맥이 유지되었다. 안창호는 연통제와 병행하여 국내·만주 각지에 특파원을 파견하였다.",
+    "sources": [
+      {
+        "type": "institutional",
+        "title": "우리역사넷 '가. 연통제의 시행과 운영' (신편한국사, 국사편찬위원회)",
+        "locator": "nh_048_0030_0010_0030_0020",
+        "url": "https://contents.history.go.kr/mobile/nh/view.do?levelId=nh_048_0030_0010_0030_0020"
+      },
+      {
+        "type": "encyclopedia",
+        "title": "한국민족문화대백과사전 '연통제'",
+        "locator": "E0036949",
+        "url": "https://encykorea.aks.ac.kr/Article/E0036949"
+      }
+    ],
+    "confidence": "B",
+    "tags": ["결사"]
+  },
+  {
+    "id": "evt-provgov-007",
+    "title": "임시지방교통사무국장정 공포와 교통국 운영",
+    "date": {
+      "start": "1919-08-01",
+      "end": "1919-08-31",
+      "precision": "month",
+      "calendar": "solar"
+    },
+    "place": {
+      "name": "상하이 프랑스조계",
+      "modern_name": "중국 상하이시",
+      "lat": 31.2304,
+      "lng": 121.4737
+    },
+    "actors": ["안창호"],
+    "orgs": ["대한민국임시정부"],
+    "summary": "1919년 8월 임시지방교통사무국장정이 공포되어 임시정부의 국내 연락·정보 수집 기관인 교통국 체계가 법제화되었다.",
+    "detail": "독립기념관 독립운동인명사전은 안창호가 내무총장 재임 중인 '8월 임시지방교통사무국장정(臨時地方交通事務局章程)을 공포'하였다고 기록한다. 교통국은 연통제와 함께 임시정부와 국내를 잇는 통신·연락망으로 기능하였으며, 1919년 연통부·교통국, 1920년 선전대 설치로 국내 조직 기반이 확장되었다(국사편찬위원회 서술). 장정 원문(임시정부 공보 게재분)은 직접 확인하지 못하였다.",
+    "sources": [
+      {
+        "type": "institutional",
+        "title": "독립운동인명사전 '안창호' (한국독립운동정보시스템, 독립기념관)",
+        "locator": "id=696",
+        "url": "https://search.i815.or.kr/dictionary/detail.do?searchType=all&index=1&id=696"
+      },
+      {
+        "type": "institutional",
+        "title": "우리역사넷 '연통제의 시행과 운영' (신편한국사, 국사편찬위원회)",
+        "locator": "nh_048_0030_0010_0030_0020",
+        "url": "https://contents.history.go.kr/mobile/nh/view.do?levelId=nh_048_0030_0010_0030_0020"
+      }
+    ],
+    "confidence": "B",
+    "tags": ["결사"]
+  },
+  {
+    "id": "evt-provgov-008",
+    "title": "독립신문(상하이판) 창간",
+    "date": {
+      "start": "1919-08-21",
+      "end": "1919-08-21",
+      "precision": "day",
+      "calendar": "solar"
+    },
+    "place": {
+      "name": "상하이 프랑스조계",
+      "modern_name": "중국 상하이시",
+      "lat": 31.2304,
+      "lng": 121.4737
+    },
+    "actors": ["안창호", "이광수", "주요한", "이영렬"],
+    "orgs": ["대한민국임시정부", "독립신문사"],
+    "summary": "1919년 8월 21일 임시정부 기관지 성격의 신문 『독립』이 상하이에서 창간되었으며, 내무총장 안창호가 발간에 진력하였다.",
+    "detail": "한국민족문화대백과사전은 '내무총장 안창호(安昌浩)는 신문의 발간에 진력했다'고 기록한다. 신문사는 회사 형태로 설립되어 사장 겸 주필 이광수, 편집국장 주요한, 영업국장 이영렬이 취임하였다. 제호 『독립』으로 주 3회(화·목·토) 국한문 발행되었고, 1919년 10월 25일자부터 제호를 『독립신문』으로 변경하였다. 1919년 8월부터 1926년 11월까지 약 7년간 총 198호가 발간되었다.",
+    "sources": [
+      {
+        "type": "encyclopedia",
+        "title": "한국민족문화대백과사전 '독립신문(獨立新聞)'",
+        "locator": "E0015986",
+        "url": "https://encykorea.aks.ac.kr/Article/E0015986"
+      },
+      {
+        "type": "institutional",
+        "title": "우리역사넷 '상해판 독립신문 창간호' (국사편찬위원회)",
+        "locator": "kc_o401610",
+        "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_o401610&code=kc_age_40"
+      },
+      {
+        "type": "primary",
+        "title": "독립신문(상하이판) 창간호, 1919-08-21 (원문 미확인, 2차 인용 — 대한민국역사박물관 소장 영인)",
+        "locator": "제1호",
+        "url": "https://archive.much.go.kr/archive/newspaper/release.do"
+      }
+    ],
+    "confidence": "B",
+    "tags": ["언론"]
+  },
+  {
+    "id": "evt-provgov-009",
+    "title": "이승만의 '대통령' 호칭 사용에 대한 항의 전보 교환",
+    "date": {
+      "start": "1919-08-25",
+      "end": "1919-08-26",
+      "precision": "range",
+      "calendar": "solar"
+    },
+    "place": {
+      "name": "상하이-워싱턴 간 전보",
+      "modern_name": "중국 상하이시",
+      "lat": 31.2304,
+      "lng": 121.4737
+    },
+    "actors": ["안창호", "이승만"],
+    "orgs": ["대한민국임시정부", "구미위원부"],
+    "summary": "1919년 8월 25일 안창호 명의의 임시정부 항의 전보가 이승만에게 발송되었고, 8월 26일 이승만이 호칭 사용을 유지하겠다는 회신을 보냈다.",
+    "detail": "당시 상하이 임시정부 관제에는 대통령직이 없었고 이승만은 미국에서 'President' 명의를 사용하고 있었다. 1919년 8월 25일 안창호 명의로 호칭 사용에 대한 항의 전보가 발송되었고, 8월 26일 이승만은 한성정부의 집정관총재를 영어로 표현하면 프레지던트밖에 없다는 입장과 함께 '우리끼리 떠들어서 행동이 일치하지 못한 소문이 세상에 전파되면 독립운동에 큰 방해가 있을 것'이라는 취지의 회신을 보냈다. 이 호칭 문제는 1919년 9월 11일 대통령제를 채택한 개헌으로 일단락되었다. 전보 원문(이승만 문서)은 직접 확인하지 못한 2차 인용으로, 일자·문면의 원사료 대조가 필요하다.",
+    "sources": [
+      {
+        "type": "encyclopedia",
+        "title": "위키백과 '이승만' (전보 교환 서술)",
+        "locator": null,
+        "url": "https://ko.wikipedia.org/wiki/이승만"
+      },
+      {
+        "type": "encyclopedia",
+        "title": "한국민족문화대백과사전 '이승만'",
+        "locator": "E0044938",
+        "url": "https://encykorea.aks.ac.kr/Article/E0044938"
+      }
+    ],
+    "confidence": "C",
+    "tags": ["결사"]
+  },
+  {
+    "id": "evt-provgov-010",
+    "title": "통합 대한민국임시정부 출범(제1차 개헌)",
+    "date": {
+      "start": "1919-09-11",
+      "end": "1919-09-11",
+      "precision": "day",
+      "calendar": "solar"
+    },
+    "place": {
+      "name": "상하이 프랑스조계",
+      "modern_name": "중국 상하이시",
+      "lat": 31.2304,
+      "lng": 121.4737
+    },
+    "actors": ["안창호", "이승만", "이동휘"],
+    "orgs": ["대한민국임시정부", "임시의정원", "대한국민의회"],
+    "summary": "1919년 9월 11일 한성정부의 법통 계승을 원칙으로 상하이 임시정부·대한국민의회 등이 개헌 형식으로 통합되어 통합 대한민국임시정부가 출범하였다.",
+    "detail": "안창호는 상하이 임시정부와 대한국민의회를 동시에 해소하고 13도 대표가 조직한 한성정부의 정통성을 인정하여 정부를 개편하자는 통합안을 제시하였고, 이 안이 통과되었다. 1919년 9월 11일 공포된 개정 임시헌법은 대통령제를 도입하였으며 대통령 이승만, 국무총리 이동휘가 선임되었다. 안창호는 통합 내각에서 내무총장이 아닌 노동국총판을 맡았다(evt-provgov-011). 통합 교섭 과정에서 안창호가 의정원에서 행한 발언 원문(임시정부자료집 수록)은 직접 확인하지 못하였다.",
+    "sources": [
+      {
+        "type": "institutional",
+        "title": "우리역사넷 '대한민국 임시정부 1919' (국사편찬위원회)",
+        "locator": "kc_o400800",
+        "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_o400800"
+      },
+      {
+        "type": "institutional",
+        "title": "국립대한민국임시정부기념관 웹진 '통합 임시정부, 승인과 개조의 갈림길에서'",
+        "locator": "rid=245",
+        "url": "https://www.nmkpg.go.kr/webzine/story/cn.do?rid=245"
+      },
+      {
+        "type": "encyclopedia",
+        "title": "한국민족문화대백과사전 '대한민국임시정부'",
+        "locator": "E0015017",
+        "url": "https://encykorea.aks.ac.kr/Article/E0015017"
+      }
+    ],
+    "confidence": "B",
+    "tags": ["결사"]
+  },
+  {
+    "id": "evt-provgov-011",
+    "title": "노동국총판 선임",
+    "date": {
+      "start": "1919-09-11",
+      "end": "1919-09-11",
+      "precision": "day",
+      "calendar": "solar"
+    },
+    "place": {
+      "name": "상하이 프랑스조계",
+      "modern_name": "중국 상하이시",
+      "lat": 31.2304,
+      "lng": 121.4737
+    },
+    "actors": ["안창호"],
+    "orgs": ["대한민국임시정부"],
+    "summary": "통합 임시정부 출범과 함께 안창호가 한성정부 각원 명단에 따라 노동국총판에 선임되었다.",
+    "detail": "통합의 전제였던 한성정부 각원 명단에서 안창호의 직책은 노동국총판이었고, 안창호는 이에 따라 내무총장 겸 국무총리 대리에서 물러나 노동국총판으로 취임하였다. 우리역사넷은 안창호가 '내무총장 및 노동국 총판에 취임'하였다고 기록하고, 이후 '1921년 5월 노동국 총판직을 사임'하였다고 서술한다. 통합 내각 전체의 취임식 일자(1919년 11월 3일설)는 본 조사에서 1~3단계 출처로 확정하지 못해 기재하지 않는다.",
+    "sources": [
+      {
+        "type": "institutional",
+        "title": "우리역사넷 '안창호' (국사편찬위원회)",
+        "locator": "kc_n402200",
+        "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n402200"
+      },
+      {
+        "type": "institutional",
+        "title": "독립운동인명사전 '안창호' (한국독립운동정보시스템, 독립기념관)",
+        "locator": "id=696",
+        "url": "https://search.i815.or.kr/dictionary/detail.do?searchType=all&index=1&id=696"
+      }
+    ],
+    "confidence": "B",
+    "tags": ["결사"]
+  },
+  {
+    "id": "evt-provgov-012",
+    "title": "신년축하회 연설 '우리 국민이 단정코 실행할 육대사'",
+    "date": {
+      "start": "1920-01-01",
+      "end": "1920-01-05",
+      "precision": "range",
+      "calendar": "solar"
+    },
+    "place": {
+      "name": "상하이 프랑스조계",
+      "modern_name": "중국 상하이시",
+      "lat": 31.2304,
+      "lng": 121.4737
+    },
+    "actors": ["안창호"],
+    "orgs": ["대한민국임시정부", "상해대한인거류민단"],
+    "summary": "1920년 1월 초 안창호가 신년축하회에서 '우리 국민이 단정코 실행할 육대사' 연설로 군사·외교·교육·사법·재정·통일의 6대 사업을 제시하고 1920년을 독립전쟁의 해로 규정하였다.",
+    "detail": "연설 일자는 출처에 따라 1920년 1월 1일 임시정부 신년축하회 석상, 1월 3일 교민단 주최 신년축하회로 갈려 범위로 기록한다. 안창호는 6대 사업 가운데 통일을 가장 우선으로 강조하였고, 당시 사람들은 이를 '독립운동의 6대 강령'이라 불렀다. 연설문은 독립신문에 연재 게재되었다(게재 호수·일자는 원문 미확인, 2차 인용).",
+    "sources": [
+      {
+        "type": "institutional",
+        "title": "우리역사넷 '독립전쟁의 원년 선포' 관련 서술 (신편한국사, 국사편찬위원회)",
+        "locator": "nh_048_0030_0010_0030_0030",
+        "url": "https://contents.history.go.kr/front/nh/print.do?levelId=nh_048_0030_0010_0030_0030_0020"
+      },
+      {
+        "type": "web",
+        "title": "경향신문 '[신주백의 사연 史淵] 안창호의 독립전쟁과 독립정신의 현재성'",
+        "locator": "2025-12-08",
+        "url": "https://www.khan.co.kr/article/202512082012005"
+      },
+      {
+        "type": "primary",
+        "title": "독립신문 연재 「우리 국민이 단정코 실행할 육대사」 (원문 미확인, 2차 인용)",
+        "locator": "1920년 1월 게재분",
+        "url": null
+      }
+    ],
+    "confidence": "B",
+    "tags": ["사상", "결사"]
+  },
+  {
+    "id": "evt-provgov-013",
+    "title": "노동국총판 사임",
+    "date": {
+      "start": "1921-05-11",
+      "end": "1921-05-11",
+      "precision": "day",
+      "calendar": "solar"
+    },
+    "place": {
+      "name": "상하이 프랑스조계",
+      "modern_name": "중국 상하이시",
+      "lat": 31.2304,
+      "lng": 121.4737
+    },
+    "actors": ["안창호", "이승만", "이동휘", "김규식", "노백린"],
+    "orgs": ["대한민국임시정부"],
+    "summary": "안창호가 1921년 5월 11일 임시정부 노동국총판을 사임하였으며, 이후 임시정부 각료를 맡지 않았다.",
+    "detail": "사임 일자는 다수 서술이 1921년 5월 11일로 기록하나 5월 12일로 적은 서술도 있어 이설을 병기한다. 사임 전후 임시정부에서는 이승만의 위임통치 청원 문제와 정부 운영 방식을 둘러싼 논의가 거듭되었고, 국무총리 이동휘가 1921년 1월 24일 사임한 데 이어 학무총장 김규식, 군무총장 노백린, 노동국총판 안창호가 연이어 사퇴하였다(국사편찬위원회·기관 서술). 안창호는 사임 후 국민대표회의 소집 운동에 나섰다(evt-provgov-014). 사임의 공보 게재(면직 일자) 원문은 미확인이다.",
+    "sources": [
+      {
+        "type": "institutional",
+        "title": "우리역사넷 '안창호' (국사편찬위원회)",
+        "locator": "kc_n402200",
+        "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n402200"
+      },
+      {
+        "type": "encyclopedia",
+        "title": "위키백과 '안창호' (1921년 5월 11일 사임 서술)",
+        "locator": null,
+        "url": "https://ko.wikipedia.org/wiki/안창호"
+      },
+      {
+        "type": "institutional",
+        "title": "국립대한민국임시정부기념관 웹진 '국민대표회의의 배경과 개최 과정' (5월 12일 사임 서술)",
+        "locator": "rid=222",
+        "url": "https://www.nmkpg.go.kr/webzine/story/cn.do?rid=222"
+      }
+    ],
+    "confidence": "B",
+    "tags": ["결사"]
+  },
+  {
+    "id": "evt-provgov-014",
+    "title": "국민대표회 소집 제창 연설회",
+    "date": {
+      "start": "1921-05-12",
+      "end": "1921-05-19",
+      "precision": "range",
+      "calendar": "solar"
+    },
+    "place": {
+      "name": "상하이",
+      "modern_name": "중국 상하이시",
+      "lat": 31.2304,
+      "lng": 121.4737
+    },
+    "actors": ["안창호", "여운형"],
+    "orgs": ["대한민국임시정부"],
+    "summary": "1921년 5월 12일과 19일 상하이 재류 동포 연설회에서 안창호와 여운형이 국민대표회 소집의 필요성을 제창하였다.",
+    "detail": "5월 12일 연설회에는 상하이 재류 동포 400여 명이 참가하였다. 안창호는 정부 수립 당시 각 방면의 의견을 충분히 구하지 못한 한계를 언급하고, 임시정부를 견고한 민족적 통일기관으로 만들기 위해 국민대표회 소집이 필요하다고 주장하였다. 이 연설 「독립운동의 진행책과 시국문제의 해결」은 독립신문 1921년 5월 21일자와 5월 31일자에 2회 연재되었다(원문 미확인, 2차 인용). 두 차례 연설회는 국민대표회 소집 운동이 대중적 차원에서 시작되는 계기가 되었다(국립대한민국임시정부기념관 서술).",
+    "sources": [
+      {
+        "type": "institutional",
+        "title": "국립대한민국임시정부기념관 웹진 '국민대표회의의 배경과 개최 과정'",
+        "locator": "rid=222",
+        "url": "https://www.nmkpg.go.kr/webzine/story/cn.do?rid=222"
+      },
+      {
+        "type": "primary",
+        "title": "독립신문 「독립운동의 진행책과 시국문제의 해결」 (원문 미확인, 2차 인용)",
+        "locator": "1921-05-21, 1921-05-31",
+        "url": null
+      }
+    ],
+    "confidence": "B",
+    "tags": ["사상", "결사"]
+  },
+  {
+    "id": "evt-provgov-015",
+    "title": "시사책진회 조직 참여",
+    "date": {
+      "start": "1922-07-01",
+      "end": "1922-07-31",
+      "precision": "month",
+      "calendar": "solar"
+    },
+    "place": {
+      "name": "상하이",
+      "modern_name": "중국 상하이시",
+      "lat": 31.2304,
+      "lng": 121.4737
+    },
+    "actors": ["안창호", "김구", "신익희", "조소앙", "이시영"],
+    "orgs": ["시사책진회"],
+    "summary": "1922년 7월 안창호가 김구·신익희·조소앙·이시영 등 약 50명과 함께 독립운동 진영의 의견 조율을 위한 시사책진회를 조직하였다.",
+    "detail": "시사책진회는 국민대표회의 개최를 앞두고 각 세력의 입장을 토의·조정하기 위한 모임으로 조직되었다. 안창호의 회내 직책(회장설)은 1~3단계 출처로 확인하지 못해 기재하지 않는다. 조직 경위와 활동·해소 시점에 대한 학술 출처 확인이 필요하다.",
+    "sources": [
+      {
+        "type": "encyclopedia",
+        "title": "위키백과 '여운형'·'안창호' (시사책진회 서술)",
+        "locator": null,
+        "url": "https://ko.wikipedia.org/wiki/안창호"
+      },
+      {
+        "type": "institutional",
+        "title": "독립유공자 공적정보 (공훈전자사료관)",
+        "locator": "mngNo=7338",
+        "url": "https://e-gonghun.mpva.go.kr/user/ContribuReportDetailPopup.do?mngNo=7338"
+      }
+    ],
+    "confidence": "C",
+    "tags": ["결사"]
+  },
+  {
+    "id": "evt-provgov-016",
+    "title": "국민대표회의 개막과 부의장 선출",
+    "date": {
+      "start": "1923-01-03",
+      "end": "1923-01-31",
+      "precision": "range",
+      "calendar": "solar"
+    },
+    "place": {
+      "name": "상하이",
+      "modern_name": "중국 상하이시",
+      "lat": 31.2304,
+      "lng": 121.4737
+    },
+    "actors": ["안창호", "김동삼", "윤해"],
+    "orgs": ["국민대표회의"],
+    "summary": "1923년 1월 3일 상하이에서 국민대표회의가 개막하였고, 의장 김동삼, 부의장 윤해·안창호가 선출되었다.",
+    "detail": "국민대표회의는 국내외 독립운동 단체 대표들이 모인 회의로 1923년 1월 3일 개최되었다. 의장단은 참가 단체들의 지역 기반을 고려해 의장 김동삼, 부의장 윤해·안창호로 구성되었다(의장단 선출의 정확한 일자는 개막 이후 1월 중으로, 일자 미상이라 범위로 기록). 안창호는 임시정부의 개조를 주장하는 개조파의 주요 인물로 회의에 참여하였다.",
+    "sources": [
+      {
+        "type": "institutional",
+        "title": "우리역사넷 '국민대표회의' 관련 서술 (신편한국사, 국사편찬위원회)",
+        "locator": "nh_048_0030_0020",
+        "url": "https://contents.history.go.kr/mobile/nh/view.do?levelId=nh_048_0030_0020_0010_0010"
+      },
+      {
+        "type": "encyclopedia",
+        "title": "한국민족문화대백과사전 '국민대표회의'",
+        "locator": "E0006294",
+        "url": "https://encykorea.aks.ac.kr/Article/E0006294"
+      }
+    ],
+    "confidence": "B",
+    "tags": ["결사"]
+  },
+  {
+    "id": "evt-provgov-017",
+    "title": "개조파 대표 탈퇴와 비공식 타협 제안",
+    "date": {
+      "start": "1923-05-15",
+      "end": "1923-06-01",
+      "precision": "range",
+      "calendar": "solar"
+    },
+    "place": {
+      "name": "상하이",
+      "modern_name": "중국 상하이시",
+      "lat": 31.2304,
+      "lng": 121.4737
+    },
+    "actors": ["안창호", "김동삼", "윤해", "배천택", "노백린"],
+    "orgs": ["국민대표회의", "대한민국임시정부", "서로군정서", "한족회"],
+    "summary": "1923년 5월 15~16일 의장 김동삼의 사임과 개조파 대표 57명의 집단 탈퇴가 이어졌고, 안창호가 창조파에 비공식회의를 통한 타협을 제안하였다.",
+    "detail": "1923년 3월 의장이 개조안을 본회의에 상정하려 하자 창조파가 반대하며 본회의에서 탈퇴하는 등 대립이 지속되었다. 5월 15일 의장 김동삼, 서기 배천택 등이 소속 단체(서로군정서·한족회)의 대표 소환 통지에 따라 사임하였고 부의장 윤해가 의장직을 승계하였다. 5월 16일 개조파 대표 57명은 '개조안이 기각되고 국호·연호를 새로 정하면 일민족에 두 개 국가를 형성한다'는 이유를 들어 집단 탈퇴하였다. 같은 시기 안창호는 창조파에게 비공식회의를 통한 타협을 제안하였고, 5월 31일~6월 1일 임시정부·개조파·창조파 각 3인이 참여한 비공식간담회가 열렸다.",
+    "sources": [
+      {
+        "type": "institutional",
+        "title": "우리역사넷 '(2) 삼방회의와 국민대표회의의 결렬' (신편한국사, 국사편찬위원회)",
+        "locator": "nh_048_0030_0020_0020_0020",
+        "url": "https://contents.history.go.kr/mobile/nh/view.do?levelId=nh_048_0030_0020_0020_0020"
+      }
+    ],
+    "confidence": "B",
+    "tags": ["결사"]
+  },
+  {
+    "id": "evt-provgov-018",
+    "title": "국민대표회의 결렬",
+    "date": {
+      "start": "1923-06-03",
+      "end": "1923-06-07",
+      "precision": "range",
+      "calendar": "solar"
+    },
+    "place": {
+      "name": "상하이",
+      "modern_name": "중국 상하이시",
+      "lat": 31.2304,
+      "lng": 121.4737
+    },
+    "actors": ["안창호", "윤해"],
+    "orgs": ["국민대표회의"],
+    "summary": "1923년 6월 3일 창조파가 국호 '한(韓)'·연호 '건국기원'을 새로 정하고 6월 7일 헌법을 통과시킨 뒤 폐막함으로써 국민대표회의는 결렬되었다.",
+    "detail": "6월 3일 창조파는 국호를 '한', 연호를 '건국기원'으로 정하였다. 6월 4일 '사후삼방회의'가 열려 윤해의 헌법회의안이 제출되었으나 합의에 이르지 못했고, 6월 7일 창조파가 마지막 회의에서 새로 제정한 헌법을 통과시키고 국민대표회의는 폐막하였다. 개조파에 속했던 안창호는 이 최종 국면의 회의에 참여하지 않았다. 결렬 후 안창호의 향후 행보는 난징에서의 동명학원 설립(evt-provgov-020)으로 이어진다.",
+    "sources": [
+      {
+        "type": "institutional",
+        "title": "우리역사넷 '(2) 삼방회의와 국민대표회의의 결렬' (신편한국사, 국사편찬위원회)",
+        "locator": "nh_048_0030_0020_0020_0020",
+        "url": "https://contents.history.go.kr/mobile/nh/view.do?levelId=nh_048_0030_0020_0020_0020"
+      },
+      {
+        "type": "encyclopedia",
+        "title": "한국민족문화대백과사전 '국민대표회의'",
+        "locator": "E0006294",
+        "url": "https://encykorea.aks.ac.kr/Article/E0006294"
+      }
+    ],
+    "confidence": "B",
+    "tags": ["결사"]
+  },
+  {
+    "id": "evt-provgov-019",
+    "title": "북중국·만주 시찰과 이상촌 후보지 탐사",
+    "date": {
+      "start": "1924-01-01",
+      "end": "1924-12-31",
+      "precision": "year",
+      "calendar": "solar"
+    },
+    "place": {
+      "name": "북중국·만주 일대",
+      "modern_name": "중국 화베이·둥베이 지방",
+      "lat": null,
+      "lng": null
+    },
+    "actors": ["안창호"],
+    "orgs": [],
+    "summary": "1924년 안창호가 북중국과 만주 지역을 시찰하며 이상촌 건설 후보지를 탐사하였다.",
+    "detail": "안창호는 1924년 북중국과 만주 지역을 답사하며 한인 집단 거주지(이상촌) 건설 후보지를 살폈고, 이 시찰 이후 난징에 동명학원을 설립하였다(evt-provgov-020). 시찰의 구체 경로와 일자는 확인하지 못하였다. 1926년 중국 복귀 후에도 만주 길림성 일대를 답사하여 이상촌 사업을 추진하였다는 서술이 있다(한국민족문화대백과 '안창호').",
+    "sources": [
+      {
+        "type": "encyclopedia",
+        "title": "한국민족문화대백과사전 '안창호'",
+        "locator": "E0035050",
+        "url": "https://encykorea.aks.ac.kr/Article/E0035050"
+      },
+      {
+        "type": "web",
+        "title": "흥사단 자료 소개 '1920년대 이상촌 건설운동과 안창호'",
+        "locator": "no=1018",
+        "url": "https://www.yka.or.kr/html/info/book_search.asp?no=1018"
+      }
+    ],
+    "confidence": "C",
+    "tags": ["결사", "이동"]
+  },
+  {
+    "id": "evt-provgov-020",
+    "title": "난징 동명학원 설립",
+    "date": {
+      "start": "1924-01-01",
+      "end": "1924-12-31",
+      "precision": "year",
+      "calendar": "solar"
+    },
+    "place": {
+      "name": "난징 한서문 안 쌍석고",
+      "modern_name": "중국 장쑤성 난징시",
+      "lat": 32.0603,
+      "lng": 118.7969
+    },
+    "actors": ["안창호"],
+    "orgs": ["동명학원"],
+    "summary": "1924년 안창호가 난징 한서문(漢西門) 안 쌍석고(雙石鼓)에 집을 세내어 민족혼과 어학 교육을 위한 동명학원을 설립하였다.",
+    "detail": "한국민족문화대백과사전은 동명학원이 '교육구국운동의 일환'으로 '민족혼과 어학에 대한 교육을 실시하기 위한 목적'으로 설립되었다고 기록한다. 학생들에게 국민으로서의 책임감, 협동생활의 원칙, 민족지도자로서의 자세, 착실주의(着實主義) 등을 교육하였다. 초기 학생 수십 명 가운데 다수가 흥사단원이었다는 서술이 있다. 이후 재학생 감소(20명 이내)와 경비 부족으로 어려움을 겪었으며 안창호는 학급 수를 줄여서라도 학원을 유지하려 하였다. 설립 월(3월설)은 1~3단계 출처로 확정하지 못해 연 단위로 기록한다.",
+    "sources": [
+      {
+        "type": "encyclopedia",
+        "title": "한국민족문화대백과사전 '동명학원(東明學院)'",
+        "locator": "E0016444",
+        "url": "https://encykorea.aks.ac.kr/Article/E0016444"
+      },
+      {
+        "type": "institutional",
+        "title": "독립운동인명사전 '안창호' (한국독립운동정보시스템, 독립기념관)",
+        "locator": "id=696",
+        "url": "https://search.i815.or.kr/dictionary/detail.do?searchType=all&index=1&id=696"
+      }
+    ],
+    "confidence": "B",
+    "tags": ["교육"]
+  },
+  {
+    "id": "evt-provgov-021",
+    "title": "미주 출발과 중국 복귀(상하이 도착)",
+    "date": {
+      "start": "1926-03-02",
+      "end": "1926-05-22",
+      "precision": "range",
+      "calendar": "solar"
+    },
+    "place": {
+      "name": "상하이",
+      "modern_name": "중국 상하이시",
+      "lat": 31.2304,
+      "lng": 121.4737
+    },
+    "actors": ["안창호"],
+    "orgs": [],
+    "summary": "안창호가 1926년 3월 2일 샌프란시스코를 출발하여 5월 하순 상하이에 도착, 중국 활동을 재개하였다.",
+    "detail": "영문 학술 논문(Deportation of Dosan Ahn Chang Ho 1924-1926)에 따르면 안창호는 1926년 3월 2일 샌프란시스코를 출발하였고 5월 22일경 상하이에 도착하였으며, 같은 날 상하이 한인 사회의 환영회가 열렸다. 다른 서술은 '1926년 5월 말 상하이로 갔다'고 기록한다. 도착 후 약 1개월간 민족주의·사회주의·아나키스트 각 진영 인사들과 접촉하였다(언론 기고 서술).",
+    "sources": [
+      {
+        "type": "academic",
+        "title": "Deportation of Dosan Ahn Chang Ho (1924-1926), Review of Korean Studies",
+        "locator": "vol.23 no.1",
+        "url": "https://accesson.kr/rks/assets/pdf/2562/journal-23-1-161.pdf"
+      },
+      {
+        "type": "web",
+        "title": "장석흥, '실록 대한민국임시정부 - 안창호와 민족유일당 운동' (국민대 언론 소개)",
+        "locator": null,
+        "url": "https://iat.kookmin.ac.kr/international/community/newnhot/press/1071250?pn=90"
+      }
+    ],
+    "confidence": "B",
+    "tags": ["이동"]
+  },
+  {
+    "id": "evt-provgov-022",
+    "title": "상하이 삼일당 연설 — 대혁명당 조직 제창",
+    "date": {
+      "start": "1926-07-08",
+      "end": "1926-07-08",
+      "precision": "day",
+      "calendar": "solar"
+    },
+    "place": {
+      "name": "상하이 삼일당(三一堂)",
+      "modern_name": "중국 상하이시",
+      "lat": 31.2304,
+      "lng": 121.4737
+    },
+    "actors": ["안창호", "송병조", "김종상", "서태수", "김보연"],
+    "orgs": ["대한민국임시정부"],
+    "summary": "1926년 7월 8일 안창호가 상하이 삼일당에서 '우리 혁명운동과 임시정부 문제에 대하여'를 연설하며 주의·주장을 초월한 대혁명당 결성을 제창하였다.",
+    "detail": "연설회는 각 정파 지도자 약 140명이 모인 자리였다. 안창호는 자치론·실력양성론을 타협주의로 규정해 비판하고, 중국국민당과 같은 일대혁명당(一大革命黨)을 결성해 독립운동을 조직적으로 수행하자고 주장하였다. 한국민족문화대백과사전 '대독립당조직북경촉성회' 항목은 1926년 7월 삼일당에서 송병조·김종상·서태수·김보연의 발기로 임시정부의 존립과 각 단체의 통일을 목적으로 하는 연설회가 개최되었다고 기록한다. 이 연설은 이후 민족유일당 운동의 출발점으로 평가된다(사상 내용 분석은 philosophy 소유).",
+    "sources": [
+      {
+        "type": "encyclopedia",
+        "title": "한국민족문화대백과사전 '대독립당조직북경촉성회'",
+        "locator": "E0061141",
+        "url": "https://encykorea.aks.ac.kr/Article/E0061141"
+      },
+      {
+        "type": "web",
+        "title": "장석흥, '실록 대한민국임시정부 - 안창호와 민족유일당 운동' (국민대 언론 소개)",
+        "locator": null,
+        "url": "https://iat.kookmin.ac.kr/international/community/newnhot/press/1071250?pn=90"
+      }
+    ],
+    "confidence": "B",
+    "tags": ["사상", "결사"]
+  },
+  {
+    "id": "evt-provgov-023",
+    "title": "원세훈과의 합의와 대독립당조직북경촉성회 결성",
+    "date": {
+      "start": "1926-10-10",
+      "end": "1926-10-28",
+      "precision": "range",
+      "calendar": "solar"
+    },
+    "place": {
+      "name": "베이징",
+      "modern_name": "중국 베이징시",
+      "lat": 39.9042,
+      "lng": 116.4074
+    },
+    "actors": ["안창호", "원세훈", "장건상", "조성환", "배천택"],
+    "orgs": ["대독립당조직북경촉성회"],
+    "summary": "안창호가 베이징에서 원세훈과 만나 각 지역 촉성회 조직에 합의하였고, 1926년 10월 16일 선언서 채택으로 결성된 단체가 10월 28일 대독립당조직북경촉성회로 개칭되었다.",
+    "detail": "삼일당 연설(evt-provgov-022) 후 안창호는 베이징 독립운동 세력의 대표 원세훈과 만나 민족유일당 건설을 위해 먼저 각 지역에서 촉성회를 조직하기로 합의하였다. 원세훈이 중심이 되어 10월 10일부터 세 차례 회합을 거쳐 16일 선언서를 채택함으로써 단체가 결성되었고, 집행위원으로 원세훈·장건상·조남승·조성환·배천택·김광천·박건병 7명이 선출되었다(안창호는 집행위원이 아님). 28일 회의에서 대독립당조직북경촉성회로 개칭하였다. 1927년 상하이·광둥 등지로 촉성회 운동이 확산되었다.",
+    "sources": [
+      {
+        "type": "encyclopedia",
+        "title": "한국민족문화대백과사전 '대독립당조직북경촉성회'",
+        "locator": "E0061141",
+        "url": "https://encykorea.aks.ac.kr/Article/E0061141"
+      },
+      {
+        "type": "institutional",
+        "title": "우리역사넷 '민족 유일당 운동' (국사편찬위원회)",
+        "locator": "tg_004_2230",
+        "url": "https://contents.history.go.kr/mobile/tg/view.do?subjectCode=tg_ty_040&tabId=02&levelId=tg_004_2230&pageUnit=10"
+      }
+    ],
+    "confidence": "B",
+    "tags": ["결사"]
+  },
+  {
+    "id": "evt-provgov-024",
+    "title": "길림사건 — 강연회 중 중국 당국에 피검",
+    "date": {
+      "start": "1927-01-01",
+      "end": "1927-02-28",
+      "precision": "range",
+      "calendar": "solar"
+    },
+    "place": {
+      "name": "길림 대동공창(대동공사)",
+      "modern_name": "중국 지린성 지린시",
+      "lat": 43.8378,
+      "lng": 126.5494
+    },
+    "actors": ["안창호", "최명식"],
+    "orgs": [],
+    "summary": "1927년 초 길림에서 나석주 추도회를 겸한 안창호의 강연회가 중국 군경에 포위되어 안창호 등 다수가 검거·구금되었다가 석방되었다.",
+    "detail": "강연회는 500여 명이 참석한 가운데 열렸다. 일본 경찰이 중국 측에 '한국의 공산당이 불법집회를 하고 있다'며 검거·인도를 요구하였고, 길림독군서는 헌병·경찰 수백 명을 동원해 집회장을 포위하고 안창호 이하 300여 명을 검거해 투옥하였으며 이후 독립운동자 50여 명을 추려 구금하고 나머지를 석방하였다. 중국 내 여론이 비등하여 안창호 등은 약 20일 만에 석방되었다는 서술과, 사건 전체가 6개월 만에 해결되었다는 서술이 병존한다. 발생 일자는 독립기념관 인명사전이 '1927년 2월'로, 장소는 같은 자료가 '대동문 밖 최명식의 대동공사', 한국민족문화대백과가 '조양문(朝陽門) 밖 대동공창(大同工廠)'으로 달리 기록한다 — 일자·장소 모두 상충 병기.",
+    "sources": [
+      {
+        "type": "institutional",
+        "title": "독립운동인명사전 '안창호' (한국독립운동정보시스템, 독립기념관)",
+        "locator": "id=696",
+        "url": "https://search.i815.or.kr/dictionary/detail.do?searchType=all&index=1&id=696"
+      },
+      {
+        "type": "encyclopedia",
+        "title": "한국민족문화대백과사전 '길림 대검거 사건'",
+        "locator": "E0008526",
+        "url": "https://encykorea.aks.ac.kr/Article/E0008526"
+      }
+    ],
+    "confidence": "B",
+    "tags": ["결사"]
+  },
+  {
+    "id": "evt-provgov-025",
+    "title": "농민호조사 결성",
+    "date": {
+      "start": "1927-04-01",
+      "end": "1927-04-01",
+      "precision": "day",
+      "calendar": "solar"
+    },
+    "place": {
+      "name": "길림 대동공사",
+      "modern_name": "중국 지린성 지린시",
+      "lat": 43.8378,
+      "lng": 126.5494
+    },
+    "actors": ["안창호"],
+    "orgs": ["농민호조사"],
+    "summary": "1927년 4월 1일 안창호가 길림사건의 현장인 대동공사에서 만주 이주 한인 농민의 생활 안정을 목적으로 하는 농민호조사(農民互助社)를 결성하였다.",
+    "detail": "독립기념관 독립운동인명사전은 '1927년 4월 1일 길림사건의 현장인 대동공사에서 농민호조사(農民互助社)를 결성'하였다고 기록한다. 한국민족문화대백과 '안창호' 항목은 농민호조사가 만주 이주 한인 농민의 생활 안정을 목적으로 하였다고 서술한다. 이상촌 건설 운동과 연계된 조직이다.",
+    "sources": [
+      {
+        "type": "institutional",
+        "title": "독립운동인명사전 '안창호' (한국독립운동정보시스템, 독립기념관)",
+        "locator": "id=696",
+        "url": "https://search.i815.or.kr/dictionary/detail.do?searchType=all&index=1&id=696"
+      },
+      {
+        "type": "encyclopedia",
+        "title": "한국민족문화대백과사전 '안창호'",
+        "locator": "E0035050",
+        "url": "https://encykorea.aks.ac.kr/Article/E0035050"
+      }
+    ],
+    "confidence": "B",
+    "tags": ["결사"]
+  },
+  {
+    "id": "evt-provgov-026",
+    "title": "한국독립당 창당과 당의·당강 기초",
+    "date": {
+      "start": "1930-01-25",
+      "end": "1930-01-25",
+      "precision": "day",
+      "calendar": "solar"
+    },
+    "place": {
+      "name": "상하이 프랑스조계",
+      "modern_name": "중국 상하이시",
+      "lat": 31.2304,
+      "lng": 121.4737
+    },
+    "actors": ["안창호", "이동녕", "김구", "이유필", "김두봉", "안공근", "조완구", "조소앙", "이시영", "차리석", "송병조"],
+    "orgs": ["한국독립당", "대한민국임시정부"],
+    "summary": "1930년 1월 25일 상하이에서 이동녕·안창호·김구 등이 독립투쟁전선 통일과 지방파벌 청산을 내걸고 한국독립당을 비밀리에 창당하였으며, 안창호는 당의·당강 기초위원으로 참여하였다.",
+    "detail": "결성식에는 조완구·윤기섭·김구·엄항섭·이시영·안공근·김두봉·송병조·이유필·차리석(차이석)·박찬익 등 26명이 참석하였다(한국민족문화대백과). 당의·당강 기초위원은 같은 사전이 이동녕·안창호·이유필·김두봉·안공근·조완구 6인을 명시하나, 조소앙을 포함한 7인으로 기록한 서술도 있어 병기한다. 창당 연도는 우리역사넷 '안창호' 항목이 1929년으로 기록하여 1930년 1월 25일(한국민족문화대백과·독립기념관)과 상충한다. 당의·당강에 안창호의 대공주의가 반영되었다는 학술 연구가 있다(사상 내용 분석은 philosophy 소유 — 본 레코드는 당강 작성 사건만 기록).",
+    "sources": [
+      {
+        "type": "encyclopedia",
+        "title": "한국민족문화대백과사전 '한국독립당(韓國獨立黨)'",
+        "locator": "E0061133",
+        "url": "https://encykorea.aks.ac.kr/Article/E0061133"
+      },
+      {
+        "type": "institutional",
+        "title": "독립운동인명사전 (한국독립운동정보시스템, 독립기념관)",
+        "locator": "id=2281",
+        "url": "https://search.i815.or.kr/dictionary/detail/print.do?id=2281"
+      },
+      {
+        "type": "academic",
+        "title": "「1930년 한국독립당 당의·당강의 이념과 성격」 (학위논문, ScienceON 등재)",
+        "locator": "DIKO0015504019",
+        "url": "https://scienceon.kisti.re.kr/srch/selectPORSrchArticle.do?cn=DIKO0015504019"
+      },
+      {
+        "type": "institutional",
+        "title": "우리역사넷 '안창호' (1929년 결성 서술 — 상충 출처)",
+        "locator": "kc_n402200",
+        "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n402200"
+      }
+    ],
+    "confidence": "B",
+    "tags": ["결사", "사상"]
+  },
+  {
+    "id": "evt-provgov-027",
+    "title": "동인호조사 조직",
+    "date": {
+      "start": "1930-10-01",
+      "end": "1930-12-31",
+      "precision": "range",
+      "calendar": "solar"
+    },
+    "place": {
+      "name": "상하이",
+      "modern_name": "중국 상하이시",
+      "lat": 31.2304,
+      "lng": 121.4737
+    },
+    "actors": ["안창호"],
+    "orgs": ["동인호조사", "공평사"],
+    "summary": "1930년 말 안창호가 상하이에서 협동상조·소비합작·신용생산의 합작운동 보급을 위한 동인호조사(同人互助社)를 조직하였으며, 이듬해 공평사(公平社)로 개칭되었다.",
+    "detail": "동인호조사는 재상하이 한인의 생산·신용 합작운동을 보급하기 위한 조직으로, 협동상조·소비합작·신용생산 등으로 생활 역량을 넓히는 것을 목적으로 하였다. 1931년 공평사로 개칭되었다. 이상촌 건설 운동·농민호조사(evt-provgov-025)와 같은 합작·호조 계열 활동이다. 1~3단계 출처로의 역추적이 완료되지 않아 추가 확인이 필요하다(장석흥 등의 이상촌 운동 연구에 관련 서술이 있을 것으로 보임 — 가설은 report 참조).",
+    "sources": [
+      {
+        "type": "web",
+        "title": "대한인국민회 기념재단 '안창호'",
+        "locator": null,
+        "url": "https://knamf.org/안창호/"
+      },
+      {
+        "type": "web",
+        "title": "'무실역행의 지도자, 안창호' (역사 인물 웹자료)",
+        "locator": null,
+        "url": "http://koreanperson.web3.newwaynet.co.kr/bbs/board.php?bo_table=sub02_03&wr_id=2"
+      }
+    ],
+    "confidence": "C",
+    "tags": ["결사"]
+  },
+  {
+    "id": "evt-provgov-028",
+    "title": "만주사변 이후 만주 이상촌 계획 단념과 난징 토지 매수",
+    "date": {
+      "start": "1931-09-18",
+      "end": "1932-04-28",
+      "precision": "range",
+      "calendar": "solar"
+    },
+    "place": {
+      "name": "난징",
+      "modern_name": "중국 장쑤성 난징시",
+      "lat": 32.0603,
+      "lng": 118.7969
+    },
+    "actors": ["안창호"],
+    "orgs": [],
+    "summary": "〔미확인〕 1931년 9월 만주사변 발발 후 안창호가 만주에서의 이상촌 계획을 단념하고 난징에서 토지를 매수하였다고 전해진다.",
+    "detail": "위키백과 '안창호'는 '1931년 만주사변으로 만주에서의 이상촌 계획을 단념하고 난징에서 토지를 매수하였다'고 서술한다. 토지 매수의 일자·위치·규모는 확인하지 못하였고, 4단계(백과) 단독 근거이므로 미확인으로 표기한다. 한국민족문화대백과 '안창호' 항목의 '이상촌 건설계획은 1930년대에 접어들면서 일제의 중국침략이 노골화되어 성공하지 못했다'는 서술이 방계 근거다. 도산일기·흥사단 원동위원부 기록 등 1차 사료 확인이 필요하다.",
+    "sources": [
+      {
+        "type": "encyclopedia",
+        "title": "위키백과 '안창호'",
+        "locator": null,
+        "url": "https://ko.wikipedia.org/wiki/안창호"
+      },
+      {
+        "type": "encyclopedia",
+        "title": "한국민족문화대백과사전 '안창호'",
+        "locator": "E0035050",
+        "url": "https://encykorea.aks.ac.kr/Article/E0035050"
+      }
+    ],
+    "confidence": "D",
+    "tags": ["결사"]
+  },
+  {
+    "id": "evt-provgov-029",
+    "title": "윤봉길 의거 당일 프랑스조계에서 피체",
+    "date": {
+      "start": "1932-04-29",
+      "end": "1932-04-29",
+      "precision": "day",
+      "calendar": "solar"
+    },
+    "place": {
+      "name": "상하이 프랑스조계 이유필 자택",
+      "modern_name": "중국 상하이시",
+      "lat": 31.2304,
+      "lng": 121.4737
+    },
+    "actors": ["안창호", "이유필", "윤봉길", "김구"],
+    "orgs": ["대한민국임시정부", "상해한인소년동맹"],
+    "summary": "1932년 4월 29일 윤봉길의 훙커우공원 의거 당일, 안창호가 프랑스조계 이유필의 집을 방문하였다가 잠복한 일제 경찰에 체포되었다.",
+    "detail": "의거 직후 일제는 프랑스조계 경찰의 협조를 얻어 조계 내 한인 독립운동가 일제 검거에 나섰다. 안창호는 이날 이유필의 집을 방문하였다가 체포되었다. 방문 목적은 출처 간 서술이 다르다: ① 한국소년동맹(상해한인소년동맹)에 약속한 지원금을 전달하기 위해서였다는 서술(공훈 기록 계열, 소년은 이유필의 아들 이만영으로 전해짐 — 인명은 1~3단계 출처 미확인), ② 이유필의 딸 생일 선물 약속을 지키기 위해서였다는 서술(위키백과). 체포 주체도 '잠복한 일본영사관 경찰'(공훈 기록 계열)과 '일본 영사관 경찰과 합세한 프랑스 영사관 관헌이 체포해 일제에 인도'(위키백과)로 갈린다. 안창호는 윤봉길 의거와 직접 관련이 없었다(국사편찬위원회 서술). 김구 측이 사전에 피신 경고를 전하려 했다는 회고(백범일지 계열)는 원문 미확인으로 검증 필요.",
+    "sources": [
+      {
+        "type": "institutional",
+        "title": "우리역사넷 '안창호' (국사편찬위원회)",
+        "locator": "kc_n402200",
+        "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n402200"
+      },
+      {
+        "type": "institutional",
+        "title": "독립운동인명사전 '안창호' (한국독립운동정보시스템, 독립기념관)",
+        "locator": "id=696",
+        "url": "https://search.i815.or.kr/dictionary/detail.do?searchType=all&index=1&id=696"
+      },
+      {
+        "type": "encyclopedia",
+        "title": "위키백과 '안창호' (딸 생일 선물·프랑스 관헌 체포 서술 — 상충 출처)",
+        "locator": null,
+        "url": "https://ko.wikipedia.org/wiki/안창호"
+      }
+    ],
+    "confidence": "B",
+    "tags": ["결사"]
+  },
+  {
+    "id": "evt-provgov-030",
+    "title": "상하이 일본총영사관 구금과 신문",
+    "date": {
+      "start": "1932-04-29",
+      "end": "1932-06-01",
+      "precision": "range",
+      "calendar": "solar"
+    },
+    "place": {
+      "name": "상하이 일본총영사관",
+      "modern_name": "중국 상하이시",
+      "lat": 31.2304,
+      "lng": 121.4737
+    },
+    "actors": ["안창호"],
+    "orgs": [],
+    "summary": "체포된 안창호는 상하이 일본총영사관에 구금되어 신문을 받았으며, 이후 국내로 압송되어 1932년 6월 2일 서울에 도착하였다.",
+    "detail": "안창호는 체포 후 상하이 일본총영사관(영사관 유치장)에 구금되어 신문을 받았다. 경향신문(이기환의 흔적의 역사, 국가기록원 자료 기반)은 압송 후 '6월 2일 서울에 도착'하였고 경기도 경찰부에서 40여 일간 심문을 받았다고 기록한다(서울 도착 이후는 heungsadan 소유 — 인계). 압송선 승선 일자·선박명은 확인하지 못하였다. 영문 위키백과는 안창호가 당시 중국 귀화 국적자였으며 압송이 불법적 인도였다는 서술을 싣고 있으나 1~3단계 출처로 확인하지 못해 미확인 단서로만 남긴다. 상하이 총영사관 신문조서 원문은 한국사데이터베이스 등에서 발굴 필요(primary-source 이관).",
+    "sources": [
+      {
+        "type": "web",
+        "title": "경향신문 '[이기환의 흔적의 역사] 억장이 무너지는 도산 안창호 선생의 사진 3장'",
+        "locator": "2019-05-23",
+        "url": "https://www.khan.co.kr/article/201905231407001"
+      },
+      {
+        "type": "academic",
+        "title": "「도산 안창호의 서대문형무소 투옥과 수감 생활」 (KCI 논문 — 압송·수감 경위 관련)",
+        "locator": "ART001827032",
+        "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001827032"
+      },
+      {
+        "type": "encyclopedia",
+        "title": "영문 위키백과 'Ahn Chang Ho' (중국 국적·불법 인도 서술 — 미확인 단서)",
+        "locator": null,
+        "url": "https://en.wikipedia.org/wiki/Ahn_Chang_Ho"
+      }
+    ],
+    "confidence": "C",
+    "tags": ["결사"]
+  }
+]

@@ -1,0 +1,218 @@
+{
+  "cfl-001": [
+    "evt-early-004"
+  ],
+  "cfl-002": [
+    "evt-early-005",
+    "evt-chrono-002"
+  ],
+  "cfl-003": [
+    "evt-early-009",
+    "evt-chrono-005"
+  ],
+  "cfl-004": [
+    "evt-early-012",
+    "evt-chrono-007"
+  ],
+  "cfl-005": [
+    "evt-early-013"
+  ],
+  "cfl-006": [
+    "evt-early-014"
+  ],
+  "cfl-007": [
+    "evt-early-016"
+  ],
+  "cfl-008": [
+    "evt-early-022",
+    "evt-amer-001"
+  ],
+  "cfl-009": [
+    "evt-amer-005"
+  ],
+  "cfl-010": [
+    "evt-amer-007"
+  ],
+  "cfl-011": [
+    "evt-amer-011"
+  ],
+  "cfl-012": [
+    "evt-amer-018",
+    "evt-chrono-044"
+  ],
+  "cfl-013": [
+    "evt-chrono-044"
+  ],
+  "cfl-014": [
+    "evt-shin-004"
+  ],
+  "cfl-015": [
+    "evt-shin-005"
+  ],
+  "cfl-016": [
+    "evt-shin-021"
+  ],
+  "cfl-017": [
+    "evt-shin-024"
+  ],
+  "cfl-018": [
+    "evt-shin-029"
+  ],
+  "cfl-019": [
+    "evt-shin-031"
+  ],
+  "cfl-020": [
+    "evt-shin-028",
+    "evt-chrono-040"
+  ],
+  "cfl-021": [
+    "evt-shin-010"
+  ],
+  "cfl-022": [
+    "evt-chrono-061",
+    "evt-phil-008"
+  ],
+  "cfl-023": [
+    "evt-provgov-013"
+  ],
+  "cfl-024": [
+    "evt-provgov-024",
+    "evt-chrono-082"
+  ],
+  "cfl-025": [
+    "evt-provgov-026"
+  ],
+  "cfl-026": [
+    "evt-chrono-089",
+    "evt-hsd-011"
+  ],
+  "cfl-027": [
+    "evt-hsd-013"
+  ],
+  "cfl-028": [
+    "evt-chrono-091",
+    "evt-hsd-015"
+  ],
+  "cfl-029": [
+    "evt-chrono-092"
+  ],
+  "cfl-030": [
+    "evt-hsd-007"
+  ],
+  "cfl-031": [
+    "evt-hsd-008"
+  ],
+  "cfl-032": [
+    "evt-hsd-019"
+  ],
+  "cfl-033": [
+    "evt-hsd-022"
+  ],
+  "cfl-034": [
+    "evt-chrono-098",
+    "evt-hsd-025"
+  ],
+  "cfl-035": [
+    "evt-shin-014"
+  ],
+  "cfl-036": [
+    "evt-chrono-002",
+    "evt-early-005"
+  ],
+  "cfl-037": [
+    "evt-early-006"
+  ],
+  "cfl-038": [
+    "evt-chrono-013",
+    "evt-early-019"
+  ],
+  "cfl-039": [
+    "evt-provgov-024"
+  ],
+  "cfl-040": [
+    "evt-amer-001"
+  ],
+  "cfl-041": [
+    "evt-shin-031"
+  ],
+  "cfl-042": [
+    "evt-amer-034"
+  ],
+  "cfl-043": [
+    "evt-provgov-006"
+  ],
+  "cfl-044": [
+    "evt-shin-001"
+  ],
+  "cfl-045": [
+    "evt-shin-003"
+  ],
+  "cfl-046": [
+    "evt-shin-013"
+  ],
+  "cfl-047": [
+    "evt-shin-008"
+  ],
+  "cfl-048": [
+    "evt-shin-016"
+  ],
+  "cfl-049": [
+    "evt-shin-019"
+  ],
+  "cfl-050": [
+    "evt-shin-025"
+  ],
+  "cfl-051": [
+    "evt-provgov-026",
+    "evt-phil-012"
+  ],
+  "cfl-052": [
+    "evt-provgov-029"
+  ],
+  "cfl-053": [
+    "evt-provgov-029"
+  ],
+  "cfl-054": [
+    "evt-provgov-024"
+  ],
+  "cfl-055": [
+    "evt-hsd-023"
+  ],
+  "cfl-056": [
+    "evt-hsd-001"
+  ],
+  "cfl-057": [
+    "evt-phil-012",
+    "evt-provgov-026"
+  ],
+  "cfl-058": [
+    "evt-phil-005"
+  ],
+  "cfl-059": [
+    "evt-phil-006"
+  ],
+  "cfl-060": [
+    "evt-phil-007"
+  ],
+  "cfl-061": [
+    "evt-phil-008"
+  ],
+  "cfl-062": [
+    "evt-phil-011"
+  ],
+  "cfl-063": [
+    "evt-hsd-014",
+    "evt-chrono-090"
+  ],
+  "cfl-064": [
+    "evt-amer-023",
+    "evt-chrono-050"
+  ],
+  "cfl-065": [
+    "evt-provgov-021",
+    "evt-amer-027"
+  ],
+  "cfl-066": [
+    "evt-early-001"
+  ]
+}

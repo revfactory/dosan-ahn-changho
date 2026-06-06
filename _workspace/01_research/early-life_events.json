@@ -1,0 +1,902 @@
+[
+  {
+    "id": "evt-early-001",
+    "title": "안창호 출생",
+    "date": {
+      "start": "1878-11-09",
+      "end": "1878-11-09",
+      "precision": "day",
+      "calendar": "solar"
+    },
+    "place": {
+      "name": "평안남도 강서군 초리면 칠리 봉상도(鳳翔島, 일명 도롱섬)",
+      "modern_name": "북한 평안남도 강서 일대 (현 행정구역 세부 미확인)",
+      "lat": null,
+      "lng": null
+    },
+    "actors": ["안창호", "안흥국"],
+    "orgs": [],
+    "summary": "1878년 11월 9일 평안남도 강서군 초리면 칠리 봉상도(도롱섬)에서 농부 안흥국(安興國)과 제남 황씨의 3남 1녀 중 셋째 아들로 출생.",
+    "detail": "본관은 순흥(順興). 부 안흥국, 모 제남 황씨. 위로 형 안치호(安致昊) 등 두 형, 아래로 여동생 안신호(安信浩). 출생지 봉상도는 대동강 하류의 섬으로 '도롱섬'으로 불렸다. 출생일 '11월 9일'은 현행 기관(독립기념관·국사편찬위원회) 표기를 따랐으며, 당대 원본 기록(호적·족보)의 역법(음력 여부)은 확인되지 않았다.",
+    "sources": [
+      {
+        "type": "institutional",
+        "title": "독립운동인명사전 「안창호」 (집필 이명화), 독립기념관 한국독립운동정보시스템",
+        "locator": "사전 id 696",
+        "url": "https://search.i815.or.kr/dictionary/detail.do?id=696"
+      },
+      {
+        "type": "institutional",
+        "title": "우리역사넷 한국사 인물 「안창호」, 국사편찬위원회",
+        "locator": "levelId kc_n402200",
+        "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n402200"
+      },
+      {
+        "type": "encyclopedia",
+        "title": "한국민족문화대백과사전 「안창호」",
+        "locator": "E0035050",
+        "url": "https://encykorea.aks.ac.kr/Article/E0035050"
+      }
+    ],
+    "confidence": "A",
+    "tags": ["가족"]
+  },
+  {
+    "id": "evt-early-002",
+    "title": "〔미확인〕 가계 세부 — 조부 안태열·족보상 부명 안교진 설",
+    "date": {
+      "start": "1878-01-01",
+      "end": "1878-12-31",
+      "precision": "year",
+      "calendar": "solar"
+    },
+    "place": {
+      "name": "평안남도 강서군",
+      "modern_name": "북한 평안남도 강서 일대",
+      "lat": null,
+      "lng": null
+    },
+    "actors": ["안창호", "안태열", "안흥국"],
+    "orgs": [],
+    "summary": "〔미확인〕 조부의 이름이 안태열(安泰烈, 1815–1883)이고 족보상 부친명이 안교진(安敎晋)으로 기록되었다는 설이 있으나 1차 족보 사료로 확인하지 못했다.",
+    "detail": "위키백과는 조부를 안태열(1815–1883)로 기록하나, 이 몰년(1883)은 '부친 사후 조부 슬하에서 성장했고 조부가 1896년경 약혼을 주선했다'는 기관 사료의 서술과 모순된다. 족보상 부친명 안교진(安敎晋) 설은 검색 결과(기독타임즈 기사 스니펫)에서만 확인되었고 해당 페이지는 접근 실패(HTTP 403)했다. 순흥 안씨 족보 원본 미확인.",
+    "sources": [
+      {
+        "type": "encyclopedia",
+        "title": "위키백과 「안창호」",
+        "locator": "가계 절",
+        "url": "https://ko.wikipedia.org/wiki/%EC%95%88%EC%B0%BD%ED%98%B8"
+      },
+      {
+        "type": "web",
+        "title": "기독타임즈 「안창호(安昌浩, 1878-1938) 계몽운동가, 독립운동가 ①」 (원문 접근 실패 — 검색 스니펫만 확인)",
+        "locator": null,
+        "url": "http://www.kidoktimes.co.kr/5787"
+      }
+    ],
+    "confidence": "D",
+    "tags": ["가족"]
+  },
+  {
+    "id": "evt-early-003",
+    "title": "도롱섬에서 평양 대동강 국수당으로 이사",
+    "date": {
+      "start": "1884-01-01",
+      "end": "1884-12-31",
+      "precision": "year",
+      "calendar": "solar"
+    },
+    "place": {
+      "name": "평양 대동강 국수당(國樹塘)",
+      "modern_name": "북한 평양시 일대",
+      "lat": 39.0392,
+      "lng": 125.7625
+    },
+    "actors": ["안창호", "안흥국"],
+    "orgs": [],
+    "summary": "7세 때인 1884년 가족이 도롱섬에서 평양 대동강 변 국수당(國樹塘)으로 이주하여 8세까지 거주.",
+    "detail": "독립운동인명사전(이명화 집필)에 따르면 7세 때인 1884년 도롱섬에서 평양 대동강 국수당으로 이사해 8세까지 살았다. 조상들은 본래 평양 동촌에 거주하다가 부친 대에 도롱섬으로 이주했다는 서술(우리역사넷)과 연결된다.",
+    "sources": [
+      {
+        "type": "institutional",
+        "title": "독립운동인명사전 「안창호」 (집필 이명화), 독립기념관 한국독립운동정보시스템",
+        "locator": "사전 id 696",
+        "url": "https://search.i815.or.kr/dictionary/detail.do?id=696"
+      },
+      {
+        "type": "institutional",
+        "title": "우리역사넷 한국사 인물 「안창호」, 국사편찬위원회",
+        "locator": "levelId kc_n402200",
+        "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n402200"
+      }
+    ],
+    "confidence": "B",
+    "tags": ["가족", "이동"]
+  },
+  {
+    "id": "evt-early-004",
+    "title": "부친 안흥국 별세",
+    "date": {
+      "start": "1885-01-01",
+      "end": "1890-12-31",
+      "precision": "range",
+      "calendar": "solar"
+    },
+    "place": {
+      "name": "평안남도 (평양 인근 거주지)",
+      "modern_name": "북한 평안남도 일대",
+      "lat": null,
+      "lng": null
+    },
+    "actors": ["안창호", "안흥국"],
+    "orgs": [],
+    "summary": "어린 시절 부친 안흥국이 별세하여 이후 조부 슬하에서 성장. 별세 시점은 출처 간 상충(8세설·11세설·12세설).",
+    "detail": "출처 상충: ① 우리역사넷(국사편찬위)은 '8세 되던 해 부친이 별세'(1885년경), ② 독립운동인명사전(이명화)은 '11세 때 부친을 여의고'(1888년경), ③ 위키백과는 부친 생몰년을 1851–1890으로 적어 12세설(1890)을 함의한다. 어느 쪽도 1차 사료 전거가 제시되지 않아 시점을 범위(1885–1890)로 기록한다. 부친 사후 조부 슬하에서 성장한 점은 모든 출처가 일치.",
+    "sources": [
+      {
+        "type": "institutional",
+        "title": "우리역사넷 한국사 인물 「안창호」, 국사편찬위원회",
+        "locator": "levelId kc_n402200",
+        "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n402200"
+      },
+      {
+        "type": "institutional",
+        "title": "독립운동인명사전 「안창호」 (집필 이명화), 독립기념관 한국독립운동정보시스템",
+        "locator": "사전 id 696",
+        "url": "https://search.i815.or.kr/dictionary/detail.do?id=696"
+      },
+      {
+        "type": "encyclopedia",
+        "title": "위키백과 「안창호」",
+        "locator": "생애 초기 절",
+        "url": "https://ko.wikipedia.org/wiki/%EC%95%88%EC%B0%BD%ED%98%B8"
+      }
+    ],
+    "confidence": "C",
+    "tags": ["가족"]
+  },
+  {
+    "id": "evt-early-005",
+    "title": "평남 대동군 노남리로 이사, 조부 슬하 성장",
+    "date": {
+      "start": "1886-01-01",
+      "end": "1886-12-31",
+      "precision": "year",
+      "calendar": "solar"
+    },
+    "place": {
+      "name": "평안남도 대동군 남곶면(南串面) 노남리",
+      "modern_name": "북한 평안남도 대동군 일대 (세부 미확인)",
+      "lat": null,
+      "lng": null
+    },
+    "actors": ["안창호"],
+    "orgs": [],
+    "summary": "9세 때인 1886년 평남 대동군 남곶면 노남리로 이사하여 조부 슬하에서 성장. 이사 연도는 1892년설과 상충.",
+    "detail": "독립운동인명사전은 '9세 때인 1886년 평남 대동군 남곳면(南串面) 노남리로 이사'로 기록. 위키백과는 1892년(고종 29) 대동군 '남부산면' 노남리로 이사하여 '노남리댁 셋째'로 불렸다고 기록해 연도(1886 vs 1892)와 면 명칭(남곶면 vs 남부산면)이 상충한다. 기관 사료인 인명사전 기록을 기준 연도로 삼되 양설을 병기한다.",
+    "sources": [
+      {
+        "type": "institutional",
+        "title": "독립운동인명사전 「안창호」 (집필 이명화), 독립기념관 한국독립운동정보시스템",
+        "locator": "사전 id 696",
+        "url": "https://search.i815.or.kr/dictionary/detail.do?id=696"
+      },
+      {
+        "type": "encyclopedia",
+        "title": "위키백과 「안창호」",
+        "locator": "생애 초기 절",
+        "url": "https://ko.wikipedia.org/wiki/%EC%95%88%EC%B0%BD%ED%98%B8"
+      }
+    ],
+    "confidence": "B",
+    "tags": ["가족", "이동"]
+  },
+  {
+    "id": "evt-early-006",
+    "title": "서당 수학 — 김현진 문하에서 한학 학습",
+    "date": {
+      "start": "1886-01-01",
+      "end": "1892-12-31",
+      "precision": "range",
+      "calendar": "solar"
+    },
+    "place": {
+      "name": "평안남도 (심정리 또는 노남리 — 출처 상충)",
+      "modern_name": "북한 평안남도 일대",
+      "lat": null,
+      "lng": null
+    },
+    "actors": ["안창호", "김현진"],
+    "orgs": [],
+    "summary": "9세부터 14세 무렵까지 유학자 김현진(金鉉鎭) 문하 서당에서 한학을 수학. 서당 위치는 출처 간 상충(강서군 심정리 vs 대동군 노남리).",
+    "detail": "한국민족문화대백과는 '8세까지 가정에서 한문을 수학하고, 9세에서 14세까지는 강서군 심정리에 머물며 김현진에게 한학을 배웠다'고 기록. 독립운동인명사전은 '노남리 마을의 유림인 김현진(金鉉鎭) 문하에서 한학을 배웠다'고 기록해 위치가 상충한다(심정리 vs 노남리). 수학 시기(9~14세, 1886~1891/92년경)는 민백 기준의 범위 표기.",
+    "sources": [
+      {
+        "type": "encyclopedia",
+        "title": "한국민족문화대백과사전 「안창호」",
+        "locator": "E0035050",
+        "url": "https://encykorea.aks.ac.kr/Article/E0035050"
+      },
+      {
+        "type": "institutional",
+        "title": "독립운동인명사전 「안창호」 (집필 이명화), 독립기념관 한국독립운동정보시스템",
+        "locator": "사전 id 696",
+        "url": "https://search.i815.or.kr/dictionary/detail.do?id=696"
+      }
+    ],
+    "confidence": "C",
+    "tags": ["교육"]
+  },
+  {
+    "id": "evt-early-007",
+    "title": "필대은과의 교유 — 민족의식 형성의 영향",
+    "date": {
+      "start": "1886-01-01",
+      "end": "1894-12-31",
+      "precision": "range",
+      "calendar": "solar"
+    },
+    "place": {
+      "name": "평안남도 (서당 수학기 거주지 일대)",
+      "modern_name": "북한 평안남도 일대",
+      "lat": null,
+      "lng": null
+    },
+    "actors": ["안창호", "필대은"],
+    "orgs": [],
+    "summary": "서당 시절 서너 살 연상의 선배 필대은(畢大殷)과 교유하며 민족주의 사상 형성에 큰 영향을 받음.",
+    "detail": "한국민족문화대백과는 '서당 선배인 필대은과 알게 되어 그로부터 민족주의사상을 형성하는 데 큰 영향을 받았다'고, 독립운동인명사전은 '어린 시절 서너 살 연상인 필대은(畢大殷)으로부터 많은 영향을 받았다'고 기록. 이광수 전기(전기류)에는 청일전쟁 무렵 필대은과 나라의 형세를 토론한 것으로 전해진다. 필대은은 이후 독립협회 관서지부 활동의 동지로 재등장한다(evt-early-015 참조).",
+    "sources": [
+      {
+        "type": "encyclopedia",
+        "title": "한국민족문화대백과사전 「안창호」",
+        "locator": "E0035050",
+        "url": "https://encykorea.aks.ac.kr/Article/E0035050"
+      },
+      {
+        "type": "institutional",
+        "title": "독립운동인명사전 「안창호」 (집필 이명화), 독립기념관 한국독립운동정보시스템",
+        "locator": "사전 id 696",
+        "url": "https://search.i815.or.kr/dictionary/detail.do?id=696"
+      },
+      {
+        "type": "academic",
+        "title": "이광수, 『도산 안창호』 (1947, 전기류 — 사료 비판 필요), 위키문헌 수록본",
+        "locator": "第一章 少年時代",
+        "url": "https://ko.wikisource.org/wiki/%EB%8F%84%EC%82%B0_%EC%95%88%EC%B0%BD%ED%98%B8"
+      }
+    ],
+    "confidence": "B",
+    "tags": ["사상"]
+  },
+  {
+    "id": "evt-early-008",
+    "title": "청일전쟁 평양 전투 목격",
+    "date": {
+      "start": "1894-01-01",
+      "end": "1894-12-31",
+      "precision": "year",
+      "calendar": "solar"
+    },
+    "place": {
+      "name": "평양",
+      "modern_name": "북한 평양시",
+      "lat": 39.0392,
+      "lng": 125.7625
+    },
+    "actors": ["안창호", "필대은"],
+    "orgs": [],
+    "summary": "1894년 16세(세는나이 17세)에 평양에서 청일전쟁의 전투와 파괴를 목격하고 큰 충격을 받음 — 민족 각성의 계기로 평가됨.",
+    "detail": "우리역사넷은 '1894년 16세에 청일전쟁으로 평양이 파괴당한 것에 충격받아' 상경했다고 기록. 독립운동인명사전도 '1894년 평양에서 청일전쟁을 목격'으로 기록. 이광수 전기(전기류)에는 도산이 일본군과 청군의 접전과 전쟁의 자취를 보고 '타국이 마음대로 우리 강토에 들어와서 설레는 것은 우리나라에 힘이 없는 까닭이다'라고 깨달았다고 전해진다 — 이 어록 형태의 깨달음 서술은 후대 전기의 회고적 재구성이므로 사실 서술과 구분해 기록한다.",
+    "sources": [
+      {
+        "type": "institutional",
+        "title": "우리역사넷 한국사 인물 「안창호」, 국사편찬위원회",
+        "locator": "levelId kc_n402200",
+        "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n402200"
+      },
+      {
+        "type": "institutional",
+        "title": "독립운동인명사전 「안창호」 (집필 이명화), 독립기념관 한국독립운동정보시스템",
+        "locator": "사전 id 696",
+        "url": "https://search.i815.or.kr/dictionary/detail.do?id=696"
+      },
+      {
+        "type": "academic",
+        "title": "이광수, 『도산 안창호』 (1947, 전기류 — 사료 비판 필요), 위키문헌 수록본",
+        "locator": "第一章 少年時代",
+        "url": "https://ko.wikisource.org/wiki/%EB%8F%84%EC%82%B0_%EC%95%88%EC%B0%BD%ED%98%B8"
+      }
+    ],
+    "confidence": "B",
+    "tags": ["사상"]
+  },
+  {
+    "id": "evt-early-009",
+    "title": "상경 (서울행)",
+    "date": {
+      "start": "1894-09-01",
+      "end": "1895-12-31",
+      "precision": "range",
+      "calendar": "solar"
+    },
+    "place": {
+      "name": "한성(서울)",
+      "modern_name": "서울특별시",
+      "lat": 37.5665,
+      "lng": 126.978
+    },
+    "actors": ["안창호"],
+    "orgs": [],
+    "summary": "청일전쟁 목격 후 국력 배양의 필요를 절감하고 신학문을 배우러 상경. 상경 시기는 출처 간 상충(1894년설 vs 1895년설).",
+    "detail": "출처 상충: 우리역사넷은 1894년 16세에 상경했다고 기록하고, 한국민족문화대백과는 '1895년 청일전쟁 후 국력배양의 중요성을 절감하고 상경'으로 기록한다. 독립운동인명사전은 1894년 전쟁 목격 후 '더 큰 경험을 쌓기 위해 전국을 돌고 서울에 도착'했다고 적어 정확한 도착 시점을 특정하지 않는다. 이에 1894년 가을~1895년의 범위로 기록. 위키백과에는 조부와 집안의 반대를 무릅쓰고 삼촌의 도움으로 상경했다고 전해지나 전거가 제시되지 않았다(전승).",
+    "sources": [
+      {
+        "type": "institutional",
+        "title": "우리역사넷 한국사 인물 「안창호」, 국사편찬위원회",
+        "locator": "levelId kc_n402200",
+        "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n402200"
+      },
+      {
+        "type": "encyclopedia",
+        "title": "한국민족문화대백과사전 「안창호」",
+        "locator": "E0035050",
+        "url": "https://encykorea.aks.ac.kr/Article/E0035050"
+      },
+      {
+        "type": "institutional",
+        "title": "독립운동인명사전 「안창호」 (집필 이명화), 독립기념관 한국독립운동정보시스템",
+        "locator": "사전 id 696",
+        "url": "https://search.i815.or.kr/dictionary/detail.do?id=696"
+      }
+    ],
+    "confidence": "B",
+    "tags": ["이동"]
+  },
+  {
+    "id": "evt-early-010",
+    "title": "밀러 선교사와의 만남과 구세학당(밀러학당) 입학",
+    "date": {
+      "start": "1894-09-01",
+      "end": "1895-12-31",
+      "precision": "range",
+      "calendar": "solar"
+    },
+    "place": {
+      "name": "한성 정동 구세학당(救世學堂)",
+      "modern_name": "서울특별시 중구 정동 일대",
+      "lat": 37.5658,
+      "lng": 126.9727
+    },
+    "actors": ["안창호", "프레더릭 밀러"],
+    "orgs": ["구세학당"],
+    "summary": "정동 길에서 미국 북장로교 선교사 밀러(Frederick S. Miller, 민노아)를 만나 그의 권유로 구세학당(밀러학당·언더우드학당) 보통부에 입학, 신학문 수학 시작.",
+    "detail": "독립운동인명사전: '서울에 도착한 후 정동길에서 밀러(Frederick Scheiblin Miller, 민노아(閔老雅)) 선교사를 만나, 그의 권유로 밀러학당 곧 구세학당(救世學堂, 언더우드학당) 보통부에 입학해 서양 학문을 익히고 기독교를 믿게 되었다.' 구세학당은 언더우드(Horace G. Underwood)가 세운 장로교 계열 학교로 밀러가 운영을 맡고 있었다. '배우고 싶은 사람은 누구든 먹고 자고 공부할 수 있다'는 권유로 입학했다고 전해진다(위키백과, 전거 미상 — 전승). 입학 연도는 상경 시기 상충(1894/1895)에 연동되어 범위로 기록. 우리역사넷과 민백은 '3년간 수학'으로 기록.",
+    "sources": [
+      {
+        "type": "institutional",
+        "title": "독립운동인명사전 「안창호」 (집필 이명화), 독립기념관 한국독립운동정보시스템",
+        "locator": "사전 id 696",
+        "url": "https://search.i815.or.kr/dictionary/detail.do?id=696"
+      },
+      {
+        "type": "institutional",
+        "title": "우리역사넷 한국사 인물 「안창호」, 국사편찬위원회",
+        "locator": "levelId kc_n402200",
+        "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n402200"
+      },
+      {
+        "type": "encyclopedia",
+        "title": "한국민족문화대백과사전 「안창호」",
+        "locator": "E0035050",
+        "url": "https://encykorea.aks.ac.kr/Article/E0035050"
+      }
+    ],
+    "confidence": "B",
+    "tags": ["교육"]
+  },
+  {
+    "id": "evt-early-011",
+    "title": "기독교(장로교) 입교 — 송순명의 전도",
+    "date": {
+      "start": "1896-01-01",
+      "end": "1896-12-31",
+      "precision": "year",
+      "calendar": "solar"
+    },
+    "place": {
+      "name": "한성 정동 구세학당",
+      "modern_name": "서울특별시 중구 정동 일대",
+      "lat": 37.5658,
+      "lng": 126.9727
+    },
+    "actors": ["안창호", "송순명"],
+    "orgs": ["구세학당"],
+    "summary": "구세학당 재학 중 선배 송순명(宋淳明)의 전도로 장로교에 입교, 1896년경 기독교로 개종. 세례 시기와 장소는 미확인.",
+    "detail": "독립운동인명사전은 1896년 보통부 졸업 서술에 이어 '그 해 기독교로 개종'으로 기록. 위키백과와 영문 자료들은 '구세학당 재학 중 송순명의 전도로 장로교에 입교'했다고 기록하나 1차 전거(교회 기록·세례 명부)는 확인하지 못했다. 세례를 받은 정확한 시기·교회는 출처마다 다르거나 불명(영문 자료의 세례 교회 표기도 상이) — 〔미확인〕. 이후 새문안교회에 출석하며 신앙생활을 했다는 서술이 있다(위키백과, 전거 미상).",
+    "sources": [
+      {
+        "type": "institutional",
+        "title": "독립운동인명사전 「안창호」 (집필 이명화), 독립기념관 한국독립운동정보시스템",
+        "locator": "사전 id 696",
+        "url": "https://search.i815.or.kr/dictionary/detail.do?id=696"
+      },
+      {
+        "type": "encyclopedia",
+        "title": "위키백과 「안창호」",
+        "locator": "구세학당 수학 절",
+        "url": "https://ko.wikipedia.org/wiki/%EC%95%88%EC%B0%BD%ED%98%B8"
+      },
+      {
+        "type": "encyclopedia",
+        "title": "New World Encyclopedia, \"Ahn Chang Ho\"",
+        "locator": "Early life 절",
+        "url": "https://www.newworldencyclopedia.org/entry/Ahn_Chang_Ho"
+      }
+    ],
+    "confidence": "C",
+    "tags": ["사상"]
+  },
+  {
+    "id": "evt-early-012",
+    "title": "구세학당 보통부 졸업과 조교(접장) 활동",
+    "date": {
+      "start": "1896-01-01",
+      "end": "1896-12-31",
+      "precision": "year",
+      "calendar": "solar"
+    },
+    "place": {
+      "name": "한성 정동 구세학당",
+      "modern_name": "서울특별시 중구 정동 일대",
+      "lat": 37.5658,
+      "lng": 126.9727
+    },
+    "actors": ["안창호"],
+    "orgs": ["구세학당"],
+    "summary": "구세학당 보통부를 졸업하고 조교로 학생들을 지도. 졸업 연도는 출처 간 상충(1896년설 vs 1897년설).",
+    "detail": "독립운동인명사전: '1896년 구세학당 보통부를 졸업하고 조교로 학생을 지도하였다.' 위키백과는 '1897년 구세학당 보통부를 졸업하였고, 상급 학부로 진학하지 않고 보통부의 조교로 취직'으로 기록해 연도가 상충한다(1896 vs 1897). 기관 사료(인명사전) 기준으로 1896년을 기준 연도로 삼되 양설 병기.",
+    "sources": [
+      {
+        "type": "institutional",
+        "title": "독립운동인명사전 「안창호」 (집필 이명화), 독립기념관 한국독립운동정보시스템",
+        "locator": "사전 id 696",
+        "url": "https://search.i815.or.kr/dictionary/detail.do?id=696"
+      },
+      {
+        "type": "encyclopedia",
+        "title": "위키백과 「안창호」",
+        "locator": "구세학당 수학 절",
+        "url": "https://ko.wikipedia.org/wiki/%EC%95%88%EC%B0%BD%ED%98%B8"
+      }
+    ],
+    "confidence": "B",
+    "tags": ["교육"]
+  },
+  {
+    "id": "evt-early-013",
+    "title": "이혜련과의 약혼",
+    "date": {
+      "start": "1896-01-01",
+      "end": "1897-12-31",
+      "precision": "range",
+      "calendar": "solar"
+    },
+    "place": {
+      "name": "평안남도 강서군",
+      "modern_name": "북한 평안남도 강서 일대",
+      "lat": null,
+      "lng": null
+    },
+    "actors": ["안창호", "이혜련", "이석관"],
+    "orgs": [],
+    "summary": "서당 훈장 이석관(李錫觀)의 장녀 이혜련(李惠鍊, 1884년생)과 약혼. 약혼 연도는 출처 간 상충(1896년설 vs 1897년설).",
+    "detail": "독립운동인명사전은 1896년 '마을의 서당 선생인 이석관(李錫觀)의 딸 이혜련(李惠鍊)과 약혼하였다'고 기록. 한국민족문화대백과 「이혜련」 항목은 '1897년 안창호와 약혼'으로 기록해 연도가 상충한다. 이혜련은 1884년 4월 21일 평남 강서군 보림면 화학리에서 이석관의 2남 2녀 중 장녀로 출생했고, 약혼 후 상경하여 정신여학교에서 신학문을 배웠다. 위키백과에는 조부가 일방적으로 추진한 혼약에 안창호가 처음 난색을 표했다가 신학문 수학을 조건으로 받아들였다고 전해진다(전거 미상 — 전승).",
+    "sources": [
+      {
+        "type": "institutional",
+        "title": "독립운동인명사전 「안창호」 (집필 이명화), 독립기념관 한국독립운동정보시스템",
+        "locator": "사전 id 696",
+        "url": "https://search.i815.or.kr/dictionary/detail.do?id=696"
+      },
+      {
+        "type": "encyclopedia",
+        "title": "한국민족문화대백과사전 「이혜련」",
+        "locator": "E0079746",
+        "url": "https://encykorea.aks.ac.kr/Article/E0079746"
+      },
+      {
+        "type": "encyclopedia",
+        "title": "위키백과 「안창호」",
+        "locator": "약혼 관련 절",
+        "url": "https://ko.wikipedia.org/wiki/%EC%95%88%EC%B0%BD%ED%98%B8"
+      }
+    ],
+    "confidence": "B",
+    "tags": ["가족"]
+  },
+  {
+    "id": "evt-early-014",
+    "title": "독립협회 가입",
+    "date": {
+      "start": "1897-01-01",
+      "end": "1897-12-31",
+      "precision": "year",
+      "calendar": "solar"
+    },
+    "place": {
+      "name": "한성(서울)",
+      "modern_name": "서울특별시",
+      "lat": 37.5665,
+      "lng": 126.978
+    },
+    "actors": ["안창호"],
+    "orgs": ["독립협회"],
+    "summary": "1897년 서재필 등이 이끄는 독립협회에 가입. 가입 연도는 1898년설과 일부 상충.",
+    "detail": "한국민족문화대백과·독립운동인명사전·우리역사넷은 모두 1897년 가입으로 기록. 대한인국민회기념재단 약전은 '1898년 독립협회에 가입하고 만민공동회로 발전함에 따라 평양에서 관서지부를 발기했다'고 기록해 1898년설을 취한다. 기관·백과 다수 기록(1897)을 기준으로 삼되 상충 병기.",
+    "sources": [
+      {
+        "type": "encyclopedia",
+        "title": "한국민족문화대백과사전 「안창호」",
+        "locator": "E0035050",
+        "url": "https://encykorea.aks.ac.kr/Article/E0035050"
+      },
+      {
+        "type": "institutional",
+        "title": "독립운동인명사전 「안창호」 (집필 이명화), 독립기념관 한국독립운동정보시스템",
+        "locator": "사전 id 696",
+        "url": "https://search.i815.or.kr/dictionary/detail.do?id=696"
+      },
+      {
+        "type": "web",
+        "title": "대한인국민회기념재단 「안창호」 약전",
+        "locator": null,
+        "url": "https://knamf.org/%EC%95%88%EC%B0%BD%ED%98%B8/"
+      }
+    ],
+    "confidence": "B",
+    "tags": ["결사"]
+  },
+  {
+    "id": "evt-early-015",
+    "title": "독립협회 관서지부(평양지회) 설립 — 필대은과 공동 활동",
+    "date": {
+      "start": "1897-01-01",
+      "end": "1898-12-31",
+      "precision": "range",
+      "calendar": "solar"
+    },
+    "place": {
+      "name": "평양",
+      "modern_name": "북한 평양시",
+      "lat": 39.0392,
+      "lng": 125.7625
+    },
+    "actors": ["안창호", "필대은"],
+    "orgs": ["독립협회"],
+    "summary": "독립협회 가입 후 귀향하여 필대은과 함께 독립협회 관서지부(평양지회) 조직을 맡아 설립.",
+    "detail": "독립운동인명사전: '1897년 독립협회에 가입한 후 귀향하여 필대은과 독립협회 관서지부를 설립하였다.' 한국민족문화대백과도 '평양 관서지부 조직'을 기록. 지부 결성식(발기회)이 평양 쾌재정에서 열렸고 그 자리의 연설이 쾌재정 연설로 알려졌다는 서술이 있다(이광수 전기·흥사단 칼럼 — evt-early-016 참조). 설립의 정확한 일자는 미상이어서 1897~1898 범위로 기록.",
+    "sources": [
+      {
+        "type": "institutional",
+        "title": "독립운동인명사전 「안창호」 (집필 이명화), 독립기념관 한국독립운동정보시스템",
+        "locator": "사전 id 696",
+        "url": "https://search.i815.or.kr/dictionary/detail.do?id=696"
+      },
+      {
+        "type": "encyclopedia",
+        "title": "한국민족문화대백과사전 「안창호」",
+        "locator": "E0035050",
+        "url": "https://encykorea.aks.ac.kr/Article/E0035050"
+      },
+      {
+        "type": "academic",
+        "title": "이광수, 『도산 안창호』 (1947, 전기류 — 사료 비판 필요), 위키문헌 수록본",
+        "locator": "第一章 少年時代",
+        "url": "https://ko.wikisource.org/wiki/%EB%8F%84%EC%82%B0_%EC%95%88%EC%B0%BD%ED%98%B8"
+      }
+    ],
+    "confidence": "B",
+    "tags": ["결사"]
+  },
+  {
+    "id": "evt-early-016",
+    "title": "쾌재정 연설 — 청년 웅변가로 명성",
+    "date": {
+      "start": "1898-07-25",
+      "end": "1898-07-25",
+      "precision": "day",
+      "calendar": "lunar"
+    },
+    "place": {
+      "name": "평양 쾌재정(快哉亭)",
+      "modern_name": "북한 평양시 (대동강 서안 언덕)",
+      "lat": 39.0392,
+      "lng": 125.7625
+    },
+    "actors": ["안창호", "조민희"],
+    "orgs": ["독립협회"],
+    "summary": "고종 탄신 경축일(만수성절, 음력 7월 25일) 평양 쾌재정 군중집회에서 관찰사 조민희와 수백 군중 앞에 정부·관리를 비판하고 민중 각성을 촉구하는 연설로 청년 웅변가의 명성을 얻음. 연도는 1898년설(기관 사료)과 1897년설이 상충.",
+    "detail": "독립운동인명사전과 위키백과는 1898년으로, 흥사단 칼럼(안도산전서·김삼웅 평전 인용)은 1897년 음력 7월 25일 만 18세 때로 기록해 연도가 상충한다. 날짜(음력 7월 25일)는 고종 탄신일 만수성절과 일치한다. 연설은 독립협회 관서지부(평양지회) 주최 군중집회(만민공동회 발기회로도 전해짐)에서 행해졌고, 평남 관찰사 조민희와 수백 군중이 모인 가운데 '18조목의 쾌재(快哉)와 18조목의 불쾌(不快)'를 들어 탐관오리를 규탄했다고 전해진다(흥사단 칼럼·이광수 전기 — 전기류 전승). 조민희의 평안남도 관찰사 재임(1897.9 임명~1899.2 평북 전임)은 양설 모두와 양립 가능하나 1897년 음력 7월 25일(양력 8월 하순)은 임명 이전이므로 1898년설이 정합적이다(검토는 보고서 가설 절 참조). 본 레코드의 기준 연도는 기관 사료(인명사전)의 1898년.",
+    "sources": [
+      {
+        "type": "institutional",
+        "title": "독립운동인명사전 「안창호」 (집필 이명화), 독립기념관 한국독립운동정보시스템",
+        "locator": "사전 id 696",
+        "url": "https://search.i815.or.kr/dictionary/detail.do?id=696"
+      },
+      {
+        "type": "institutional",
+        "title": "우리역사넷 한국사 인물 「안창호」, 국사편찬위원회",
+        "locator": "levelId kc_n402200",
+        "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n402200"
+      },
+      {
+        "type": "web",
+        "title": "흥사단 칼럼 「안창호 '쾌재정 연설'과 120년 후 '광화문촛불 청소년시민'」 (안도산전서 증보판·김삼웅 『투사와 신사 안창호 평전』 인용)",
+        "locator": "no.14314",
+        "url": "https://www.yka.or.kr/html/info/column.asp?no=14314"
+      },
+      {
+        "type": "academic",
+        "title": "이광수, 『도산 안창호』 (1947, 전기류 — 사료 비판 필요), 위키문헌 수록본",
+        "locator": "第一章 少年時代",
+        "url": "https://ko.wikisource.org/wiki/%EB%8F%84%EC%82%B0_%EC%95%88%EC%B0%BD%ED%98%B8"
+      }
+    ],
+    "confidence": "B",
+    "tags": ["결사", "사상"]
+  },
+  {
+    "id": "evt-early-017",
+    "title": "서울 만민공동회 활동 참여",
+    "date": {
+      "start": "1898-01-01",
+      "end": "1898-12-31",
+      "precision": "year",
+      "calendar": "solar"
+    },
+    "place": {
+      "name": "한성 종로",
+      "modern_name": "서울특별시 종로구",
+      "lat": 37.5704,
+      "lng": 126.992
+    },
+    "actors": ["안창호", "이상재", "윤치호", "이승만"],
+    "orgs": ["독립협회", "만민공동회"],
+    "summary": "1898년 서울 종로의 만민공동회 운동에 참여. 구체적 역할과 활동 내용은 1~2차 사료로 확인되지 않음.",
+    "detail": "한국민족문화대백과는 '1898년 서울 종로에서 이상재·윤치호·이승만 등과 만민공동회를 개최'로 기록하나, 백과사전 단독 서술로 당시 안창호의 구체적 지위·역할(개최 주체인지 참여자인지)은 상위 출처로 확인하지 못했다. 만민공동회 운동(1898.3~12) 전개와 시기적으로 부합하며, 같은 해 평양 쾌재정 연설(evt-early-016)과 병행된 활동으로 보인다.",
+    "sources": [
+      {
+        "type": "encyclopedia",
+        "title": "한국민족문화대백과사전 「안창호」",
+        "locator": "E0035050",
+        "url": "https://encykorea.aks.ac.kr/Article/E0035050"
+      }
+    ],
+    "confidence": "C",
+    "tags": ["결사"]
+  },
+  {
+    "id": "evt-early-018",
+    "title": "독립협회 해산 후 귀향",
+    "date": {
+      "start": "1898-12-01",
+      "end": "1898-12-31",
+      "precision": "month",
+      "calendar": "solar"
+    },
+    "place": {
+      "name": "평안남도 강서군",
+      "modern_name": "북한 평안남도 강서 일대",
+      "lat": null,
+      "lng": null
+    },
+    "actors": ["안창호"],
+    "orgs": ["독립협회"],
+    "summary": "1898년 12월 독립협회가 강제 해산되자 고향 강서로 돌아옴 — 이듬해 교육·교회 사업의 전기.",
+    "detail": "독립운동인명사전: '1898년 12월 독립협회가 해산되자 고향으로 돌아와 다음 해 강서군 동진면 암화리에 점진학교를 세우고 탄포리에 교회를 설립하였다.' 독립협회·만민공동회 운동의 좌절이 점진학교 설립(evt-early-019)으로 이어지는 전환점이다.",
+    "sources": [
+      {
+        "type": "institutional",
+        "title": "독립운동인명사전 「안창호」 (집필 이명화), 독립기념관 한국독립운동정보시스템",
+        "locator": "사전 id 696",
+        "url": "https://search.i815.or.kr/dictionary/detail.do?id=696"
+      }
+    ],
+    "confidence": "B",
+    "tags": ["이동", "결사"]
+  },
+  {
+    "id": "evt-early-019",
+    "title": "점진학교 설립",
+    "date": {
+      "start": "1899-01-01",
+      "end": "1899-12-31",
+      "precision": "year",
+      "calendar": "solar"
+    },
+    "place": {
+      "name": "평안남도 강서군 동진면 암화리",
+      "modern_name": "북한 평안남도 강서 일대 (세부 미확인)",
+      "lat": null,
+      "lng": null
+    },
+    "actors": ["안창호"],
+    "orgs": ["점진학교"],
+    "summary": "1899년 강서군 동진면 암화리에 초등과정의 점진학교(漸進學校)를 설립 — 서도(西道)에서 민간인이 세운 최초의 사립학교이자 남녀공학을 실시한 최초의 소학교로 평가됨.",
+    "detail": "한국민족문화대백과 「점진학교」: 점진학교는 '서도(西道)에서 민간인이 세운 최초의 사립학교인 동시에 남녀공학을 실시한 최초의 소학교'였다. 교명 '점진'은 점진적으로 공부와 수양을 계속하여 민족의 힘을 길러야 한다는 안창호의 점진주의를 담았다. 구체적 교육과정·교육실태 자료는 현존하지 않는다(민백). 도산의 첫 교육 사업으로, 1907년 평양 대성학교 설립(신민회 시기 — 타 연구원 소유)의 전사가 된다.",
+    "sources": [
+      {
+        "type": "encyclopedia",
+        "title": "한국민족문화대백과사전 「점진학교」",
+        "locator": "E0049857",
+        "url": "https://encykorea.aks.ac.kr/Article/E0049857"
+      },
+      {
+        "type": "institutional",
+        "title": "독립운동인명사전 「안창호」 (집필 이명화), 독립기념관 한국독립운동정보시스템",
+        "locator": "사전 id 696",
+        "url": "https://search.i815.or.kr/dictionary/detail.do?id=696"
+      },
+      {
+        "type": "institutional",
+        "title": "우리역사넷 한국사 인물 「안창호」, 국사편찬위원회",
+        "locator": "levelId kc_n402200",
+        "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n402200"
+      }
+    ],
+    "confidence": "A",
+    "tags": ["교육"]
+  },
+  {
+    "id": "evt-early-020",
+    "title": "탄포리교회 설립",
+    "date": {
+      "start": "1899-01-01",
+      "end": "1899-12-31",
+      "precision": "year",
+      "calendar": "solar"
+    },
+    "place": {
+      "name": "평안남도 강서군 동진면 탄포리",
+      "modern_name": "북한 평안남도 강서 일대 (세부 미확인)",
+      "lat": null,
+      "lng": null
+    },
+    "actors": ["안창호"],
+    "orgs": ["탄포리교회"],
+    "summary": "1899년 점진학교 설립과 병행하여 강서군 탄포리에 교회를 설립.",
+    "detail": "독립운동인명사전: 1898년 12월 독립협회 해산 후 귀향하여 '다음 해 강서군 동진면 암화리에 점진학교를 세우고 탄포리에 교회를 설립하였다.' 우리역사넷도 1899년 점진학교·탄포리교회 설립을 기록. 교회 설립의 구체적 경위(선교부와의 관계, 교인 규모)는 이번 조사에서 확인하지 못했다.",
+    "sources": [
+      {
+        "type": "institutional",
+        "title": "독립운동인명사전 「안창호」 (집필 이명화), 독립기념관 한국독립운동정보시스템",
+        "locator": "사전 id 696",
+        "url": "https://search.i815.or.kr/dictionary/detail.do?id=696"
+      },
+      {
+        "type": "institutional",
+        "title": "우리역사넷 한국사 인물 「안창호」, 국사편찬위원회",
+        "locator": "levelId kc_n402200",
+        "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n402200"
+      }
+    ],
+    "confidence": "B",
+    "tags": ["사상", "결사"]
+  },
+  {
+    "id": "evt-early-021",
+    "title": "강서 일대 황무지 개간 사업",
+    "date": {
+      "start": "1899-01-01",
+      "end": "1902-09-03",
+      "precision": "range",
+      "calendar": "solar"
+    },
+    "place": {
+      "name": "평안남도 강서군 일대",
+      "modern_name": "북한 평안남도 강서 일대",
+      "lat": null,
+      "lng": null
+    },
+    "actors": ["안창호"],
+    "orgs": ["점진학교"],
+    "summary": "점진학교 운영과 병행하여 인근 황무지를 농지로 개간하는 사업을 추진 — 실력양성·무실역행 실천의 초기 사례.",
+    "detail": "우리역사넷: '1899년 점진학교와 탄포리교회를 설립하였고, 인근 황무지를 농지로 개간'했다. 대한인국민회기념재단 약전도 '황무지 개간사업도 병행해서 추진했다'고 기록. 개간 사업의 규모·방식·완료 여부는 확인되지 않아 점진학교 운영기(1899~도미 직전)의 범위로 기록.",
+    "sources": [
+      {
+        "type": "institutional",
+        "title": "우리역사넷 한국사 인물 「안창호」, 국사편찬위원회",
+        "locator": "levelId kc_n402200",
+        "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n402200"
+      },
+      {
+        "type": "web",
+        "title": "대한인국민회기념재단 「안창호」 약전",
+        "locator": null,
+        "url": "https://knamf.org/%EC%95%88%EC%B0%BD%ED%98%B8/"
+      }
+    ],
+    "confidence": "C",
+    "tags": ["결사", "교육"]
+  },
+  {
+    "id": "evt-early-022",
+    "title": "이혜련과 결혼 (제중원, 밀러 주례)",
+    "date": {
+      "start": "1902-09-03",
+      "end": "1902-09-03",
+      "precision": "day",
+      "calendar": "solar"
+    },
+    "place": {
+      "name": "제중원(서울)",
+      "modern_name": "서울특별시 중구 일대",
+      "lat": null,
+      "lng": null
+    },
+    "actors": ["안창호", "이혜련", "프레더릭 밀러"],
+    "orgs": [],
+    "summary": "1902년 9월 3일 서울 제중원에서 밀러 선교사의 주례로 이혜련과 결혼식을 올림.",
+    "detail": "독립운동인명사전: '1902년 9월 3일 제중원에서 밀러 선교사의 주례로 이혜련과 결혼식을 올린 다음날 인천항을 통해 부인과 함께 미국 유학길에 올라.' 한국민족문화대백과 「이혜련」도 '1902년 9월 3일 제중원에서 혼인하고 그 다음날 미국으로 떠나'로 일치. 단 위키백과는 출국일을 1902년 11월 4일로 기록해 '결혼 다음날 출국' 서술과 상충한다 — 출국·도항 일정의 확정은 미주 시기 연구원 소관(보고서 인계 사항 참조).",
+    "sources": [
+      {
+        "type": "institutional",
+        "title": "독립운동인명사전 「안창호」 (집필 이명화), 독립기념관 한국독립운동정보시스템",
+        "locator": "사전 id 696",
+        "url": "https://search.i815.or.kr/dictionary/detail.do?id=696"
+      },
+      {
+        "type": "encyclopedia",
+        "title": "한국민족문화대백과사전 「이혜련」",
+        "locator": "E0079746",
+        "url": "https://encykorea.aks.ac.kr/Article/E0079746"
+      }
+    ],
+    "confidence": "A",
+    "tags": ["가족"]
+  },
+  {
+    "id": "evt-early-023",
+    "title": "도미 결심과 출국 수속 (집조 발급)",
+    "date": {
+      "start": "1902-01-01",
+      "end": "1902-09-03",
+      "precision": "range",
+      "calendar": "solar"
+    },
+    "place": {
+      "name": "한성(서울)",
+      "modern_name": "서울특별시",
+      "lat": 37.5665,
+      "lng": 126.978
+    },
+    "actors": ["안창호", "이혜련"],
+    "orgs": [],
+    "summary": "선진 교육학을 공부해 교육 전문가가 되겠다는 목적으로 미국 유학을 결심하고 대한제국 외부(外部) 발행 집조(여권)를 발급받음 — 부부의 집조는 제51·52호로 전해짐.",
+    "detail": "도미 동기에 대해 독립운동인명사전 계열 서술은 '선진 교육을 공부하여 교육전문가가 되고자' 유학을 결심했다고 기록. 대한인국민회기념재단 소장 자료 사진 설명에 따르면 도산의 여권은 '대한 외부(外部)에서 발행한 집조로 미주에서 가장 오래된 것(여권번호 52호)'이다. 영문 자료(USC 계열·백과)는 부부가 각각 제51·52호 집조를 받았으며 부부 동반 도미로는 최초기 사례라고 기록한다. 집조 발급의 정확한 일자와 수속 경위(선교사 주선 여부)는 1차 사료로 확인하지 못했다 — 〔일부 미확인〕. 출항(인천항)과 도항 여정·도착은 미주 시기 연구원 소유이므로 본 레코드는 수속까지만 다룬다.",
+    "sources": [
+      {
+        "type": "web",
+        "title": "대한인국민회기념재단 「안창호」 약전 (집조 실물 사진 설명 포함)",
+        "locator": "여권번호 52호 사진 캡션",
+        "url": "https://knamf.org/%EC%95%88%EC%B0%BD%ED%98%B8/"
+      },
+      {
+        "type": "institutional",
+        "title": "독립운동인명사전 「안창호」 (집필 이명화), 독립기념관 한국독립운동정보시스템",
+        "locator": "사전 id 696",
+        "url": "https://search.i815.or.kr/dictionary/detail.do?id=696"
+      },
+      {
+        "type": "encyclopedia",
+        "title": "New World Encyclopedia, \"Ahn Chang Ho\" (부부 집조 51·52호 서술)",
+        "locator": "Early life 절",
+        "url": "https://www.newworldencyclopedia.org/entry/Ahn_Chang_Ho"
+      }
+    ],
+    "confidence": "C",
+    "tags": ["교육", "이동"]
+  }
+]

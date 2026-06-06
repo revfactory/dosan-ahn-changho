@@ -1,0 +1,4471 @@
+{
+ "meta": {
+  "producer": "network-researcher (09)",
+  "version": "v1.0-round1",
+  "date": "2026-06-06",
+  "schema": "network-mapping (S06)",
+  "round1_note": "타 연구원 events.json이 아직 산출되지 않은 시점의 1차 수집본. 따라서 모든 edge의 evidence_event_ids는 빈 배열이며, 대신 evidence_pending에 근거 사건의 서술·시기·담당 연구원·출처를 기록했다. 보완 라운드에서 타 연구원 사건 id로 연결해야 한다. 자체 사건 id를 발급하지 않았다(매트릭스 §3.3 준수).",
+  "org_org_convention": "조직-조직(전신/후신/산하) 엣지는 S06 type 6종에 해당 값이 없어 잠정적으로 type=comrade를 쓰고 description 첫머리에 [전신/후신] 또는 [산하]를 명시했다. relation-analyst가 succession/affiliation 유형 신설 여부를 판단할 것.",
+  "unconfirmed_note": "근거가 빈약하거나 유형을 확정할 수 없는 관계는 edges가 아니라 edges_unconfirmed에 분리했다(위험성향 정책: 추정 유형 부여 금지)."
+ },
+ "nodes": [
+  {
+   "id": "per-001",
+   "name": "안창호",
+   "hanja": "安昌浩",
+   "alt_names": [
+    "도산",
+    "島山",
+    "Ahn Chang-ho",
+    "An Ch'angho",
+    "Tosan",
+    "Dosan",
+    "안광택(아명)"
+   ],
+   "birth": "1878-11-09",
+   "death": "1938-03-10",
+   "role": "독립운동가·교육자·흥사단 창립자",
+   "summary": "본 관계망의 중심 노드. 평남 강서 출생, 독립협회·공립협회·신민회·대한인국민회·흥사단·임시정부를 거치며 무실역행의 실력양성 노선을 이끌었다."
+  },
+  {
+   "id": "per-002",
+   "name": "안흥국",
+   "hanja": "安興國",
+   "alt_names": [],
+   "birth": null,
+   "death": null,
+   "role": "도산의 부친·농민",
+   "summary": "평남 강서의 농민으로 도산의 아버지. 도산 유년기에 사망했다고 전하나 정확한 몰년은 미확인 — early-life 연구원의 보완 조사 대상."
+  },
+  {
+   "id": "per-003",
+   "name": "안치호",
+   "hanja": "安致鎬",
+   "alt_names": [],
+   "birth": null,
+   "death": null,
+   "role": "도산의 형",
+   "summary": "족보에 도산과 함께 등재된 형. 둘째 형은 1900년 요절했다고 전한다. 생몰·행적 미상 — 보완 조사 대상."
+  },
+  {
+   "id": "per-004",
+   "name": "안신호",
+   "hanja": "安信浩",
+   "alt_names": [],
+   "birth": "1884-11",
+   "death": "1963-02-06",
+   "role": "도산의 여동생·교육자",
+   "summary": "도산의 여동생. 1900년대 초 김구와의 혼담이 있었으나 성사되지 않았다(백범일지). 해방 후 북한에서 활동했다."
+  },
+  {
+   "id": "per-005",
+   "name": "이혜련",
+   "hanja": "李惠鍊",
+   "alt_names": [
+    "Helen Ahn",
+    "안혜련"
+   ],
+   "birth": "1884-04-21",
+   "death": "1969-04-21",
+   "role": "도산의 부인·재미 독립운동 후원자",
+   "summary": "평남 강서 이석관의 장녀. 1902년 9월 3일 서울 제중원에서 도산과 결혼하고 함께 도미했다. 미주에서 가족 생계와 독립운동 후원(대한여자애국단)을 담당했다. 2008년 건국훈장 애족장."
+  },
+  {
+   "id": "per-006",
+   "name": "이석관",
+   "hanja": "李錫觀",
+   "alt_names": [],
+   "birth": null,
+   "death": null,
+   "role": "도산의 장인·서당 훈장",
+   "summary": "평남 강서의 서당 훈장으로 이혜련의 부친. 도산을 사위로 받아들이고 딸의 신학문 수학(정신여학교)을 허락했다."
+  },
+  {
+   "id": "per-007",
+   "name": "안필립",
+   "hanja": "安必立",
+   "alt_names": [
+    "Philip Ahn"
+   ],
+   "birth": "1905-03-29",
+   "death": "1978-02-28",
+   "role": "도산의 장남·할리우드 배우",
+   "summary": "도산의 장남으로 로스앤젤레스 출생. 한국계 최초로 할리우드 명예의 거리에 오른 배우. 부친 부재 중 미주 가족의 기둥 역할을 했다."
+  },
+  {
+   "id": "per-008",
+   "name": "안필선",
+   "hanja": "安必鮮",
+   "alt_names": [
+    "Philson Ahn"
+   ],
+   "birth": "1912",
+   "death": "2001",
+   "role": "도산의 차남·엔지니어",
+   "summary": "도산의 둘째 아들. UC버클리 졸업 후 엔지니어로 일했다. 2021년 독립유공자 포상 보도에 형 안필립과 함께 언급된다."
+  },
+  {
+   "id": "per-009",
+   "name": "안수산",
+   "hanja": "安繡山",
+   "alt_names": [
+    "Susan Ahn Cuddy",
+    "수잔 안 커디"
+   ],
+   "birth": "1915-01-16",
+   "death": "2015-06-24",
+   "role": "도산의 장녀·미 해군 장교",
+   "summary": "도산의 맏딸. 2차대전 중 미 해군 최초의 동양계 여성 장교·사격 교관이 되었다."
+  },
+  {
+   "id": "per-010",
+   "name": "안수라",
+   "hanja": null,
+   "alt_names": [
+    "Soorah Ahn"
+   ],
+   "birth": "1917",
+   "death": "2016-06-18",
+   "role": "도산의 차녀",
+   "summary": "도산의 둘째 딸. 미주에서 성장했으며 가족사 기록(대한인국민회 기념재단)에 등장한다."
+  },
+  {
+   "id": "per-011",
+   "name": "안필영",
+   "hanja": "安必英",
+   "alt_names": [
+    "Ralph Ahn"
+   ],
+   "birth": "1926",
+   "death": "2022-02-26",
+   "role": "도산의 삼남",
+   "summary": "도산의 막내아들. 1926년 도산의 마지막 미주 체류기에 출생해 부친을 거의 보지 못했다. 도산 가족의 마지막 생존 자녀였다."
+  },
+  {
+   "id": "per-012",
+   "name": "필대은",
+   "hanja": "畢大殷",
+   "alt_names": [],
+   "birth": null,
+   "death": null,
+   "role": "도산의 소년기 지기·민족의식의 첫 스승",
+   "summary": "서너 살 연상의 서당 선배로 도산의 민족주의 사상 형성에 결정적 영향을 주었다. 독립협회 평양 관서지부 활동을 도산과 함께했다. 생몰년 미확인(1899년경 병사설) — 보완 조사 대상."
+  },
+  {
+   "id": "per-013",
+   "name": "프레더릭 밀러",
+   "hanja": null,
+   "alt_names": [
+    "Frederick S. Miller",
+    "민로아",
+    "閔老雅"
+   ],
+   "birth": "1866",
+   "death": "1937",
+   "role": "미국 북장로회 선교사·구세학당 운영자",
+   "summary": "도산이 수학한 구세학당(밀러학당)의 운영자로 도산을 우수 학생으로 보고서에 기록했다. 1902년 도산·이혜련의 결혼 주례를 맡았다."
+  },
+  {
+   "id": "per-014",
+   "name": "서재필",
+   "hanja": "徐載弼",
+   "alt_names": [
+    "송재",
+    "Philip Jaisohn"
+   ],
+   "birth": "1864-01-07",
+   "death": "1951-01-05",
+   "role": "독립협회 창립자·독립신문 발행인",
+   "summary": "독립협회와 만민공동회 운동의 창시자. 도산은 독립협회 가입과 청년학우회 구상(협성회 모델)에서 그 영향을 받았으나, 직접 교류의 1차 근거는 미확인."
+  },
+  {
+   "id": "per-015",
+   "name": "윤치호",
+   "hanja": "尹致昊",
+   "alt_names": [
+    "좌옹",
+    "佐翁"
+   ],
+   "birth": "1865-01-23",
+   "death": "1945-12-09",
+   "role": "독립협회 회장·대성학교 교장·청년학우회 설립위원장",
+   "summary": "도산이 1908년 대성학교 교장으로 초빙했고(도산은 대변교장), 1909년 청년학우회 설립위원장을 맡았다. 105인 사건으로 함께 탄압받았다."
+  },
+  {
+   "id": "per-016",
+   "name": "이승훈",
+   "hanja": "李昇薰",
+   "alt_names": [
+    "남강",
+    "南岡",
+    "이인환"
+   ],
+   "birth": "1864-04-25",
+   "death": "1930-05-09",
+   "role": "오산학교 설립자·신민회 평북 책임자",
+   "summary": "1907년 7월 평양에서 도산의 교육진흥론 연설을 듣고 감화되어 금주단연·단발을 결행하고 신민회에 가담, 오산학교를 세웠다. 105인 사건·3·1운동 민족대표로 이어진 도산 노선의 대표적 동지."
+  },
+  {
+   "id": "per-017",
+   "name": "양기탁",
+   "hanja": "梁起鐸",
+   "alt_names": [
+    "우강",
+    "雩岡"
+   ],
+   "birth": "1871-04-02",
+   "death": "1938-04-19",
+   "role": "대한매일신보 주필·신민회 총감독",
+   "summary": "1907년 도산의 제안을 받아 신민회 창립을 함께 주도하고 총감독을 맡았다. 105인 사건의 최고형 피고 중 한 명. [동명이호 판정: 호 '우강(雩岡)'은 송종익(per-034)의 호와 한글 표기만 같음 — 별개 인물.]"
+  },
+  {
+   "id": "per-018",
+   "name": "신채호",
+   "hanja": "申采浩",
+   "alt_names": [
+    "단재",
+    "丹齋"
+   ],
+   "birth": "1880-12-08",
+   "death": "1936-02-21",
+   "role": "사학자·언론인·무정부주의 독립운동가",
+   "summary": "신민회 동지로 1910년 도산과 함께 망명길에 올랐다. 그러나 1919년 위임통치 청원 비판, 1923년 국민대표회의에서 창조파로서 개조파 도산과 정면 대립했다."
+  },
+  {
+   "id": "per-019",
+   "name": "이갑",
+   "hanja": "李甲",
+   "alt_names": [
+    "추정",
+    "秋汀",
+    "이휘선"
+   ],
+   "birth": "1877-06-22",
+   "death": "1917-06-13",
+   "role": "대한제국 군인·신민회 창립위원",
+   "summary": "신민회 창립위원으로 도산의 가장 가까운 동지 중 한 명. 1910년 청도·연해주 망명을 함께했다. 병으로 미국 입국이 거부되자 도산이 신한민보 주필 초청을 주선하고 지원했다."
+  },
+  {
+   "id": "per-020",
+   "name": "안태국",
+   "hanja": "安泰國",
+   "alt_names": [
+    "동오",
+    "東吾"
+   ],
+   "birth": null,
+   "death": "1920-04-11",
+   "role": "신민회 평남 총감·태극서관 총무",
+   "summary": "신민회 평안남도 총감으로 태극서관을 운영했고 청년학우회 총무원을 맡았다. 105인 사건으로 옥고를 치렀다."
+  },
+  {
+   "id": "per-021",
+   "name": "전덕기",
+   "hanja": "全德基",
+   "alt_names": [],
+   "birth": "1875-12-08",
+   "death": "1914-03-23",
+   "role": "상동교회 목사·신민회 창립위원",
+   "summary": "상동교회를 기반으로 1907년 신민회 창립에 참여했다. 105인 사건 고문 후유증으로 사망했다."
+  },
+  {
+   "id": "per-022",
+   "name": "이동휘",
+   "hanja": "李東輝",
+   "alt_names": [
+    "성재",
+    "誠齋"
+   ],
+   "birth": "1873-06-20",
+   "death": "1935-01-31",
+   "role": "신민회 창립위원·임시정부 국무총리·한인사회당 창립자",
+   "summary": "1907년 신민회 창립위원으로 도산과 결합했으나, 1919–21년 임시정부에서 사회주의 노선·정부 개조 문제로 도산과 갈등하고 국무총리직을 떠났다."
+  },
+  {
+   "id": "per-023",
+   "name": "이동녕",
+   "hanja": "李東寧",
+   "alt_names": [
+    "석오",
+    "石吾"
+   ],
+   "birth": "1869-10-06",
+   "death": "1940-03-13",
+   "role": "신민회 창립위원·임시정부 주석급 지도자",
+   "summary": "신민회 창립위원이자 임시의정원 초대 의장. 신민회와 임시정부 두 국면에서 도산과 협력했다."
+  },
+  {
+   "id": "per-024",
+   "name": "이종호",
+   "hanja": "李鍾浩",
+   "alt_names": [],
+   "birth": "1885",
+   "death": "1932",
+   "role": "교육 사업가·신민회 자금 후원자",
+   "summary": "이용익의 손자로 신민회 계열 사업의 주요 자금원. 1910년 도산과 청도회의에 참여했으나 자금 사용과 노선을 둘러싸고 도산과 대립, 회의 결렬의 한 축이 되었다."
+  },
+  {
+   "id": "per-025",
+   "name": "유동열",
+   "hanja": "柳東說",
+   "alt_names": [
+    "춘교",
+    "春郊"
+   ],
+   "birth": "1879",
+   "death": null,
+   "role": "대한제국 군인·신민회 회원·임시정부 참모총장",
+   "summary": "신민회 창립위원으로 1910년 청도회의에 참여, 급진 군사행동론을 주장해 점진적 기지 건설론의 도산과 대립했다. 몰년은 납북(1950) 이후 미상."
+  },
+  {
+   "id": "per-026",
+   "name": "김구",
+   "hanja": "金九",
+   "alt_names": [
+    "백범",
+    "白凡",
+    "김창수",
+    "김구(金龜)"
+   ],
+   "birth": "1876-08-29",
+   "death": "1949-06-26",
+   "role": "신민회 황해도 회원·임시정부 주석",
+   "summary": "1900년대 초 도산의 여동생 안신호와 혼담이 있었다(백범일지). 신민회 황해도 조직에서 활동했고, 1919년 내무총장 도산에 의해 임시정부 경무국장에 임명되어 임정의 길을 시작했다."
+  },
+  {
+   "id": "per-027",
+   "name": "최광옥",
+   "hanja": "崔光玉",
+   "alt_names": [],
+   "birth": "1879",
+   "death": "1911",
+   "role": "교육운동가·청년학우회 평남 조직 핵심",
+   "summary": "평양 중심 교육운동의 핵심 인물로 청년학우회 평안남도 조직을 최광옥-안태국-장응진 인맥으로 결성했다. 도산의 국내 교육·청년운동의 동지."
+  },
+  {
+   "id": "per-028",
+   "name": "안중근",
+   "hanja": "安重根",
+   "alt_names": [
+    "도마",
+    "안응칠"
+   ],
+   "birth": "1879-09-02",
+   "death": "1910-03-26",
+   "role": "하얼빈 의거 의사",
+   "summary": "1909년 10월 하얼빈 의거 직후 도산이 연루 혐의로 일제에 체포·구금되었다. 양자의 직접 교류(1907년 평양 면담설 등)는 1차 근거 미확인 — 관계 유형 미확정."
+  },
+  {
+   "id": "per-029",
+   "name": "이강",
+   "hanja": "李剛",
+   "alt_names": [
+    "오산",
+    "吾山"
+   ],
+   "birth": "1878-04-18",
+   "death": "1964-10-13",
+   "role": "공립협회 창립 회원·공립신보 주필·신민회 연해주 연락책",
+   "summary": "1903년 도미해 도산과 결합, 1905년 공립협회 창립에 참여하고 공립신보를 맡았다. 신민회 국내 조직과 연해주 방면 연락을 담당한 도산 직계 동지."
+  },
+  {
+   "id": "per-030",
+   "name": "임준기",
+   "hanja": "林俊基",
+   "alt_names": [],
+   "birth": null,
+   "death": null,
+   "role": "한인친목회·공립협회 창립 회원",
+   "summary": "샌프란시스코 한인친목회와 1905년 공립협회 창립에 참여한 미주 초기 동지. 리버사이드 한인촌 형성기에 도산과 함께했다. 생몰년 미확인 — 보완 조사 대상."
+  },
+  {
+   "id": "per-031",
+   "name": "송석준",
+   "hanja": "宋錫峻",
+   "alt_names": [],
+   "birth": null,
+   "death": "1907",
+   "role": "공립협회 제2대 회장",
+   "summary": "1905년 공립협회 창립에 참여하고 초대 회장 도산에 이어 제2대 회장을 맡았다."
+  },
+  {
+   "id": "per-032",
+   "name": "정재관",
+   "hanja": "鄭在寬",
+   "alt_names": [],
+   "birth": "1880",
+   "death": "1930",
+   "role": "공립협회 제3대 회장·대한인국민회 지도자",
+   "summary": "1905년 공립협회 창립에 참여하고 제3대 회장을 지냈으며, 이후 연해주로 건너가 국민회 시베리아 방면 조직을 이끌었다."
+  },
+  {
+   "id": "per-033",
+   "name": "이대위",
+   "hanja": "李大爲",
+   "alt_names": [
+    "David Lee"
+   ],
+   "birth": "1878",
+   "death": "1928-06-17",
+   "role": "목사·대한인국민회 북미지방총회장·신한민보 주필",
+   "summary": "샌프란시스코 한인감리교회 목사로 대한인국민회 북미지방총회장과 신한민보 주필을 지내며 중앙총회장 도산의 미주 조직 운영을 떠받쳤다."
+  },
+  {
+   "id": "per-034",
+   "name": "송종익",
+   "hanja": "宋鍾翊",
+   "alt_names": [
+    "우강"
+   ],
+   "birth": "1887-02-27",
+   "death": "1956-01-07",
+   "role": "흥사단 공동 창립자·대한인국민회 재무",
+   "summary": "1906년 도미. 1912년 로스앤젤레스에서 도산이 흥사단 약법 초안을 처음 보여준 동지로 1913년 흥사단 창립을 함께했다. 도산의 중국행 이후 흥사단 실무와 임시정부 자금 모집·송금을 담당했다. 1995년 건국훈장 독립장. [동명이호 판정: 호 '우강'은 양기탁(per-017, 雩岡)과 한글 표기가 같으나 생몰·활동 무대(미주/국내)가 달라 별개 인물로 확정. 송종익 호의 한자는 미확인.]"
+  },
+  {
+   "id": "per-035",
+   "name": "박용만",
+   "hanja": "朴容萬",
+   "alt_names": [
+    "우성",
+    "宇醒"
+   ],
+   "birth": "1881-07-02",
+   "death": "1928-10-17",
+   "role": "무장투쟁론 독립운동가·신한민보 주필·하와이 한인사회 지도자",
+   "summary": "1911년 신한민보 주필을 지내고 대한인국민회 중앙총회 체제 수립에 기여했다. 무장투쟁 노선으로 도산의 실력양성 노선과 달랐으나 국민회 틀 안에서 협력했다."
+  },
+  {
+   "id": "per-036",
+   "name": "이승만",
+   "hanja": "李承晩",
+   "alt_names": [
+    "우남",
+    "雩南",
+    "Syngman Rhee"
+   ],
+   "birth": "1875-03-26",
+   "death": "1965-07-19",
+   "role": "임시정부 초대 대통령·외교독립론자",
+   "summary": "1919년 도산이 임시정부 통합과 대통령제 개편 실무를 주도해 대통령으로 선출되도록 했다. 그러나 위임통치 청원 논란, 대통령 칭호 문제(1919.8.25 도산의 공개 지적), 임정 운영 방식을 둘러싸고 갈등했고 1925년 탄핵으로 귀결됐다."
+  },
+  {
+   "id": "per-037",
+   "name": "김규식",
+   "hanja": "金奎植",
+   "alt_names": [
+    "우사",
+    "尤史"
+   ],
+   "birth": "1881-02-28",
+   "death": "1950-12-10",
+   "role": "파리강화회의 대표·임시정부 외무총장",
+   "summary": "임시정부 외무총장·구미위원장으로 도산과 협력했으나 1923년 국민대표회의에서 창조파에 서서 개조파 도산과 대립했다."
+  },
+  {
+   "id": "per-038",
+   "name": "여운형",
+   "hanja": "呂運亨",
+   "alt_names": [
+    "몽양",
+    "夢陽"
+   ],
+   "birth": "1886-05-25",
+   "death": "1947-07-19",
+   "role": "신한청년당 지도자·임시정부 외무차장",
+   "summary": "상하이 임시정부 초기 도산과 협력했고, 1932년 도산이 피체·수감되자 조만식·이광수와 함께 옥바라지에 나섰다."
+  },
+  {
+   "id": "per-039",
+   "name": "손정도",
+   "hanja": "孫貞道",
+   "alt_names": [
+    "해석",
+    "海石"
+   ],
+   "birth": "1882-07-26",
+   "death": "1931-02-19",
+   "role": "감리교 목사·임시의정원 의장",
+   "summary": "1919년 임시의정원 의장으로 내무총장 도산과 함께 초기 임시정부 체제를 구축했다. 흥사단 원동위원부에도 참여했다."
+  },
+  {
+   "id": "per-040",
+   "name": "박은식",
+   "hanja": "朴殷植",
+   "alt_names": [
+    "백암",
+    "白巖"
+   ],
+   "birth": "1859-09-30",
+   "death": "1925-11-01",
+   "role": "역사학자·임시정부 제2대 대통령",
+   "summary": "신민회·서북학회 계열의 원로 지식인으로 임시정부와 독립신문 진영에서 도산과 협력했다. 1925년 이승만 탄핵 후 제2대 대통령을 맡았다."
+  },
+  {
+   "id": "per-041",
+   "name": "차리석",
+   "hanja": "車利錫",
+   "alt_names": [
+    "동암",
+    "東岩",
+    "차이석"
+   ],
+   "birth": "1881-07-27",
+   "death": "1945-09-09",
+   "role": "대성학교 교사·임시정부 국무위원·비서장",
+   "summary": "1908년 대성학교 교사로 도산과 결합한 이래 흥사단·독립신문·임시정부에서 도산 노선의 가장 일관된 측근으로 활동했다."
+  },
+  {
+   "id": "per-042",
+   "name": "이광수",
+   "hanja": "李光洙",
+   "alt_names": [
+    "춘원",
+    "春園",
+    "가야마 미쓰로"
+   ],
+   "birth": "1892-03-04",
+   "death": "1950-10-25",
+   "role": "작가·독립신문 사장·수양동우회 핵심",
+   "summary": "상하이에서 독립신문을 맡고 흥사단에 입단, 귀국 후 수양동맹회·수양동우회를 조직해 도산의 국내 운동을 대행했다. 그러나 민족개조론(1922)은 도산 사상을 탈정치적으로 변형했다는 긴장을 낳았고, 동우회 사건 후 전향했다."
+  },
+  {
+   "id": "per-043",
+   "name": "주요한",
+   "hanja": "朱耀翰",
+   "alt_names": [
+    "송아",
+    "頌兒"
+   ],
+   "birth": "1900-10-14",
+   "death": "1979-11-17",
+   "role": "시인·동광 편집인·흥사단원",
+   "summary": "상하이에서 흥사단에 입단하고 귀국 후 수양동우회 기관지 동광을 편집했다. 동우회 사건으로 피검됐다. 후일 도산 전기·전집 편찬을 주도했다."
+  },
+  {
+   "id": "per-044",
+   "name": "장리욱",
+   "hanja": "張利郁",
+   "alt_names": [],
+   "birth": "1895-05-10",
+   "death": "1983-02-22",
+   "role": "교육자·흥사단원·도산 전기 저자",
+   "summary": "미주 유학 중 흥사단에 입단해 도산을 스승으로 따랐다. 동우회 사건으로 피검됐고, 해방 후 서울대 총장·주미대사를 지내며 「도산의 인격과 생애」를 남겼다."
+  },
+  {
+   "id": "per-045",
+   "name": "유상규",
+   "hanja": "劉相奎",
+   "alt_names": [
+    "태허",
+    "太虛"
+   ],
+   "birth": "1897-11-10",
+   "death": "1936-07-18",
+   "role": "경성의전 외과의사·도산의 비서",
+   "summary": "경성의전 재학 중 3·1운동에 참여하고 상하이로 망명, 1919년부터 임시정부에서 도산의 비서로 일하며 흥사단 원동지부에 입단했다. 도산은 그를 아들처럼 아꼈고, 사후 그의 묘 곁(망우리)에 묻어 달라 유언해 실제로 그렇게 안장되었다."
+  },
+  {
+   "id": "per-046",
+   "name": "정인과",
+   "hanja": "鄭仁果",
+   "alt_names": [
+    "정의종"
+   ],
+   "birth": "1888-01-09",
+   "death": "1972-03-17",
+   "role": "장로교 목사·임시정부 외무차장",
+   "summary": "1919년 미주 대한인국민회 대표로 도산의 상하이행을 수행했고 임시정부 외무총장대리 차장·의정원 부의장을 지냈으며 흥사단계 인물로 활동했다. 1930년대 이후 친일로 전향했다."
+  },
+  {
+   "id": "per-047",
+   "name": "조만식",
+   "hanja": "曺晩植",
+   "alt_names": [
+    "고당",
+    "古堂"
+   ],
+   "birth": "1883-02-01",
+   "death": "1950-10-18",
+   "role": "조선물산장려회 지도자·평양 기독교 민족운동가",
+   "summary": "1907년 평양에서 도산의 연설을 듣고 독립운동 투신을 결심했다. 1932년 도산이 피체·수감되자 여운형·이광수와 함께 옥바라지를 했고, 출옥 후 평양 시기 도산과 교류했다."
+  },
+  {
+   "id": "per-048",
+   "name": "조병옥",
+   "hanja": "趙炳玉",
+   "alt_names": [
+    "유석",
+    "維石"
+   ],
+   "birth": "1894-05-21",
+   "death": "1960-02-15",
+   "role": "경제학자·수양동우회 회원",
+   "summary": "미국 유학기에 흥사단에 입단했고 귀국 후 수양동우회에서 활동하다 1937년 동우회 사건으로 도산과 함께 피검됐다."
+  },
+  {
+   "id": "per-049",
+   "name": "김동원",
+   "hanja": "金東元",
+   "alt_names": [],
+   "birth": "1884-02-01",
+   "death": null,
+   "role": "평양 실업가·동우구락부 결성 주역",
+   "summary": "대성학교 교사 출신의 평양 상공인으로 1922년 도산의 실력양성론을 지도이념으로 한 동우구락부 결성을 주도했다. 105인 사건과 동우회 사건에 모두 연루됐다. 몰년은 납북 이후 미상."
+  },
+  {
+   "id": "per-050",
+   "name": "최남선",
+   "hanja": "崔南善",
+   "alt_names": [
+    "육당",
+    "六堂"
+   ],
+   "birth": "1890-04-26",
+   "death": "1957-10-10",
+   "role": "출판인·청년학우회 총무원·소년 발행인",
+   "summary": "1909년 청년학우회 결성에 참여해 총무원을 맡고 기관지 격인 소년을 발간했다. 도산의 청년운동 구상을 출판·언론으로 구현한 인물."
+  },
+  {
+   "id": "per-051",
+   "name": "이유필",
+   "hanja": "李裕弼",
+   "alt_names": [
+    "춘산",
+    "春山"
+   ],
+   "birth": "1885-11-28",
+   "death": "1945-11",
+   "role": "상해 대한교민단장·흥사단 원동위원부 단우",
+   "summary": "상하이 교민사회의 지도자로 흥사단 원동위원부에서 활동했다. 1932년 4월 29일 도산은 이유필의 집을 방문했다가 윤봉길 의거 직후의 검거망에 걸려 피체되었다."
+  },
+  {
+   "id": "org-001",
+   "name": "독립협회",
+   "hanja": "獨立協會",
+   "alt_names": [
+    "Independence Club"
+   ],
+   "birth": "1896-07-02",
+   "death": "1898-12",
+   "role": "근대 정치·계몽 운동 단체",
+   "summary": "서재필 주도로 창립된 계몽운동 단체. 도산은 1897년 가입해 필대은과 평양 관서지부 활동을 했고 1898년 쾌재정 연설로 이름을 알렸다."
+  },
+  {
+   "id": "org-002",
+   "name": "구세학당",
+   "hanja": "救世學堂",
+   "alt_names": [
+    "밀러학당",
+    "언더우드학당",
+    "경신학교(후신)",
+    "민로아학당"
+   ],
+   "birth": "1886",
+   "death": null,
+   "role": "미국 북장로회 선교 학교",
+   "summary": "언더우드가 세우고 밀러가 운영한 서울의 선교 학교. 도산이 1894년부터 약 3년간 수학하며 신학문과 기독교를 받아들인 곳이다. 후신 경신학교로 이어진다."
+  },
+  {
+   "id": "org-003",
+   "name": "점진학교",
+   "hanja": "漸進學校",
+   "alt_names": [],
+   "birth": "1899",
+   "death": null,
+   "role": "도산이 세운 최초의 남녀공학 사립학교",
+   "summary": "1899년 도산이 고향 평남 강서에 세운 학교. 한국인이 세운 최초기 남녀공학 사립학교의 하나로, 점진(漸進)은 도산 사상의 표어가 되었다."
+  },
+  {
+   "id": "org-004",
+   "name": "한인친목회",
+   "hanja": "韓人親睦會",
+   "alt_names": [
+    "상항친목회",
+    "샌프란시스코 친목회"
+   ],
+   "birth": "1903-09",
+   "death": "1905",
+   "role": "샌프란시스코 한인 상호부조 단체",
+   "summary": "1903년 도산이 샌프란시스코에서 조직한 미주 초기 한인 단체. 1905년 공립협회로 통합·발전했다."
+  },
+  {
+   "id": "org-005",
+   "name": "공립협회",
+   "hanja": "共立協會",
+   "alt_names": [
+    "Kongnip Hyophoe",
+    "공립신보(기관지)"
+   ],
+   "birth": "1905-04",
+   "death": "1909-02",
+   "role": "미주 한인 항일·상호부조 단체",
+   "summary": "1905년 4월 도산·송석준·정재관·임준기·이강 등이 샌프란시스코에서 창립. 초대 회장 안창호. 기관지 공립신보를 내고 1909년 합성협회와 통합해 국민회(대한인국민회의 전신)가 되었다."
+  },
+  {
+   "id": "org-006",
+   "name": "신민회",
+   "hanja": "新民會",
+   "alt_names": [
+    "대한신민회"
+   ],
+   "birth": "1907-04",
+   "death": "1911",
+   "role": "비밀결사 구국운동 단체",
+   "summary": "1907년 4월 도산의 발의로 양기탁·전덕기·이동휘·이동녕·이갑·유동열 등이 창립한 비밀결사. 대성학교·태극서관·자기회사·청년학우회를 운영했고 105인 사건으로 와해되었다."
+  },
+  {
+   "id": "org-007",
+   "name": "대성학교",
+   "hanja": "大成學校",
+   "alt_names": [],
+   "birth": "1908-09",
+   "death": "1912",
+   "role": "평양의 중등 민족교육 기관",
+   "summary": "1908년 도산이 평양에 세운 신민회 계열 학교. 교장 윤치호, 대변교장 안창호 체제로 건전 인격·실력 양성 교육을 폈으나 1912년 일제에 의해 폐교되었다."
+  },
+  {
+   "id": "org-008",
+   "name": "태극서관",
+   "hanja": "太極書館",
+   "alt_names": [],
+   "birth": "1908",
+   "death": "1911",
+   "role": "신민회 출판·서적 보급 기관",
+   "summary": "신민회의 합법 외곽 사업체로 평양 등지에서 서적 출판·보급을 맡았다. 안태국이 총무로 운영했다."
+  },
+  {
+   "id": "org-009",
+   "name": "평양자기제조주식회사",
+   "hanja": "平壤磁器製造株式會社",
+   "alt_names": [
+    "마산동 자기회사"
+   ],
+   "birth": "1908",
+   "death": null,
+   "role": "신민회 계열 민족 자본 회사",
+   "summary": "평양 마산동에 세워진 신민회 계열 도자기 회사. 민족 산업 자본 육성이라는 도산 실업 구상의 실험이었다."
+  },
+  {
+   "id": "org-010",
+   "name": "청년학우회",
+   "hanja": "靑年學友會",
+   "alt_names": [],
+   "birth": "1909-08",
+   "death": "1910-11",
+   "role": "신민회의 합법 청년 수양 단체",
+   "summary": "1909년 도산의 제창으로 결성된 신민회의 측면 조직. 설립위원장 윤치호, 총무원 안태국·최남선 등. 무실역행 정신의 청년 수양 운동으로 흥사단의 전사(前史)가 되었다."
+  },
+  {
+   "id": "org-011",
+   "name": "서북학회",
+   "hanja": "西北學會",
+   "alt_names": [
+    "서우학회(전신)",
+    "한북흥학회(전신)"
+   ],
+   "birth": "1908-01",
+   "death": "1910",
+   "role": "서북 지방 계몽운동 학회",
+   "summary": "서우학회와 한북흥학회가 통합한 계몽 학회. 도산은 귀국 활동기(1907–10)에 이 학회 무대에서 연설하며 서북 지역 인사들과 결합했다. 도산의 공식 직책은 미상 — 보완 조사 대상."
+  },
+  {
+   "id": "org-012",
+   "name": "대한인국민회",
+   "hanja": "大韓人國民會",
+   "alt_names": [
+    "국민회",
+    "Korean National Association",
+    "KNA"
+   ],
+   "birth": "1910-02",
+   "death": null,
+   "role": "미주 한인의 최고 자치·독립운동 기관",
+   "summary": "공립협회와 합성협회가 통합한 국민회(1909)가 발전한 조직. 도산은 1912년 중앙총회장으로 선출되어 해외 한인의 무형정부를 표방하는 체제를 정비했다."
+  },
+  {
+   "id": "org-013",
+   "name": "흥사단",
+   "hanja": "興士團",
+   "alt_names": [
+    "Young Korean Academy",
+    "원동임시위원부(상하이 지부)"
+   ],
+   "birth": "1913-05-13",
+   "death": null,
+   "role": "무실역행 인격수양·민족운동 단체",
+   "summary": "1913년 5월 13일 샌프란시스코에서 도산이 8도 대표 발기인과 창립한 수양 단체. 약법·입단문답 제도를 갖췄고 1920년 상하이에 원동임시위원부를 두었다."
+  },
+  {
+   "id": "org-014",
+   "name": "대한민국 임시정부",
+   "hanja": "大韓民國臨時政府",
+   "alt_names": [
+    "상해 임시정부",
+    "임정"
+   ],
+   "birth": "1919-04-11",
+   "death": "1945",
+   "role": "3·1운동 후 수립된 망명 정부",
+   "summary": "1919년 상하이에서 수립. 도산은 내무총장 겸 국무총리 대리로 초기 행정 체제·연통제·교통국을 구축하고 한성·노령 정부와의 통합을 성사시켰으며 1921년 사임했다."
+  },
+  {
+   "id": "org-015",
+   "name": "독립신문",
+   "hanja": "獨立新聞",
+   "alt_names": [
+    "독립(獨立)",
+    "상해 독립신문"
+   ],
+   "birth": "1919-08-21",
+   "death": "1926",
+   "role": "임시정부 계열 기관지",
+   "summary": "1919년 상하이에서 창간된 신문. 도산이 창간을 주도·지원했고 사장 이광수, 기자 차리석 등 도산계 인사가 운영했다."
+  },
+  {
+   "id": "org-016",
+   "name": "북미실업주식회사",
+   "hanja": "北美實業株式會社",
+   "alt_names": [],
+   "birth": "1912",
+   "death": null,
+   "role": "미주 한인 민족 자본 회사",
+   "summary": "도산이 미주 한인 자본을 모아 발기한 실업 회사. 독립운동 자금 기반 구축이라는 실업 구상의 미주판이다. 세부 연혁은 보완 조사 대상."
+  },
+  {
+   "id": "org-017",
+   "name": "수양동맹회",
+   "hanja": "修養同盟會",
+   "alt_names": [],
+   "birth": "1922-02",
+   "death": "1926-01",
+   "role": "경성의 흥사단계 수양 단체",
+   "summary": "1922년 이광수가 도산의 지시·구상에 따라 경성에서 조직한 수양 단체. 1926년 동우구락부와 통합해 수양동우회가 되었다."
+  },
+  {
+   "id": "org-018",
+   "name": "동우구락부",
+   "hanja": "同友俱樂部",
+   "alt_names": [],
+   "birth": "1922",
+   "death": "1926-01",
+   "role": "평양의 흥사단계 수양 단체",
+   "summary": "1922년 평양에서 대성학교 출신 상공인(김동원 등)을 중심으로 도산의 실력양성론을 지도이념으로 결성된 단체. 1926년 수양동맹회와 통합했다."
+  },
+  {
+   "id": "org-019",
+   "name": "수양동우회",
+   "hanja": "修養同友會",
+   "alt_names": [
+    "동우회(1929 개칭)"
+   ],
+   "birth": "1926-01",
+   "death": "1937",
+   "role": "흥사단 국내 운동 조직",
+   "summary": "수양동맹회와 동우구락부가 통합한 단체로 기관지 동광을 냈다. 1929년 동우회로 개칭. 1937년 동우회 사건으로 회원 대량 검거와 함께 와해되었고 도산은 이 사건으로 재수감되었다."
+  },
+  {
+   "id": "org-020",
+   "name": "동명학원",
+   "hanja": "東明學院",
+   "alt_names": [],
+   "birth": "1924-03",
+   "death": null,
+   "role": "난징의 한인 유학 예비 교육 기관",
+   "summary": "1924년 도산이 중국 난징에 세운 학원. 구미 유학 준비와 민족 교육을 목적으로 했다."
+  },
+  {
+   "id": "org-021",
+   "name": "한국독립당",
+   "hanja": "韓國獨立黨",
+   "alt_names": [
+    "상해 한국독립당"
+   ],
+   "birth": "1930-01-25",
+   "death": null,
+   "role": "임시정부 여당격 민족주의 정당",
+   "summary": "1930년 상하이에서 이동녕·안창호·김구 등이 창당한 민족주의 정당. 도산의 대공주의가 당의·당강에 반영된 것으로 논의된다."
+  }
+ ],
+ "edges": [
+  {
+   "source": "per-001",
+   "target": "per-002",
+   "type": "family",
+   "period": {
+    "from": "1878",
+    "to": null
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "도산 출생(평남 강서)과 가계 — 부 안흥국",
+     "date": "1878-11-09",
+     "owner": "early-life",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 안창호",
+       "url": "https://encykorea.aks.ac.kr/Article/E0035050"
+      }
+     ]
+    }
+   ],
+   "description": "부자 관계. 부친은 도산 유년기에 사망했다고 전하나 몰년 미확인이라 period.to를 비웠다."
+  },
+  {
+   "source": "per-001",
+   "target": "per-003",
+   "type": "family",
+   "period": {
+    "from": "1878",
+    "to": null
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "가계·족보 기록 — 형 안치호 등재",
+     "date": null,
+     "owner": "early-life",
+     "sources": [
+      {
+       "type": "web",
+       "title": "나무위키 안창호/생애(족보 서술) — 1~3단계 출처 역추적 필요",
+       "url": "https://namu.wiki/w/안창호/생애"
+      }
+     ]
+    }
+   ],
+   "description": "형제 관계. 족보 등재 외 행적 근거가 빈약해 보완 조사 대상."
+  },
+  {
+   "source": "per-001",
+   "target": "per-004",
+   "type": "family",
+   "period": {
+    "from": "1884",
+    "to": "1938"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "안신호-김구 혼담 일화 등 남매 관계 기록",
+     "date": "1900년대 초",
+     "owner": "early-life",
+     "sources": [
+      {
+       "type": "primary",
+       "title": "백범일지(김구) 혼담 회고",
+       "url": "https://ko.wikisource.org/wiki/백범일지"
+      }
+     ]
+    }
+   ],
+   "description": "남매 관계. 백범일지의 혼담 회고가 관계의 동시대적 근거가 된다."
+  },
+  {
+   "source": "per-001",
+   "target": "per-005",
+   "type": "family",
+   "period": {
+    "from": "1902",
+    "to": "1938"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "제중원 결혼식(밀러 주례) 후 동반 도미",
+     "date": "1902-09-03",
+     "owner": "early-life",
+     "sources": [
+      {
+       "type": "institutional",
+       "title": "대한인국민회 기념재단 이혜련 항목",
+       "url": "https://knamf.org/이안혜련/"
+      },
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 이혜련",
+       "url": "https://encykorea.aks.ac.kr/Article/E0079746"
+      }
+     ]
+    }
+   ],
+   "description": "부부 관계(1902 결혼). 도산 망명 생활 전 기간 이혜련이 미주에서 가족 부양과 운동 후원을 담당했고, 둘 사이의 서한은 핵심 1차 사료다."
+  },
+  {
+   "source": "per-001",
+   "target": "per-006",
+   "type": "family",
+   "period": {
+    "from": "1902",
+    "to": null
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "이혜련과의 약혼·결혼 — 이석관이 도산을 사위로 수용",
+     "date": "1902",
+     "owner": "early-life",
+     "sources": [
+      {
+       "type": "institutional",
+       "title": "대한인국민회 기념재단 이혜련 항목",
+       "url": "https://knamf.org/이안혜련/"
+      }
+     ]
+    }
+   ],
+   "description": "장인-사위 관계(1902 혼인으로 성립). 이석관 몰년 미상으로 period.to 비움."
+  },
+  {
+   "source": "per-001",
+   "target": "per-007",
+   "type": "family",
+   "period": {
+    "from": "1905",
+    "to": "1938"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "장남 안필립 출생(로스앤젤레스)",
+     "date": "1905-03-29",
+     "owner": "america",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "위키백과 안필립",
+       "url": "https://ko.wikipedia.org/wiki/안필립"
+      }
+     ]
+    }
+   ],
+   "description": "부자 관계."
+  },
+  {
+   "source": "per-001",
+   "target": "per-008",
+   "type": "family",
+   "period": {
+    "from": "1912",
+    "to": "1938"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "차남 안필선 출생",
+     "date": "1912",
+     "owner": "america",
+     "sources": [
+      {
+       "type": "institutional",
+       "title": "대한인국민회 기념재단 도산 가족 이야기",
+       "url": "https://knamf.org/글과-사진으로-보는-도산-안창호-가족-이야기/"
+      }
+     ]
+    }
+   ],
+   "description": "부자 관계."
+  },
+  {
+   "source": "per-001",
+   "target": "per-009",
+   "type": "family",
+   "period": {
+    "from": "1915",
+    "to": "1938"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "장녀 안수산 출생",
+     "date": "1915-01-16",
+     "owner": "america",
+     "sources": [
+      {
+       "type": "institutional",
+       "title": "대한인국민회 기념재단 도산 가족 이야기",
+       "url": "https://knamf.org/글과-사진으로-보는-도산-안창호-가족-이야기/"
+      }
+     ]
+    }
+   ],
+   "description": "부녀 관계."
+  },
+  {
+   "source": "per-001",
+   "target": "per-010",
+   "type": "family",
+   "period": {
+    "from": "1917",
+    "to": "1938"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "차녀 안수라 출생",
+     "date": "1917",
+     "owner": "america",
+     "sources": [
+      {
+       "type": "institutional",
+       "title": "대한인국민회 기념재단 도산 가족 이야기",
+       "url": "https://knamf.org/글과-사진으로-보는-도산-안창호-가족-이야기/"
+      }
+     ]
+    }
+   ],
+   "description": "부녀 관계."
+  },
+  {
+   "source": "per-001",
+   "target": "per-011",
+   "type": "family",
+   "period": {
+    "from": "1926",
+    "to": "1938"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "삼남 안필영 출생(도산의 마지막 미주 체류기)",
+     "date": "1926",
+     "owner": "america",
+     "sources": [
+      {
+       "type": "institutional",
+       "title": "대한인국민회 기념재단 도산 가족 이야기",
+       "url": "https://knamf.org/글과-사진으로-보는-도산-안창호-가족-이야기/"
+      }
+     ]
+    }
+   ],
+   "description": "부자 관계. 도산은 1926년 중국으로 떠나 막내를 거의 보지 못했다."
+  },
+  {
+   "source": "per-012",
+   "target": "per-001",
+   "type": "mentor",
+   "period": {
+    "from": null,
+    "to": "1899"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "서당 수학기 필대은과의 교유 — 민족주의 사상 형성에 영향, 독립협회 평양 관서지부 공동 활동",
+     "date": "1890년대~1898",
+     "owner": "early-life",
+     "sources": [
+      {
+       "type": "institutional",
+       "title": "우리역사넷 안창호",
+       "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n402200"
+      },
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 안창호",
+       "url": "https://encykorea.aks.ac.kr/Article/E0035050"
+      }
+     ]
+    }
+   ],
+   "description": "사제·지기 관계. 서너 살 연상의 서당 선배로 도산의 민족의식을 일깨웠고 독립협회 평양 활동을 함께 했다. 관계 시작 시점 불명(서당 수학기)이라 from을 비웠고, 필대은 몰년(1899년경 병사설)도 미확인."
+  },
+  {
+   "source": "per-013",
+   "target": "per-001",
+   "type": "mentor",
+   "period": {
+    "from": "1894",
+    "to": "1902"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "구세학당 입학·수학(약 3년)과 기독교 입교 — 밀러 보고서에 우수 학생으로 기록",
+     "date": "1894~1897",
+     "owner": "early-life",
+     "sources": [
+      {
+       "type": "institutional",
+       "title": "우리역사넷 안창호",
+       "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n402200"
+      }
+     ]
+    },
+    {
+     "event_desc": "도산·이혜련 결혼 주례(제중원)",
+     "date": "1902-09-03",
+     "owner": "early-life",
+     "sources": [
+      {
+       "type": "institutional",
+       "title": "대한인국민회 기념재단 이혜련 항목",
+       "url": "https://knamf.org/이안혜련/"
+      }
+     ]
+    }
+   ],
+   "description": "사제 관계. 구세학당 운영자(교사)와 학생으로 시작해 1902년 결혼 주례까지 이어졌다."
+  },
+  {
+   "source": "per-001",
+   "target": "per-044",
+   "type": "mentor",
+   "period": {
+    "from": null,
+    "to": "1938"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "장리욱의 흥사단 입단과 도산 사사, 동우회 사건 피검",
+     "date": "1910년대 후반~1937",
+     "owner": "heungsadan",
+     "sources": [
+      {
+       "type": "web",
+       "title": "장리욱 「도산의 인격과 생애」(저자 자신이 제자임을 서술) — 서지 확인 필요"
+      }
+     ]
+    }
+   ],
+   "description": "사제 관계(도산→장리욱). 흥사단 단우로서 도산을 스승으로 따랐고 후일 전기를 썼다. 입단 시기 미확인으로 from 비움 — 보완 조사 대상."
+  },
+  {
+   "source": "per-001",
+   "target": "per-045",
+   "type": "mentor",
+   "period": {
+    "from": "1919",
+    "to": "1936"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "유상규가 상하이에서 도산의 비서가 되고 흥사단 원동지부 입단",
+     "date": "1919-05 이후",
+     "owner": "provisional-gov",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "위키백과 유상규",
+       "url": "https://ko.wikipedia.org/wiki/유상규"
+      }
+     ]
+    },
+    {
+     "event_desc": "도산이 유상규 묘(망우리) 곁에 묻어 달라 유언, 실제 인접 안장",
+     "date": "1938-03",
+     "owner": "heungsadan",
+     "sources": [
+      {
+       "type": "web",
+       "title": "경기신문 '도산 안창호와 비서 유상규' 등 망우리 관련 보도",
+       "url": "https://www.kgnews.co.kr/news/article.html?no=875363"
+      }
+     ]
+    }
+   ],
+   "description": "사제 관계(도산→유상규). 도산이 아들처럼 아낀 비서·제자로, 사후 묘소 인접 안장 유언이 관계의 깊이를 보여준다."
+  },
+  {
+   "source": "per-001",
+   "target": "per-015",
+   "type": "comrade",
+   "period": {
+    "from": "1907",
+    "to": "1911"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "대성학교 개교 — 교장 윤치호·대변교장 안창호 체제",
+     "date": "1908-09",
+     "owner": "shinminhoe",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 대성학교",
+       "url": "http://encykorea.aks.ac.kr/Contents/Item/E0014519"
+      }
+     ]
+    },
+    {
+     "event_desc": "청년학우회 결성 — 설립위원장 윤치호",
+     "date": "1909-08",
+     "owner": "shinminhoe",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 청년학우회",
+       "url": "https://encykorea.aks.ac.kr/Article/E0056315"
+      }
+     ]
+    }
+   ],
+   "description": "동지 관계. 도산이 대성학교 교장과 청년학우회 설립위원장으로 윤치호를 앞세워 합법 공간을 확보했다."
+  },
+  {
+   "source": "per-001",
+   "target": "per-016",
+   "type": "comrade",
+   "period": {
+    "from": "1907",
+    "to": "1930"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "평양 모란봉(쾌재정 일대) 교육진흥론 연설 — 이승훈 감화, 금주단연·단발 결행",
+     "date": "1907-07",
+     "owner": "shinminhoe",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 이승훈",
+       "url": "https://encykorea.aks.ac.kr/Article/E0044964"
+      }
+     ]
+    },
+    {
+     "event_desc": "이승훈의 신민회 가담과 오산학교 설립",
+     "date": "1907-12",
+     "owner": "shinminhoe",
+     "sources": [
+      {
+       "type": "institutional",
+       "title": "우리역사넷 오산학교",
+       "url": "https://contents.history.go.kr/front/tg/print.do?treeId=0202&levelId=tg_004_2280"
+      }
+     ]
+    }
+   ],
+   "description": "동지 관계. 도산의 연설로 운동에 투신한 대표적 사례이며 신민회 평북 책임자로 협력했다."
+  },
+  {
+   "source": "per-001",
+   "target": "per-017",
+   "type": "comrade",
+   "period": {
+    "from": "1907",
+    "to": "1938"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "신민회 창립 — 도산 발의, 양기탁 총감독",
+     "date": "1907-04",
+     "owner": "shinminhoe",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 신민회",
+       "url": "https://encykorea.aks.ac.kr/Article/E0032974"
+      },
+      {
+       "type": "institutional",
+       "title": "우리역사넷 신민회 1907",
+       "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_o402010"
+      }
+     ]
+    }
+   ],
+   "description": "동지 관계. 신민회 양대 축(도산 발의-양기탁 총감독)으로 결합했다."
+  },
+  {
+   "source": "per-001",
+   "target": "per-018",
+   "type": "comrade",
+   "period": {
+    "from": "1907",
+    "to": "1910"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "신민회 활동과 1910년 4월 청도행 공동 망명(안창호·이갑·유동열·신채호·김희선·이종호)",
+     "date": "1910-04",
+     "owner": "shinminhoe",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 이갑(망명 동행자 명단)",
+       "url": "https://encykorea.aks.ac.kr/Article/E0043482"
+      }
+     ]
+    }
+   ],
+   "description": "동지 관계(신민회기). 1910년 망명길을 함께했다."
+  },
+  {
+   "source": "per-001",
+   "target": "per-018",
+   "type": "conflict",
+   "period": {
+    "from": "1919",
+    "to": "1923"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "위임통치 청원에 대한 신채호 등 무장투쟁론자의 비난(도산도 외교독립론 진영으로 지목됨)",
+     "date": "1919",
+     "owner": "provisional-gov",
+     "sources": [
+      {
+       "type": "web",
+       "title": "통일뉴스 상하이 임시정부 연재 ④",
+       "url": "https://www.tongilnews.com/news/articleView.html?idxno=128642"
+      }
+     ]
+    },
+    {
+     "event_desc": "국민대표회의 — 창조파(신채호) 대 개조파(안창호) 대립과 결렬",
+     "date": "1923-01~05",
+     "owner": "provisional-gov",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "위키백과 안창호(국민대표회의 서술)",
+       "url": "https://ko.wikipedia.org/wiki/안창호"
+      }
+     ]
+    }
+   ],
+   "description": "갈등 관계(임정기). 임시정부의 존폐·개조를 둘러싸고 정면 대립했다. 동지→갈등의 시기 분리 엣지."
+  },
+  {
+   "source": "per-001",
+   "target": "per-019",
+   "type": "comrade",
+   "period": {
+    "from": "1907",
+    "to": "1917"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "신민회 창립위원 공동 참여(양기탁·안창호·전덕기·이동휘·이동녕·유동열·이갑)",
+     "date": "1907-04",
+     "owner": "shinminhoe",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 이갑",
+       "url": "https://encykorea.aks.ac.kr/Article/E0043482"
+      }
+     ]
+    },
+    {
+     "event_desc": "청도·연해주 공동 망명",
+     "date": "1910-04",
+     "owner": "shinminhoe",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 이갑",
+       "url": "https://encykorea.aks.ac.kr/Article/E0043482"
+      }
+     ]
+    }
+   ],
+   "description": "동지 관계. 도산이 가장 신뢰한 동지의 한 명으로 신민회 창립부터 망명까지 함께했다."
+  },
+  {
+   "source": "per-001",
+   "target": "per-019",
+   "type": "patron",
+   "period": {
+    "from": "1911",
+    "to": "1917"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "병환의 이갑을 위해 도산이 신한민보 주필 초청을 주선(미국 상륙 불허로 무산)",
+     "date": "1911~1912",
+     "owner": "america",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 이갑",
+       "url": "https://encykorea.aks.ac.kr/Article/E0043482"
+      },
+      {
+       "type": "institutional",
+       "title": "공훈전자사료관 이갑 공적정보",
+       "url": "https://e-gonghun.mpva.go.kr/user/ContribuReportDetail.do?goTocode=20001&mngNo=4126"
+      }
+     ]
+    }
+   ],
+   "description": "후원 관계(도산→이갑). 망명지에서 병든 이갑의 생계·치료를 도왔다. 치료비 송금의 구체 액수·경로는 미확인 — 보완 조사 대상."
+  },
+  {
+   "source": "per-001",
+   "target": "per-020",
+   "type": "comrade",
+   "period": {
+    "from": "1907",
+    "to": "1920"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "신민회 평남 총감·태극서관 총무로서의 활동",
+     "date": "1907~1911",
+     "owner": "shinminhoe",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 신민회",
+       "url": "https://encykorea.aks.ac.kr/Article/E0032974"
+      }
+     ]
+    },
+    {
+     "event_desc": "청년학우회 총무원 선출",
+     "date": "1909-08",
+     "owner": "shinminhoe",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "위키백과 청년학우회",
+       "url": "https://ko.wikipedia.org/wiki/청년학우회"
+      }
+     ]
+    }
+   ],
+   "description": "동지 관계. 도산 국내 사업(태극서관·청년학우회)의 실무 책임자였다."
+  },
+  {
+   "source": "per-001",
+   "target": "per-021",
+   "type": "comrade",
+   "period": {
+    "from": "1907",
+    "to": "1914"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "신민회 창립위원 공동 참여(상동교회 기반)",
+     "date": "1907-04",
+     "owner": "shinminhoe",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 신민회",
+       "url": "https://encykorea.aks.ac.kr/Article/E0032974"
+      }
+     ]
+    }
+   ],
+   "description": "동지 관계. 상동교회 인맥을 신민회로 연결한 창립 동지."
+  },
+  {
+   "source": "per-001",
+   "target": "per-022",
+   "type": "comrade",
+   "period": {
+    "from": "1907",
+    "to": "1921"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "신민회 창립위원 공동 참여",
+     "date": "1907-04",
+     "owner": "shinminhoe",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 신민회",
+       "url": "https://encykorea.aks.ac.kr/Article/E0032974"
+      }
+     ]
+    },
+    {
+     "event_desc": "통합 임시정부 — 국무총리 이동휘·내무총장 안창호 체제 출범",
+     "date": "1919-11",
+     "owner": "provisional-gov",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "위키백과 대한민국 임시정부",
+       "url": "https://ko.wikipedia.org/wiki/대한민국_임시정부"
+      }
+     ]
+    }
+   ],
+   "description": "동지 관계. 신민회와 통합 임정 두 국면에서 협력했다."
+  },
+  {
+   "source": "per-001",
+   "target": "per-022",
+   "type": "conflict",
+   "period": {
+    "from": "1919",
+    "to": "1921"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "임정 운영·이념(사회주의 노선, 정부 개조론)을 둘러싼 갈등과 이동휘 국무총리 사퇴",
+     "date": "1921-01",
+     "owner": "provisional-gov",
+     "sources": [
+      {
+       "type": "web",
+       "title": "통일뉴스 상하이 임시정부 연재 ④",
+       "url": "https://www.tongilnews.com/news/articleView.html?idxno=128642"
+      }
+     ]
+    }
+   ],
+   "description": "갈등 관계(임정기). 협력과 병존한 노선 갈등으로, 동지 엣지와 시기가 겹치는 복합 관계다."
+  },
+  {
+   "source": "per-001",
+   "target": "per-023",
+   "type": "comrade",
+   "period": {
+    "from": "1907",
+    "to": "1938"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "신민회 창립위원 공동 참여",
+     "date": "1907-04",
+     "owner": "shinminhoe",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 신민회",
+       "url": "https://encykorea.aks.ac.kr/Article/E0032974"
+      }
+     ]
+    },
+    {
+     "event_desc": "한국독립당 공동 창당(이동녕·안창호·김구 등)",
+     "date": "1930-01",
+     "owner": "provisional-gov",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 한국독립당"
+      }
+     ]
+    }
+   ],
+   "description": "동지 관계. 신민회부터 한국독립당까지 장기 협력했다."
+  },
+  {
+   "source": "per-001",
+   "target": "per-024",
+   "type": "comrade",
+   "period": {
+    "from": "1910",
+    "to": "1911"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "청도행 공동 망명과 청도회의 참여",
+     "date": "1910-04",
+     "owner": "shinminhoe",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 이갑(동행자 명단)",
+       "url": "https://encykorea.aks.ac.kr/Article/E0043482"
+      }
+     ]
+    }
+   ],
+   "description": "동지 관계(망명 초기). 신민회 사업 자금의 주요 출연자로 망명을 함께했다."
+  },
+  {
+   "source": "per-001",
+   "target": "per-024",
+   "type": "conflict",
+   "period": {
+    "from": "1910",
+    "to": "1911"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "청도회의 결렬 — 자금 사용처와 사업 방향을 둘러싼 이견(자금관계와 급진파 반대로 실패)",
+     "date": "1910",
+     "owner": "shinminhoe",
+     "sources": [
+      {
+       "type": "institutional",
+       "title": "우리역사넷 1910년대 민족운동 서술",
+       "url": "https://contents.history.go.kr/mobile/nh/view.do?levelId=nh_047_0030_0010_0050"
+      },
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 안창호",
+       "url": "https://encykorea.aks.ac.kr/Article/E0035050"
+      }
+     ]
+    }
+   ],
+   "description": "갈등 관계. 청도회의에서 이종호 측 자금의 사용(농토 매입·기지 건설 대 신문·급진 사업)을 놓고 대립했다. 갈등의 세부 쟁점 서술은 출처별로 달라 보완 검증 필요."
+  },
+  {
+   "source": "per-001",
+   "target": "per-025",
+   "type": "comrade",
+   "period": {
+    "from": "1907",
+    "to": "1910"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "신민회 창립위원 공동 참여와 1910년 청도행 동행",
+     "date": "1907-04, 1910-04",
+     "owner": "shinminhoe",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 이갑",
+       "url": "https://encykorea.aks.ac.kr/Article/E0043482"
+      }
+     ]
+    }
+   ],
+   "description": "동지 관계(신민회·망명기)."
+  },
+  {
+   "source": "per-001",
+   "target": "per-025",
+   "type": "conflict",
+   "period": {
+    "from": "1910",
+    "to": "1910"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "청도회의 — 급진 군사행동론(유동열 등)과 점진적 독립군 기지 건설론(안창호)의 대립",
+     "date": "1910",
+     "owner": "shinminhoe",
+     "sources": [
+      {
+       "type": "institutional",
+       "title": "우리역사넷 1910년대 민족운동 서술",
+       "url": "https://contents.history.go.kr/mobile/nh/view.do?levelId=nh_047_0030_0010_0050"
+      }
+     ]
+    }
+   ],
+   "description": "갈등 관계. 청도회의 결렬의 노선 축. 급진파 구성원의 특정은 출처마다 달라 보완 검증 필요."
+  },
+  {
+   "source": "per-001",
+   "target": "per-026",
+   "type": "comrade",
+   "period": {
+    "from": "1919",
+    "to": "1938"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "내무총장 안창호가 김구를 임시정부 경무국장에 임명",
+     "date": "1919-08",
+     "owner": "provisional-gov",
+     "sources": [
+      {
+       "type": "primary",
+       "title": "백범일지(김구) — 경무국장 임명 경위 회고",
+       "url": "https://ko.wikisource.org/wiki/백범일지"
+      }
+     ]
+    },
+    {
+     "event_desc": "한국독립당 공동 창당",
+     "date": "1930-01",
+     "owner": "provisional-gov",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 한국독립당"
+      }
+     ]
+    }
+   ],
+   "description": "동지 관계. 1900년대 초 안신호 혼담의 인연이 있고, 임정에서 도산이 김구를 발탁했다. 이후 노선·계파(흥사단계와 임정 고수파)의 거리도 있었으나 협력 관계가 기본 구조다."
+  },
+  {
+   "source": "per-001",
+   "target": "per-027",
+   "type": "comrade",
+   "period": {
+    "from": "1907",
+    "to": "1911"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "청년학우회 평남 조직 결성(최광옥-안태국-장응진 교육 인맥)",
+     "date": "1909~1910",
+     "owner": "shinminhoe",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 청년학우회",
+       "url": "https://encykorea.aks.ac.kr/Article/E0056315"
+      }
+     ]
+    }
+   ],
+   "description": "동지 관계. 평양 교육운동·청년학우회 조직에서 협력했다. 1907 이전 교류(독립협회기) 여부는 미확인."
+  },
+  {
+   "source": "per-001",
+   "target": "per-029",
+   "type": "comrade",
+   "period": {
+    "from": "1903",
+    "to": "1938"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "공립협회 창립(안창호·송석준·정재관·임준기·이강·임치정·방화중)",
+     "date": "1905-04",
+     "owner": "america",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 공립협회",
+       "url": "https://encykorea.aks.ac.kr/Article/E0004272"
+      }
+     ]
+    },
+    {
+     "event_desc": "신민회 결성을 위한 공립협회의 국내 파견(이강 등)",
+     "date": "1907",
+     "owner": "shinminhoe",
+     "sources": [
+      {
+       "type": "institutional",
+       "title": "독립기념관 월간지 '공립협회의 신민회 결성과 해외 독립군기지 개척'",
+       "url": "https://www.i815.or.kr/upload/kr/magazine/magazine/28/post-291.html"
+      }
+     ]
+    }
+   ],
+   "description": "동지 관계. 미주 초기부터 연해주까지 도산 노선의 핵심 실행자."
+  },
+  {
+   "source": "per-001",
+   "target": "per-030",
+   "type": "comrade",
+   "period": {
+    "from": "1903",
+    "to": null
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "한인친목회 결성과 공립협회 창립 참여",
+     "date": "1903~1905",
+     "owner": "america",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 공립협회",
+       "url": "https://encykorea.aks.ac.kr/Article/E0004272"
+      }
+     ]
+    }
+   ],
+   "description": "동지 관계(미주 초기). 임준기의 생몰·후기 행적 미확인으로 period.to 비움."
+  },
+  {
+   "source": "per-001",
+   "target": "per-031",
+   "type": "comrade",
+   "period": {
+    "from": "1905",
+    "to": "1907"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "공립협회 창립과 회장직 승계(초대 안창호→2대 송석준)",
+     "date": "1905",
+     "owner": "america",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 공립협회",
+       "url": "https://encykorea.aks.ac.kr/Article/E0004272"
+      }
+     ]
+    }
+   ],
+   "description": "동지 관계(공립협회기)."
+  },
+  {
+   "source": "per-001",
+   "target": "per-032",
+   "type": "comrade",
+   "period": {
+    "from": "1905",
+    "to": "1930"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "공립협회 창립과 회장직 승계(3대 정재관)",
+     "date": "1905",
+     "owner": "america",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 공립협회",
+       "url": "https://encykorea.aks.ac.kr/Article/E0004272"
+      }
+     ]
+    }
+   ],
+   "description": "동지 관계. 공립협회-국민회 계열에서 장기 협력했다."
+  },
+  {
+   "source": "per-001",
+   "target": "per-033",
+   "type": "comrade",
+   "period": {
+    "from": "1905",
+    "to": "1928"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "대한인국민회 중앙총회장(안창호) 체제에서 북미지방총회장·신한민보 주필로 협력",
+     "date": "1912~1919",
+     "owner": "america",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 공립협회·대한인국민회 관련 항목",
+       "url": "https://encykorea.aks.ac.kr/Article/E0004272"
+      }
+     ]
+    }
+   ],
+   "description": "동지 관계. 미주 국민회 행정·언론의 실무 축. 관계 시작 시점(1905 공립협회 가입 여부)은 보완 확인 필요."
+  },
+  {
+   "source": "per-001",
+   "target": "per-034",
+   "type": "comrade",
+   "period": {
+    "from": "1906",
+    "to": "1938"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "로스앤젤레스에서 도산이 송종익에게 흥사단 약법 초안을 처음 제시",
+     "date": "1912",
+     "owner": "heungsadan",
+     "sources": [
+      {
+       "type": "institutional",
+       "title": "지역N문화 '흥사단의 첫 동지 송종익'",
+       "url": "https://ncms.nculture.org/independence-movement/story/10984"
+      }
+     ]
+    },
+    {
+     "event_desc": "흥사단 창립(샌프란시스코)",
+     "date": "1913-05-13",
+     "owner": "heungsadan",
+     "sources": [
+      {
+       "type": "institutional",
+       "title": "공훈전자사료관 이달의 독립운동가 송종익",
+       "url": "https://e-gonghun.mpva.go.kr/user/IndepCrusaderDetail.do?goTocode=20003&mngNo=3154"
+      }
+     ]
+    }
+   ],
+   "description": "동지 관계. 흥사단 구상 단계부터 함께한 '첫 동지'."
+  },
+  {
+   "source": "per-034",
+   "target": "per-001",
+   "type": "patron",
+   "period": {
+    "from": "1919",
+    "to": "1938"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "도산의 중국행 이후 송종익이 흥사단 실무와 임시정부 자금 모집·송금을 담당",
+     "date": "1919 이후",
+     "owner": "heungsadan",
+     "sources": [
+      {
+       "type": "institutional",
+       "title": "공훈전자사료관 이달의 독립운동가 송종익",
+       "url": "https://e-gonghun.mpva.go.kr/user/IndepCrusaderDetail.do?goTocode=20003&mngNo=3154"
+      },
+      {
+       "type": "institutional",
+       "title": "지역N문화 '흥사단의 첫 동지 송종익'",
+       "url": "https://ncms.nculture.org/independence-movement/story/10984"
+      }
+     ]
+    }
+   ],
+   "description": "후원 관계(송종익→도산·도산 계열 운동). 미주에서 자금을 모아 도산의 중국 활동과 임정을 재정 지원했다."
+  },
+  {
+   "source": "per-001",
+   "target": "per-035",
+   "type": "comrade",
+   "period": {
+    "from": "1911",
+    "to": "1919"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "신한민보 주필(박용만)과 대한인국민회 중앙총회 체제 정비기의 협력",
+     "date": "1911~1912",
+     "owner": "america",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 박용만"
+      }
+     ]
+    }
+   ],
+   "description": "동지 관계(국민회 틀 안의 협력). 무장투쟁론(박용만)과 실력양성론(도산)의 노선 차이가 있었으나 기록상 직접 대립 사건은 미확인이라 갈등 엣지는 만들지 않았다."
+  },
+  {
+   "source": "per-001",
+   "target": "per-036",
+   "type": "comrade",
+   "period": {
+    "from": "1919",
+    "to": "1920"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "도산 주도의 임시정부 통합(한성·노령·상하이)과 대통령제 개편 — 이승만 대통령 선출",
+     "date": "1919-09-11",
+     "owner": "provisional-gov",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "위키백과 대한민국 임시정부",
+       "url": "https://ko.wikipedia.org/wiki/대한민국_임시정부"
+      }
+     ]
+    }
+   ],
+   "description": "동지 관계(임정 통합 국면). 도산은 위임통치 논란에도 통합 정부 수립을 위해 이승만 추대를 관철했다."
+  },
+  {
+   "source": "per-001",
+   "target": "per-036",
+   "type": "conflict",
+   "period": {
+    "from": "1919",
+    "to": "1925"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "대통령 칭호 사용 문제 — 내무총장 안창호가 워싱턴의 이승만에게 '각하는 대통령이 아니다'라고 공식 지적",
+     "date": "1919-08-25",
+     "owner": "provisional-gov",
+     "sources": [
+      {
+       "type": "web",
+       "title": "뉴데일리 이승만 시대 연재(12) 안창호와 이념 갈등",
+       "url": "https://www.newdaily.co.kr/site/data/html/2012/05/26/2012052600014.html"
+      }
+     ]
+    },
+    {
+     "event_desc": "임정 운영 갈등 속 도산 사임(1921), 국민대표회의(1923), 이승만 탄핵(1925)",
+     "date": "1921~1925",
+     "owner": "provisional-gov",
+     "sources": [
+      {
+       "type": "web",
+       "title": "통일뉴스 상하이 임시정부 연재 ④ 이승만 탄핵과 재정비",
+       "url": "https://www.tongilnews.com/news/articleView.html?idxno=128642"
+      }
+     ]
+    }
+   ],
+   "description": "갈등 관계. 직제·운영·노선을 둘러싼 장기 갈등. 단 도산은 탄핵 국면에서 절차적 신중론을 폈으므로 단순 적대로 서술하면 안 된다 — 복합 관계로 동지 엣지와 병존."
+  },
+  {
+   "source": "per-001",
+   "target": "per-037",
+   "type": "comrade",
+   "period": {
+    "from": "1919",
+    "to": "1922"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "임시정부 외무총장(김규식)·내무총장(안창호) 동반 재임",
+     "date": "1919",
+     "owner": "provisional-gov",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "위키백과 대한민국 임시정부",
+       "url": "https://ko.wikipedia.org/wiki/대한민국_임시정부"
+      }
+     ]
+    }
+   ],
+   "description": "동지 관계(임정 초기)."
+  },
+  {
+   "source": "per-001",
+   "target": "per-037",
+   "type": "conflict",
+   "period": {
+    "from": "1923",
+    "to": "1923"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "국민대표회의 — 창조파(김규식 합류) 대 개조파(안창호)의 대립과 결렬",
+     "date": "1923-01~05",
+     "owner": "provisional-gov",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "위키백과 안창호(국민대표회의 서술)",
+       "url": "https://ko.wikipedia.org/wiki/안창호"
+      }
+     ]
+    }
+   ],
+   "description": "갈등 관계(1923 국한). 회의 결렬 후에도 인간 관계가 단절됐다는 근거는 없어 시기를 좁게 잡았다."
+  },
+  {
+   "source": "per-001",
+   "target": "per-038",
+   "type": "comrade",
+   "period": {
+    "from": "1919",
+    "to": "1938"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "상하이 임시정부 초기 체제 구축기의 협력(외무차장 여운형)",
+     "date": "1919",
+     "owner": "provisional-gov",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "위키백과 대한민국 임시정부",
+       "url": "https://ko.wikipedia.org/wiki/대한민국_임시정부"
+      }
+     ]
+    },
+    {
+     "event_desc": "도산 피체·수감기 조만식·여운형·이광수의 문안·옥바라지",
+     "date": "1932 이후",
+     "owner": "heungsadan",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과·위키백과 조만식 항목의 옥바라지 서술",
+       "url": "https://ko.wikipedia.org/wiki/조만식"
+      }
+     ]
+    }
+   ],
+   "description": "동지 관계. 임정 초기 협력에서 수감기 옥바라지까지 이어졌다."
+  },
+  {
+   "source": "per-001",
+   "target": "per-039",
+   "type": "comrade",
+   "period": {
+    "from": "1919",
+    "to": "1931"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "임시의정원 의장(손정도)·내무총장(안창호)으로 초기 임정 공동 운영",
+     "date": "1919",
+     "owner": "provisional-gov",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 손정도"
+      }
+     ]
+    }
+   ],
+   "description": "동지 관계. 흥사단 원동위원부 참여로도 이어졌다."
+  },
+  {
+   "source": "per-001",
+   "target": "per-040",
+   "type": "comrade",
+   "period": {
+    "from": "1907",
+    "to": "1925"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "신민회·서북학회 국면과 임시정부·독립신문 국면의 협력",
+     "date": "1907~1925",
+     "owner": "shinminhoe",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 박은식"
+      }
+     ]
+    }
+   ],
+   "description": "동지 관계. 구체 공동 사건(서북학회 활동, 임정 직책 동반)은 보완 라운드에서 사건 id로 정박 필요."
+  },
+  {
+   "source": "per-001",
+   "target": "per-041",
+   "type": "comrade",
+   "period": {
+    "from": "1908",
+    "to": "1938"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "대성학교 교사진 합류(교장 윤치호·대변교장 안창호·교사 차리석)",
+     "date": "1908",
+     "owner": "shinminhoe",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 대성학교",
+       "url": "http://encykorea.aks.ac.kr/Contents/Item/E0014519"
+      }
+     ]
+    },
+    {
+     "event_desc": "상하이 독립신문·흥사단 원동위원부·임정에서의 측근 활동",
+     "date": "1919 이후",
+     "owner": "provisional-gov",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 차리석"
+      }
+     ]
+    }
+   ],
+   "description": "동지 관계. 대성학교부터 임정까지 도산 노선의 가장 일관된 측근."
+  },
+  {
+   "source": "per-001",
+   "target": "per-042",
+   "type": "comrade",
+   "period": {
+    "from": "1919",
+    "to": "1937"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "상하이 독립신문 사장 취임(도산 지도 하의 임정 기관지)",
+     "date": "1919-08",
+     "owner": "provisional-gov",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 독립신문"
+      }
+     ]
+    },
+    {
+     "event_desc": "수양동맹회 조직(도산 구상의 국내 이식)과 수양동우회 통합",
+     "date": "1922, 1926",
+     "owner": "heungsadan",
+     "sources": [
+      {
+       "type": "institutional",
+       "title": "우리역사넷 흥사단 1913",
+       "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_o404400"
+      }
+     ]
+    }
+   ],
+   "description": "동지 관계. 독립신문과 국내 수양운동에서 도산의 대행자 역할을 했다."
+  },
+  {
+   "source": "per-001",
+   "target": "per-042",
+   "type": "conflict",
+   "period": {
+    "from": "1922",
+    "to": "1938"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "이광수 「민족개조론」 발표 — 도산 사상의 탈정치적 변형을 둘러싼 사상적 긴장(도산의 민족개조 구상과의 구별 논쟁)",
+     "date": "1922-05",
+     "owner": "philosophy",
+     "sources": [
+      {
+       "type": "academic",
+       "title": "이광수 민족개조론과 안창호 사상의 관계에 대한 학술 논의(개별 논문 서지 보완 필요)"
+      }
+     ]
+    }
+   ],
+   "description": "갈등(사상적 긴장) 관계. 개인적 결별이 아니라 사상 해석의 긴장이며, 동우회 사건 후 이광수의 전향으로 노선이 최종 분기했다. 동지 엣지와 병존하는 복합 관계."
+  },
+  {
+   "source": "per-001",
+   "target": "per-043",
+   "type": "comrade",
+   "period": {
+    "from": "1920",
+    "to": "1938"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "상하이 흥사단 원동위원부 입단(주요한)",
+     "date": "1920년경",
+     "owner": "heungsadan",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 주요한"
+      }
+     ]
+    },
+    {
+     "event_desc": "수양동우회 기관지 동광 편집과 동우회 사건 피검",
+     "date": "1926, 1937",
+     "owner": "heungsadan",
+     "sources": [
+      {
+       "type": "institutional",
+       "title": "우리역사넷 흥사단 1913",
+       "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_o404400"
+      }
+     ]
+    }
+   ],
+   "description": "동지 관계. 입단 연도(1920년경)는 보완 확인 필요."
+  },
+  {
+   "source": "per-001",
+   "target": "per-046",
+   "type": "comrade",
+   "period": {
+    "from": "1919",
+    "to": "1932"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "미주 대한인국민회 대표로 도산의 상하이행 수행(정인과·황진남)",
+     "date": "1919-04~05",
+     "owner": "provisional-gov",
+     "sources": [
+      {
+       "type": "web",
+       "title": "도산 상하이행 수행원 관련 서술(도산일기·임정 기록 역추적 필요)"
+      }
+     ]
+    },
+    {
+     "event_desc": "임시정부 외무총장대리 차장 재임",
+     "date": "1919-09",
+     "owner": "provisional-gov",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "위키백과 대한민국 임시정부",
+       "url": "https://ko.wikipedia.org/wiki/대한민국_임시정부"
+      }
+     ]
+    }
+   ],
+   "description": "동지 관계(임정·흥사단계). 1930년대 정인과의 친일 전향은 도산 사후 경로이므로 본 엣지 시기에서 제외했다. 수행 사실의 1차 사료 정박 필요."
+  },
+  {
+   "source": "per-001",
+   "target": "per-047",
+   "type": "comrade",
+   "period": {
+    "from": "1932",
+    "to": "1938"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "도산 피체·수감기 조만식의 문안·옥바라지(여운형·이광수와 함께)",
+     "date": "1932 이후",
+     "owner": "heungsadan",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "위키백과·한국민족문화대백과 조만식",
+       "url": "https://ko.wikipedia.org/wiki/조만식"
+      }
+     ]
+    },
+    {
+     "event_desc": "1907년 평양 연설 — 조만식이 듣고 독립운동 투신 결심(일방향 감화)",
+     "date": "1907",
+     "owner": "shinminhoe",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 조만식",
+       "url": "https://encykorea.aks.ac.kr/Article/E0051729"
+      }
+     ]
+    }
+   ],
+   "description": "동지 관계. 상호작용의 근거는 1932년 이후 옥바라지·교류이므로 from을 1932로 잡고, 1907년 연설 감화는 일방향 영향으로 description에만 남긴다."
+  },
+  {
+   "source": "per-001",
+   "target": "per-048",
+   "type": "comrade",
+   "period": {
+    "from": null,
+    "to": "1938"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "수양동우회 활동과 동우회 사건 공동 피검",
+     "date": "1937-06",
+     "owner": "heungsadan",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 조병옥"
+      }
+     ]
+    }
+   ],
+   "description": "동지 관계. 조병옥의 흥사단 입단 시기(미국 유학기) 미확인으로 from 비움 — 보완 조사 대상."
+  },
+  {
+   "source": "per-001",
+   "target": "per-049",
+   "type": "comrade",
+   "period": {
+    "from": "1908",
+    "to": "1938"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "대성학교 교사 재직(김동원)",
+     "date": "1908년경",
+     "owner": "shinminhoe",
+     "sources": [
+      {
+       "type": "institutional",
+       "title": "우리역사넷 흥사단 1913(동우구락부 서술)",
+       "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_o404400"
+      }
+     ]
+    },
+    {
+     "event_desc": "동우구락부 결성(도산 실력양성론을 지도이념으로)과 동우회 사건 연루",
+     "date": "1922, 1937",
+     "owner": "heungsadan",
+     "sources": [
+      {
+       "type": "institutional",
+       "title": "우리역사넷 흥사단 1913",
+       "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_o404400"
+      }
+     ]
+    }
+   ],
+   "description": "동지 관계. 대성학교-동우구락부-동우회 사건으로 이어지는 평양 기반 동지."
+  },
+  {
+   "source": "per-001",
+   "target": "per-050",
+   "type": "comrade",
+   "period": {
+    "from": "1909",
+    "to": "1910"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "청년학우회 결성 — 총무원 최남선, 기관지 격 소년 발간",
+     "date": "1909-08",
+     "owner": "shinminhoe",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "위키백과 청년학우회",
+       "url": "https://ko.wikipedia.org/wiki/청년학우회"
+      }
+     ]
+    }
+   ],
+   "description": "동지 관계(청년학우회기 국한). 이후 최남선의 행로와는 무관하게 시기를 좁게 잡았다."
+  },
+  {
+   "source": "per-001",
+   "target": "per-051",
+   "type": "comrade",
+   "period": {
+    "from": "1920",
+    "to": "1932"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "흥사단 원동위원부·상해 교민단에서의 협력",
+     "date": "1920년대",
+     "owner": "heungsadan",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 이유필"
+      }
+     ]
+    },
+    {
+     "event_desc": "윤봉길 의거 당일 이유필 집 방문 중 도산 피체",
+     "date": "1932-04-29",
+     "owner": "provisional-gov",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "위키백과 안창호",
+       "url": "https://ko.wikipedia.org/wiki/안창호"
+      }
+     ]
+    }
+   ],
+   "description": "동지 관계. 도산 피체 장소가 이유필의 집이었다는 사실이 교류의 직접 증거다."
+  },
+  {
+   "source": "per-001",
+   "target": "org-001",
+   "type": "membership",
+   "period": {
+    "from": "1897",
+    "to": "1898"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "독립협회 가입과 필대은과의 평양 관서지부 활동, 쾌재정 연설",
+     "date": "1897~1898",
+     "owner": "early-life",
+     "sources": [
+      {
+       "type": "institutional",
+       "title": "우리역사넷 안창호",
+       "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n402200"
+      }
+     ]
+    }
+   ],
+   "description": "회원·평양 관서지부 활동. 쾌재정 연설로 청년 웅변가로 부상."
+  },
+  {
+   "source": "per-001",
+   "target": "org-002",
+   "type": "membership",
+   "period": {
+    "from": "1894",
+    "to": "1897"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "구세학당 입학·약 3년 수학·기독교 입교",
+     "date": "1894~1897",
+     "owner": "early-life",
+     "sources": [
+      {
+       "type": "institutional",
+       "title": "우리역사넷 안창호",
+       "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n402200"
+      }
+     ]
+    }
+   ],
+   "description": "학생. 신학문·기독교 수용의 결정적 공간."
+  },
+  {
+   "source": "per-001",
+   "target": "org-003",
+   "type": "membership",
+   "period": {
+    "from": "1899",
+    "to": "1902"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "점진학교 설립(평남 강서)",
+     "date": "1899",
+     "owner": "early-life",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 안창호",
+       "url": "https://encykorea.aks.ac.kr/Article/E0035050"
+      }
+     ]
+    }
+   ],
+   "description": "설립자."
+  },
+  {
+   "source": "per-001",
+   "target": "org-004",
+   "type": "membership",
+   "period": {
+    "from": "1903",
+    "to": "1905"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "샌프란시스코 한인친목회 조직",
+     "date": "1903-09",
+     "owner": "america",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 공립협회(전사 서술)",
+       "url": "https://encykorea.aks.ac.kr/Article/E0004272"
+      }
+     ]
+    }
+   ],
+   "description": "창립 주도자·회장."
+  },
+  {
+   "source": "per-001",
+   "target": "org-005",
+   "type": "membership",
+   "period": {
+    "from": "1905",
+    "to": "1909"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "공립협회 창립·초대 회장 취임",
+     "date": "1905-04",
+     "owner": "america",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 공립협회",
+       "url": "https://encykorea.aks.ac.kr/Article/E0004272"
+      }
+     ]
+    }
+   ],
+   "description": "창립자·초대 회장. 1907 귀국 후에도 회원 자격은 통합(1909)까지 지속으로 간주."
+  },
+  {
+   "source": "per-001",
+   "target": "org-006",
+   "type": "membership",
+   "period": {
+    "from": "1907",
+    "to": "1911"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "신민회 발의·창립(집행원 안창호)",
+     "date": "1907-04",
+     "owner": "shinminhoe",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 신민회",
+       "url": "https://encykorea.aks.ac.kr/Article/E0032974"
+      }
+     ]
+    }
+   ],
+   "description": "발기인·집행원. 미주에서의 구상(1906~07)을 국내 조직으로 실현."
+  },
+  {
+   "source": "per-001",
+   "target": "org-007",
+   "type": "membership",
+   "period": {
+    "from": "1908",
+    "to": "1910"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "대성학교 설립·대변교장 취임",
+     "date": "1908-09",
+     "owner": "shinminhoe",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 대성학교",
+       "url": "http://encykorea.aks.ac.kr/Contents/Item/E0014519"
+      }
+     ]
+    }
+   ],
+   "description": "설립자·대변교장(실질 운영자)."
+  },
+  {
+   "source": "per-001",
+   "target": "org-008",
+   "type": "membership",
+   "period": {
+    "from": "1908",
+    "to": "1911"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "태극서관 설립·운영 관여(신민회 사업)",
+     "date": "1908",
+     "owner": "shinminhoe",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 신민회",
+       "url": "https://encykorea.aks.ac.kr/Article/E0032974"
+      }
+     ]
+    }
+   ],
+   "description": "설립 관여. 도산의 구체 직책은 미상 — 보완 조사 대상."
+  },
+  {
+   "source": "per-001",
+   "target": "org-009",
+   "type": "membership",
+   "period": {
+    "from": "1908",
+    "to": "1911"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "평양 마산동 자기회사 설립 관여(신민회 실업 사업)",
+     "date": "1908",
+     "owner": "shinminhoe",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 신민회",
+       "url": "https://encykorea.aks.ac.kr/Article/E0032974"
+      }
+     ]
+    }
+   ],
+   "description": "발기·설립 관여. 출자·직책의 세부는 미상 — 보완 조사 대상."
+  },
+  {
+   "source": "per-001",
+   "target": "org-010",
+   "type": "membership",
+   "period": {
+    "from": "1909",
+    "to": "1910"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "청년학우회 결성 제창(협성회형 청년 조직 구상)",
+     "date": "1909-02~08",
+     "owner": "shinminhoe",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "위키백과 청년학우회",
+       "url": "https://ko.wikipedia.org/wiki/청년학우회"
+      }
+     ]
+    }
+   ],
+   "description": "발기·제창자. 표면 직책은 윤치호 등에게 맡기고 배후에서 지도."
+  },
+  {
+   "source": "per-001",
+   "target": "org-011",
+   "type": "membership",
+   "period": {
+    "from": "1908",
+    "to": "1910"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "서북학회 무대에서의 연설·서북 인사 결합",
+     "date": "1908~1910",
+     "owner": "shinminhoe",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 서북학회"
+      }
+     ]
+    }
+   ],
+   "description": "회원(직책 미상). 가입 여부·시점의 1차 근거 확인 필요 — 약한 membership으로 분류했으며 근거 미달 시 미확정 이동 대상."
+  },
+  {
+   "source": "per-001",
+   "target": "org-012",
+   "type": "membership",
+   "period": {
+    "from": "1912",
+    "to": "1919"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "대한인국민회 중앙총회장 취임·조직 정비",
+     "date": "1912-11",
+     "owner": "america",
+     "sources": [
+      {
+       "type": "institutional",
+       "title": "대한인국민회 기념재단 안창호",
+       "url": "https://knamf.org/안창호/"
+      }
+     ]
+    }
+   ],
+   "description": "중앙총회장. 1919 상하이행 이후에도 국민회와의 관계는 지속되나 직책 기준으로 to=1919."
+  },
+  {
+   "source": "per-001",
+   "target": "org-013",
+   "type": "membership",
+   "period": {
+    "from": "1913",
+    "to": "1938"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "흥사단 창립(샌프란시스코, 8도 대표 발기인)",
+     "date": "1913-05-13",
+     "owner": "heungsadan",
+     "sources": [
+      {
+       "type": "institutional",
+       "title": "우리역사넷 흥사단 1913",
+       "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_o404400"
+      },
+      {
+       "type": "web",
+       "title": "흥사단 공식 도산 생애(자체 서술 편향 유의)",
+       "url": "https://www.yka.or.kr/html/about_dosan/life_achievement.asp"
+      }
+     ]
+    }
+   ],
+   "description": "창립자·종신 지도자."
+  },
+  {
+   "source": "per-001",
+   "target": "org-014",
+   "type": "membership",
+   "period": {
+    "from": "1919",
+    "to": "1921"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "내무총장 취임·국무총리 대리 겸임, 연통제·교통국 구축",
+     "date": "1919-06~",
+     "owner": "provisional-gov",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "위키백과 대한민국 임시정부",
+       "url": "https://ko.wikipedia.org/wiki/대한민국_임시정부"
+      }
+     ]
+    },
+    {
+     "event_desc": "임시정부 각원 사임",
+     "date": "1921-05",
+     "owner": "provisional-gov",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 안창호",
+       "url": "https://encykorea.aks.ac.kr/Article/E0035050"
+      }
+     ]
+    }
+   ],
+   "description": "내무총장 겸 국무총리 대리(1919~1921 사임). 사임 후에도 임정 주변에서 활동했으나 직책 기준으로 기간 설정."
+  },
+  {
+   "source": "per-001",
+   "target": "org-015",
+   "type": "membership",
+   "period": {
+    "from": "1919",
+    "to": "1921"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "상하이 독립신문 창간 주도·재정 지원",
+     "date": "1919-08-21",
+     "owner": "provisional-gov",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 독립신문"
+      }
+     ]
+    }
+   ],
+   "description": "창간 주도(운영 책임은 이광수 등). 창간 자금·운영 관여의 세부는 보완 조사 대상."
+  },
+  {
+   "source": "per-001",
+   "target": "org-016",
+   "type": "membership",
+   "period": {
+    "from": "1912",
+    "to": null
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "북미실업주식회사 발기·설립",
+     "date": "1912년경",
+     "owner": "america",
+     "sources": [
+      {
+       "type": "web",
+       "title": "북미실업주식회사 관련 서술(1~3단계 출처 역추적 필요)"
+      }
+     ]
+    }
+   ],
+   "description": "발기인. 설립 연도·존속 기간 미확정 — 보완 조사 대상."
+  },
+  {
+   "source": "per-001",
+   "target": "org-019",
+   "type": "membership",
+   "period": {
+    "from": "1926",
+    "to": "1938"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "수양동우회(동우회)에 대한 도산의 지도와 동우회 사건 기소",
+     "date": "1926~1937",
+     "owner": "heungsadan",
+     "sources": [
+      {
+       "type": "institutional",
+       "title": "우리역사넷 흥사단 1913",
+       "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_o404400"
+      }
+     ]
+    }
+   ],
+   "description": "국내 운동 조직의 지도자(형식적 가입 여부보다 1937 동우회 사건에서 도산이 핵심 관련자로 검거·기소된 사실이 근거)."
+  },
+  {
+   "source": "per-001",
+   "target": "org-020",
+   "type": "membership",
+   "period": {
+    "from": "1924",
+    "to": "1926"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "난징 동명학원 설립",
+     "date": "1924-03",
+     "owner": "provisional-gov",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 안창호",
+       "url": "https://encykorea.aks.ac.kr/Article/E0035050"
+      }
+     ]
+    }
+   ],
+   "description": "설립자. 1926 도미 이후 운영 관여 정도는 미상."
+  },
+  {
+   "source": "per-001",
+   "target": "org-021",
+   "type": "membership",
+   "period": {
+    "from": "1930",
+    "to": "1932"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "한국독립당 창당 참여(이동녕·안창호·김구 등), 대공주의의 당의 반영 논의",
+     "date": "1930-01-25",
+     "owner": "provisional-gov",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 한국독립당"
+      }
+     ]
+    }
+   ],
+   "description": "창당 발기인. 1932 피체로 활동 종료."
+  },
+  {
+   "source": "org-004",
+   "target": "org-005",
+   "type": "comrade",
+   "period": {
+    "from": "1905",
+    "to": "1905"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "한인친목회와 리버사이드 공립협회의 통합·발전으로 공립협회 창립",
+     "date": "1905-04",
+     "owner": "america",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 공립협회",
+       "url": "https://encykorea.aks.ac.kr/Article/E0004272"
+      }
+     ]
+    }
+   ],
+   "description": "[전신/후신] 한인친목회는 공립협회의 전신 조직의 하나."
+  },
+  {
+   "source": "org-005",
+   "target": "org-012",
+   "type": "comrade",
+   "period": {
+    "from": "1909",
+    "to": "1910"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "공립협회·합성협회 통합으로 국민회 결성(1909), 대한인국민회로 개편(1910)",
+     "date": "1909-02, 1910-02",
+     "owner": "america",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 공립협회",
+       "url": "https://encykorea.aks.ac.kr/Article/E0004272"
+      },
+      {
+       "type": "institutional",
+       "title": "우리역사넷 신한민보(1909-02-10)",
+       "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_o402110"
+      }
+     ]
+    }
+   ],
+   "description": "[전신/후신] 공립협회는 대한인국민회의 전신. 법적·조직적 통합이므로 별도 노드로 분리."
+  },
+  {
+   "source": "org-010",
+   "target": "org-013",
+   "type": "comrade",
+   "period": {
+    "from": "1913",
+    "to": null
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "흥사단 창립 — 청년학우회의 무실역행 정신·조직 구상 계승",
+     "date": "1913-05-13",
+     "owner": "heungsadan",
+     "sources": [
+      {
+       "type": "institutional",
+       "title": "우리역사넷 흥사단 1913",
+       "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_o404400"
+      }
+     ]
+    }
+   ],
+   "description": "[전신/후신] 청년학우회는 흥사단의 정신적 전신(법적 연속은 아님 — 통설 판정)."
+  },
+  {
+   "source": "org-017",
+   "target": "org-019",
+   "type": "comrade",
+   "period": {
+    "from": "1926",
+    "to": "1926"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "수양동맹회·동우구락부 통합으로 수양동우회 발족",
+     "date": "1926-01",
+     "owner": "heungsadan",
+     "sources": [
+      {
+       "type": "institutional",
+       "title": "우리역사넷 흥사단 1913",
+       "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_o404400"
+      }
+     ]
+    }
+   ],
+   "description": "[전신/후신] 수양동맹회는 수양동우회의 전신."
+  },
+  {
+   "source": "org-018",
+   "target": "org-019",
+   "type": "comrade",
+   "period": {
+    "from": "1926",
+    "to": "1926"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "수양동맹회·동우구락부 통합으로 수양동우회 발족",
+     "date": "1926-01",
+     "owner": "heungsadan",
+     "sources": [
+      {
+       "type": "institutional",
+       "title": "우리역사넷 흥사단 1913",
+       "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_o404400"
+      }
+     ]
+    }
+   ],
+   "description": "[전신/후신] 동우구락부는 수양동우회의 전신."
+  },
+  {
+   "source": "org-013",
+   "target": "org-019",
+   "type": "comrade",
+   "period": {
+    "from": "1926",
+    "to": "1937"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "수양동우회의 흥사단 국내 운동 조직으로서의 위상(동우회 사건 판결문 등에서 일제도 동일시)",
+     "date": "1926~1937",
+     "owner": "heungsadan",
+     "sources": [
+      {
+       "type": "institutional",
+       "title": "우리역사넷 흥사단 1913",
+       "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_o404400"
+      }
+     ]
+    }
+   ],
+   "description": "[산하/자매] 수양동우회는 흥사단의 국내 운동 조직."
+  },
+  {
+   "source": "org-006",
+   "target": "org-007",
+   "type": "comrade",
+   "period": {
+    "from": "1908",
+    "to": "1911"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "신민회 교육 사업으로서의 대성학교 설립·운영",
+     "date": "1908",
+     "owner": "shinminhoe",
+     "sources": [
+      {
+       "type": "institutional",
+       "title": "우리역사넷 신민회의 활동",
+       "url": "http://contents.history.go.kr/mobile/mid/ta_m71_0090_0030_0010_0030"
+      }
+     ]
+    }
+   ],
+   "description": "[산하] 대성학교는 신민회의 교육 사업체."
+  },
+  {
+   "source": "org-006",
+   "target": "org-010",
+   "type": "comrade",
+   "period": {
+    "from": "1909",
+    "to": "1910"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "청년학우회 — 신민회의 합법 측면 조직으로 결성",
+     "date": "1909-08",
+     "owner": "shinminhoe",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "위키백과 청년학우회(신민회의 측면 조직 서술)",
+       "url": "https://ko.wikipedia.org/wiki/청년학우회"
+      }
+     ]
+    }
+   ],
+   "description": "[산하] 청년학우회는 신민회의 합법 외곽 청년 조직."
+  },
+  {
+   "source": "org-006",
+   "target": "org-008",
+   "type": "comrade",
+   "period": {
+    "from": "1908",
+    "to": "1911"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "신민회 출판 사업으로서의 태극서관 운영",
+     "date": "1908~1911",
+     "owner": "shinminhoe",
+     "sources": [
+      {
+       "type": "institutional",
+       "title": "우리역사넷 신민회의 활동",
+       "url": "http://contents.history.go.kr/mobile/mid/ta_m71_0090_0030_0010_0030"
+      }
+     ]
+    }
+   ],
+   "description": "[산하] 태극서관은 신민회의 출판·보급 사업체."
+  },
+  {
+   "source": "org-006",
+   "target": "org-009",
+   "type": "comrade",
+   "period": {
+    "from": "1908",
+    "to": "1911"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "신민회 실업 사업으로서의 자기회사 설립",
+     "date": "1908",
+     "owner": "shinminhoe",
+     "sources": [
+      {
+       "type": "institutional",
+       "title": "우리역사넷 신민회의 활동",
+       "url": "http://contents.history.go.kr/mobile/mid/ta_m71_0090_0030_0010_0030"
+      }
+     ]
+    }
+   ],
+   "description": "[산하] 평양자기제조주식회사는 신민회의 실업 사업체."
+  },
+  {
+   "source": "org-014",
+   "target": "org-015",
+   "type": "comrade",
+   "period": {
+    "from": "1919",
+    "to": "1926"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "독립신문의 임시정부 기관지적 위상(창간·운영 주체)",
+     "date": "1919-08",
+     "owner": "provisional-gov",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 독립신문"
+      }
+     ]
+    }
+   ],
+   "description": "[산하/기관지] 독립신문은 임시정부 계열 기관지."
+  },
+  {
+   "source": "per-015",
+   "target": "org-007",
+   "type": "membership",
+   "period": {
+    "from": "1908",
+    "to": "1911"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "대성학교 교장 취임",
+     "date": "1908",
+     "owner": "shinminhoe",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 대성학교",
+       "url": "http://encykorea.aks.ac.kr/Contents/Item/E0014519"
+      }
+     ]
+    }
+   ],
+   "description": "교장."
+  },
+  {
+   "source": "per-015",
+   "target": "org-010",
+   "type": "membership",
+   "period": {
+    "from": "1909",
+    "to": "1910"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "청년학우회 설립위원장 선임(1910-03 도미로 박중화 대리 체제)",
+     "date": "1909-08",
+     "owner": "shinminhoe",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "위키백과 청년학우회",
+       "url": "https://ko.wikipedia.org/wiki/청년학우회"
+      }
+     ]
+    }
+   ],
+   "description": "설립위원장."
+  },
+  {
+   "source": "per-016",
+   "target": "org-006",
+   "type": "membership",
+   "period": {
+    "from": "1907",
+    "to": "1911"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "이승훈의 신민회 가담(도산 연설 감화 직후)",
+     "date": "1907",
+     "owner": "shinminhoe",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 이승훈",
+       "url": "https://encykorea.aks.ac.kr/Article/E0044964"
+      }
+     ]
+    }
+   ],
+   "description": "평북 책임자급 회원."
+  },
+  {
+   "source": "per-017",
+   "target": "org-006",
+   "type": "membership",
+   "period": {
+    "from": "1907",
+    "to": "1911"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "신민회 창립·총감독 취임",
+     "date": "1907-04",
+     "owner": "shinminhoe",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 신민회",
+       "url": "https://encykorea.aks.ac.kr/Article/E0032974"
+      }
+     ]
+    }
+   ],
+   "description": "총감독."
+  },
+  {
+   "source": "per-018",
+   "target": "org-006",
+   "type": "membership",
+   "period": {
+    "from": "1907",
+    "to": "1910"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "신민회 가입·활동(대한매일신보 논설진)",
+     "date": "1907",
+     "owner": "shinminhoe",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 신민회",
+       "url": "https://encykorea.aks.ac.kr/Article/E0032974"
+      }
+     ]
+    }
+   ],
+   "description": "회원."
+  },
+  {
+   "source": "per-019",
+   "target": "org-006",
+   "type": "membership",
+   "period": {
+    "from": "1907",
+    "to": "1910"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "신민회 창립위원 참여",
+     "date": "1907-04",
+     "owner": "shinminhoe",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 이갑",
+       "url": "https://encykorea.aks.ac.kr/Article/E0043482"
+      }
+     ]
+    }
+   ],
+   "description": "창립위원."
+  },
+  {
+   "source": "per-020",
+   "target": "org-006",
+   "type": "membership",
+   "period": {
+    "from": "1907",
+    "to": "1911"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "신민회 평남 총감·태극서관 총무",
+     "date": "1907~1911",
+     "owner": "shinminhoe",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 신민회",
+       "url": "https://encykorea.aks.ac.kr/Article/E0032974"
+      }
+     ]
+    }
+   ],
+   "description": "평남 총감."
+  },
+  {
+   "source": "per-021",
+   "target": "org-006",
+   "type": "membership",
+   "period": {
+    "from": "1907",
+    "to": "1911"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "신민회 창립위원 참여(상동교회 기반)",
+     "date": "1907-04",
+     "owner": "shinminhoe",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 신민회",
+       "url": "https://encykorea.aks.ac.kr/Article/E0032974"
+      }
+     ]
+    }
+   ],
+   "description": "창립위원."
+  },
+  {
+   "source": "per-022",
+   "target": "org-006",
+   "type": "membership",
+   "period": {
+    "from": "1907",
+    "to": "1910"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "신민회 창립위원 참여",
+     "date": "1907-04",
+     "owner": "shinminhoe",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 신민회",
+       "url": "https://encykorea.aks.ac.kr/Article/E0032974"
+      }
+     ]
+    }
+   ],
+   "description": "창립위원."
+  },
+  {
+   "source": "per-023",
+   "target": "org-006",
+   "type": "membership",
+   "period": {
+    "from": "1907",
+    "to": "1910"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "신민회 창립위원 참여",
+     "date": "1907-04",
+     "owner": "shinminhoe",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 신민회",
+       "url": "https://encykorea.aks.ac.kr/Article/E0032974"
+      }
+     ]
+    }
+   ],
+   "description": "창립위원."
+  },
+  {
+   "source": "per-025",
+   "target": "org-006",
+   "type": "membership",
+   "period": {
+    "from": "1907",
+    "to": "1910"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "신민회 창립위원 참여",
+     "date": "1907-04",
+     "owner": "shinminhoe",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 이갑",
+       "url": "https://encykorea.aks.ac.kr/Article/E0043482"
+      }
+     ]
+    }
+   ],
+   "description": "창립위원."
+  },
+  {
+   "source": "per-026",
+   "target": "org-006",
+   "type": "membership",
+   "period": {
+    "from": "1907",
+    "to": "1911"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "김구의 신민회 황해도 조직 활동",
+     "date": "1907~1911",
+     "owner": "shinminhoe",
+     "sources": [
+      {
+       "type": "primary",
+       "title": "백범일지(김구)",
+       "url": "https://ko.wikisource.org/wiki/백범일지"
+      }
+     ]
+    }
+   ],
+   "description": "황해도 회원. 가입 시점은 보완 확인 필요."
+  },
+  {
+   "source": "per-026",
+   "target": "org-014",
+   "type": "membership",
+   "period": {
+    "from": "1919",
+    "to": "1945"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "경무국장 임명(1919)에서 주석(1940)까지",
+     "date": "1919-08",
+     "owner": "provisional-gov",
+     "sources": [
+      {
+       "type": "primary",
+       "title": "백범일지(김구)",
+       "url": "https://ko.wikisource.org/wiki/백범일지"
+      }
+     ]
+    }
+   ],
+   "description": "경무국장→국무령→주석."
+  },
+  {
+   "source": "per-022",
+   "target": "org-014",
+   "type": "membership",
+   "period": {
+    "from": "1919",
+    "to": "1921"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "통합 임시정부 국무총리 취임과 사퇴",
+     "date": "1919-11~1921-01",
+     "owner": "provisional-gov",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "위키백과 대한민국 임시정부",
+       "url": "https://ko.wikipedia.org/wiki/대한민국_임시정부"
+      }
+     ]
+    }
+   ],
+   "description": "국무총리."
+  },
+  {
+   "source": "per-036",
+   "target": "org-014",
+   "type": "membership",
+   "period": {
+    "from": "1919",
+    "to": "1925"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "임시대통령 선출(1919-09)과 탄핵(1925-03)",
+     "date": "1919-09-11",
+     "owner": "provisional-gov",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "위키백과 대한민국 임시정부",
+       "url": "https://ko.wikipedia.org/wiki/대한민국_임시정부"
+      }
+     ]
+    }
+   ],
+   "description": "초대 임시대통령(탄핵으로 면직)."
+  },
+  {
+   "source": "per-040",
+   "target": "org-014",
+   "type": "membership",
+   "period": {
+    "from": "1919",
+    "to": "1925"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "제2대 임시대통령 취임",
+     "date": "1925-03",
+     "owner": "provisional-gov",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 박은식"
+      }
+     ]
+    }
+   ],
+   "description": "제2대 임시대통령."
+  },
+  {
+   "source": "per-037",
+   "target": "org-014",
+   "type": "membership",
+   "period": {
+    "from": "1919",
+    "to": "1922"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "외무총장·구미위원장 활동",
+     "date": "1919",
+     "owner": "provisional-gov",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "위키백과 대한민국 임시정부",
+       "url": "https://ko.wikipedia.org/wiki/대한민국_임시정부"
+      }
+     ]
+    }
+   ],
+   "description": "외무총장."
+  },
+  {
+   "source": "per-038",
+   "target": "org-014",
+   "type": "membership",
+   "period": {
+    "from": "1919",
+    "to": "1921"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "임시정부 외무부 차장 등 초기 활동",
+     "date": "1919",
+     "owner": "provisional-gov",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "위키백과 대한민국 임시정부",
+       "url": "https://ko.wikipedia.org/wiki/대한민국_임시정부"
+      }
+     ]
+    }
+   ],
+   "description": "외무부 차장 등. 직책·기간 보완 확인 필요."
+  },
+  {
+   "source": "per-039",
+   "target": "org-014",
+   "type": "membership",
+   "period": {
+    "from": "1919",
+    "to": "1921"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "임시의정원 의장 재임",
+     "date": "1919~1921",
+     "owner": "provisional-gov",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 손정도"
+      }
+     ]
+    }
+   ],
+   "description": "임시의정원 의장."
+  },
+  {
+   "source": "per-041",
+   "target": "org-007",
+   "type": "membership",
+   "period": {
+    "from": "1908",
+    "to": "1912"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "대성학교 교사 재직",
+     "date": "1908~1912",
+     "owner": "shinminhoe",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 대성학교",
+       "url": "http://encykorea.aks.ac.kr/Contents/Item/E0014519"
+      }
+     ]
+    }
+   ],
+   "description": "교사."
+  },
+  {
+   "source": "per-041",
+   "target": "org-014",
+   "type": "membership",
+   "period": {
+    "from": "1919",
+    "to": "1945"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "임시정부 국무위원·비서장 재임",
+     "date": "1919 이후",
+     "owner": "provisional-gov",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 차리석"
+      }
+     ]
+    }
+   ],
+   "description": "국무위원·비서장."
+  },
+  {
+   "source": "per-029",
+   "target": "org-005",
+   "type": "membership",
+   "period": {
+    "from": "1905",
+    "to": "1909"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "공립협회 창립 참여·공립신보 주필",
+     "date": "1905-04",
+     "owner": "america",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 공립협회",
+       "url": "https://encykorea.aks.ac.kr/Article/E0004272"
+      }
+     ]
+    }
+   ],
+   "description": "창립 회원·공립신보 주필."
+  },
+  {
+   "source": "per-030",
+   "target": "org-005",
+   "type": "membership",
+   "period": {
+    "from": "1905",
+    "to": null
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "공립협회 창립 참여",
+     "date": "1905-04",
+     "owner": "america",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 공립협회",
+       "url": "https://encykorea.aks.ac.kr/Article/E0004272"
+      }
+     ]
+    }
+   ],
+   "description": "창립 회원."
+  },
+  {
+   "source": "per-031",
+   "target": "org-005",
+   "type": "membership",
+   "period": {
+    "from": "1905",
+    "to": "1907"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "공립협회 창립 참여·제2대 회장",
+     "date": "1905",
+     "owner": "america",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 공립협회",
+       "url": "https://encykorea.aks.ac.kr/Article/E0004272"
+      }
+     ]
+    }
+   ],
+   "description": "제2대 회장."
+  },
+  {
+   "source": "per-032",
+   "target": "org-005",
+   "type": "membership",
+   "period": {
+    "from": "1905",
+    "to": "1909"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "공립협회 창립 참여·제3대 회장",
+     "date": "1905",
+     "owner": "america",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 공립협회",
+       "url": "https://encykorea.aks.ac.kr/Article/E0004272"
+      }
+     ]
+    }
+   ],
+   "description": "제3대 회장."
+  },
+  {
+   "source": "per-033",
+   "target": "org-012",
+   "type": "membership",
+   "period": {
+    "from": "1910",
+    "to": "1928"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "대한인국민회 북미지방총회장·신한민보 주필 재임",
+     "date": "1910년대",
+     "owner": "america",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 이대위"
+      }
+     ]
+    }
+   ],
+   "description": "북미지방총회장."
+  },
+  {
+   "source": "per-035",
+   "target": "org-012",
+   "type": "membership",
+   "period": {
+    "from": "1911",
+    "to": "1919"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "신한민보 주필(1911)·하와이지방총회 활동",
+     "date": "1911 이후",
+     "owner": "america",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 박용만"
+      }
+     ]
+    }
+   ],
+   "description": "신한민보 주필·하와이 지도자."
+  },
+  {
+   "source": "per-034",
+   "target": "org-013",
+   "type": "membership",
+   "period": {
+    "from": "1913",
+    "to": "1956"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "흥사단 창립 참여·재정 실무",
+     "date": "1913-05-13",
+     "owner": "heungsadan",
+     "sources": [
+      {
+       "type": "institutional",
+       "title": "공훈전자사료관 이달의 독립운동가 송종익",
+       "url": "https://e-gonghun.mpva.go.kr/user/IndepCrusaderDetail.do?goTocode=20003&mngNo=3154"
+      }
+     ]
+    }
+   ],
+   "description": "창립 단우·재정 책임."
+  },
+  {
+   "source": "per-042",
+   "target": "org-013",
+   "type": "membership",
+   "period": {
+    "from": "1920",
+    "to": "1937"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "상하이에서 흥사단 입단(원동위원부)",
+     "date": "1920년경",
+     "owner": "heungsadan",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 이광수"
+      }
+     ]
+    }
+   ],
+   "description": "단우. 입단 연도(1920 전후) 보완 확인 필요."
+  },
+  {
+   "source": "per-042",
+   "target": "org-017",
+   "type": "membership",
+   "period": {
+    "from": "1922",
+    "to": "1926"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "수양동맹회 조직(경성)",
+     "date": "1922-02",
+     "owner": "heungsadan",
+     "sources": [
+      {
+       "type": "institutional",
+       "title": "우리역사넷 흥사단 1913",
+       "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_o404400"
+      }
+     ]
+    }
+   ],
+   "description": "조직 주도자."
+  },
+  {
+   "source": "per-042",
+   "target": "org-019",
+   "type": "membership",
+   "period": {
+    "from": "1926",
+    "to": "1937"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "수양동우회 핵심 회원 활동과 동우회 사건 피검",
+     "date": "1926~1937",
+     "owner": "heungsadan",
+     "sources": [
+      {
+       "type": "institutional",
+       "title": "우리역사넷 흥사단 1913",
+       "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_o404400"
+      }
+     ]
+    }
+   ],
+   "description": "핵심 회원."
+  },
+  {
+   "source": "per-043",
+   "target": "org-013",
+   "type": "membership",
+   "period": {
+    "from": "1920",
+    "to": "1979"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "상하이 흥사단 원동위원부 입단",
+     "date": "1920년경",
+     "owner": "heungsadan",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 주요한"
+      }
+     ]
+    }
+   ],
+   "description": "단우(종신). 입단 연도 보완 확인 필요."
+  },
+  {
+   "source": "per-043",
+   "target": "org-019",
+   "type": "membership",
+   "period": {
+    "from": "1926",
+    "to": "1937"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "동광 편집·발행과 동우회 사건 피검",
+     "date": "1926~1937",
+     "owner": "heungsadan",
+     "sources": [
+      {
+       "type": "institutional",
+       "title": "우리역사넷 흥사단 1913",
+       "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_o404400"
+      }
+     ]
+    }
+   ],
+   "description": "기관지 동광 편집인."
+  },
+  {
+   "source": "per-044",
+   "target": "org-013",
+   "type": "membership",
+   "period": {
+    "from": null,
+    "to": "1983"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "미주 유학기 흥사단 입단, 동우회 사건 피검",
+     "date": "1910년대 후반(미확정)",
+     "owner": "heungsadan",
+     "sources": [
+      {
+       "type": "web",
+       "title": "장리욱 평전·흥사단 기록(서지 보완 필요)"
+      }
+     ]
+    }
+   ],
+   "description": "단우. 입단 시기 미확인."
+  },
+  {
+   "source": "per-045",
+   "target": "org-013",
+   "type": "membership",
+   "period": {
+    "from": "1919",
+    "to": "1936"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "흥사단 원동지부(원동임시위원부) 입단",
+     "date": "1919~1920",
+     "owner": "heungsadan",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "위키백과 유상규",
+       "url": "https://ko.wikipedia.org/wiki/유상규"
+      }
+     ]
+    }
+   ],
+   "description": "원동지부 단우."
+  },
+  {
+   "source": "per-046",
+   "target": "org-014",
+   "type": "membership",
+   "period": {
+    "from": "1919",
+    "to": "1920"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "임시정부 외무총장대리 차장 임명",
+     "date": "1919-09",
+     "owner": "provisional-gov",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "위키백과 대한민국 임시정부",
+       "url": "https://ko.wikipedia.org/wiki/대한민국_임시정부"
+      }
+     ]
+    }
+   ],
+   "description": "외무총장대리 차장·의정원 부의장."
+  },
+  {
+   "source": "per-048",
+   "target": "org-019",
+   "type": "membership",
+   "period": {
+    "from": null,
+    "to": "1937"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "수양동우회 활동과 동우회 사건 피검",
+     "date": "~1937-06",
+     "owner": "heungsadan",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 조병옥"
+      }
+     ]
+    }
+   ],
+   "description": "회원. 가입 시기 미확인."
+  },
+  {
+   "source": "per-049",
+   "target": "org-018",
+   "type": "membership",
+   "period": {
+    "from": "1922",
+    "to": "1926"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "동우구락부 결성 주도(평양 대성학교 출신 상공인 중심)",
+     "date": "1922",
+     "owner": "heungsadan",
+     "sources": [
+      {
+       "type": "institutional",
+       "title": "우리역사넷 흥사단 1913",
+       "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_o404400"
+      }
+     ]
+    }
+   ],
+   "description": "결성 주역."
+  },
+  {
+   "source": "per-050",
+   "target": "org-010",
+   "type": "membership",
+   "period": {
+    "from": "1909",
+    "to": "1910"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "청년학우회 총무원 선출·소년 발간",
+     "date": "1909-08",
+     "owner": "shinminhoe",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "위키백과 청년학우회",
+       "url": "https://ko.wikipedia.org/wiki/청년학우회"
+      }
+     ]
+    }
+   ],
+   "description": "총무원·기관지 발행."
+  },
+  {
+   "source": "per-027",
+   "target": "org-010",
+   "type": "membership",
+   "period": {
+    "from": "1909",
+    "to": "1910"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "청년학우회 평남 조직 결성(최광옥-안태국-장응진 인맥)",
+     "date": "1909~1910",
+     "owner": "shinminhoe",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 청년학우회",
+       "url": "https://encykorea.aks.ac.kr/Article/E0056315"
+      }
+     ]
+    }
+   ],
+   "description": "평남 조직 핵심."
+  },
+  {
+   "source": "per-051",
+   "target": "org-013",
+   "type": "membership",
+   "period": {
+    "from": "1920",
+    "to": "1932"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "흥사단 원동위원부 단우 활동",
+     "date": "1920년대",
+     "owner": "heungsadan",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 이유필"
+      }
+     ]
+    }
+   ],
+   "description": "원동위원부 단우. 입단 시기 보완 확인 필요."
+  },
+  {
+   "source": "per-014",
+   "target": "org-001",
+   "type": "membership",
+   "period": {
+    "from": "1896",
+    "to": "1898"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "독립협회 창립(서재필 주도)",
+     "date": "1896-07",
+     "owner": "early-life",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 독립협회"
+      }
+     ]
+    }
+   ],
+   "description": "창립자."
+  }
+ ],
+ "edges_unconfirmed": [
+  {
+   "source": "per-014",
+   "target": "per-001",
+   "type": null,
+   "period": {
+    "from": "1897",
+    "to": "1898"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "도산의 독립협회 가입(1897)과 서재필의 협성회 모델이 청년학우회 구상(1909)에 미친 영향",
+     "date": "1897~1898",
+     "owner": "early-life",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "위키백과 청년학우회(협성회 모델 서술)",
+       "url": "https://ko.wikipedia.org/wiki/청년학우회"
+      }
+     ]
+    }
+   ],
+   "unconfirmed_reason": "도산이 서재필의 강연을 듣고 영향을 받았다는 서술은 널리 퍼져 있으나, 두 사람의 직접 대면·교류를 보여주는 1~3단계 출처를 확인하지 못했다. 일방향 사상적 영향만으로는 mentor 유형을 부여할 수 없어 유형 미확정으로 분리한다.",
+   "description": "〔유형 미확정〕 사상적 영향 관계 추정(서재필→안창호). 독립협회·만민공동회라는 조직 매개는 확실하나 개인 관계의 근거 사건 미확인."
+  },
+  {
+   "source": "per-001",
+   "target": "per-028",
+   "type": null,
+   "period": {
+    "from": null,
+    "to": "1910"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "하얼빈 의거 직후 도산이 연루 혐의로 일제에 체포·구금(용산 헌병대, 약 2개월)",
+     "date": "1909-10~12",
+     "owner": "shinminhoe",
+     "sources": [
+      {
+       "type": "encyclopedia",
+       "title": "한국민족문화대백과 안창호",
+       "url": "https://encykorea.aks.ac.kr/Article/E0035050"
+      }
+     ]
+    }
+   ],
+   "unconfirmed_reason": "1909년 체포는 일제가 양자의 관련을 의심한 사건이지 두 사람의 상호작용 자체가 아니다. 1907년 평양에서 안중근이 도산의 연설을 들었다는 서술과 면담설이 있으나 1차 사료 확인 전이므로 동지 유형을 추정 부여하지 않는다. 105인 사건 신문조서·안중근 공판 기록에서의 역추적을 primary-source 연구원에 요청한다.",
+   "description": "〔유형 미확정〕 관련설(연설 청강설·면담설)과 의거 연루 체포라는 간접 연결만 확인됨."
+  },
+  {
+   "source": "per-001",
+   "target": "per-035",
+   "type": null,
+   "period": {
+    "from": "1915",
+    "to": "1915"
+   },
+   "evidence_event_ids": [],
+   "evidence_pending": [
+    {
+     "event_desc": "대한인국민회 하와이지방총회 분규(이승만-박용만 대립)에 대한 중앙총회장 도산의 조정 시도",
+     "date": "1915",
+     "owner": "america",
+     "sources": [
+      {
+       "type": "web",
+       "title": "하와이 국민회 분규 관련 서술(1~3단계 출처 역추적 필요)"
+      }
+     ]
+    }
+   ],
+   "unconfirmed_reason": "1915년 하와이 분규에서 도산이 중재를 시도했다는 서술이 통용되나 이번 라운드에서 기관 DB 근거를 확보하지 못했다. comrade 엣지(국민회 협력)와 별도로, '중재자' 관계의 근거 사건은 미확정으로 남긴다.",
+   "description": "〔근거 미확인〕 1915년 하와이 분규 중재 시도 — america 연구원의 사건 레코드 확보 후 동지 엣지에 근거로 병합 예정."
+  }
+ ]
+}

@@ -1,0 +1,384 @@
+/* ==========================================================================
+   map.css — 활동 지도 페이지 전용 스타일 (map-developer 소유)
+   --------------------------------------------------------------------------
+   소유 규약: map- 접두 모듈 클래스만 정의(architecture §4 규칙8·D-15).
+   공통 컴포넌트(.grade-badge·.ref-link·.empty-state·.load-error·.site-header
+   ·.footnotes 등)는 main.css(frontend-developer 소유)가 정의하며 여기서
+   중복 정의하지 않는다 — 공유 모듈 재사용(Policy 5).
+   색·크기·간격은 전부 tokens.css var() 참조. 하드코딩 hex/px 금지
+   (Leaflet 구조상 불가피한 좌표성 px만 예외 — 주석 명시).
+   ========================================================================== */
+
+/* ── 페이지 셸 ───────────────────────────────────────────────────────── */
+.map-main {
+  max-width: var(--measure-full);
+  margin: 0 auto;
+  padding: var(--sp-7) var(--sp-4) var(--sp-8);
+}
+
+.map-page-head {
+  margin-bottom: var(--sp-6);
+}
+
+.map-page-title {
+  font-family: var(--font-serif);
+  font-size: var(--fs-2xl);
+  line-height: var(--lh-tight);
+  letter-spacing: var(--ls-tight);
+  color: var(--text);
+  margin: 0 0 var(--sp-4);
+}
+
+.map-lead {
+  max-width: var(--measure);
+}
+.map-lead p {
+  font-family: var(--font-serif);
+  font-size: var(--fs-base);
+  line-height: var(--lh-body);
+  color: var(--text);
+  margin: 0 0 var(--sp-4);
+}
+.map-lead a { color: var(--accent); }
+
+/* ── 컨트롤(시기 슬라이더 + 경로 토글) ──────────────────────────────── */
+.map-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-6);
+  align-items: flex-start;
+  padding: var(--sp-5);
+  margin-bottom: var(--sp-5);
+  background: var(--bg-raised);
+  border-radius: var(--radius-md);
+}
+
+.map-control-group {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-3);
+  min-width: 14rem;
+  flex: 1 1 18rem;
+}
+
+.map-control-label {
+  font-family: var(--font-sans);
+  font-size: var(--fs-sm);
+  color: var(--text-muted);
+}
+
+/* 시기 슬라이더 — input[type=range]로 키보드 화살표가 기본 동작(interactive-viz §2·§5) */
+.map-slider-wrap { display: flex; align-items: center; }
+.map-period-slider {
+  width: 100%;
+  accent-color: var(--accent);   /* 트랙·썸 단청(브라우저 네이티브) */
+  cursor: pointer;
+}
+.map-period-slider:focus-visible {
+  outline: none;
+  box-shadow: var(--focus-ring);
+  border-radius: var(--radius-sm);
+}
+
+.map-period-readout {
+  font-family: var(--font-sans);
+  font-size: var(--fs-sm);
+  color: var(--text);
+}
+
+.map-period-reset {
+  align-self: flex-start;
+  font-family: var(--font-sans);
+  font-size: var(--fs-sm);
+  color: var(--accent);
+  background: transparent;
+  border: var(--bw-hair) solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: var(--sp-1) var(--sp-3);
+  cursor: pointer;
+}
+.map-period-reset:hover { color: var(--accent-hover); }
+.map-period-reset:focus-visible { outline: none; box-shadow: var(--focus-ring); }
+
+/* 경로 토글 버튼 */
+.map-route-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-2);
+}
+.map-route-btn {
+  font-family: var(--font-sans);
+  font-size: var(--fs-sm);
+  color: var(--text-muted);
+  background: var(--bg);
+  border: var(--bw-hair) solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: var(--sp-2) var(--sp-3);
+  cursor: pointer;
+  transition: color var(--dur-fast) var(--ease),
+              border-color var(--dur-fast) var(--ease);
+}
+.map-route-btn:hover { color: var(--text); border-color: var(--rule); }
+.map-route-btn:focus-visible { outline: none; box-shadow: var(--focus-ring); }
+/* "현재 선택" 경로만 단청 강조(강조 1색 원칙) */
+.map-route-btn.is-current {
+  color: var(--on-accent);
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+/* ── 라이브 상태(스크린리더 전용, 시각 숨김) ───────────────────────── */
+.map-status {
+  /* visually-hidden — 시각적으로는 숨기되 스크린리더에는 노출 */
+  position: absolute;
+  width: 1px; height: 1px;
+  margin: -1px; padding: 0; border: 0;
+  overflow: hidden; clip: rect(0 0 0 0); clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+/* ── 지도 캔버스 ─────────────────────────────────────────────────────── */
+.map-canvas-wrap { margin-bottom: var(--sp-4); }
+.map-canvas {
+  width: 100%;
+  /* Leaflet는 컨테이너 높이를 명시해야 타일을 렌더한다(불가피한 구조적 높이) */
+  height: 60vh;
+  min-height: 24rem;
+  border: var(--bw-hair) solid var(--border);
+  border-radius: var(--radius-md);
+  background: var(--bg-raised);
+}
+/* 폴백 시(지도 미생성) 캔버스는 안내 박스를 담는 정적 영역으로 */
+.map-canvas.is-fallback {
+  height: auto;
+  min-height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--sp-7) var(--sp-5);
+  text-align: center;
+}
+.map-fallback { max-width: var(--measure); }
+.map-fallback-msg {
+  font-family: var(--font-sans);
+  font-size: var(--fs-base);
+  color: var(--text);
+  margin: 0 0 var(--sp-3);
+}
+.map-fallback-hint {
+  font-family: var(--font-sans);
+  font-size: var(--fs-sm);
+  color: var(--text-muted);
+  margin: 0;
+}
+.map-fallback-hint a, .map-fallback a { color: var(--accent); }
+
+.map-tile-status {
+  font-family: var(--font-sans);
+  font-size: var(--fs-sm);
+  color: var(--text-muted);
+  margin: var(--sp-2) 0 0;
+}
+.map-tile-status:empty { display: none; }
+
+/* ── 경로 해설 캡션 ─────────────────────────────────────────────────── */
+.map-route-caption-wrap {
+  margin: 0 0 var(--sp-6);
+}
+.map-route-caption {
+  font-family: var(--font-sans);
+  font-size: var(--fs-sm);
+  line-height: var(--lh-snug);
+  color: var(--text-muted);
+}
+.map-route-caption-item { margin: 0 0 var(--sp-2); }
+.map-route-caption-item strong { color: var(--text); }
+.map-route-caption-item a { color: var(--accent); }
+.map-route-note { color: var(--text-faint); }
+
+/* ── 거점 목록(지도 동등 콘텐츠) ───────────────────────────────────── */
+.map-places { margin-top: var(--sp-7); }
+.map-places > h2 {
+  font-family: var(--font-serif);
+  font-size: var(--fs-xl);
+  color: var(--text);
+  margin: 0 0 var(--sp-3);
+}
+.map-places-note {
+  font-family: var(--font-sans);
+  font-size: var(--fs-sm);
+  line-height: var(--lh-snug);
+  color: var(--text-muted);
+  max-width: var(--measure);
+  margin: 0 0 var(--sp-5);
+}
+
+.map-places-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+  gap: var(--sp-4);
+  align-items: start;
+}
+
+.map-place-card {
+  background: var(--bg-raised);
+  border-radius: var(--radius-md);
+  padding: var(--sp-5);
+}
+.map-place-card[hidden] { display: none; }
+
+.map-place-name {
+  font-family: var(--font-serif);
+  font-size: var(--fs-md);
+  color: var(--text);
+  margin: 0 0 var(--sp-3);
+}
+
+/* 지명 상충 병기(§3.3) — disputed 표기 철학과 동형(색 단독 의존 금지: 라벨 텍스트 본체) */
+.map-place-conflict {
+  font-family: var(--font-sans);
+  font-size: var(--fs-xs);
+  color: var(--text-muted);
+  margin: 0 0 var(--sp-3);
+  padding-left: var(--sp-3);
+  border-left: var(--bw-accent) solid var(--rule);
+}
+
+.map-place-events { list-style: none; margin: 0; padding: 0; }
+.map-place-event {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: var(--sp-2);
+  padding: var(--sp-2) 0;
+  border-top: var(--bw-hair) solid var(--border);
+}
+.map-place-event:first-child { border-top: 0; }
+.map-place-event[hidden] { display: none; }
+/* 딥링크(map.html#evt-NNN)로 지목된 사건 일시 하이라이트(지도 폴백 시) */
+.map-place-event.is-deeplink-target {
+  background: var(--bg-raised);
+  box-shadow: inset var(--bw-accent) 0 0 0 var(--accent);
+  border-radius: var(--radius-sm);
+}
+
+/* ── 마커 팝업(Leaflet 내부, map- 접두) ─────────────────────────────── */
+.map-marker-popup { font-family: var(--font-sans); }
+.map-popup-place {
+  font-family: var(--font-serif);
+  font-size: var(--fs-md);
+  color: var(--text);
+  margin: 0 0 var(--sp-3);
+}
+.map-popup-events { list-style: none; margin: 0; padding: 0; }
+.map-popup-event {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: var(--sp-2);
+  padding: var(--sp-2) 0;
+  border-top: var(--bw-hair) solid var(--border);
+}
+.map-popup-event:first-child { border-top: 0; }
+
+/* 거점/팝업 사건 공통 텍스트 */
+.map-event-title, .map-popup-title {
+  font-family: var(--font-serif);
+  font-size: var(--fs-base);
+  color: var(--text);
+  flex: 1 1 100%;
+}
+.map-place-event .card-date,
+.map-popup-event .card-date {
+  font-family: var(--font-mono);
+  font-size: var(--fs-sm);
+  color: var(--text-muted);
+}
+
+/* 팝업 사건 요약·하단(등급 배지 + 연표 링크) */
+.map-popup-summary {
+  flex: 1 1 100%;
+  font-family: var(--font-serif);
+  font-size: var(--fs-sm);
+  line-height: var(--lh-snug);
+  color: var(--text);
+  margin: var(--sp-1) 0 0;
+}
+.map-popup-foot {
+  flex: 1 1 100%;
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+  margin-top: var(--sp-2);
+}
+
+/* ── 경로 폴리라인(SVG path, map- 접두) ─────────────────────────────── */
+/* Leaflet 폴리라인은 SVG <path>. className=map-route-line 으로 부여됨. */
+.map-route-line {
+  stroke: var(--rule);          /* 청자/먹 계열 기본 */
+}
+.map-route-line.is-current {
+  stroke: var(--accent);        /* "현재 선택" 경로만 단청 */
+  stroke-width: 4;              /* 선택 경로 강조(SVG stroke-width, 구조적 수치) */
+}
+
+/* ── Leaflet 팝업 셸 톤 정렬(외부 클래스 보정) ─────────────────────── */
+/* Leaflet 기본 .leaflet-popup-content-wrapper를 한지 톤으로 맞춘다. */
+.leaflet-popup-content-wrapper {
+  background: var(--bg);
+  color: var(--text);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-pop);
+}
+.leaflet-popup-tip { background: var(--bg); }
+.leaflet-container { font-family: var(--font-sans); }
+/* 마커 키보드 포커스 가시화(접근성 — :focus-visible 제거 금지) */
+.leaflet-marker-icon:focus-visible,
+.leaflet-interactive:focus-visible {
+  outline: var(--bw-focus) solid var(--accent);
+  outline-offset: 1px;
+}
+
+/* ── 비-JS 폴백(noscript) ──────────────────────────────────────────── */
+.map-noscript {
+  max-width: var(--measure);
+  margin: 0 auto;
+  padding: var(--sp-7) var(--sp-4);
+}
+.map-noscript h1 {
+  font-family: var(--font-serif);
+  font-size: var(--fs-2xl);
+  color: var(--text);
+  margin: 0 0 var(--sp-4);
+}
+.map-noscript h2 {
+  font-family: var(--font-serif);
+  font-size: var(--fs-lg);
+  color: var(--text);
+  margin: var(--sp-6) 0 var(--sp-3);
+}
+.map-noscript p {
+  font-family: var(--font-serif);
+  font-size: var(--fs-base);
+  line-height: var(--lh-body);
+  color: var(--text);
+}
+.map-noscript a { color: var(--accent); }
+.map-noscript-places, .map-noscript-routes {
+  font-family: var(--font-sans);
+  font-size: var(--fs-sm);
+  line-height: var(--lh-body);
+  color: var(--text);
+  padding-left: var(--sp-5);
+}
+
+/* ── 반응형 ──────────────────────────────────────────────────────────── */
+@media (max-width: 40rem) {
+  .map-controls { flex-direction: column; gap: var(--sp-5); }
+  .map-canvas { height: 50vh; }
+}
+
+/* motion-reduce: 버튼 전환 제거(토큰 dur가 0이 되지만 명시 안전망) */
+@media (prefers-reduced-motion: reduce) {
+  .map-route-btn { transition: none; }
+}

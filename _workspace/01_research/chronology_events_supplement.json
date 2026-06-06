@@ -1,0 +1,157 @@
+[
+  {
+    "id": "evt-chrono-101",
+    "title": "북미실업주식회사 발기·설립",
+    "date": {"start": "1912-01-01", "end": null, "precision": "month", "calendar": "solar"},
+    "place": {"name": "미국 캘리포니아주", "modern_name": "미국 캘리포니아주", "lat": null, "lng": null},
+    "actors": ["안창호", "송종익", "임준기", "조성환", "김인수", "김종혁"],
+    "orgs": ["북미실업주식회사"],
+    "summary": "캘리포니아 재미 한인들이 안창호·송종익 등을 발기인으로 북미실업주식회사를 설립 — 한인 사회의 실업 장려·경제 실력 양성 기반.",
+    "detail": "세계한민족문화대전에 1912년 1월 설립, 발기인 김인수·송종익·김종혁·조성환·김기만·정원도·임준기·손양선·강번·안창호 등으로 기록. 후일 대한민국임시정부 국채 매수 등 운동 자금 기반 역할. 송종익과의 재정 협력 관계를 정박하는 사건.",
+    "sources": [
+      {"type": "institutional", "title": "세계한민족문화대전 「북미실업주식회사」 (한국학중앙연구원)", "locator": "GC95100211", "url": "https://www.okpedia.kr/Contents/ContentsView?contentsId=GC95100211&localCode=naw"}
+    ],
+    "confidence": "B",
+    "tags": ["결사"]
+  },
+  {
+    "id": "evt-chrono-102",
+    "title": "흥사단 약법 초안 회람 — 송종익을 8도 대표 발기인으로 위촉",
+    "date": {"start": "1912-01-01", "end": null, "precision": "year", "calendar": "solar"},
+    "place": {"name": "로스앤젤레스", "modern_name": "미국 캘리포니아주 로스앤젤레스", "lat": 34.0522, "lng": -118.2437},
+    "actors": ["안창호", "송종익"],
+    "orgs": ["흥사단"],
+    "summary": "안창호가 흥사단 약법 초안을 송종익에게 먼저 보이고 경상도 대표 발기인으로 위촉 — 흥사단 창립(1913.5.13)의 직접 전사.",
+    "detail": "지역N문화(한국문화정보원)는 송종익을 '흥사단의 첫 동지'로 서술 — 1912년 약법 초안 회람과 경상도 대표 위촉. 회람의 월일은 미상. 8도 대표 발기인 체제의 제도 분석은 heungsadan 연구원 소관.",
+    "sources": [
+      {"type": "institutional", "title": "지역N문화 「흥사단의 첫 동지 송종익」 (한국문화정보원)", "locator": "story 10984", "url": "https://ncms.nculture.org/independence-movement/story/10984"},
+      {"type": "academic", "title": "「흥사단의 1차 약법개정 논의와 운동노선」", "locator": "KCI ART002430591", "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002430591"}
+    ],
+    "confidence": "C",
+    "tags": ["결사"]
+  },
+  {
+    "id": "evt-chrono-103",
+    "title": "송종익, 흥사단·국민회 재정 실무 전담 (안창호 상하이행 이후)",
+    "date": {"start": "1919-01-01", "end": null, "precision": "year", "calendar": "solar"},
+    "place": {"name": "미주 한인사회 (로스앤젤레스 중심)", "modern_name": "미국", "lat": null, "lng": null},
+    "actors": ["안창호", "송종익"],
+    "orgs": ["흥사단", "대한인국민회", "대한민국임시정부"],
+    "summary": "안창호의 1919년 상하이행 이후 송종익이 미주 흥사단 운영 실무와 대한인국민회 재무를 맡아 임시정부 자금 모집·송금을 담당.",
+    "detail": "지역N문화에 안창호 도중(渡中) 후 송종익의 흥사단 실무·임정 자금 모집·송금 전담으로 서술. 1919년 흥사단 이사부 직책·국민회 재무 취임의 월일은 미상 — 연 단위 표기. 송종익은 1995년 건국훈장 독립장 추서(국가보훈부).",
+    "sources": [
+      {"type": "institutional", "title": "지역N문화 「흥사단의 첫 동지 송종익」 (한국문화정보원)", "locator": "story 10984", "url": "https://ncms.nculture.org/independence-movement/story/10984"},
+      {"type": "institutional", "title": "공훈전자사료관 독립유공자 공적정보 「송종익」 (국가보훈부)", "locator": "1995 건국훈장 독립장", "url": "https://e-gonghun.mpva.go.kr/"}
+    ],
+    "confidence": "C",
+    "tags": ["결사"]
+  },
+  {
+    "id": "evt-chrono-104",
+    "title": "병상의 이갑에게 신한민보 주필 주선 — 미국 상륙 불허",
+    "date": {"start": "1911-09-01", "end": "1912-12-31", "precision": "range", "calendar": "solar"},
+    "place": {"name": "뉴욕항 (상륙 시도)", "modern_name": "미국 뉴욕", "lat": 40.7128, "lng": -74.006},
+    "actors": ["안창호", "이갑"],
+    "orgs": ["대한인국민회", "신한민보"],
+    "summary": "안창호가 시베리아에서 병으로 쓰러진 동지 이갑을 신한민보 주필로 초청해 도미를 주선했으나, 이갑은 미국 상륙 허가를 받지 못함.",
+    "detail": "한국민족문화대백과 「이갑」에 '미국에 가 있던 안창호의 주선으로 신한민보 주필로 초청되었으나 미국의 상륙허가를 받지 못하였다'로 기록 — 시점은 안창호 도미(1911.9) 이후로 범위 표기. 미주 한인사회의 여비·치료비 모금 송금 서술이 전해지나 금액(800달러설) 등 세부는 〔미확인〕. 이갑은 러시아로 돌아가 1917년 우수리스크에서 별세.",
+    "sources": [
+      {"type": "encyclopedia", "title": "한국민족문화대백과사전 「이갑」 (한국학중앙연구원)", "locator": "E0043482", "url": "https://encykorea.aks.ac.kr/Article/E0043482"},
+      {"type": "institutional", "title": "국가보훈처 보도자료 「1월의 독립운동가 이갑 선생」 (2011.12.30)", "locator": "정책브리핑 newsId 155805121 (첨부 원문 HWP — 본문 직접 확인 불가)", "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=155805121"}
+    ],
+    "confidence": "C",
+    "tags": ["언론", "결사"]
+  },
+  {
+    "id": "evt-chrono-105",
+    "title": "국민대표회의 노선 대립 — 개조파 안창호 대 창조파 신채호·김규식",
+    "date": {"start": "1923-01-03", "end": "1923-06-07", "precision": "range", "calendar": "solar"},
+    "place": {"name": "상하이", "modern_name": "중국 상하이", "lat": 31.2304, "lng": 121.4737},
+    "actors": ["안창호", "신채호", "김규식", "김동삼", "윤해"],
+    "orgs": ["국민대표회의", "대한민국임시정부"],
+    "summary": "국민대표회의(74차 회의)에서 임시정부 개조를 주장한 안창호 중심 개조파와 새 지도기관 창조를 주장한 신채호·김규식 등 창조파가 정면 대립.",
+    "detail": "우리역사넷 용어해설에 '창조파(신채호)와 개조파(안창호)'의 대립 구도로 기록. 1923년 5월 15일 만주 대표 탈퇴 후 창조파 중심으로 진행되다 6월 7일 제74차 회의를 끝으로 종결. 김규식은 창조파에 가담 — 신민회·임정 이래의 동지 간 노선 분화 사건. 개막·결렬의 골격은 evt-chrono-068·069 참조(본 레코드는 대립 당사자 정박용 교차 레코드).",
+    "sources": [
+      {"type": "institutional", "title": "우리역사넷 교과서 용어해설 「국민대표회의」 (국사편찬위원회)", "locator": "tg_004_2110", "url": "https://contents.history.go.kr/front/tg/view.do?treeId=0204&levelId=tg_004_2110"},
+      {"type": "encyclopedia", "title": "한국민족문화대백과사전 「국민대표회의」 (한국학중앙연구원)", "locator": "E0006294", "url": "https://encykorea.aks.ac.kr/Article/E0006294"}
+    ],
+    "confidence": "B",
+    "tags": ["결사", "사상"]
+  },
+  {
+    "id": "evt-chrono-106",
+    "title": "이광수 흥사단 입단",
+    "date": {"start": "1920-04-01", "end": null, "precision": "month", "calendar": "solar"},
+    "place": {"name": "상하이", "modern_name": "중국 상하이", "lat": 31.2304, "lng": 121.4737},
+    "actors": ["안창호", "이광수"],
+    "orgs": ["흥사단", "흥사단 원동임시위원부"],
+    "summary": "독립신문 사장이던 이광수가 상하이에서 흥사단에 입단 — 안창호와의 사제적 결속의 제도적 기점.",
+    "detail": "우리역사넷 「흥사단」에 1920년 4월 입단으로 기록. 안창호의 입단 문답을 거친 것으로 전해지며 문답 기록의 원문 확인은 primary-source 연구원 소관.",
+    "sources": [
+      {"type": "institutional", "title": "우리역사넷 「흥사단 1913」 (국사편찬위원회)", "locator": "kc_o404400", "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_o404400"}
+    ],
+    "confidence": "B",
+    "tags": ["결사", "교육"]
+  },
+  {
+    "id": "evt-chrono-107",
+    "title": "이광수 귀국 — 상하이 이탈",
+    "date": {"start": "1921-03-01", "end": null, "precision": "month", "calendar": "solar"},
+    "place": {"name": "상하이 → 경성", "modern_name": null, "lat": null, "lng": null},
+    "actors": ["이광수", "박현환"],
+    "orgs": ["흥사단", "독립신문"],
+    "summary": "흥사단 원동위원부에서 활동하던 이광수가 박현환과 함께 국내로 귀국 — 임정·독립신문 진영 이탈로 논란.",
+    "detail": "우리역사넷 「흥사단」에 1921년 3월 귀국으로 기록. 귀국 후 체포되었으나 불기소 처분. '안창호의 만류를 무시한 귀국'이라는 일화는 〔미확인〕 — 1~3단계 확정 출처 미확보. 이 귀국은 수양동맹회 발기(1922.2, evt-chrono-066)로 이어짐.",
+    "sources": [
+      {"type": "institutional", "title": "우리역사넷 「흥사단 1913」 (국사편찬위원회)", "locator": "kc_o404400", "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_o404400"}
+    ],
+    "confidence": "B",
+    "tags": ["이동", "결사"]
+  },
+  {
+    "id": "evt-chrono-108",
+    "title": "이광수 「민족개조론」 발표",
+    "date": {"start": "1922-05-01", "end": null, "precision": "month", "calendar": "solar"},
+    "place": {"name": "경성 (잡지 개벽)", "modern_name": "서울특별시", "lat": 37.5665, "lng": 126.978},
+    "actors": ["이광수"],
+    "orgs": ["수양동맹회"],
+    "summary": "이광수가 잡지 개벽에 「민족개조론」을 발표해 큰 논란 — 흥사단 노선을 반영했다는 평가 속에 안창호 사상과의 동일시 논쟁 발생.",
+    "detail": "우리역사넷에 1922년 5월 개벽 발표로 기록. 흥사단·안창호의 인격 수양론과의 관계 및 구별(우상화·왜곡 문제)은 philosophy 연구원의 분석 대상 — 본 레코드는 발표 사실만 기록.",
+    "sources": [
+      {"type": "institutional", "title": "우리역사넷 사료로 본 한국사 「이광수의 민족 개조론, 민족적 경륜」 (국사편찬위원회)", "locator": "hm_141_0080", "url": "http://contents.history.go.kr/id/hm_141_0080"},
+      {"type": "institutional", "title": "우리역사넷 「흥사단 1913」 (국사편찬위원회)", "locator": "kc_o404400", "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_o404400"}
+    ],
+    "confidence": "B",
+    "tags": ["사상", "언론"]
+  },
+  {
+    "id": "evt-chrono-109",
+    "title": "임시정부경제후원회 발기 준비 (안창호 주창)",
+    "date": {"start": "1926-05-01", "end": null, "precision": "month", "calendar": "solar"},
+    "place": {"name": "상하이", "modern_name": "중국 상하이", "lat": 31.2304, "lng": 121.4737},
+    "actors": ["안창호", "오영선"],
+    "orgs": ["임시정부경제후원회", "대한민국임시정부"],
+    "summary": "미주에서 상하이로 복귀한 직후 안창호의 주창으로 임시정부경제후원회 발기준비위원회가 조직됨.",
+    "detail": "독립운동인명사전 「오영선」에 1926년 5월 안창호의 주창으로 조직된 임시정부경제후원회 발기준비위원회에 오영선이 위원으로 선임되었다고 기록. 상하이 복귀(evt-chrono-078) 직후의 임정 재정 지원 활동.",
+    "sources": [
+      {"type": "institutional", "title": "독립운동인명사전 「오영선」 (독립기념관 한국독립운동정보시스템)", "locator": "id 698", "url": "https://search.i815.or.kr/dictionary/detail.do?id=698"}
+    ],
+    "confidence": "B",
+    "tags": ["결사"]
+  },
+  {
+    "id": "evt-chrono-110",
+    "title": "〔미확인〕 손정도의 흥사단 원동임시위원부 참여",
+    "date": {"start": "1920-01-01", "end": null, "precision": "year", "calendar": "solar"},
+    "place": {"name": "상하이", "modern_name": "중국 상하이", "lat": 31.2304, "lng": 121.4737},
+    "actors": ["안창호", "손정도"],
+    "orgs": ["흥사단 원동임시위원부", "대한민국임시정부"],
+    "summary": "〔미확인〕 임시의정원 의장 손정도가 1920년경 안창호의 흥사단 원동임시위원부에 참여한 것으로 전해짐.",
+    "detail": "한국민족문화대백과 「손정도」의 사진 설명에 '흥사단 단원' 표기가 있으나 본문에는 가입 시기·안창호 관계 서술이 없음. 후대 서술들은 원동위원부 위원으로 안창호·손정도·이광수·차리석·주요한 등을 들고 있으나 1~3단계 확정 출처 미확보 — D등급 유지, heungsadan 연구원(원동위원부 단우 명부)에 검증 인계. 손정도의 임시의정원 의장 재임(1919.4 부의장 선출 후 이동녕 승계)은 같은 항목에서 확인되는 별도 사실.",
+    "sources": [
+      {"type": "encyclopedia", "title": "한국민족문화대백과사전 「손정도」 (한국학중앙연구원)", "locator": "E0030567 (사진 설명 '흥사단 단원')", "url": "https://encykorea.aks.ac.kr/Article/E0030567"}
+    ],
+    "confidence": "D",
+    "tags": ["결사"]
+  }
+]
