@@ -12,7 +12,7 @@
      <header data-site-header></header> ... <footer data-site-footer></footer>
    ========================================================================== */
 
-import { initReveal } from './reveal.js';
+// v2.5: 스크롤 리빌 시스템 제거 — 사용자 피드백 2회(스크롤 방해). 콘텐츠는 항상 즉시 표시.
 
 const SITE_TITLE = '도산 안창호';
 
@@ -72,7 +72,7 @@ export function mountLayout(current) {
   setupStickyHeader();
   setupReadProgress(current);
   // v2 §10.2 스크롤 리빌 — 모듈 페이지(timeline/map)는 자체 바인딩이라 제외.
-  if (!REVEAL_EXCLUDED.has(current)) initReveal();
+  // v2.5: initReveal 호출 제거
 }
 
 // v2 §10.3 — life 읽기 진행 바. 상단 고정 바를 스크롤 비율로 scaleX. life에만 주입.

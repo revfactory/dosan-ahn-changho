@@ -22,3 +22,4 @@
 | 2026-06-06 | v2 실행 중 스킬 정밀화 3건 — 토큰명 v1 충돌 회피(radius-soft/card/xl·dur-micro/enter/reveal), 예산 기준 명문화(구현 자산 raw ≤15KB·토큰 별도 ≤8KB·결함 수정 안전망은 승인 상향 가능·gzip 페이지 예산 재확인 의무) | skills/dosan-design-system | 실행 중 판정 D-1·D-2·D-5 — 계약 모호성이 QA 보류를 유발한 교훈 반영 |
 | 2026-06-07 | 소설 하네스 신설 — 에이전트 5(novel-director·voice-keeper·scene-writer·fiction-fact-keeper·literary-editor), 스킬 3(dosan-novel-style·fact-fiction-ledger·dosan-novel-orchestrator). 장편 20~24장·전 생애·대사 중심, 검증 DB 사실 원천 + 유추 대장 | agents 5종·skills 3종 | 사용자 요청: 대사 중심 소설, 검증 사실 기반 + 유추 허용 |
 | 2026-06-07 | 디자인 v2.4 — 스크롤 방해 수정: 헤더 레이아웃 전이 금지·리빌 선발동(≥30%)·모션 절제(320ms/10px/40ms) | skills/dosan-design-system, site | 사용자 피드백: 스크롤을 방해하는 애니메이션 |
+| 2026-06-07 | 디자인 v2.5 — 스크롤 리빌 전면 폐기·smooth scroll 제거(reveal.js 삭제). 콘텐츠 즉시 표시 원칙 명문화 | skills/dosan-design-system, site | 동일 피드백 2회 — 절제 조정 불충분, 진화 트리거 발동 |

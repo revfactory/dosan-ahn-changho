@@ -10,7 +10,7 @@
 /* ----------------------------- 0. 리셋·기본 ----------------------------- */
 *, *::before, *::after { box-sizing: border-box; }
 
-html { font-size: 18px; -webkit-text-size-adjust: 100%; scroll-behavior: smooth; } /* v2 §10.3 — reduce 시 auto */
+html { font-size: 18px; -webkit-text-size-adjust: 100%; } /* v2.5: smooth scroll 제거 — 스크롤 방해 피드백 */
 
 body {
   margin: 0;
@@ -677,15 +677,7 @@ code, pre { font-family: var(--font-mono); }
   /* 높이 고정 — 레이아웃 전이 금지 */
 }
 
-/* v2.3 스크롤 리빌(§10.2) — 기본 "보임". JS만 .is-pre-reveal(★기본 숨김은 여기에만). reduce=토큰 0. */
-.is-pre-reveal {
-  opacity: 0;
-  transform: translateY(var(--reveal-shift));
-  transition: opacity var(--dur-reveal) var(--ease-out),
-              transform var(--dur-reveal) var(--ease-out);
-  will-change: opacity, transform;
-}
-.is-revealed { opacity: 1; transform: none; }
+/* v2.5: 스크롤 리빌 규칙 제거(사용자 피드백 2회) — 콘텐츠는 항상 즉시 표시 */
 
 /* v2.4 홈 히어로(§10.5) — --grad-accent 장식 획(텍스트와 분리, §2.6). 모바일 --fs-2xl→데스크톱 --fs-hero. */
 .home-hero-title {
@@ -767,7 +759,6 @@ code, pre { font-family: var(--font-mono); }
 /* v2 reduced-motion — 블롭 @keyframes는 토큰 0ms로 안 멈추므로 animation 정지(정적 워시, §9.3). */
 @media (prefers-reduced-motion: reduce) {
   .bg-blob { animation: none; }
-  html { scroll-behavior: auto; }
   .read-progress { transition: none; }
 }
 
