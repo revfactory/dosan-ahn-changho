@@ -630,6 +630,9 @@ async function applyFootnotes() {
     const caption = $('#map-route-caption');
     if (lead) renderFootnotes(lead, citations);
     if (caption) renderFootnotes(caption, citations);
+    // 도입문·캡션 각주를 지도 앱 아래로 이동(병합) — 본문보다 위에 끼지 않게 (timeline과 동일 패턴)
+    const appRoot = document.getElementById('app') || document.body;
+    for (const sec of document.querySelectorAll('.footnotes')) appRoot.appendChild(sec);
   } catch (err) {
     console.warn('[map] footnotes.js 미연결 — 도입문·경로 각주는 마커 텍스트로 표시됩니다.', err);
   }

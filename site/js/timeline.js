@@ -644,6 +644,9 @@ async function applyFootnotes(citations) {
     const leadEl = document.getElementById('tl-lead');
     if (typeof mod.renderFootnotes === 'function') {
       mod.renderFootnotes(leadEl, citations);
+      // 도입문 각주는 연표 앱 아래(페이지 하단)로 이동 — 본문 콘텐츠보다 위에 끼지 않게
+      const fnSec = leadEl.querySelector('.footnotes');
+      if (fnSec) (document.getElementById('app') || document.body).appendChild(fnSec);
     } else if (typeof mod.default === 'function') {
       mod.default(leadEl, citations);
     }

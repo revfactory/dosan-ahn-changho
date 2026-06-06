@@ -753,3 +753,12 @@ code, pre { font-family: var(--font-mono); }
 @media (min-width: 640px) {
   .home-hero-title { font-size: var(--fs-hero); } /* 데스크톱 히어로 위계(§3 v2) */
 }
+
+/* ── 한글 제목 단어 중간 줄바꿈 방지 (시각 검수 2026-06-06: 모바일 히어로 "검/증된" 분절) ──
+   keep-all은 한글을 어절 단위로만 줄바꿈한다. 본문에는 적용하지 않는다(긴 문단은 기존 규칙 유지). */
+h1, h2, h3,
+.home-hero h1, .tl-page-title, .map-page-title,
+.site-brand, .nav-link {
+  word-break: keep-all;
+  overflow-wrap: anywhere; /* 극단적으로 긴 어절의 오버플로 방지 폴백 */
+}

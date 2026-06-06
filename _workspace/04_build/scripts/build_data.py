@@ -106,6 +106,30 @@ def sanitize_display(text):
     t = _re_san.sub(r'([(〔「『])\s+', r'\1', t)
     return t.strip()
 
+_STATUS_KO = {
+    'adopted': '통설 채택', 'adopted_provisional': '잠정 채택',
+    'partially_resolved': '부분 해소', 'unresolved': '미해소 — 양설 병기',
+}
+
+def korean_status(text):
+    """dispute.status의 영문 토큰을 한글 라벨로, 내부 버전 주석은 제거 (D-26 확장)."""
+    if not isinstance(text, str):
+        return text
+    t = sanitize_display(text)
+    m = _re_san.match(r'^([a-z_]+)\s*(?:\((.*)\))?$', t.strip())
+    if not m:
+        return t
+    note = (m.group(2) or '').strip()
+    note = _re_san.sub(r'^v\d+(?:\.\d+)*\s*[—\-:]?\s*', '', note)   # "v1.6 — " 제거
+    note = note.replace('day 승격 보류', '일 단위 확정은 보류')
+    has_note = note not in ('', '연동') and not _re_san.fullmatch(r'v\d+(?:\.\d+)*', note)
+    base = {'unresolved': '미해소'} if has_note else {}
+    label = {**_STATUS_KO, **base}.get(m.group(1), m.group(1))
+    if not has_note:
+        return label
+    return f'{label} — {note}'
+
+
 def sanitize_fields(obj, fields):
     """dict의 지정 필드(점 표기 1단계)만 정화 — 기계 참조 필드는 건드리지 않는다."""
     for f in fields:
@@ -302,7 +326,9 @@ def build_timeline(raw, resolver=None, ambiguous=None):
             sanitize_fields(rec["place"], ("name", "modern_name", "place_note"))
         dp = rec.get("dispute")
         if isinstance(dp, dict):
-            sanitize_fields(dp, ("status", "note"))
+            if isinstance(dp.get("status"), str):
+                dp["status"] = korean_status(dp["status"])  # D-26 확장: 영문 토큰 → 한글
+            sanitize_fields(dp, ("note",))
             if isinstance(dp.get("adopted"), dict):
                 sanitize_fields(dp["adopted"], ("basis", "note", "value_note"))
             for v in dp.get("variants") or []:
