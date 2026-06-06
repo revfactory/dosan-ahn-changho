@@ -1,12 +1,18 @@
 /* ==========================================================================
-   tokens.css — 도산 안창호 일대기 사이트 디자인 토큰
+   tokens.css — 도산 안창호 일대기 사이트 디자인 토큰  (v2)
    --------------------------------------------------------------------------
-   컨셉: 무실역행(務實力行)의 절제 — 한지·먹·단청·청자, 여백이 위계.
-   단일 진실 공급원: 이 파일이 사이트 전체 색·글꼴·간격의 유일한 정의처다.
-   tokens.css 외부에서 하드코딩 hex/px 사용 금지 — 반드시 var()로 참조.
+   컨셉 v2: "맑은 한지, 살아 움직이는 먹" — 밝은 한지 바탕의 절제는 유지하되
+            먹이 종이에 스며들 듯 부드럽게 움직이는 모던한 생동감을 더한다.
+            화려함이 아니라 깊이(depth)·반응(response)·흐름(flow)으로 세련됨을 만든다.
+   단일 진실 공급원: 이 파일이 사이트 전체 색·글꼴·간격·모션의 유일한 정의처다.
+   tokens.css 외부에서 하드코딩 hex/px/rgba 사용 금지 — 반드시 var()로 참조.
 
-   작성: ui-designer (Phase 4a) / 기준: dosan-design-system 스킬
-   문서: _workspace/04_build/design-system.md (토큰표·대비표·컴포넌트 스펙)
+   ⚠ v1 불변 계약: §1~§9의 v1 토큰 값은 절대 변경 금지.
+      main.css·timeline.css·map.css가 이 값들을 상속한다(radius-sm/md, dur-*, ease,
+      shadow-sm/pop 등 실사용 중). v2는 §10 이후에 새 이름의 확장 토큰을 "추가"만 한다.
+
+   작성: ui-designer (Phase 4a) / 기준: dosan-design-system 스킬 v2
+   문서: _workspace/04_build/design-system.md (토큰표·대비표·애니메이션·인터랙션·컴포넌트 스펙)
    ========================================================================== */
 
 :root {
@@ -152,15 +158,89 @@
   --img-filter:        grayscale(1) contrast(1.02);
   --img-filter-warm:   grayscale(0.92) sepia(0.08) contrast(1.02); /* 한지와 조화(대안) */
   --img-placeholder-bg: var(--paper-dim);   /* 이미지 결손 시 플레이스홀더 바탕 */
+  --img-filter-hover:  grayscale(0.65) contrast(1.02); /* v2: hover 시 원톤 일부 복원(§4-1) */
+
+  /* ================================================================== */
+  /* === v2 확장 (추가만 — 위 v1 토큰 값 불변) ======================== */
+  /*     "맑은 한지, 살아 움직이는 먹": 표면·깊이·유리·그라디언트·       */
+  /*     라운딩·모션. 기존 이름 재정의 금지 → 전부 새 이름으로 추가.     */
+  /* ================================================================== */
+
+  /* -- 10. 표면·깊이 (Surface & Elevation) ------------------------- */
+  --paper-bright:    #FDFBF7;   /* 카드 hover 표면·유리 베이스 (vs ink 17.14:1) */
+  --bg-bright:       var(--paper-bright);   /* 시맨틱 별칭 — hover로 떠오른 표면 */
+
+  /* 유리 표면 — 반드시 backdrop-filter:blur(12px+)와 함께. 어두운 오버레이 금지 */
+  --glass:           rgba(253, 251, 247, 0.72);
+  --glass-strong:    rgba(253, 251, 247, 0.86);  /* 모바일 내비 오버레이 등 가독 우선 */
+  --glass-border:    rgba(26, 24, 21, 0.08);
+  --glass-blur:      blur(12px);
+
+  /* 다층 소프트 그림자 — 깊이는 빛으로. 색은 먹(ink) 저채도 */
+  --shadow-soft:     0 1px 2px rgba(26, 24, 21, 0.04),
+                     0 4px 16px rgba(26, 24, 21, 0.06);   /* 카드 기본 부양 */
+  --shadow-lift:     0 2px 4px rgba(26, 24, 21, 0.05),
+                     0 12px 32px rgba(26, 24, 21, 0.10);  /* 카드 hover 부양 */
+  --shadow-glass:    0 8px 28px rgba(26, 24, 21, 0.08);   /* 유리 패널 부유 */
+
+  /* -- 11. 그라디언트 (대형 표면·장식 전용 — 텍스트 배경 금지) ------ */
+  --grad-accent:     linear-gradient(135deg, #B5342B, #D4663A);  /* 단청→노을: 히어로 획·진행바 */
+  --grad-wash:       radial-gradient(closest-side,
+                       rgba(110, 139, 116, 0.10), transparent);  /* 청자 먹번짐(배경 블롭) */
+  --grad-wash-2:     radial-gradient(closest-side,
+                       rgba(181, 52, 43, 0.06), transparent);    /* 단청 먹번짐(배경 블롭) */
+  --grad-edge:       linear-gradient(180deg,
+                       rgba(26, 24, 21, 0.06), transparent);     /* 스티키 헤더 하단 페이드 */
+
+  /* -- 12. 라운딩 v2 (기존 radius-sm/md/lg 불변 → 새 이름) ---------- */
+  /*    모던 라운딩은 더 큰 곡률. v1 카드를 깨지 않도록 v2 컴포넌트만 채택 */
+  --radius-soft:     8px;     /* v2 카드·입력 (skill §2 radius-sm 후보를 신규 이름으로) */
+  --radius-card:     14px;    /* v2 유리 패널·대형 카드 (skill §2 radius-md 후보) */
+  --radius-xl:       22px;    /* v2 히어로 프레임·대형 표면 (skill §2 radius-lg 후보) */
+  --radius-pill:     999px;   /* 칩·필터·배지 알약형 */
+
+  /* -- 13. 모션 v2 (기존 dur-fast/base/slow·ease 불변 → 새 이름) --- */
+  /*    skill §2가 제안한 180/280/600ms·신규 ease를 v1 충돌 없이 신규 이름으로 채택 */
+  --dur-micro:       180ms;   /* 마이크로 인터랙션(hover/focus) */
+  --dur-enter:       280ms;   /* 표면 전이·헤더 축소·사진 톤 복원 */
+  --dur-reveal:      600ms;   /* 스크롤 리빌·장면 전환 */
+  --dur-count:       800ms;   /* 통계 카운트업 */
+  --dur-ambient:     110s;    /* 배경 블롭 표류 1주기(80~140s 범위 중앙값) */
+  --ease-out:        cubic-bezier(0.22, 1, 0.36, 1);    /* 리빌·등장(감속) */
+  --ease-soft:       cubic-bezier(0.45, 0.05, 0.55, 0.95); /* 배경·루프(부드러운 인아웃) */
+  --reveal-shift:    16px;    /* 리빌 시 translateY 시작 오프셋 */
+  --reveal-stagger:  75ms;    /* 카드 그룹 리빌 스태거(60~90ms 중앙값) */
+  --lift-y:          -3px;    /* 카드 hover 리프트 거리 */
+
+  /* -- 14. 타이포 v2 (기존 fs 스케일·measure 불변 → 추가만) -------- */
+  --fs-hero:         3.052rem;     /* 홈 히어로 전용(데스크톱) — 모바일은 --fs-2xl로 강등 */
+  --ls-hero:         -0.02em;      /* 히어로·섹션 제목 자간 보정(한글 대형) */
+
+  /* -- 15. z-index v2 보강 (기존 척도 불변 → 배경 레이어만 추가) ---- */
+  --z-bg:           -1;       /* 애니메이션 배경(position:fixed; pointer-events:none) */
 }
 
 /* ============================================================ */
 /* 모션 감소 선호 — 전역 안전망. 컴포넌트 전환은 토큰으로 0 처리 */
+/*  v2: 마이크로·리빌·카운트업 지속시간도 0으로. 배경 블롭 애니메이션은   */
+/*  여기서 토큰이 아니라 컴포넌트 CSS의 animation 자체를 정지(정적 워시   */
+/*  유지·제거 아님)해야 한다 — main.css가 이 미디어쿼리에서 처리(§3 스펙). */
 /* ============================================================ */
 @media (prefers-reduced-motion: reduce) {
   :root {
+    /* v1 */
     --dur-fast: 0ms;
     --dur-base: 0ms;
     --dur-slow: 0ms;
+    /* v2 — 전환 즉시화(리빌은 즉시 최종 상태, 카운트업 즉시 최종값) */
+    --dur-micro:  0ms;
+    --dur-enter:  0ms;
+    --dur-reveal: 0ms;
+    --dur-count:  0ms;
+    --reveal-shift: 0px;     /* translateY 시작 오프셋 제거 → 이동 없음 */
+    --reveal-stagger: 0ms;
+    --lift-y: 0px;           /* hover 리프트 이동 제거(그림자 전이는 무방) */
+    /* --dur-ambient는 토큰으로 끄지 않는다 — 배경 animation을 main.css에서
+       'animation: none'으로 정지(정적 워시 톤 유지). §3 접근성 규칙. */
   }
 }

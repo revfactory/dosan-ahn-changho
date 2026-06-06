@@ -12,7 +12,12 @@
      <header data-site-header></header> ... <footer data-site-footer></footer>
    ========================================================================== */
 
+import { initReveal } from './reveal.js';
+
 const SITE_TITLE = '도산 안창호';
+
+// 리빌을 자체 카드 진입 모션으로 바인딩하는 모듈 페이지 — 공유 리빌 제외(소유권·중복 방지).
+const REVEAL_EXCLUDED = new Set(['timeline', 'map']);
 
 // 전역 내비 10항목 — sitemap §1 / home.json 탐색 목록과 동일 순서.
 // key = 현재 페이지 판별용(파일명 stem). label = 표시명.
@@ -59,10 +64,70 @@ function buildNavItems(current) {
  */
 export function mountLayout(current) {
   ensureFavicon();
+  ensureBgWash();
   ensureSkipLink();
   ensureOgMeta();
   mountHeader(current);
   mountFooter();
+  setupStickyHeader();
+  setupReadProgress(current);
+  // v2 §10.2 스크롤 리빌 — 모듈 페이지(timeline/map)는 자체 바인딩이라 제외.
+  if (!REVEAL_EXCLUDED.has(current)) initReveal();
+}
+
+// v2 §10.3 — life 읽기 진행 바. 상단 고정 바를 스크롤 비율로 scaleX. life에만 주입.
+function setupReadProgress(current) {
+  if (current !== 'life') return;
+  if (document.querySelector('.read-progress')) return;
+  const bar = document.createElement('div');
+  bar.className = 'read-progress';
+  bar.setAttribute('aria-hidden', 'true'); // 시각 보조(진행률은 스크롤바가 a11y 제공)
+  document.body.prepend(bar);
+  let ticking = false;
+  const update = () => {
+    const doc = document.documentElement;
+    const max = doc.scrollHeight - doc.clientHeight;
+    const ratio = max > 0 ? Math.min(1, window.scrollY / max) : 0;
+    bar.style.transform = `scaleX(${ratio})`;
+    ticking = false;
+  };
+  update();
+  window.addEventListener('scroll', () => {
+    if (!ticking) { ticking = true; window.requestAnimationFrame(update); }
+  }, { passive: true });
+  window.addEventListener('resize', () => { window.requestAnimationFrame(update); }, { passive: true });
+}
+
+// v2 §9 — 애니메이션 배경. <body> 첫 요소로 1회 주입(favicon 단일 주입 패턴).
+// 스타일·모션은 main.css(.bg-wash/.bg-blob) CSS @keyframes 전담(JS rAF 없음 — §9 성능).
+function ensureBgWash() {
+  if (document.querySelector('.bg-wash')) return;
+  const wash = document.createElement('div');
+  wash.className = 'bg-wash';
+  wash.setAttribute('aria-hidden', 'true');
+  // §9.1 블롭 2개 — 청자(좌상)·단청(우하). 색·크기·표류는 main.css 토큰 참조.
+  wash.innerHTML =
+    '<span class="bg-blob bg-blob-celadon"></span>' +
+    '<span class="bg-blob bg-blob-dancheong"></span>';
+  document.body.prepend(wash);
+}
+
+// v2 §10.3 — 스티키 헤더 유리 전환. JS는 .is-scrolled 토글만(전이는 main.css). passive+rAF.
+function setupStickyHeader() {
+  const header = document.querySelector('[data-site-header]');
+  if (!header) return;
+  let ticking = false;
+  const update = () => {
+    header.classList.toggle('is-scrolled', window.scrollY > 8);
+    ticking = false;
+  };
+  update(); // 새로고침 시 스크롤 위치 복원 대응
+  window.addEventListener('scroll', () => {
+    if (!ticking) {
+      ticking = true;
+      window.requestAnimationFrame(update);
+    }
+  }, { passive: true });
 }
 
 // SEO3 — 전 페이지 OG 메타 단일 주입. **기존 title/description 텍스트만 재사용**한다

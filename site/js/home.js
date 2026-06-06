@@ -27,6 +27,46 @@ function findSection(page, id) {
   return (page.sections || []).find((s) => s.id === id);
 }
 
+// v2 §10.2 통계 카운트업 — 최종값은 이미 textContent(meta.json). reduce·no-JS·비숫자('—')는
+// 그대로, 숫자만 진입 시 1회 0→값. reduce면 즉시 반환(DOM의 최종값 유지).
+function runCountUp(box) {
+  const reduce = window.matchMedia &&
+    window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const targets = Array.prototype.slice.call(box.querySelectorAll('.stat-num')).map((node) => {
+    const finalText = node.textContent.trim();
+    const value = parseInt(finalText, 10);
+    return { node, finalText, value: Number.isNaN(value) ? null : value };
+  });
+  if (reduce) return;
+
+  const durRaw = getComputedStyle(document.documentElement).getPropertyValue('--dur-count').trim();
+  const dur = parseFloat(durRaw) * (durRaw.endsWith('ms') ? 1 : 1000) || 800; // 토큰값(하드코딩 금지)
+
+  let started = false;
+  const start = () => {
+    if (started) return;
+    started = true;
+    const t0 = performance.now();
+    const tick = (now) => {
+      const p = Math.min(1, (now - t0) / dur);
+      const eased = 1 - Math.pow(1 - p, 3); // easeOutCubic
+      targets.forEach((t) => { if (t.value != null) t.node.textContent = String(Math.round(t.value * eased)); });
+      if (p < 1) requestAnimationFrame(tick);
+      else targets.forEach((t) => { if (t.value != null) t.node.textContent = t.finalText; });
+    };
+    targets.forEach((t) => { if (t.value != null) t.node.textContent = '0'; });
+    requestAnimationFrame(tick);
+  };
+
+  if (!('IntersectionObserver' in window)) { start(); return; }
+  const obs = new IntersectionObserver((entries, o) => {
+    entries.forEach((e) => {
+      if (e.isIntersecting) { start(); o.disconnect(); }
+    });
+  }, { threshold: 0.4 });
+  obs.observe(box);
+}
+
 function firstList(section) {
   if (!section) return [];
   const b = (section.blocks || []).find((x) => x.type === 'list');
@@ -157,6 +197,7 @@ function firstList(section) {
       link.textContent = '검증 방법론 보기';
       box.appendChild(link);
       s.appendChild(box);
+      runCountUp(box); // v2 §10.2 — 진입 시 카운트업(reduce·no-JS 시 즉시 최종값)
       // 등급 분포 한 줄(meta 수치)
       if (cg.A != null) {
         s.appendChild(el('p', 'body-text',

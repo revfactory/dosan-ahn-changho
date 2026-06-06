@@ -10,7 +10,7 @@
 /* ----------------------------- 0. 리셋·기본 ----------------------------- */
 *, *::before, *::after { box-sizing: border-box; }
 
-html { font-size: 18px; -webkit-text-size-adjust: 100%; }
+html { font-size: 18px; -webkit-text-size-adjust: 100%; scroll-behavior: smooth; } /* v2 §10.3 — reduce 시 auto */
 
 body {
   margin: 0;
@@ -590,4 +590,166 @@ code, pre { font-family: var(--font-mono); }
    데스크톱에서는 위 미디어쿼리가 항상 가로 노출로 덮어쓴다. */
 @media (max-width: 1023px) {
   .nav-toggle:not([open]) .nav-list { display: none; }
+}
+
+/* === v2 "맑은 한지, 살아 움직이는 먹" — 표현 계층만·토큰 참조 전용. §9·§10, transform/opacity만. === */
+
+/* v2.1 애니메이션 배경(§9) — layout.js가 .bg-wash 1회 주입. 블롭 2개 좌상↔우하 분리(§9.2). */
+.bg-wash {
+  position: fixed;
+  inset: 0;
+  z-index: var(--z-bg);
+  pointer-events: none;
+  overflow: hidden;
+}
+.bg-blob {
+  position: absolute;
+  display: block;
+  border-radius: 50%;
+  will-change: transform;        /* 블롭에만(§9.1 — 2개 한정) */
+  animation: bg-drift var(--dur-ambient) var(--ease-soft) infinite alternate;
+}
+/* 블롭 A 청자(좌상) 55~70%; B 단청(우하) 45~60%. 진폭 translate ±3~6%·scale≤1.08(§9.1) */
+.bg-blob-celadon {
+  top: -10%;
+  left: -8%;
+  width: clamp(380px, 60vmax, 900px);
+  height: clamp(380px, 60vmax, 900px);
+  background: var(--grad-wash);
+}
+.bg-blob-dancheong {
+  bottom: -12%;
+  right: -6%;
+  width: clamp(320px, 50vmax, 760px);
+  height: clamp(320px, 50vmax, 760px);
+  background: var(--grad-wash-2);
+  animation-name: bg-drift-2;
+  animation-delay: -37s;         /* 두 블롭이 같은 위상으로 만나지 않게 */
+}
+@keyframes bg-drift {
+  from { transform: translate(0, 0) scale(1); opacity: 0.9; }
+  to   { transform: translate(4%, 3%) scale(1.06); opacity: 1; }
+}
+@keyframes bg-drift-2 {
+  from { transform: translate(0, 0) scale(1.04); opacity: 1; }
+  to   { transform: translate(-3%, -4%) scale(1); opacity: 0.92; }
+}
+
+/* v2.2 유리 스티키 헤더(§10.3) — 0=불투명 --bg(§2 상속), .is-scrolled=--glass+blur(§2.6-나 전제). */
+.site-header {
+  transition: background-color var(--dur-enter) var(--ease-out),
+              box-shadow var(--dur-enter) var(--ease-out),
+              border-color var(--dur-enter) var(--ease-out);
+}
+.site-header.is-scrolled {
+  background: var(--glass);
+  -webkit-backdrop-filter: var(--glass-blur);
+  backdrop-filter: var(--glass-blur);          /* §2.6-나 대비 가정의 전제 — 필수 */
+  border-bottom-color: var(--glass-border);
+  box-shadow: var(--shadow-glass);
+}
+.site-header-inner {
+  transition: padding-block var(--dur-enter) var(--ease-out);
+}
+.site-header.is-scrolled .site-header-inner {
+  padding-top: var(--sp-2);
+  padding-bottom: var(--sp-2);
+}
+
+/* v2.3 스크롤 리빌(§10.2) — 기본 "보임". JS만 .is-pre-reveal(★기본 숨김은 여기에만). reduce=토큰 0. */
+.is-pre-reveal {
+  opacity: 0;
+  transform: translateY(var(--reveal-shift));
+  transition: opacity var(--dur-reveal) var(--ease-out),
+              transform var(--dur-reveal) var(--ease-out);
+  will-change: opacity, transform;
+}
+.is-revealed { opacity: 1; transform: none; }
+
+/* v2.4 홈 히어로(§10.5) — --grad-accent 장식 획(텍스트와 분리, §2.6). 모바일 --fs-2xl→데스크톱 --fs-hero. */
+.home-hero-title {
+  font-size: var(--fs-2xl);            /* 모바일 기본(640px+에서 --fs-hero) */
+  letter-spacing: var(--ls-hero);
+}
+/* 제목 아래 단청→노을 붓질 획 — 순수 장식(텍스트 없음). */
+.home-hero-title::after {
+  content: "";
+  display: block;
+  width: 3.5rem;
+  height: var(--bw-accent);            /* 3px */
+  margin-top: var(--sp-3);
+  background: var(--grad-accent);
+  border-radius: var(--radius-pill);
+}
+.home-hero-figure img { border-radius: var(--radius-xl); }
+
+/* -- v2.5 통계 카운트업 (§10.2 — tabular-nums) ------------------------ */
+.stat-num { font-variant-numeric: tabular-nums; } /* 자릿수 흔들림 방지(카운트업 시) */
+
+/* v2.6 카드 리프트(§10.1/§10.5) — 홈 탐색·인물·갤러리 카드. tl-/map- 제외(모듈 소유). */
+.nav-card, .person-card, .image-card {
+  box-shadow: var(--shadow-soft);
+  transition: transform var(--dur-micro) var(--ease-out),
+              box-shadow var(--dur-micro) var(--ease-out),
+              background-color var(--dur-micro) var(--ease-out);
+}
+@media (hover: hover) {
+  .nav-card:hover, .person-card:hover, .image-card:hover {
+    transform: translateY(var(--lift-y));
+    box-shadow: var(--shadow-lift);
+    background: var(--bg-bright);
+  }
+}
+.nav-card:active, .person-card:active, .image-card:active { transform: none; }
+
+/* v2.7 링크 밑줄 좌→우(§10.1) — background-size 기법(reflow 없음). 색 --accent 유지. */
+.body-text a, .page-section p a, .nav-link, .footer-links a, .stats-link {
+  text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  background-size: 0% var(--bw-hair);
+  transition: background-size var(--dur-micro) var(--ease-out);
+}
+@media (hover: hover) {
+  .body-text a:hover, .page-section p a:hover, .nav-link:hover,
+  .footer-links a:hover, .stats-link:hover {
+    background-size: 100% var(--bw-hair);
+    text-decoration: none;
+  }
+}
+.nav-link.is-current { background-size: 100% var(--bw-hair); } /* 현재 위치는 상시 밑줄 */
+
+/* v2.8 life 읽기 진행 바(§10.3) — layout.js가 life에만 주입. scaleX, 순수 장식(텍스트 0 §2.6). */
+.read-progress {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%;
+  height: var(--bw-accent);            /* 3px */
+  background: var(--grad-accent);
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  z-index: calc(var(--z-header) - 1);  /* 헤더 바로 아래 */
+  pointer-events: none;
+}
+
+/* v2.9 사진 톤 hover 복원(§10.1·§5, D-1) — 휴지=흑백 통일(--img-filter), hover:hover에서만
+   grayscale 1→0.65(완전복원 금지). filter 전이는 §10.4 예외 승인분, will-change 금지(개별 카드만). */
+.figure-img { filter: var(--img-filter); }
+@media (hover: hover) {
+  .figure-img { transition: filter var(--dur-enter) var(--ease-out); }
+  .image-card:hover .figure-img,
+  .home-hero-figure:hover .figure-img,
+  .figure-img:hover { filter: var(--img-filter-hover); }
+}
+
+/* v2 reduced-motion — 블롭 @keyframes는 토큰 0ms로 안 멈추므로 animation 정지(정적 워시, §9.3). */
+@media (prefers-reduced-motion: reduce) {
+  .bg-blob { animation: none; }
+  html { scroll-behavior: auto; }
+  .read-progress { transition: none; }
+}
+
+@media (min-width: 640px) {
+  .home-hero-title { font-size: var(--fs-hero); } /* 데스크톱 히어로 위계(§3 v2) */
 }

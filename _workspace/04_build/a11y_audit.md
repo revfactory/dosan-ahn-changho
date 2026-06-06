@@ -218,3 +218,149 @@
 - **회부 결정이 옳았다.** NW-1을 직접 안 고치고 회부한 사이 frontend가 role을 'group'으로 고쳐 푸시했다 — 같은 파일(people.js)을 내가 동시에 건드렸다면 충돌했을 것. 회부+검증된 수정안(role:'group') 제시가 개발자를 즉시 움직이게 했다(Policy 5: 수정안 동봉).
 - **재검증은 "수정됐다는 통보"가 아니라 실측으로.** 소스 grep에서 people.js가 아직 role:'img'로 보였으나(편집 타이밍), 같은 순간 렌더는 'group'이었다 — **소스 한 줄이 아니라 접근성 트리 실측(버튼 81 노출)이 진실**. 통보·소스만 믿었으면 오판했다.
 - **체크리스트 완결성 확인:** S1a(공통 모듈 렌더)·R1a(Reflow 트리 하강)·S5a(SVG AT 노출 수)를 이번 사이클에 모두 적용해 누락 0. 다음 감사(부분 수정·재실행)도 동일 4축(콘솔·키보드/트리·대비·반응형) 실측 유지.
+
+---
+
+## 4. v2 재감사 (dosan-redesign Task #3, 2026-06-06 — incremental, 진행 중)
+
+> 컨셉 v2 "맑은 한지, 살아 움직이는 먹" — 애니메이션 배경·스크롤 리빌·카운트업·유리 표면·smooth scroll 신규 도입.
+> 감사 5축(team-lead 지정): ① prefers-reduced-motion 전수 ② 애니메이션 배경 위 텍스트 대비 실측(최악 프레임) ③ 키보드·focus-visible 회귀 ④ JS 비활성 콘텐츠 가시(리빌 숨김 0) ⑤ 기존 통과(v1 §2.4) 회귀 0.
+> 기준: dosan-design-system v2 §2 대비표(유리·그라디언트 조합)·§3 애니배경 규칙·§4 모션 규칙.
+> 재감사 하네스: `/tmp/v2_rm_audit.mjs`(emulateMediaFeatures(reduce) 실측 — 배경 transform 변화·리빌 화면밖 숨김 수·카운트업 즉시값·scroll-behavior, +키보드 firstTab/skip/aria-current/랜드마크, +JS off 가시). check_contrast.py 재활용.
+
+### 4.0 대기 중 토큰 레이어 선검증 (tokens.css v2 착지분, 페이지 미완 — 조기 페이지 감사 아님)
+
+v2 토큰이 tokens.css에 착지(L170~234), main.css 모션 구현(Task #2)은 미착지(@keyframes·is-revealed·backdrop-filter 0건) 상태에서 **완성된 토큰 정의만** 정적 검증. 페이지 감사는 frontend 완성 통보 후로 유보(Policy 1).
+
+- **회귀 0(대비표):** check_contrast.py 재실행 exit 0 — v1 §2 대비표 25조합 전건 실측 일치 유지(v2 토큰 추가가 v1 값 불변).
+- **v2 §2 추가 조합 실측(check_contrast.py --pair, WCAG 1.4.3):**
+  | 조합 | 실측 | 판정 | 비고 |
+  |---|---|---|---|
+  | `--ink`/`--paper-bright`(#1A1815/#FDFBF7) | 17.14:1 | AAA | 유리 카드 본문. 토큰 주석 17.14 정확(스펙 §2 "16.6"은 보수적 인용, 둘 다 AAA) |
+  | `--dancheong`/`--paper-bright` | 5.82:1 | 본문 AA 통과 | 밝은 카드 링크(스펙 5.6↑ 여유) |
+  | `--ink-soft`/`--paper-bright` | 9.19:1 | 통과 | hover 표면 위 카드 메타 |
+  | 흰 텍스트/`--grad-accent` 단청끝(#B5342B) | 6.02:1 | 통과 | — |
+  | 흰 텍스트/`--grad-accent` 노을끝(#D4663A) | **3.65:1** | **본문 AA 불통과** | 스펙 §2 "그라디언트 위 본문 텍스트 금지" 근거 확정. 감사 시 진행바·히어로 획 위 본문 텍스트 0건 확인(장식·보더·아이콘만 허용) |
+- **유리(`--glass` rgba .72) 위 텍스트:** 애니메이션 배경 합성색에 의존 → 최악 프레임 합성 실측 필요. 배경 구현 착지 후 측정(유보).
+- **reduced-motion 전역 안전망:** L232~234 `--dur-fast/base/slow: 0ms` 유지 확인. **단, 듀레이션 0은 @keyframes 배경 루프·JS 카운트업을 멈추지 못함** — 배경 `animation-play-state` 정지·리빌 즉시·카운트업 즉시값은 구현 착지 후 emulate(reduce)로 별도 실측 필수(이번 사이클 핵심 함정).
+
+### 4.0b ui-designer §2.6·§9 감사 기준 수령 (Task #1 completed, 2026-06-06)
+
+ui-designer가 design-system.md §2.6(유리·배경 위 실측)·§9.2(겹침 금지)·§9.3(모션)를 확정. **a11y 감사 항목으로 채택할 측정 기준(전건 check_contrast.py 재현 가능):**
+
+- **§2.6-가 paper-bright 위:** 전건 본문 AA↑(ink 17.14·ink-soft 9.19·ink-faint 5.59·dancheong 5.82·grade-c 5.73 등). 내 선검증과 일치.
+- **§2.6-나 유리(`--glass` .72) 합성:** 최악 backdrop=두 블롭 겹침 `#E6DED4` → 유리 합성색 `#F7F3ED`. 그 위 ink 16.03·ink-soft 8.59·ink-faint 5.22·dancheong 5.44·celadon-deep 5.54 — **전건 본문 AA 통과.** ★**조건부:** frontend가 `--glass-blur`(blur 12px)를 반드시 동반해야 합성 가정 성립 → **감사 시 유리 표면에 backdrop-filter:blur(≥12px) 적용 여부 실측**(blur 0이면 합성 깨짐, 회부).
+- **★§2.6-다 애니메이션 배경 위 *직접* 텍스트(가장 불리한 프레임):**
+  - 안전: `--ink`/#E6DED4 13.30 · `--ink-soft`/#E6DED4 7.13 · `--dancheong`/#E6DED4 4.52(경계 여유 0.02) · `--celadon-deep`/#E6DED4 4.59(경계).
+  - **금지(AA 미달):** `--ink-faint`/#E6DED4 = **4.33:1** · `--grade-c-text`/#E6DED4 = **4.45:1** — 두 블롭 겹침 backdrop에서 본문 AA 미달. 단일 블롭(#E9E9DF)에선 4.72/4.85로 통과 → **겹침만 위반**.
+- **채택 감사 항목(§9.2 — 겹침 금지 제약, 협상 불가):**
+  1. **블롭 겹침 금지:** 청자(`bg-blob-celadon`)·단청(`bg-blob-dancheong`) 블롭이 **중앙 `--measure` 본문 컬럼 뒤에서 겹치지 않는가**(좌상↔우하 분리·표류 진폭 제한). 겹쳐 `#E6DED4` backdrop이 본문 영역에 생기면 ink-faint·C배지 미달 → **차단 회부**. → 감사: 블롭 애니메이션 전 구간(다수 시점 샘플)에서 두 블롭 bounding box가 본문 컬럼 x범위에서 동시 교차하는지 실측.
+  2. **텍스트 표면 제약:** 본문·배지·미세 메타(`--ink-faint`·`grade-c` 등)는 `--paper`/`--paper-dim`/유리 위에 두고, raw 블롭 위 직접 텍스트는 큰 텍스트(`--ink`/`--ink-soft` 위계)만. → 감사: 배경(`.bg-wash`)이 `position:fixed;z-index:-1`로 본문 *뒤*에 있고 본문 컨테이너가 자체 배경(paper류)을 갖는지, ink-faint/C배지가 raw 블롭 위에 직접 노출되는 케이스 0건.
+- **§9.3 채택 항목:** ① reduce에서 블롭 `animation:none` 정지(제거 아님·톤 유지) ② 배경 레이어 `aria-hidden="true"`(콘텐츠 아님) ③ transform/opacity만(filter·box-shadow 애니메이션 금지 — 페인트 플래시 0).
+- **★사진 hover filter 예외(ui-designer 정정 수령, D-1b 명문화 — false-positive 방지):** 사진 hover 톤 복원 듀레이션 확정값=**`--dur-enter`(280ms)**(design-system.md §10.1, 스킬 초안의 `--dur-base`는 오기). reduce에서 `--dur-enter`=0 중화 → 즉시 톤·전이 없음(reduce 감사 기대값 동일). 이 hover `filter` 전이는 "filter 애니메이션 금지"의 **명시 예외**(D-1b): 조건 ①transition만(@keyframes 루프 아님) ②`will-change` 상시 부여 금지 ③그리드 일괄 전이 금지. **→ 페인트 플래시 0 감사 시 이 hover filter는 위반 아님**(이산·단일 요소·사용자 개시 — 연속 페인트 누적 없음. 배경 블롭의 연속 filter와 구분). 2차/사진 페이지 감사 시 위 3조건 충족만 확인.
+
+> **상태: 토큰·대비 기준 레이어 선검증·감사 항목 확정 완료.** frontend-developer 배경+유리헤더(1차)·리빌+카운트업(2차) 통보 시 incremental 감사 착수 → 아래 절에 페이지/모듈별 누적.
+
+### 4.1 Stage-1 감사 — 배경 + 유리헤더 (frontend 1차 증분 통보 2026-06-06)
+
+**변경:** site/js/layout.js(배경 `.bg-wash` 주입·헤더 스크롤 토글), site/css/main.css(`.bg-wash`/`.bg-blob`/`bg-drift`·`.site-header.is-scrolled` 유리·reduce 쿼리).
+**감사 방법:** 로컬 서버(:8137) + headless Chrome(`/tmp/v2_rm_audit.mjs` emulate(reduce) 실측·`/tmp/v2_bg_sample2.mjs` 렌더 합성색 채취·check_contrast.py --pair). index·life·timeline 3페이지 표본. Stage-1 감사 가능 항목 = reduce 1·5 + 키보드 회귀(reduce 4 smooth scroll·2·3 카운트업/리빌은 frontend 정정대로 3차/2차 — 미감사).
+
+**통과 항목(실측 근거):**
+| 항목 | 결과 | 근거(실측) |
+|------|------|-----------|
+| **reduce 1** 배경 정지 (WCAG 2.3.3·§9.3) | **통과** | NORMAL: 블롭 `bg-drift`/`bg-drift-2` 애니 가동(matrix transform 변화)·`bgMovedAfter1.5s:true`. REDUCE(emulate): 전 블롭 `animation:none`·transform `none`·`bgMovedAfter1.5s:false`. main.css L675-676 `@media reduce{.bg-blob{animation:none}}` 실측 발화 — 정적 워시 톤 유지(제거 아님). index·life·timeline 3페이지 동일 |
+| **reduce 5** 유리헤더 텍스트 대비 (WCAG 1.4.3·§2.6-나) | **통과** | `.is-scrolled` = `--glass`(rgba .72)+`backdrop-filter:blur(12px)` 실측(main.css L660 — §2.6-나 전제 충족). 최악 합성 backdrop `#F7F3ED` 위 헤더 텍스트 전건 본문 AA: brand/nav `--ink` 16.03·brand-sub `--ink-soft` 8.59·is-current `--dancheong` 5.44. 블러 미지원 폴백 가정(raw `#E6DED4`)에서도 13.30/7.13/4.52 전부 통과. 헤더에 `--ink-faint`·`grade-c` 텍스트 0 |
+| **§9.2 ② 렌더 합성색** (a11y 분담분 — QA GATE-A 상보) | **통과** | 본문 컬럼 중앙(x=640) 3스크롤×4위상 12샘플 실측(2회 재현): 가장 어두운 backdrop **`#EFE7DB`~`#EFE8DB`**(=사실상 `--paper-dim`, 휘도 231.8~232.5/255) — 겹침 임계 `#E6DED4`(188.4)보다 훨씬 밝음 → **본문 영역에 두 블롭 겹침 backdrop 미발생**. 그 위 §2.6-다 금지 후보조차 통과: `--ink-faint` 4.71·`--grade-c` 4.83(단일 블롭 안전역). **GATE-A 양면 잠금 확정:** QA 코드측(블롭 A 청자 좌상 top:-10%·B 단청 우하 bottom:-12%, @keyframes 표류 A=translate(4%,3%)scale≤1.06·B=translate(-3%,-4%) §9.1 진폭표 부합, 4뷰포트 768/1024/1280/1440 최악 표류에도 원 중심거리>반지름합 여유 7.2~20.6% → 원 미교차) + a11y 렌더측(합성 농담 #E6DED4 미도달 실측). qa_log.md 교차 기록. **추가 표본(QA 권장 — 좁은 --measure 페이지):** life.html(이미지·figure 차폐 후 순수 배경 레이어 채취) 4스크롤×4위상 가장 어두운 backdrop `#EFE8DB`(휘도 232.5) — index와 동일·#E6DED4 미도달. 넓은(index)·좁은(life) 본문 컬럼 양쪽 통과 확인. (※초기 life 측정에서 #7C7C7C 나온 건 grayscale 사진 픽셀 오염 — img 차폐로 해소, 배경 아님) |
+| **K1~K4·S1·S6 키보드 회귀** (WCAG 2.4.1·2.4.7·1.3.1·4.1.2) | **통과·회귀 0** | 3페이지 첫 Tab=`.skip-link`("본문 바로가기" href="#main"), skip-link 보존. 랜드마크 header/nav/main/footer 유지(life의 header:2는 v1 확정 정상 — 전역+page-header 배너). aria-current 정확(홈/생애/연표). focusable 92~825. **콘솔 에러 0·pageError 0** |
+| **JS 비활성 가시(부분)** | **통과(회귀 0)** | NOJS `opacityZeroTextEls:0` 3페이지 — CSS 기본 숨김(`.card{opacity:0}` 류) 0건. timeline noscript 본문 774자 유지. ※index·life는 v1부터 JS 렌더(noscript 폴백)라 NOJS bodyText 짧음 — v2 신규 회귀 아님. 리빌 정식 JS-off 감사는 2차에서 |
+
+**리빌 메커니즘 선점 검증(2차 항목이나 1차에 reveal.js 이미 존재 — 오탐 방지차 실측):**
+- main.css L676 `.is-pre-reveal{opacity:0}`는 **reveal.js가 JS로만 부여**(L57), no-JS면 미부여 → 콘텐츠 가시(폴백 안전, §4-2 준수). CSS 기본 숨김 0.
+- **자연(점진) 스크롤 실측(life, 300px 간격·정착):** NORMAL·REDUCE 양 모드 `stillHidden:0`·`revealed:35` — **전 리빌 대상이 스크롤 시 정상 노출, 영구 숨김 0건**. (초기 `scrollTo(scrollHeight)` 점프-스크롤에서 33 잔류로 보였던 것은 IntersectionObserver가 프레임 점프로 교차 미등록한 **테스트 아티팩트** — 자연 스크롤에서 재현 안 됨. 오탐으로 회부하지 않음.)
+- **경미 관측(비위반):** reduce에서 화면밖 리빌 대상은 스크롤 전까지 `opacity:0`(전이는 0ms 즉시). 콘텐츠 도달 가능·모션 없음이라 §9.3 "리빌 즉시 표시" 취지 충족. reveal.js의 `prefersReduced()`(L24)는 정의되나 미사용(무해). 2차 정식 감사에서 카운트업·JS-off 리빌과 함께 재확인.
+
+**배경 레이어 §9.3 위생(실측):** `.bg-wash`가 `<body>` 첫 자식·`aria-hidden="true"`(장식·AT 비노출)·`z-index:-1`·`position:fixed`·`pointer-events:none`·블롭 2개(§9.1 2~3 한도 내). 전건 충족. (z-index·예산 게이트 정본은 QA — 접근성 부수 관측으로만 기록.)
+
+> **★기준 거버넌스(ui-designer 확정, 재감사 시 준수):** §2.6-다 `#E6DED4`(두 블롭 풀강도 겹침 가정)는 **보수적 게이트 컷오프 — 완화 금지**. 현재 렌더가 그 안쪽(#EFE7DB)에 여유 안착했다는 사실은 "현재 통과"일 뿐, 컷오프를 느슨히 할 근거가 아니다. frontend가 향후 블롭 진폭·강도를 키워 본문 뒤 겹침이 생기면 ink-faint(4.33)·C배지(4.45)가 AA 미달하므로, **재실행/부분수정 감사 시에도 #E6DED4 기준 + 렌더 합성색 실측을 동일하게 적용**한다(블롭 위치·진폭·opacity 변경분이 있으면 §9.2 양면 잠금 재수행).
+
+**Stage-1 위반:** **0건(차단·중대·경미 모두 0).** reduce 1·5·키보드 회귀·§9.2 렌더·배경 위생 전건 통과. → frontend-developer Stage-1 통과 통보. reduce 2·3(2차)·reduce 4 smooth scroll(3차) 대기.
+
+> **상태: Stage-1(배경+유리헤더) 통과. 2차(리빌+카운트업)·3차(진행바+smooth scroll) 증분 통보 대기.**
+
+### 4.2 Stage-2/3 감사 — 리빌·카운트업·진행바·smooth scroll (frontend 2·3차 증분 통보 2026-06-06)
+
+**변경:** js/reveal.js(신규), js/layout.js(리빌 호출·진행바), js/home.js(카운트업), css/main.css(리빌·히어로·카드·링크·진행바·smooth scroll). reduce 4(smooth scroll)도 이번 반영.
+**감사 방법:** 로컬 서버(:8137) + headless Chrome emulate(reduce). 카운트업 0-경유 폴링·리빌 자연스크롤(인간 모사 80px+rAF flush)·진행바 속성·smooth scroll 양모드. index·life·gallery·organizations 표본. 산출물 `/tmp/v2_stage2.mjs`·`/tmp/v2_gallery_human.mjs`·`/tmp/v2_hidden_at.mjs`.
+
+**통과 항목(실측 근거):**
+| 항목 | 결과 | 근거(실측) |
+|------|------|-----------|
+| **reduce 3** 카운트업 즉시 최종값 (WCAG 2.3.3·§10.2) | **통과** | home.js L41 `if(reduce) return;` — reduce면 `start()` 미진입 → `textContent='0'`(L64)에 절대 도달 안 함. emulate(reduce) 로드 직후 10회 폴링 `.stat-num`의 '0' 출현 **0회**, 최종값(165·17·305·48·59·22·135·80) 즉시. 0 깜빡임 없음. 최종값은 meta.json textContent(하드코딩 아님) |
+| **reduce 4** smooth scroll 해제 (WCAG 2.3.3·§10.3) | **통과** | main.css L13 `html{scroll-behavior:smooth}` + L745 `@media reduce{html{scroll-behavior:auto}}`. emulate 실측: NORMAL html=smooth·REDUCE html=auto. CSS 미디어쿼리 정공법 |
+| **진행바** (§10.3·§2.6 그라디언트 텍스트 금지) | **통과** | life에만 주입(index 부재 확인)·`aria-hidden="true"`·`textContent=""`(그라디언트 위 텍스트 0 — §2.6 준수)·`transform:scaleX(0)`(matrix(0,0,0,1,0,0))·`--grad-accent` 배경·z-index 199(헤더 하). 순수 장식 |
+| **reduce 2** 리빌(life·organizations) | **통과** | life(35)·organizations(33) reduce 자연스크롤 후 영구 숨김 0. `.is-pre-reveal{opacity:0}`는 JS만 부여(no-JS 가시), reduce에서 transition 0·shift 0 즉시 |
+
+**위반·결함:**
+
+- **[중대 → frontend-developer 회부] REV-1 / WCAG 1.4.13·1.3.1 — gallery 리빌 영구 숨김(lazy-load 리플로우 × IO unobserve).**
+  - **증상(실측):** gallery.html(`.image-card` 80개, 전부 `loading="lazy"`)에서 **인간 모사 스크롤(80px 스텝·rAF 더블 flush·40ms)** 후에도 **14개**(촘촘 스크롤+2.5s 정착 시 6개) 카드가 `opacity:0`·`is-revealed` 미부여로 **영구 숨김**. **NORMAL·REDUCE 양 모드 동일 14건** — reduce 한정 아님, 프로그램 점프 아티팩트 아님(rAF flush 인간 스크롤에서 재현). 숨은 카드는 뷰포트 위로 지나가(top<0) IO 재관찰 없음(unobserve-once).
+  - **근본 원인:** ① 80 카드 전부 `loading="lazy"` → 초기 그리드 높이 0, 스크롤 중 이미지 로드되며 그리드 리플로우·카드 위치 이동 ② IO `threshold:0.08`+`rootMargin:-8%`+첫 교차 시 `unobserve`(reveal.js L35·39) → 리플로우로 카드가 콜백 프레임 사이에 트리거존을 지나치면 영구 미발화. life/organizations(카드 적고 큼)는 미발생, gallery(80 밀집 그리드)만 발현.
+  - **완화 요인(차단 아닌 근거):** opacity:0이나 `visibility:visible`·`display:block` → **접근성 트리 잔존**(실측 `inAccessibilityTree:true`), 숨은 카드 img alt(예 "1935년 대전형무소 가출옥…여운형·조만식")·focusable `<a>` AT·키보드 도달 가능. no-JS면 `is-pre-reveal` 미부여로 전건 가시. **→ 시각(마우스) 사용자만 사진 ~14장 시각 손실 — 중대(주요 사용자군 시각 접근 불가), 차단 아님.**
+  - **수정안(frontend 검증 권장):** (a) **폴백 리빌 패스 추가** — `scroll`(디바운스) 또는 settle 시 `getBoundingClientRect().top < innerHeight`인 잔여 `.is-pre-reveal`를 일괄 `is-revealed`(이미 지나친 요소 구제). 또는 (b) IO `unobserve` 제거하고 가시 영역 통과분 재평가, 또는 (c) 이미지에 `aspect-ratio` 박스로 치수 예약해 lazy 리플로우 제거(IO 오프셋 안정화). + reduce에서는 `is-pre-reveal` 아예 미부여(reveal.js의 미사용 `prefersReduced()` L24 의도 실현 — reduce는 즉시 가시). **JS 동작 로직이라 직접 수정 않고 회부**(Policy 5).
+
+**추가 통과 항목(실측):**
+| 항목 | 결과 | 근거 |
+|------|------|------|
+| **사진 hover filter D-1b 3조건** (§9.3·§10.1·§10.4 예외) | **통과(예외 정상)** | main.css L744-750: ①`transition:filter --dur-enter`(@keyframes 루프 아님) ②`will-change` 0(블롭 L611·리빌 L669에만, 사진엔 없음·L743 주석 명시) ③`.figure-img` 개별 요소 hover 전이(`.gallery-grid` 일괄 아님). `@media(hover:hover)` 가드·reduce 시 --dur-enter=0 즉시. grayscale 1→0.65 부분복원(CSS만·원본 불변). **이산·단일·사용자 개시 → 페인트 플래시 위반 아님**(ui-designer D-1b 예외 합치) |
+| **CSS 기본 숨김 금지** (§4-2·§9.3) | **통과** | css 전체 content `opacity:0`은 `.is-pre-reveal`(main.css L665) **1곳뿐** — JS만 부여(reveal.js L57). 블롭 키프레임 opacity 0.9~0.92는 장식(숨김 아님). `.card{opacity:0}` 류 무조건 숨김 0 |
+| **JS 비활성 — 리빌 기여 숨김 0**(axis ④) | **통과** | gallery·life·organizations·people JS-off: `.is-pre-reveal` 클래스 0건·`opacity:0` 가시요소 0건 → **v2 리빌이 no-JS 콘텐츠를 추가로 숨기지 않음**(JS 게이트 정상). |
+
+**참고(비위반·v2 회귀 아님):** 8 frontend 페이지(index·life·gallery 등)는 **v1부터 JS 렌더 셸**(JSON 로드 후 DOM 주입)이라 JS-off 시 본문·이미지 미렌더(bodyText 짧음). noscript 정적 폴백은 interactive-viz 페이지(timeline·map)에만 존재 — **v1 §2.3에서 확정된 기존 아키텍처, v2 신규 회귀 아님**. v2 리빌 feature는 이 위에 올바르게 JS-게이트로 얹힘(위 axis④ 통과). 셸에 skip-link·`data-load-error`·고유 title/description/favicon 정적 존재. (이 아키텍처 자체에 대한 판정은 v1 게이트 소관 — v2 재감사 범위 밖.)
+
+**Stage-2/3 종합:** reduce 3·4·진행바·리빌(비-gallery)·사진 hover 예외·CSS 기본숨김 금지·JS-off 리빌 기여 0 통과. **중대 1건(REV-1, gallery 리빌 영구 숨김) frontend 회부.** 수정 후 gallery 인간 스크롤 재검증 예정. reduce 1·5(Stage-1)는 통과 유지.
+
+### 4.3 v2 전 10페이지 회귀 스윕 (2026-06-06)
+
+v2 전체 착지(Task #2 completed) 후 v1 §2.4 통과 항목 회귀 0 확인:
+- **대비표 회귀 0:** `check_contrast.py` exit 0 — v1+v2 대비표 전건 실측 일치 유지.
+- **하드코딩 hex 회귀 0:** main/timeline/map.css tokens.css 외부 색상값 0건(timeline.css L325 hex 1건은 **주석 내 토큰 파생 설명** — 색상값 아님, v1 확정 예외).
+- **10페이지 키보드·랜드마크·내비·콘솔 회귀 0:** index·life·philosophy·organizations·people·archives·gallery·references·timeline·map 전부 — 첫 Tab=skip-link(href="#main")·main 1개·전역 내비 렌더(navItems 14, timeline 22)·aria-current 정확(홈/생애/사상/조직/인물/사료/갤러리/참고문헌/연표/지도)·**콘솔 에러 0**. v1 통과 항목 전건 보존.
+
+### 4.4 REV-1 해소 재검증 (frontend 수정 22:07 후, 2026-06-06)
+
+frontend가 reveal.js에 **REV-1 3중 안전망** 구현(22:07): ① 양수 bottom rootMargin(64px)+threshold 0(진입 직전 선반응) ② 카드 내 이미지 `load`/`error` + scroll/resize 시 `sweepInView`(in-view 잔여 카드 보정) ③ **6000ms 최종 안전망 — 잔여 `is-pre-reveal` 전부 강제 `is-revealed`**(가시성>연출, 화면밖 미진입 포함).
+
+**재검증(실측, 6s 안전망 통과 대기 포함):**
+| 시나리오 | reduce | normal |
+|---|---|---|
+| 스크롤 없이 로드 → 6s 후 숨김 수 | **0** (전 77→0, revealed 82) | **0** (77→0, revealed 82) |
+| 인간 스크롤 → 6s 후 숨김 수 | **0** | **0** |
+| 자연 스크롤(settle) 즉시 숨김 수 | **0**(layer② 스윕이 in-view 카드 즉시 보정) | 0 |
+
+- **gallery 80 카드 전 시나리오 영구 숨김 0** — 스크롤 안 해도 6s 안전망이 화면밖 카드까지 전부 보임 처리. 콘텐츠 영구 비가시 불가능.
+- **회귀 0:** reduce 2 리빌 life·gallery·organizations 전부 0 숨김(비-gallery 미회귀). 새 scroll/resize 리스너에도 **10페이지 콘솔 에러 0**(6s 후 removeEventListener 정리 확인). 키보드·랜드마크·aria-current 회귀 0 유지.
+- 잔여 미세 관측(비위반): 스크롤 안 한 화면밖 카드는 ≤6s간 opacity:0(정상 reveal-on-scroll 연출 구간) 후 안전망으로 표시 — 가시성 보장됨. 채택한 수정안 (a)(폴백 리빌 패스)와 동일 방향.
+
+**REV-1 → 해소 재검증 완료.** 내가 회부한 수정안대로 frontend가 폴백 리빌 패스(+이미지 load 보정+6s 강제)로 해결, 실측 확인.
+
+> **최종 판정: v2 접근성 재감사 — 전 항목 통과. 차단 0·중대 1(REV-1)→해소 재검증 완료·경미 0.**
+> reduce 1~5 전수(배경 정지·리빌 즉시·카운트업 즉시·smooth scroll 해제·유리헤더 대비)·§9.2 애니배경 위 대비(index+life 렌더 + QA GATE-A 코드 양면 잠금)·사진 hover D-1b 예외·진행바(grad 텍스트 금지)·JS 비활성 가시·CSS 기본숨김 금지·10페이지 v1 회귀 0(대비표 exit 0·hex 0·키보드/랜드마크/aria-current/콘솔) 전건 실측 통과. **Task #3 종결.**
+
+### 4.5 frontend 최종 증분(사진 hover 원톤 + D-3) 접근성 확인 (2026-06-06)
+
+frontend 최종 증분(Task #2 완료) — 사진 hover 톤 복원·D-3 reveal.js 죽은 셀렉터 제거. 제기된 a11y 포인트 3건 실측 검증:
+
+- **사진 hover가 `:hover`만(`:focus` 아님) — 통과(의도 정당).** WCAG 1.4.1(색 단독 의미 전달) 비해당 근거: ① 이미지 식별 정보는 **alt·figcaption(텍스트)**이 전담(실측: alt "1919년 무렵 상하이에서 촬영된 안창호의 초상…" 등·figcaption 존재), hover 톤(grayscale 1→0.65)은 **순수 장식 강조**로 정보 0 ② 키보드 포커스 가시성은 별도 `--focus-ring` 담당 — 갤러리 카드 링크 focus 시 `box-shadow:0 0 0 2px(paper)+accent ring` 실측 적용(WCAG 2.4.7). 즉 키보드 사용자는 focus 피드백을 받고, hover 톤 미적용은 정보 손실 아님. **hover-only 정당.**
+- **사진 hover reduce — 통과.** filter 전이 `--dur-enter`가 reduce에서 0 즉시화(모션 없음·깜빡임 0). D-1b 예외(transform/opacity 외 filter 승인): @keyframes 루프 아님·will-change 0·개별 요소 — 페인트 위반 아님(§4.0b 기록과 일치).
+- **D-3 reveal.js 죽은 셀렉터 제거 — 회귀 0.** people는 `.page-section` 8개로 정상 리빌(`.person-card` 제거 무영향). reduce 자연스크롤+6s 후 영구숨김 0, 관계망 graph `role=button` 81 노출 유지(v1 NW-1 수정 보존), no-JS `is-pre-reveal` 0(폴백 가시).
+
+**frontend 최종 증분 접근성 결함 0.** Task #2 전 증분(1·2·3차+최종) a11y 항목 전건 통과 확인.
+
+### 4.6 v2 재감사 회고 (Task #3 종결 후 — 체크리스트 갱신)
+
+- **리빌 완전성은 "자연 스크롤 + 안전망 통과 시점"에 측정한다(점프·즉시 측정은 양쪽 오류원).** REV-1 추적에서 두 측정 함정: ① `scrollTo(scrollHeight)` **점프 스크롤**은 IO가 프레임 점프로 교차를 놓쳐 *과탐*(life 33 잔류 → 자연 스크롤 0, 오탐), ② 안전망(6s) **전 즉시 측정**은 *미탐* 위험. 진실은 **인간 모사 스크롤(80px·rAF 더블 flush)로 발현 + 6000ms 안전망 통과 대기 후** 측정에서 잡힌다. → 체크리스트 보강 **M2:** 스크롤 리빌은 (1)자연 스크롤 발현 (2)안전망 grace 통과 후 (3)`opacity<1` 잔류 0 + 가시 카드 수=데이터 카드 수(특히 lazy 그리드) 실측. qa-engineer 체크리스트와 동일 합의.
+- **silent failure는 콘솔·no-JS·소스로 안 잡히고 "렌더 후 상태 실측"으로만 잡힌다.** REV-1은 JS 정상 동작(콘솔 0)인데 결과(가시성) 실패 — no-JS 폴백·코드 읽기·콘솔 게이트 어느 것도 못 잡고 인간 스크롤 후 `getComputedStyle().opacity` 실측만 잡았다. **렌더 결과 상태 검사가 코드/콘솔/폴백을 이긴 두 번째 사례**(v1 BLK-1에 이어). Policy 3 재확인.
+- **오탐 2건을 회부 전 걸러냈다.** ① life 점프-스크롤 33 잔류(테스트 아티팩트) ② life 배경 채취 #7C7C7C(grayscale 사진 픽셀 오염 — img 차폐로 해소). 둘 다 "보수적 위반 처리" 대신 **재현 조건을 바꿔 진위 확정 후** 판정 → 거짓 차단 회부 방지. 단 §2.6-다 #E6DED4 컷오프는 ui-designer 확정대로 **완화 안 함**(현재 통과 ≠ 기준 완화). **경계선은 보수 처리, 측정 아티팩트는 진위 확정 — 둘은 다르다.**
+- **회부 vs 직접수정:** v2 결함은 전부 JS 동작 로직(REV-1 1건)이라 직접 수정 0건·회부. 검증된 수정안 3종 동봉 → frontend가 폴백 패스로 채택. 수정안 동봉이 개발자를 즉시 움직이게 한 v1 패턴 유효(Policy 5).
+- **체크리스트 완결성:** v2 신규 축(reduce 전수·애니배경 위 대비 실측·M2 리빌 완전성)을 5축에 통합. 재실행/부분수정 감사 시: 블롭 위치·진폭·opacity 변경 → §9.2 양면 잠금 재수행(§4.1 거버넌스), 리빌 셀렉터/lazy 그리드 변경 → M2 재실측, 유리 표면 변경 → blur 동반 + 합성색 실측.

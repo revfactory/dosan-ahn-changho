@@ -37,7 +37,8 @@ function buildImageCard(img) {
   image.alt = img.caption || img.title || '';
   image.loading = 'lazy';
   image.className = 'figure-img';
-  image.style.filter = 'var(--img-filter)';
+  // base 흑백 톤은 main.css .figure-img가 부여(v2.9) — 인라인 filter 제거(hover 전이가
+  // 인라인에 막히지 않도록). 휴지 톤은 동일(--img-filter).
   fig.appendChild(image);
 
   const cap = document.createElement('figcaption');
