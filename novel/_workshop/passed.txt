@@ -1,0 +1,37 @@
+# keeper PASS 목록 — verified=true 통제 (fiction-fact-keeper 단독 관리)
+# chXX = 장 전체 PASS / chXX-sY = 개별 장면 PASS
+# 전 회부·차단 해소(2026-06-07): ch10-s1·ch10-s3·ch08-s3·ch09-s2 수정 완료·재검 PASS.
+#   ch10-s1: 최종 권고안 B(시베리아 도산 단독 내면, 송종익 약법 문답 s4 한정) — polish팀 재검 PASS.
+# 전 68장면 PASS — BLOCKED 비어 있음.
+
+ch00
+ch01
+ch02
+ch03
+ch04
+ch05
+ch06
+ch07
+ch08-s1
+ch08-s2
+ch08-s3
+ch09-s1
+ch09-s2
+ch09-s3
+ch10-s1
+ch10-s2
+ch10-s3
+ch10-s4
+ch11
+ch12
+ch13
+ch14
+ch15
+ch16
+ch17
+ch18
+ch19
+ch20
+ch21
+ch22
+ch99
