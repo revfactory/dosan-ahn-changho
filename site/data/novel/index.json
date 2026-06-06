@@ -4,7 +4,7 @@
     "subtitle": "도산 안창호",
     "tagline": "이 소설은 도산 안창호의 생애(1878–1938)를 대사 중심으로 그렸다.",
     "unit_count": 24,
-    "total_chars": 101932
+    "total_chars": 102046
   },
   "parts": [
     {
@@ -84,10 +84,10 @@
   "toc": [
     {
       "id": "ch00",
-      "title": "서장 — 송태산장의 셈",
+      "title": "서장 — 송태산장의 겨울",
       "part": "prologue",
       "order": 0,
-      "chars": 3197
+      "chars": 3209
     },
     {
       "id": "ch01",
@@ -157,7 +157,7 @@
       "title": "10장 — 표류",
       "part": "p3",
       "order": 10,
-      "chars": 5099
+      "chars": 5109
     },
     {
       "id": "ch11",
@@ -171,14 +171,14 @@
       "title": "12장 — 상하이의 봄",
       "part": "p3",
       "order": 12,
-      "chars": 4219
+      "chars": 4228
     },
     {
       "id": "ch13",
       "title": "13장 — 대통령이라는 말",
       "part": "p3",
       "order": 13,
-      "chars": 4047
+      "chars": 4053
     },
     {
       "id": "ch14",
@@ -192,7 +192,7 @@
       "title": "15장 — 빈 들의 꿈",
       "part": "p3",
       "order": 15,
-      "chars": 4050
+      "chars": 4075
     },
     {
       "id": "ch16",
@@ -206,14 +206,14 @@
       "title": "17장 — 삼일당의 외침",
       "part": "p4",
       "order": 17,
-      "chars": 4027
+      "chars": 4031
     },
     {
       "id": "ch18",
       "title": "18장 — 길림의 포위, 흩어지는 땅",
       "part": "p4",
       "order": 18,
-      "chars": 4115
+      "chars": 4114
     },
     {
       "id": "ch19",
@@ -234,21 +234,21 @@
       "title": "21장 — 대전의 사 년, 송태산장의 돌",
       "part": "p5",
       "order": 21,
-      "chars": 4022
+      "chars": 4030
     },
     {
       "id": "ch22",
       "title": "22장 — 모은 것이 흩어질 때",
       "part": "p5",
       "order": 22,
-      "chars": 4082
+      "chars": 4100
     },
     {
       "id": "ch99",
       "title": "종장 — 남은 것",
       "part": "epilogue",
       "order": 23,
-      "chars": 3270
+      "chars": 3293
     },
     {
       "id": "afterword",
@@ -258,5 +258,5 @@
       "chars": 1967
     }
   ],
-  "generated": "2026-06-06T23:28:54Z"
+  "generated": "2026-06-06T23:42:39Z"
 }
