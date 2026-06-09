@@ -104,6 +104,51 @@ async function renderNovelEntry(main) {
   main.appendChild(s);
 }
 
+// 웹툰 진입 카드 — webtoon/index.json(작품 메타·회차)에서 제목·소개·회차 수·표지 장면을 가져와 구성.
+// 웹툰도 검증 평면 밖이므로 텍스트 하드코딩 금지(index.json 산출치). 미빌드 시 조용히 생략.
+async function renderWebtoonEntry(main) {
+  let index;
+  try {
+    index = await loadData('data/webtoon/index.json');
+  } catch (err) {
+    return; // 웹툰 데이터 부재 — 보조 섹션이므로 생략(홈 본체 무영향)
+  }
+  const work = (index && index.work) || {};
+  const eps = (index && index.episodes) || [];
+  if (!work.title || !eps.length) return;
+
+  const s = el('section', 'page-section');
+  s.id = 'webtoon';
+  s.appendChild(el('h2', 'section-heading', '웹툰으로 보기'));
+
+  const card = el('a', 'nav-card home-webtoon-card');
+  card.href = 'webtoon.html';
+
+  // 표지 장면(1화 첫 패널) — 카드 좌측 썸네일.
+  const thumb = el('div', 'home-webtoon-thumb');
+  const img = document.createElement('img');
+  img.src = `assets/webtoon/${eps[0].id}-01.jpg`;
+  img.alt = `웹툰 『${work.title}』 표지 장면`;
+  img.loading = 'lazy';
+  img.decoding = 'async';
+  img.width = work.panel_width || 1536;
+  img.height = work.panel_height || 1024;
+  thumb.appendChild(img);
+  card.appendChild(thumb);
+
+  const text = el('div', 'home-webtoon-text');
+  text.appendChild(el('span', 'home-novel-kicker', '웹툰'));
+  const title = el('h3', 'nav-card-title');
+  title.textContent = `『${work.title}』` + (work.subtitle ? ` — ${work.subtitle}` : '');
+  text.appendChild(title);
+  if (work.tagline) text.appendChild(el('p', 'nav-card-desc', renderInline(work.tagline)));
+  text.appendChild(el('span', 'home-novel-scale', `전 ${eps.length}화 · 세로 스크롤`));
+  card.appendChild(text);
+
+  s.appendChild(card);
+  main.appendChild(s);
+}
+
 (async () => {
   const main = document.getElementById('app');
   try {
@@ -239,6 +284,9 @@ async function renderNovelEntry(main) {
 
     /* ---- 6) 소설 진입 카드 (novel/index.json — 보조 섹션, 실패 시 생략) ---- */
     await renderNovelEntry(main);
+
+    /* ---- 7) 웹툰 진입 카드 (webtoon/index.json — 보조 섹션, 실패 시 생략) ---- */
+    await renderWebtoonEntry(main);
 
     renderFootnotes(main, citations);
   } catch (err) { /* renderLoadError가 이미 렌더 */ }

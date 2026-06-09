@@ -321,6 +321,35 @@ code, pre { font-family: var(--font-mono); }
   margin-top: var(--sp-3);
 }
 
+/* 웹툰 진입 카드(홈 #webtoon) — 표지 장면 썸네일 + 텍스트 가로 분할. */
+.home-webtoon-card {
+  max-width: var(--measure-wide);
+  border-left: var(--bw-accent) solid var(--accent);
+  background: var(--bg-raised);
+  padding: 0;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: minmax(0, 16rem) 1fr;
+  align-items: stretch;
+}
+.home-webtoon-card:hover { border-color: var(--accent); }
+.home-webtoon-card .nav-card-title { font-family: var(--font-serif); }
+.home-webtoon-thumb {
+  aspect-ratio: 3 / 2;
+  background: var(--img-placeholder-bg);
+  overflow: hidden;
+}
+.home-webtoon-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.home-webtoon-text { padding: var(--sp-5); }
+@media (max-width: 40rem) {
+  .home-webtoon-card { grid-template-columns: 1fr; }
+}
+
 /* 시기 카드(홈) */
 .period-card {
   display: block;

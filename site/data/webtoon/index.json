@@ -1,0 +1,21 @@
+{
+  "work": {
+    "title": "사람을 모으는 사람",
+    "subtitle": "그림으로 읽는 도산 안창호",
+    "tagline": "검증된 기록과 동반 소설을 바탕으로 도산의 한 생을 장면으로 옮긴 만화 각색입니다.",
+    "note": "대사와 장면은 기록 위에 극적으로 재구성한 것입니다. 사건·인물·날짜의 출처와 신뢰 등급은 동반 웹사이트에서 확인할 수 있습니다.",
+    "panel_width": 1536,
+    "panel_height": 1024
+  },
+  "episodes": [
+    { "id": "ep01", "no": 1, "title": "섬이 멀어지는 게야", "subtitle": "대동강에서 보낸 어린 날", "panels": 8 },
+    { "id": "ep02", "no": 2, "title": "저 줄이 무엇입니까", "subtitle": "한성, 새로운 세상 앞에서", "panels": 8 },
+    { "id": "ep03", "no": 3, "title": "또 모이자는 소리", "subtitle": "사람을 모으기 시작하다", "panels": 8 },
+    { "id": "ep04", "no": 4, "title": "네 뜻을 묻겠다더라", "subtitle": "혼인 — 뜻을 묻는 사람", "panels": 8 },
+    { "id": "ep05", "no": 5, "title": "안개는 걷히기 마련이오", "subtitle": "미국에 닿다", "panels": 8 },
+    { "id": "ep06", "no": 6, "title": "오렌지가 아니라 이름을", "subtitle": "리버사이드의 한인들", "panels": 8 },
+    { "id": "ep07", "no": 7, "title": "가야 할 것 같소, 조선으로", "subtitle": "귀국을 결심하다", "panels": 8 },
+    { "id": "ep08", "no": 8, "title": "오늘 이 자리는 없던 일입니다", "subtitle": "이름 없는 비밀결사", "panels": 8 },
+    { "id": "ep09", "no": 9, "title": "도산이 끌려갔다고?", "subtitle": "의심받는 신민회", "panels": 8 }
+  ]
+}
